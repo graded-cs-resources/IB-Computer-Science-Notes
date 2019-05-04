@@ -18,9 +18,11 @@ Windows actually has TWO commandlines - one is called simply `Command Prompt` or
 * You should now have your command prompt open!
    ![Powershell Window](media/01/img005_powershell_window.png)
 
-#### Some basic commands
+## Some basic commands
 
-Not every command line is the same. On Macs, the command line is powered by a program called `bash`. On Windows, it is `Powershell`. They are very different in a lot of ways, but luckily there are some commands that will work similarly on the two systems. Let's practice some! Each of these commands should be followed by presing `Enter` or `Return` to run the command.
+Not every command line is the same. On Macs, the command line is powered by a program called `bash`. On Windows, it is `Powershell`. They are very different in a lot of ways, but luckily there are some commands that will work similarly on the two systems. Let's practice some! Each of these commands should be followed by presing `Enter` or `Return` to run the command. 
+
+Read about the commands below and follow the instructions!
 
 * **`ls`** will **l**i**s**t the files in the directory (folder) you are currently in. 
   * Type `ls` and press enter to see a list of files. (on Windows, typing `dir` will do the same thing)
@@ -44,3 +46,5 @@ Not every command line is the same. On Macs, the command line is powered by a pr
   * Type `open .` or `ii .` to open the current folder in the Finder / Explorer (the `.` is a shortcut that means "current folder")
   * You should be inside your `lesson01` folder. Are you? Do you see your test files? Go ahead and close it
   * Type `cd ..` to move up to the previous folder (the `..` is the shortcut for "parent folder")
+
+Congratulations! You can now do some basic things in the command line. Welcome to hackerhood.

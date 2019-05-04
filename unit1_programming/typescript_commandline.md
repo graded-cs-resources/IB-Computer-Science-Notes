@@ -11,10 +11,12 @@ Though it is possible to write code in javascript with nothing but a text editor
 `npm` is a package manager (like homebrew/chocolatey) that is designed specifically for javascript programmers. Let's install that first. It comes as part of a larger project called `nodejs`.
 
 ```bash
-brew install nodejs #mac
+#mac
+brew install nodejs
 
-choco install nodejs #windows
-refreshenv #windows
+#windows
+choco install nodejs
+refreshenv
 ```
 
 If all went well, you should now be able to run...
