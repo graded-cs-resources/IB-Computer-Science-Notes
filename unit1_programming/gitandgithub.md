@@ -9,10 +9,16 @@ The most famous example of version control software, and the most commonly used 
 
 ##### On your command line
 ```bash
-brew install git #mac only!
+#mac users do the below line
+brew install git
 
-choco install git #windows only!
+#windows users do these two lines
+choco install git
+refreshenv
 ```
+
+If that worked, you should be able to type `git --version` and get a response something like `git version 2.21.0.windows.1` 
+
 `git` from the commandline is very cool, but needs more time than we will give it now; stay tuned for a lesson later!
 
 ## What is GitHub?
