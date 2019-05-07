@@ -6,7 +6,7 @@ Much of this content is modified but slightly from the CPM Java Computer Science
 ## Table of Contents
 ### SL
 #### Unit 1 - Programming with Typescript
-* [Welcome!](00_SL_Intro.md)
+* [Welcome!](unit1_programming/00_SL_Intro.md)
 * [Getting set up](unit1_programming/01_Getting_set_up.md)
 
 
