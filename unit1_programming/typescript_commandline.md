@@ -8,13 +8,13 @@ Though it is possible to write code in javascript with nothing but a text editor
 
 ## Install npm (nodejs)
 
-`npm` is a package manager (like homebrew/chocolatey) that is designed specifically for javascript programmers. Let's install that first. It comes as part of a larger project called `nodejs`.
+`npm` is a package manager (like homebrew/chocolatey) that is designed specifically for javascript programmers. Let's install that first. It comes as part of a larger project called `nodejs` which will allow us to run javascript code without a browser.
 
 ```bash
-#mac
+# mac
 brew install nodejs
 
-#windows
+# windows
 choco install nodejs
 refreshenv
 ```
@@ -23,7 +23,7 @@ If all went well, you should now be able to run...
 ```bash
 npm install -g typescript
 
-refreshenv #windows only
+refreshenv # windows only
 ```
 
 If THAT goes well, when you type `tsc -v` it should print something like `Version 3.4.4`. You're ready to typescript!

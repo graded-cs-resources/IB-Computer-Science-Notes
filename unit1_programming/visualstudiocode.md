@@ -6,6 +6,8 @@ An *IDE*, or "integrated development environment," can edit text, just like a te
 
 For now, we will install [Visual Studio Code](https://code.visualstudio.com) to write our software. This software is somewhere between a basic text editor and an IDE; it isn't as complex as some IDEs, but can do much more than Notepad. You can install it from the website (and probably the Mac store) but it is better to use our new package manager!
 
+Open your command line if it is closed. ([remember how?](commandline.md))
+
 * **Mac Users!** Type
 `brew cask install visual-studio-code` and press enter. 
 
@@ -14,5 +16,7 @@ For now, we will install [Visual Studio Code](https://code.visualstudio.com) to 
 If all goes well, it should download and install the program for you. When it is installed, go ahead and open it - you should see something like this:
 
 ![Visual Studio Code Welcome Screen](media/01/img004_vscode_welcome.png)
+
+Go ahead and click the two links at the tope labeled `Javascript` and `TypeScript` to get some additional support installed for those languages.
 
 Congratulations! You have a new text editor. A lot of those links on that welcome page might be worth a look, especially the Interface Overview and Interactive Playground, if you want to master this cool tool.

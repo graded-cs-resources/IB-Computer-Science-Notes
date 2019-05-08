@@ -8,9 +8,13 @@ Much of this content is modified but slightly from the CPM Java Computer Science
 #### Unit 1 - Programming with Typescript
 * [Welcome!](unit1_programming/00_SL_Intro.md)
 * [Getting set up](unit1_programming/01_Getting_set_up.md)
+* [Variables, Functions, and Types](unit1_programming/02_Lesson01_FirstFunction.md)
+* 
 
 
 
 ### HL
 #### Unit 1 - Programming with Typescript
+* [Welcome!](unit1_programming/00_HL_intro.md)
 * [Getting set up](unit1_programming/01_Getting_set_up.md)
+* [Variables, Functions, and Types](unit1_programming/02_Lesson01_FirstFunction.md)
