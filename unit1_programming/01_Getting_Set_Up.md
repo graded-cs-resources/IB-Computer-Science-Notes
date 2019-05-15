@@ -12,5 +12,5 @@ Today we will do FOUR major software things. Click each link, follow the instruc
 4. [Install git and set up Github](gitandgithub.md)
 5. [Install javascript and Typescript commandline tools](typescript_commandline.md)
 
-Wow, that was a lot of software! Do we even have time to use it?
+Wow, that was a lot of software!
 
