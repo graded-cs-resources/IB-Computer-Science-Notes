@@ -302,11 +302,33 @@
 
 ### 2.1 Computer organization (6 hours)
 
-|                           | **Assessment statement**                                                                                                                                                       | **Obj** | **Teacher’s notes**                                                                                                                                                                                                                                       |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Computer architecture** |                                                                                                                                                                                |         |                                                                                                                                                                                                                                                           |
-| 2.1.1                     | Outline the architecture of the central processing unit (CPU) and the functions of the arithmetic logic unit (ALU) and the control unit (CU) and the registers within the CPU. | 2       | Students should be able to reproduce a block diagram showing the relationship between the elements of the CPU, input and output and storage. The memory address register (MAR) and memory data register (MDR) are the only ones that need to be included. |
-| 2.1.2                     | Describe primary memory.                                                                                                                                                       | 2       | Distinguish between random access memory (RAM) and read-only memory (ROM), and their use in primary memory.                                                                                                                                               |
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td colspan=4><strong>Computer architecture</strong></td>
+</tr>
+<tr class="even">
+<td><a class="anchor" id="211"></a>2.1.1</td>
+<td>Outline the architecture of the central processing unit (CPU) and the functions of the arithmetic logic unit (ALU) and the control unit (CU) and the registers within the CPU.</td>
+<td>2</td>
+<td>Students should be able to reproduce a block diagram showing the relationship between the elements of the CPU, input and output and storage. The memory address register (MAR) and memory data register (MDR) are the only ones that need to be included.</td>
+</tr>
+<tr class="odd">
+<td><a class="anchor" id="212"></a>2.1.2</td>
+<td>Describe primary memory.</td>
+<td>2</td>
+<td>Distinguish between random access memory (RAM) and read-only memory (ROM), and their use in primary memory.</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -821,12 +843,39 @@
 > 
 > Working code will not be assessed in the externally assessed
 > components.
-
-|       | **Assessment statement**                                              | **Obj** | **Teacher’s notes**                                                                                                                                                                                                                           |
-| ----- | --------------------------------------------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 4.2.1 | Describe the characteristics of standard algorithms on linear arrays. | 2       | These are: sequential search, binary search, bubble sort, selection sort.                                                                                                                                                                     |
-| 4.2.2 | Outline the standard operations of collections.                       | 2       | These are: addition and retrieval of data.                                                                                                                                                                                                    |
-| 4.2.3 | Discuss an algorithm to solve a specific problem.                     | 3       | Students should be expected to discuss the differences between algorithms, including both standard and novel algorithms. For example, discussing the advantages and disadvantages of using a binary search as opposed to a sequential search. |
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td colspan=4><strong>Computer architecture</strong></td>
+</tr>
+<tr class="even">
+<td><a class="anchor" id="421"></a>4.2.1</td>
+<td>Describe the characteristics of standard algorithms on linear arrays.</td>
+<td>2</td>
+<td>These are: sequential search, binary search, bubble sort, selection sort.     </td>
+</tr>
+<tr class="odd">
+<td><a class="anchor" id="422"></a>4.2.2</td>
+<td>Outline the standard operations of collections.</td>
+<td>2</td>
+<td>These are: addition and retrieval of data.</td>
+</tr>
+<tr class="even">
+<td><a class="anchor" id="423"></a>4.2.3</td>
+<td>Discuss an algorithm to solve a specific problem.</td>
+<td>3</td>
+<td>Students should be expected to discuss the differences between algorithms, including both standard and novel algorithms. For example, discussing the advantages and disadvantages of using a binary search as opposed to a sequential search.</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -1258,10 +1307,28 @@
 </tbody>
 </table>
 
-|                      | **Assessment statement**                                                 | **Obj** | **Teacher’s notes**                                                                                                                                                                  |
-| -------------------- | ------------------------------------------------------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **System resources** |                                                                          |         |                                                                                                                                                                                      |
-| 6.1.1                | Identify the resources that need to be managed within a computer system. | 2       | Resources include: primary memory, secondary storage, processor speed, bandwidth, screen resolution, disk storage, sound processor, graphics processor, cache, network connectivity. |
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td colspan=4><strong>Computer architecture</strong></td>
+</tr>
+<tr class="even">
+<td><a class="anchor" id="611"></a>6.1.1</td>
+<td>Identify the resources that need to be managed within a computer system.</td>
+<td>2</td>
+<td>Resources include: primary memory, secondary storage, processor speed, bandwidth, screen resolution, disk storage, sound processor, graphics processor, cache, network connectivity.     </td>
+</tr>
+</tbody>
+</table>
+
 
 ## Topic 6—Resource management (8 hours)
 
