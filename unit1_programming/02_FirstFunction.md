@@ -6,7 +6,7 @@ Your teacher will make a Github Classroom link available to you via your normal 
 
 ## Programming Languages
 
-A **programming language**:star:, like any language, consists of a vocabulary, syntax, and a set of grammar rules for instructing a computer to perform tasks. Unlike a human language, in a programmign language these all need to be unambiguous, consistent, and predictable; computers don't understand emotion or sarcasm!<sup><small>[4.3.3](../unit0_resources/syllabus.md#43-introduction-to-programming-13-hours)</small></sup>
+A **programming language**:star:, like any language, consists of a vocabulary, syntax, and a set of grammar rules for instructing a computer to perform tasks. Unlike a human language, in a programmign language these all need to be unambiguous, consistent, and predictable; computers don't understand emotion or sarcasm!<sup><small>[4.3.3](../unit0_resources/syllabus.md#433)</small></sup>
 
 Computers don't speak the programming languages directly; computers only understand a very small number of very specific instructions and all programming languages must be translated to that **machine language**:star:<sup><small>4.3.5</small></sup>. 
 
