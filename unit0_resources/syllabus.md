@@ -18,34 +18,34 @@
 <td colspan=4><strong>Planning and system installation</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="111"></a>1.1.1</td>
+<td id="111"></a>1.1.1</td>
 <td>Identify the context for which a new system is planned.</td>
 <td>2</td>
 <td><p>The extent and limitations of a new system should be appreciated.</p>
 <p>Organizational issues related to the installation of new systems such as user roles, underlying technologies.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="112"></a>1.1.2</td>
+<td id="112"></a>1.1.2</td>
 <td>Describe the need for change management.</td>
 <td>2</td>
 <td><p>Students should understand there are a number of factors that need to be managed to ensure change is successful.</p>
 <p><strong>S/E</strong> The way that change is managed can have significant effects on employers and employees.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="113"></a>1.1.3</td>
+<td id="113"></a>1.1.3</td>
 <td>Outline compatibility issues resulting from situations including legacy systems or business mergers.</td>
 <td>2</td>
 <td><strong>INT</strong>, <strong>S/E</strong> When organizations interact, particularly on an international basis, there may be issues of software compatibility and language differences.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="114"></a>1.1.4</td>
+<td id="114"></a>1.1.4</td>
 <td>Compare the implementation of systems using a client’s hardware with hosting systems remotely.</td>
 <td>3</td>
 <td><p>The benefits and drawbacks of SaaS (Software-as-a-Service) should be considered.</p>
 <p><strong>S/E</strong>, <strong>INT</strong>, <strong>AIM 8</strong> The remote host may be in a different time zone and this can have significant effects on end-users.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="115"></a>1.1.5</td>
+<td id="115"></a>1.1.5</td>
 <td>Evaluate alternative installation processes.</td>
 <td>3</td>
 <td><p>Students should be aware of the methods of implementation/ conversion.</p>
@@ -53,7 +53,7 @@
 <p><strong>S/E</strong> Training issues may require organizations to restructure their workforce.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="116"></a>1.1.6</td>
+<td id="116"></a>1.1.6</td>
 <td>Discuss problems that may arise as a part of data migration.</td>
 <td>3</td>
 <td><strong>INT</strong> These include incompatible file formats, data structures, validation rules, incomplete data transfer and international conventions on dates, currencies and character sets.</td>
@@ -72,7 +72,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="117"></a>1.1.7</td>
+<td id="117"></a>1.1.7</td>
 <td>Suggest various types of testing.</td>
 <td>3</td>
 <td><p>The crucial importance of testing at all stages of implementation should be emphasized, with the stages clearly defined.</p>
@@ -84,14 +84,14 @@
 <td colspan=4><strong>User focus</strong></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="118"></a>1.1.8</td>
+<td id="118"></a>1.1.8</td>
 <td>Describe the importance of user documentation.</td>
 <td>2</td>
 <td><p><strong>S/E</strong> The quality of user</p>
 <p>documentation can affect the rate of implementation of the new system.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="119"></a>1.1.9</td>
+<td id="119"></a>1.1.9</td>
 <td>Evaluate different methods of providing user documentation.</td>
 <td>3</td>
 <td><p>Examples should include methods such as: help files, online support and printed manuals.</p>
@@ -162,19 +162,19 @@
 <td colspan=4><strong>Components of a computer system</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="121"></a>1.2.1</td>
+<td id="121"></a>1.2.1</td>
 <td>Define the terms: hardware, software, peripheral, network, human resources.</td>
 <td>1</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="122"></a>1.2.2</td>
+<td id="122"></a>1.2.2</td>
 <td>Describe the roles that a computer can take in a networked world.</td>
 <td>2</td>
 <td>Roles include client, server, email server, DNS server, router and firewall.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="123"></a>1.2.3</td>
+<td id="123"></a>1.2.3</td>
 <td>Discuss the social and ethical issues associated with a networked world.</td>
 <td>3</td>
 <td><p><strong>AIM 8</strong>, <strong>AIM 9</strong> Develop an</p>
@@ -184,7 +184,7 @@
 <td colspan=4><strong>System design and analysis</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="124"></a>1.2.4</td>
+<td id="124"></a>1.2.4</td>
 <td>Identify the relevant stakeholders when planning a new system.</td>
 <td>2</td>
 <td><p><strong>S/E</strong> The role of the end-user must be considered when planning a new system.</p>
@@ -205,7 +205,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="125"></a>1.2.5</td>
+<td id="125"></a>1.2.5</td>
 <td>Describe methods of obtaining requirements from stakeholders.</td>
 <td>2</td>
 <td><p>Including surveys, interviews, direct observations.</p>
@@ -213,14 +213,14 @@
 <p><strong>S/E</strong> The question of privacy for stakeholders.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="126"></a>1.2.6</td>
+<td id="126"></a>1.2.6</td>
 <td>Describe appropriate techniques for gathering the information needed to arrive at a workable solution.</td>
 <td>2</td>
 <td><p>Examining current systems, competing products, organizational capabilities, literature searches.</p>
 <p><strong>S/E</strong> Intellectual property.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="127"></a>1.2.7</td>
+<td id="127"></a>1.2.7</td>
 <td>Construct suitable representations to illustrate system requirements.</td>
 <td>3</td>
 <td><p>Examples include: system flow charts, data flow diagrams, structure chart.</p>
@@ -228,14 +228,14 @@
 <p><strong>LINK</strong> Flow chart symbols, flow charts and pseudocode.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="128"></a>1.2.8</td>
+<td id="128"></a>1.2.8</td>
 <td>Describe the purpose of prototypes to demonstrate the proposed system to the client.</td>
 <td>2</td>
 <td><p><strong>AIM 5</strong> The need to effectively collaborate to gather appropriate information to resolve complex problems.</p>
 <p><strong>AIM 6</strong> To develop logical and critical thinking to develop proposed systems.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="129"></a>1.2.9</td>
+<td id="129"></a>1.2.9</td>
 <td>Discuss the importance of iteration during the design process.</td>
 <td>3</td>
 <td><strong>MYP</strong> Design cycle.</td>
@@ -316,13 +316,13 @@
 <td colspan=4><strong>Computer architecture</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="211"></a>2.1.1</td>
+<td id="211"></a>2.1.1</td>
 <td>Outline the architecture of the central processing unit (CPU) and the functions of the arithmetic logic unit (ALU) and the control unit (CU) and the registers within the CPU.</td>
 <td>2</td>
 <td>Students should be able to reproduce a block diagram showing the relationship between the elements of the CPU, input and output and storage. The memory address register (MAR) and memory data register (MDR) are the only ones that need to be included.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="212"></a>2.1.2</td>
+<td id="212"></a>2.1.2</td>
 <td>Describe primary memory.</td>
 <td>2</td>
 <td>Distinguish between random access memory (RAM) and read-only memory (ROM), and their use in primary memory.</td>
@@ -341,13 +341,13 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="213"></a>2.1.3</td>
+<td id="213"></a>2.1.3</td>
 <td>Explain the use of cache memory.</td>
 <td>3</td>
 <td>Students should be able to explain the effect of cache memory in speeding up the system as well as being able to explain how it is used.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="214"></a>2.1.4</td>
+<td id="214"></a>2.1.4</td>
 <td>Explain the machine instruction cycle.</td>
 <td>3</td>
 <td>This should include the role of data bus and address bus.</td>
@@ -356,7 +356,7 @@
 <td colspan=4><strong>Secondary memory</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="215"></a>2.1.5</td>
+<td id="215"></a>2.1.5</td>
 <td>Identify the need for persistent storage.</td>
 <td>2</td>
 <td><p>Persistent storage is needed to store data in a non-volatile device during and after the running of a program.</p>
@@ -369,13 +369,13 @@
 <td colspan=4><strong>Operating systems and application systems</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="216"></a>2.1.6</td>
+<td id="216"></a>2.1.6</td>
 <td>Describe the main functions of an operating system.</td>
 <td>2</td>
 <td>This is confined to a single-user operating system. Technical details are not needed. For example, memory management should be described but how this is handled in a multitasking environment is not expected.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="217"></a>2.1.7</td>
+<td id="217"></a>2.1.7</td>
 <td>Outline the use of a range of application software.</td>
 <td>2</td>
 <td>Application software should include word processors, spreadsheets, database management systems, email, web browsers, computeraided design (CAD) and graphic processing software.</td>
@@ -394,7 +394,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="218"></a>2.1.8</td>
+<td id="218"></a>2.1.8</td>
 <td>Identify common features of applications.</td>
 <td>2</td>
 <td><p>Including toolbars, menus, dialogue boxes, graphical user interface (GUI) components.</p>
@@ -406,7 +406,7 @@
 <td colspan=4><strong>Binary representation</strong></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="219"></a>2.1.9</td>
+<td id="219"></a>2.1.9</td>
 <td>Define the terms: bit, byte, binary, denary/decimal, hexadecimal.</td>
 <td>1</td>
 <td></td>
@@ -474,7 +474,7 @@
 <td colspan=4><strong>Network fundamentals</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="311"></a>3.1.1</td>
+<td id="311"></a>3.1.1</td>
 <td>Identify different types of networks.</td>
 <td>2</td>
 <td><p>Examples include local area network</p>
@@ -482,25 +482,25 @@
 <p><strong>S/E</strong>, <strong>INT</strong> Globalization has been accelerated by the technical advances linked to network development.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="312"></a>3.1.2</td>
+<td id="312"></a>3.1.2</td>
 <td>Outline the importance of standards in the construction of networks.</td>
 <td>2</td>
 <td><strong>INT</strong> Standards enable compatibility through a common “language” internationally.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="313"></a>3.1.3</td>
+<td id="313"></a>3.1.3</td>
 <td>Describe how communication over networks is broken down into different layers.</td>
 <td>2</td>
 <td>Awareness of the OSI seven layer model is required, but an understanding of the functioning of each layer is not.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="314"></a>3.1.4</td>
+<td id="314"></a>3.1.4</td>
 <td>Identify the technologies required to provide a VPN.</td>
 <td>2</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="315"></a>3.1.5</td>
+<td id="315"></a>3.1.5</td>
 <td>Evaluate the use of a VPN.</td>
 <td>3</td>
 <td><strong>S/E</strong>, <strong>AIM 9</strong> The use of a VPN has led to changes in working patterns.</td>
@@ -522,25 +522,25 @@
 <td colspan=4><strong>Data transmission</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="316"></a>3.1.6</td>
+<td id="316"></a>3.1.6</td>
 <td>Define the terms: protocol, data packet.</td>
 <td>1</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="317"></a>3.1.7</td>
+<td id="317"></a>3.1.7</td>
 <td>Explain why protocols are necessary.</td>
 <td>3</td>
 <td>Including data integrity, flow control, deadlock, congestion, error checking.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="318"></a>3.1.8</td>
+<td id="318"></a>3.1.8</td>
 <td>Explain why the speed of data transmission across a network can vary.</td>
 <td>3</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="319"></a>3.1.9</td>
+<td id="319"></a>3.1.9</td>
 <td>Explain why compression of data is often necessary when transmitting across a network.</td>
 <td>3</td>
 <td><strong>S/E</strong>, <strong>INT</strong> Compression has enabled information to be disseminated more rapidly.</td>
@@ -627,14 +627,14 @@
 <td colspan=4><strong>Thinking procedurally</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="411"></a>4.1.1</td>
+<td id="411"></a>4.1.1</td>
 <td>Identify the procedure appropriate to solving a problem.</td>
 <td>2</td>
 <td><p>This includes identifying the steps and putting them in the correct order. Such as recipes, block-arrow-blockarrow.</p>
 <p><strong>LINK</strong> Connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="412"></a>4.1.2</td>
+<td id="412"></a>4.1.2</td>
 <td>Evaluate whether the order in which activities are undertaken will result in the required outcome.</td>
 <td>3</td>
 <td><p>Links to problems presented to the student in other areas of the syllabus.</p>
@@ -642,7 +642,7 @@
 <p><strong>MYP</strong> Technology, step-by-step instructions.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="413"></a>4.1.3</td>
+<td id="413"></a>4.1.3</td>
 <td>Explain the role of sub-procedures in solving a problem.</td>
 <td>3</td>
 <td><p>Constructing procedures that can then be referred to by their identifier.</p>
@@ -652,7 +652,7 @@
 <td colspan=4><strong>Thinking logically</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="414"></a>4.1.4</td>
+<td id="414"></a>4.1.4</td>
 <td>Identify when decision-making is required in a specified situation.</td>
 <td>2</td>
 <td><p>Links to procedural thinking— alternative procedures.</p>
@@ -673,7 +673,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="415"></a>4.1.5</td>
+<td id="415"></a>4.1.5</td>
 <td>Identify the decisions required for the solution to a specified problem.</td>
 <td>2</td>
 <td><p>Different actions are taken based on conditions.</p>
@@ -681,21 +681,21 @@
 <p><strong>AIM 4</strong> Applying thinking skills to identify and resolve a specified complex problem.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="416"></a>4.1.6</td>
+<td id="416"></a>4.1.6</td>
 <td>Identify the condition associated with a given decision in a specified problem.</td>
 <td>2</td>
 <td><p>Testing conditions, iteration. Identifying and constructing the conditions—AND, OR, NOT relationships—Boolean tests.</p>
 <p><strong>LINK</strong> Connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="417"></a>4.1.7</td>
+<td id="417"></a>4.1.7</td>
 <td>Explain the relationship between the decisions and conditions of a system.</td>
 <td>3</td>
 <td><p>IF … THEN … ELSE</p>
 <p><strong>LINK</strong> Connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="418"></a>4.1.8</td>
+<td id="418"></a>4.1.8</td>
 <td>Deduce logical rules for real-world situations.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design, introduction to programming.</td>
@@ -704,7 +704,7 @@
 <td colspan=4><strong>Thinking ahead</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="419"></a>4.1.9</td>
+<td id="419"></a>4.1.9</td>
 <td>Identify the inputs and outputs required in a solution.</td>
 <td>2</td>
 <td></td>
@@ -857,19 +857,19 @@
 <td colspan=4><strong>Computer architecture</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="421"></a>4.2.1</td>
+<td id="421"></a>4.2.1</td>
 <td>Describe the characteristics of standard algorithms on linear arrays.</td>
 <td>2</td>
 <td>These are: sequential search, binary search, bubble sort, selection sort.     </td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="422"></a>4.2.2</td>
+<td id="422"></a>4.2.2</td>
 <td>Outline the standard operations of collections.</td>
 <td>2</td>
 <td>These are: addition and retrieval of data.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="423"></a>4.2.3</td>
+<td id="423"></a>4.2.3</td>
 <td>Discuss an algorithm to solve a specific problem.</td>
 <td>3</td>
 <td>Students should be expected to discuss the differences between algorithms, including both standard and novel algorithms. For example, discussing the advantages and disadvantages of using a binary search as opposed to a sequential search.</td>
@@ -888,7 +888,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="424"></a>4.2.4</td>
+<td id="424"></a>4.2.4</td>
 <td>Analyse an algorithm presented as a flow chart.</td>
 <td>3</td>
 <td><p>Examination questions may involve variables, calculations, simple and nested loops, simple conditionals and multiple or nested conditionals.</p>
@@ -898,7 +898,7 @@
 <p><strong>MYP</strong> Technology: design cycle (inputs, processes, outputs, feedback, iteration).</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="425"></a>4.2.5</td>
+<td id="425"></a>4.2.5</td>
 <td>Analyse an algorithm presented as pseudocode.</td>
 <td>3</td>
 <td><p>Examination questions may involve variables, calculations, simple and nested loops, simple conditionals and multiple or nested conditionals.</p>
@@ -907,7 +907,7 @@
 <p><strong>MYP</strong> Technology: design cycle (inputs, processes, outputs, feedback, iteration).</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="426"></a>4.2.6</td>
+<td id="426"></a>4.2.6</td>
 <td>Construct pseudocode to represent an algorithm.</td>
 <td>3</td>
 <td><p><strong>MYP</strong> Mathematics: using flow charts to solve problems in real-life contexts, patterns and sequences, logic, algorithms.</p>
@@ -921,21 +921,21 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="427"></a>4.2.7</td>
+<td id="427"></a>4.2.7</td>
 <td>Suggest suitable algorithms to solve a specific problem.</td>
 <td>3</td>
 <td><p>Suitable algorithms may include both standard algorithms and novel algorithms. Suitable may include considerations of efficiency, correctness, reliability and flexibility. Students are expected to suggest algorithms that will actually solve the problem successfully.</p>
 <p><strong>LINK</strong> General principles of computational thinking, introduction to programming.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="428"></a>4.2.8</td>
+<td id="428"></a>4.2.8</td>
 <td>Deduce the efficiency of an algorithm in the context of its use.</td>
 <td>3</td>
 <td><p>Students should understand and explain the difference in efficiency between a single loop, nested loops, a loop that ends when a condition is met or questions of similar complexity.</p>
 <p>Students should also be able to suggest changes in an algorithm that would improve efficiency, for example, using a flag to stop a search immediately when an item is found, rather than continuing the search through the entire list.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="429"></a>4.2.9</td>
+<td id="429"></a>4.2.9</td>
 <td>Determine the number of times a step in an algorithm will be performed for given input data.</td>
 <td>3</td>
 <td>Examination questions will involve specific algorithms (in pseudocode/ flow charts), and students may be expected to give an actual number (or range of numbers) of iterations that a step will execute.</td>
@@ -959,14 +959,14 @@
 <td colspan=4><strong>Nature of programming languages</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="431"></a>4.3.1</td>
+<td id="431"></a>4.3.1</td>
 <td>State the fundamental operations of a computer.</td>
 <td>1</td>
 <td><p>These include: add, compare, retrieve and store data.</p>
 <p>Complex capabilities are composed of very large numbers of very simple operations.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="432"></a>4.3.2</td>
+<td id="432"></a>4.3.2</td>
 <td>Distinguish between fundamental and compound operations of a computer.</td>
 <td>2</td>
 <td>For example, “find the largest” is a compound operation.</td>
@@ -985,20 +985,20 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="433"></a>4.3.3</td>
+<td id="433"></a>4.3.3</td>
 <td>Explain the essential features of a computer language.</td>
 <td>3</td>
 <td><p>For example, fixed vocabulary, unambiguous meaning, consistent grammar and syntax.</p>
 <p><strong>TOK</strong> Language and meaning.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="434"></a>4.3.4</td>
+<td id="434"></a>4.3.4</td>
 <td>Explain the need for higher level languages.</td>
 <td>3</td>
 <td>For example, as the human needs for computer systems have expanded it is necessary to abstract from the basic operations of the computer. It would take far too long to write the type of systems needed today in machine code.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="435"></a>4.3.5</td>
+<td id="435"></a>4.3.5</td>
 <td>Outline the need for a translation process from a higher level language to machine executable code.</td>
 <td>2</td>
 <td>For example, compiler, interpreter, virtual machine.</td>
@@ -1012,26 +1012,26 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="436"></a>4.3.6</td>
+<td id="436"></a>4.3.6</td>
 <td>Define the terms: variable, constant, operator, object.</td>
 <td>1</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="437"></a>4.3.7</td>
+<td id="437"></a>4.3.7</td>
 <td>Define the operators =, ≠, &lt;, &lt;=, &gt;, &gt;=, mod, div.</td>
 <td>1</td>
 <td><strong>LINK</strong> Approved notation sheet.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="438"></a>4.3.8</td>
+<td id="438"></a>4.3.8</td>
 <td>Analyse the use of variables, constants and operators in algorithms.</td>
 <td>3</td>
 <td><p>For example, identify and justify the use of a constant as opposed to a variable in a given situation.</p>
 <p><strong>MYP</strong> Mathematics: forms of numbers, algebra—patterns and sequences, logic, algorithms.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="439"></a>4.3.9</td>
+<td id="439"></a>4.3.9</td>
 <td>Construct algorithms using loops, branching.</td>
 <td>3</td>
 <td><p>Teachers must ensure algorithms use the symbols from the approved notation sheet.</p>
@@ -1125,19 +1125,19 @@
 <td colspan=4><strong>Thinking recursively</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="511"></a>5.1.1</td>
+<td id="511"></a>5.1.1</td>
 <td>Identify a situation that requires the use of recursive thinking.</td>
 <td>2</td>
 <td>Suggested practical activity: snowflakes and fractals, towers of Hanoi.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="512"></a>5.1.2</td>
+<td id="512"></a>5.1.2</td>
 <td>Identify recursive thinking in a specified problem solution.</td>
 <td>2</td>
 <td><strong>LINK</strong> Binary trees.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="513"></a>5.1.3</td>
+<td id="513"></a>5.1.3</td>
 <td>Trace a recursive algorithm to express a solution to a problem.</td>
 <td>2</td>
 <td><p>Students will be required to state the output of the recursive algorithm. For example, trees.</p>
@@ -1147,19 +1147,19 @@
 <td colspan=4><strong>Abstract data structures</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="514"></a>5.1.4</td>
+<td id="514"></a>5.1.4</td>
 <td>Describe the characteristics of a twodimensional array.</td>
 <td>2</td>
 <td><strong>LINK</strong> One-dimensional arrays and basic algorithms.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="515"></a>5.1.5</td>
+<td id="515"></a>5.1.5</td>
 <td>Construct algorithms using twodimensional arrays.</td>
 <td>3</td>
 <td><strong>LINK</strong> Pseudocode information.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="516"></a>5.1.6</td>
+<td id="516"></a>5.1.6</td>
 <td>Describe the characteristics and applications of a stack.</td>
 <td>2</td>
 <td><p>Characteristics:</p>
@@ -1181,7 +1181,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="517"></a>5.1.7</td>
+<td id="517"></a>5.1.7</td>
 <td>Construct algorithms using the access methods of a stack.</td>
 <td>3</td>
 <td><p>Access methods:</p>
@@ -1193,7 +1193,7 @@
 <p><strong>LINK</strong> Connecting computational thinking and program design.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="518"></a>5.1.8</td>
+<td id="518"></a>5.1.8</td>
 <td>Describe the characteristics and applications of a queue.</td>
 <td>2</td>
 <td><p>Characteristics:</p>
@@ -1203,7 +1203,7 @@
 <p><strong>LINK</strong> Connecting computational thinking and program design.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="519"></a>5.1.9</td>
+<td id="519"></a>5.1.9</td>
 <td>Construct algorithms using the access methods of a queue.</td>
 <td>3</td>
 <td><p>Access methods:</p>
@@ -1321,7 +1321,7 @@
 <td colspan=4><strong>Computer architecture</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="611"></a>6.1.1</td>
+<td id="611"></a>6.1.1</td>
 <td>Identify the resources that need to be managed within a computer system.</td>
 <td>2</td>
 <td>Resources include: primary memory, secondary storage, processor speed, bandwidth, screen resolution, disk storage, sound processor, graphics processor, cache, network connectivity.     </td>
@@ -1345,20 +1345,20 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a class="anchor" id="612"></a>6.1.2</td>
+<td id="612"></a>6.1.2</td>
 <td>Evaluate the resources available in a variety of computer systems.</td>
 <td>3</td>
 <td><p>These should include: mainframes, servers, PCs, sub-laptops, as well as personal digital devices such as cell phones, PDAs and digital cameras.</p>
 <p><strong>AIM 9</strong> Develop an appreciation of the issues linked to resource availability with continued developments in computer systems.</p></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="613"></a>6.1.3</td>
+<td id="613"></a>6.1.3</td>
 <td>Identify the limitations of a range of resources in a specified computer system.</td>
 <td>2</td>
 <td>For example, single processor computers may not be able to render 3D graphics effectively.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="614"></a>6.1.4</td>
+<td id="614"></a>6.1.4</td>
 <td>Describe the possible problems resulting from the limitations in the resources in a computer system.</td>
 <td>2</td>
 <td><p>For example, user time wasted if the primary memory is too small or processor speed inadequate.</p>
@@ -1368,19 +1368,19 @@
 <td colspan=4><strong>Role of the operating system</strong></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="615"></a>6.1.5</td>
+<td id="615"></a>6.1.5</td>
 <td>Explain the role of the operating system in terms of managing memory, peripherals and hardware interfaces.</td>
 <td>3</td>
 <td>For example, allocating storage and keeping track of programs in memory, swapping between programs on time-slicing, priority or when one is waiting for input.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="617"></a>6.1.7</td>
+<td id="617"></a>6.1.7</td>
 <td>Outline OS resource management techniques: scheduling, policies, multitasking, virtual memory, paging, interrupt, polling.</td>
 <td>2</td>
 <td>Technical details as to how these are carried out will not be required, but it is expected that students will be familiar with these techniques and understand when and why they are used.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="618"></a>6.1.8</td>
+<td id="618"></a>6.1.8</td>
 <td>Discuss the advantages of producing a dedicated operating system for a device.</td>
 <td>3</td>
 <td><p>Advantages related to size, speed and customization should be considered.</p>
@@ -1394,7 +1394,7 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="619"></a>6.1.9</td>
+<td id="619"></a>6.1.9</td>
 <td>Outline how an operating system hides the complexity of the hardware from users and applications.</td>
 <td>2</td>
 <td><p>Students should be aware of a range of examples where operating systems virtualize real devices, such as drive letters, virtual memory, input devices, the Java virtual machine.</p>
@@ -1421,7 +1421,7 @@
 <td colspan=4><strong>Centralized control systems</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="711"></a>7.1.1</td>
+<td id="711"></a>7.1.1</td>
 <td>Discuss a range of control systems.</td>
 <td>3</td>
 <td><p>A variety of control systems should be examined such as automatic doors, heating systems, taxi meters, elevators, washing machines, process control, device drivers, domestic robots, GPS systems, traffic lights and other common devices.</p>
@@ -1429,25 +1429,25 @@
 <p><strong>AIM 9</strong> Develop an appreciation of the possibilities for control systems with developments in computer systems.</p></td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="712"></a>7.1.2</td>
+<td id="712"></a>7.1.2</td>
 <td>Outline the uses of microprocessors and sensor input in control systems.</td>
 <td>2</td>
 <td>These should be related to the examples suggested above.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="713"></a>7.1.3</td>
+<td id="713"></a>7.1.3</td>
 <td>Evaluate different input devices for the collection of data in specified situations.</td>
 <td>3</td>
 <td>Scenarios will be based on familiar situations to students.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="714"></a>7.1.4</td>
+<td id="714"></a>7.1.4</td>
 <td>Explain the relationship between a sensor, the processor and an output transducer.</td>
 <td>3</td>
 <td>Technical hardware details are not expected.</td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="715"></a>7.1.5</td>
+<td id="715"></a>7.1.5</td>
 <td>Describe the role of feedback in a control system.</td>
 <td>2</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
@@ -1459,7 +1459,7 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="716"></a>7.1.6</td>
+<td id="716"></a>7.1.6</td>
 <td>Discuss the social impacts and ethical considerations associated with the use of embedded systems.</td>
 <td>3</td>
 <td><strong>S/E</strong> For example, tagging prisoners, surveillance, CCTV, improved safety systems.</td>
@@ -1468,13 +1468,13 @@
 <td colspan=4><strong>Distributed systems</strong></td>
 </tr>
 <tr class="even">
-<td><a class="anchor" id="717"></a>7.1.7</td>
+<td id="717"></a>7.1.7</td>
 <td>Compare a centrally controlled system with a distributed system.</td>
 <td>3</td>
 <td>Technical hardware details are not expected.</td>
 </tr>
 <tr class="odd">
-<td><a class="anchor" id="718"></a>7.1.8</td>
+<td id="718"></a>7.1.8</td>
 <td>Outline the role of autonomous agents acting within a larger system.</td>
 <td>2</td>
 <td>Technical hardware details are not expected.</td>
