@@ -99,7 +99,7 @@
 <p>documentation can affect the rate of implementation of the new system.</p></td>
 </tr>
 <tr class="odd">
-<td>1.1.10</td>
+<td id="1110">1.1.10</td>
 <td>Evaluate different methods of delivering user training.</td>
 <td>3</td>
 <td><p>Examples should include selfinstruction, formal classes, remote/ online training.</p>
@@ -109,14 +109,14 @@
 <td colspan=4><strong>System backup</strong></td>
 </tr>
 <tr class="odd">
-<td>1.1.11</td>
+<td id="1111">1.1.11</td>
 <td>Identify a range of causes of data loss.</td>
 <td>2</td>
 <td><p>Causes include malicious activities and natural disasters.</p>
 <p><strong>S/E</strong> Malicious activity may be a result of activities by employees within the organization or intruders.</p></td>
 </tr>
 <tr class="even">
-<td>1.1.12</td>
+<td id="1112">1.1.12</td>
 <td>Outline the consequences of data loss in a specified situation.</td>
 <td>2</td>
 <td><strong>S/E</strong> Loss of medical records, cancellation of a hotel reservation without the knowledge of the traveller.</td>
@@ -128,7 +128,7 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="even">
-<td>1.1.13</td>
+<td id="1113">1.1.13</td>
 <td>Describe a range of methods that can be used to prevent data loss.</td>
 <td>2</td>
 <td>These should include failover systems, redundancy, removable media, offsite/online storage.</td>
@@ -137,7 +137,7 @@
 <td colspan=4><strong>Software deployment</strong></td>
 </tr>
 <tr class="even">
-<td>1.1.14</td>
+<td id="1114">1.1.14</td>
 <td>Describe strategies for managing releases and updates.</td>
 <td>2</td>
 <td><p>Students should be aware of a variety of ways in which updates and patches are made available and deployed. This includes automatic updates received on a regular basis online.</p>
@@ -241,14 +241,14 @@
 <td><strong>MYP</strong> Design cycle.</td>
 </tr>
 <tr class="even">
-<td>1.2.10</td>
+<td id="1210">1.2.10</td>
 <td>Explain the possible consequences of failing to involve the end-user in the design process.</td>
 <td>3</td>
 <td><p><strong>S/E</strong> The failure to involve the enduser may lead to software that is not suitable for its intended use, which may have adverse effects on user productivity.</p>
 <p><strong>AIM 5</strong> The need for effective collaboration and communication between the client, developer and end-user.</p></td>
 </tr>
 <tr class="odd">
-<td>1.2.11</td>
+<td id="1211">1.2.11</td>
 <td>Discuss the social and ethical issues associated with the introduction of new IT systems.</td>
 <td>3</td>
 <td><p><strong>AIM 8</strong>, <strong>AIM 9</strong> Develop an</p>
@@ -264,33 +264,33 @@
 <td colspan=4><strong>Human interaction with the system</strong></td>
 </tr>
 <tr class="even">
-<td>1.2.12</td>
+<td id="1212">1.2.12</td>
 <td>Define the term usability.</td>
 <td>1</td>
 <td><strong>S/E</strong> This includes ergonomics and accessibility.</td>
 </tr>
 <tr class="odd">
-<td>1.2.13</td>
+<td id="1213">1.2.13</td>
 <td>Identify a range of usability problems with commonly used digital devices.</td>
 <td>2</td>
 <td><strong>S/E</strong> Students should be aware of usability issues in a range of devices including PCs, digital cameras, cell phones, games consoles, MP3 players and other commonly used digital devices.</td>
 </tr>
 <tr class="even">
-<td>1.2.14</td>
+<td id="1214">1.2.14</td>
 <td>Identify methods that can be used to improve the accessibility of systems.</td>
 <td>2</td>
 <td><p><strong>S/E</strong> Examples include touch screen, voice recognition, text-to-speech,</p>
 <p>Braille keyboard.</p></td>
 </tr>
 <tr class="odd">
-<td>1.2.15</td>
+<td id="1215">1.2.15</td>
 <td>Identify a range of usability problems that can occur in a system.</td>
 <td>2</td>
 <td><p><strong>S/E</strong> These should be related to the systems.</p>
 <p>Systems include ticketing, online payroll, scheduling, voice recognition, systems that provide feedback.</p></td>
 </tr>
 <tr class="even">
-<td>1.2.16</td>
+<td id="1216">1.2.16</td>
 <td>Discuss the moral, ethical, social, economic and environmental implications of the interaction between humans and machines.</td>
 <td>3</td>
 <td><strong>AIM 8</strong> Raise awareness of the moral, ethical, social, economic and environmental implications of using science and technology.</td>
@@ -412,7 +412,7 @@
 <td></td>
 </tr>
 <tr class="even">
-<td>2.1.10</td>
+<td id="2110">2.1.10</td>
 <td>Outline the way in which data is represented in the computer.</td>
 <td>2</td>
 <td><p>To include strings, integers, characters and colours. This should include considering the space taken by data, for instance the relation between the hexadecimal representation of colours and the number of colours available.</p>
@@ -423,13 +423,13 @@
 <td colspan=4><strong>Simple logic gates</strong></td>
 </tr>
 <tr class="even">
-<td>2.1.11</td>
+<td id="2111">2.1.11</td>
 <td>Define the Boolean operators: AND, OR, NOT, NAND, NOR and XOR.</td>
 <td>1</td>
 <td><strong>LINK</strong> Introduction to programming, approved notation sheet.</td>
 </tr>
 <tr class="odd">
-<td>2.1.12</td>
+<td id="2112">2.1.12</td>
 <td>Construct truth tables using the above operators.</td>
 <td>3</td>
 <td><p>For example, Maria won’t go to school if it is cold and raining or she has not done her homework.</p>
@@ -444,7 +444,7 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="odd">
-<td>2.1.13</td>
+<td id="2113">2.1.13</td>
 <td>Construct a logic diagram using AND, OR, NOT, NAND, NOR and XOR gates.</td>
 <td>3</td>
 <td><p>Problems will be limited to an output dependent on no more than three inputs.</p>
@@ -546,14 +546,14 @@
 <td><strong>S/E</strong>, <strong>INT</strong> Compression has enabled information to be disseminated more rapidly.</td>
 </tr>
 <tr class="even">
-<td>3.1.10</td>
+<td id="3110">3.1.10</td>
 <td>Outline the characteristics of different transmission media.</td>
 <td>2</td>
 <td><p>Characteristics include: speed, reliability, cost and security.</p>
 <p>Transmission media include: metal conductor, fibre optic, wireless.</p></td>
 </tr>
 <tr class="odd">
-<td>3.1.11</td>
+<td id="3111">3.1.11</td>
 <td>Explain how data is transmitted by packet switching.</td>
 <td>3</td>
 <td></td>
@@ -562,19 +562,19 @@
 <td colspan=4><strong>Wireless networking</strong></td>
 </tr>
 <tr class="odd">
-<td>3.1.12</td>
+<td id="3112">3.1.12</td>
 <td>Outline the advantages and disadvantages of wireless networks.</td>
 <td>2</td>
 <td><strong>S/E</strong> wireless networks have led to changes in working patterns, social activities and raised health issues.</td>
 </tr>
 <tr class="even">
-<td>3.1.13</td>
+<td id="3113">3.1.13</td>
 <td>Describe the hardware and software components of a wireless network.</td>
 <td>2</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>3.1.14</td>
+<td id="3114">3.1.14</td>
 <td>Describe the characteristics of wireless networks.</td>
 <td>2</td>
 <td><p>Include: WiFi; Worldwide</p>
@@ -582,14 +582,14 @@
 <p><strong>S/E</strong>, <strong>INT</strong> Connectivity between different locations.</p></td>
 </tr>
 <tr class="even">
-<td>3.1.15</td>
+<td id="3115">3.1.15</td>
 <td>Describe the different methods of network security.</td>
 <td>2</td>
 <td><p>Include encryption types, userID, trusted media access control (MAC) addresses.</p>
 <p><strong>S/E</strong> Wireless networks have led to concerns about the security of the user’s data.</p></td>
 </tr>
 <tr class="odd">
-<td>3.1.16</td>
+<td id="3116">3.1.16</td>
 <td>Evaluate the advantages and disadvantages of each method of network security.</td>
 <td>3</td>
 <td></td>
@@ -710,7 +710,7 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>4.1.10</td>
+<td id="4110">4.1.10</td>
 <td>Identify pre-planning in a suggested problem and solution.</td>
 <td>2</td>
 <td><p>Gantt charts.</p>
@@ -719,13 +719,13 @@
 <p><strong>LINK</strong> Thinking procedurally, thinking concurrently. Connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="even">
-<td>4.1.11</td>
+<td id="4111">4.1.11</td>
 <td>Explain the need for pre-conditions when executing an algorithm.</td>
 <td>3</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>4.1.12</td>
+<td id="4112">4.1.12</td>
 <td>Outline the pre- and post-conditions to a specified problem.</td>
 <td>2</td>
 <td><p>For example, cooking a dish for a meal.</p>
@@ -746,7 +746,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>4.1.13</td>
+<td id="4113">4.1.13</td>
 <td>Identify exceptions that need to be considered in a specified problem solution.</td>
 <td>2</td>
 <td><p>For example, identify the preconditions for calculating the end-of-year bonus when not all employees have worked for the company for the whole year.</p>
@@ -756,21 +756,21 @@
 <td colspan=4><strong>Thinking concurrently</strong></td>
 </tr>
 <tr class="odd">
-<td>4.1.14</td>
+<td id="4114">4.1.14</td>
 <td>Identify the parts of a solution that could be implemented concurrently.</td>
 <td>2</td>
 <td><p>Could include computer systems or real-life situations.</p>
 <p><strong>LINK</strong> Thinking ahead, thinking procedurally. Connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="even">
-<td>4.1.15</td>
+<td id="4115">4.1.15</td>
 <td>Describe how concurrent processing can be used to solve a problem.</td>
 <td>2</td>
 <td><p>For example, building a house, production lines, division of labour.</p>
 <p>Students will not be expected to construct a flow chart or pseudocode related to concurrent processing.</p></td>
 </tr>
 <tr class="odd">
-<td>4.1.16</td>
+<td id="4116">4.1.16</td>
 <td>Evaluate the decision to use concurrent processing in solving a problem.</td>
 <td>3</td>
 <td><strong>LINK</strong> Thinking ahead, thinking procedurally. Connecting computational thinking and program design, introduction to programming.</td>
@@ -779,14 +779,14 @@
 <td colspan=4><strong>Thinking abstractly</strong></td>
 </tr>
 <tr class="odd">
-<td>4.1.17</td>
+<td id="4117">4.1.17</td>
 <td>Identify examples of abstraction.</td>
 <td>2</td>
 <td><p>Selecting the pieces of information that are relevant to solving the problem.</p>
 <p><strong>LINK</strong> Thinking ahead.</p></td>
 </tr>
 <tr class="even">
-<td>4.1.18</td>
+<td id="4118">4.1.18</td>
 <td>Explain why abstraction is required in the derivation of computational solutions for a specified situation.</td>
 <td>3</td>
 <td><p>Students should be aware of the concept of objects, for example, the use of collections as objects in the design of algorithms.</p>
@@ -810,7 +810,7 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="even">
-<td>4.1.19</td>
+<td id="4119">4.1.19</td>
 <td>Construct an abstraction from a specified situation.</td>
 <td>3</td>
 <td><p>There is no need to use code.</p>
@@ -819,7 +819,7 @@
 <p><strong>LINK</strong> Thinking ahead, thinking procedurally. Connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="odd">
-<td>4.1.20</td>
+<td id="4120">4.1.20</td>
 <td>Distinguish between a real-world entity and its abstraction.</td>
 <td>2</td>
 <td><strong>TOK</strong> The map as an abstraction of the territory.</td>
@@ -1054,7 +1054,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>4.3.10</td>
+<td id="4310">4.3.10</td>
 <td>Describe the characteristics and applications of a collection.</td>
 <td>2</td>
 <td><p>Characteristics:</p>
@@ -1062,13 +1062,13 @@
 <p><strong>LINK</strong> General principles of computational thinking, connecting computational thinking and program design.</p></td>
 </tr>
 <tr class="even">
-<td>4.3.11</td>
+<td id="4311">4.3.11</td>
 <td>Construct algorithms using the access methods of a collection.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
 </tr>
 <tr class="odd">
-<td>4.3.12</td>
+<td id="4312">4.3.12</td>
 <td>Discuss the need for sub-programmes and collections within programmed solutions.</td>
 <td>3</td>
 <td><p>Show an understanding of the usefulness of reusable code and program organization for the individual programmer, team members and future maintenance.</p>
@@ -1076,7 +1076,7 @@
 <p><strong>MYP</strong> Technology: use of software such as Alice.</p></td>
 </tr>
 <tr class="even">
-<td>4.3.13</td>
+<td id="4313">4.3.13</td>
 <td>Construct algorithms using predefined sub-programmes, onedimensional arrays and/or collections.</td>
 <td>3</td>
 <td><p><strong>MYP</strong> Mathematics: using flow charts to solve problems in real-life contexts, logic, algorithms.</p>
@@ -1214,7 +1214,7 @@
 <p><strong>LINK</strong> Connecting computational thinking and program design.</p></td>
 </tr>
 <tr class="even">
-<td>5.1.10</td>
+<td id="5110">5.1.10</td>
 <td>Explain the use of arrays as static stacks and queues.</td>
 <td>3</td>
 <td><p>Students should be able to explain push and pop operations, and test on empty/full stack.</p>
@@ -1228,13 +1228,13 @@
 <td></td>
 </tr>
 <tr class="even">
-<td>5.1.11</td>
+<td id="5111">5.1.11</td>
 <td>Describe the features and characteristics of a dynamic data structure.</td>
 <td>2</td>
 <td>Students should understand the concepts of nodes and pointer.</td>
 </tr>
 <tr class="odd">
-<td>5.1.12</td>
+<td id="5112">5.1.12</td>
 <td>Describe how linked lists operate logically.</td>
 <td>2</td>
 <td><strong>LINK</strong> Logical thinking.</td>
@@ -1246,7 +1246,7 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="odd">
-<td>5.1.13</td>
+<td id="5113">5.1.13</td>
 <td>Sketch linked lists (single, double and circular).</td>
 <td>3</td>
 <td>Students should be able to sketch diagrams illustrating: adding a data item to linked list, deleting specified data item, modifying the data held in the linked list, searching for a given data item.</td>
@@ -1260,25 +1260,25 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>5.1.14</td>
+<td id="5114">5.1.14</td>
 <td>Describe how trees operate logically (both binary and non-binary).</td>
 <td>2</td>
 <td><strong>LINK</strong> Recursive thinking.</td>
 </tr>
 <tr class="even">
-<td>5.1.15</td>
+<td id="5115">5.1.15</td>
 <td>Define the terms: parent, left-child, right-child, subtree, root and leaf.</td>
 <td>1</td>
 <td>These definitions only apply to a binary tree.</td>
 </tr>
 <tr class="odd">
-<td>5.1.16</td>
+<td id="5116">5.1.16</td>
 <td>State the result of inorder, postorder and preorder tree traversal.</td>
 <td>1</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>5.1.17</td>
+<td id="5117">5.1.17</td>
 <td>Sketch binary trees.</td>
 <td>3</td>
 <td>Students should be able to sketch diagrams showing the resulting binary tree after adding a new data item, adding one or more new nodes, and/or removing one or more nodes.</td>
@@ -1287,19 +1287,19 @@
 <td colspan=4><strong>Applications</strong></td>
 </tr>
 <tr class="even">
-<td>5.1.18</td>
+<td id="5118">5.1.18</td>
 <td>Define the term dynamic data structure.</td>
 <td>1</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>5.1.19</td>
+<td id="5119">5.1.19</td>
 <td>Compare the use of static and dynamic data structures.</td>
 <td>3</td>
 <td><strong>LINK</strong> One-dimensional arrays.</td>
 </tr>
 <tr class="even">
-<td>5.1.20</td>
+<td id="5120">5.1.20</td>
 <td>Suggest a suitable structure for a given situation.</td>
 <td>3</td>
 <td></td>
