@@ -15,7 +15,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="4"><strong>Planning and system installation</strong></td>
+<td colspan="4" align="center"><strong>Planning and system installation</strong></td>
 </tr>
 <tr class="even">
 <td id="111">1.1.1</td>
@@ -81,7 +81,7 @@
 <p><strong>S/E</strong> Inadequate testing can reduce employee productivity and lead to end-user dissatisfaction.</p></td>
 </tr>
 <tr class="even">
-<td colspan=4><strong>User focus</strong></td>
+<td colspan="4" align="center"><strong>User focus</strong></td>
 </tr>
 <tr class="odd">
 <td id="118">1.1.8</td>
@@ -106,7 +106,7 @@
 <p><strong>S/E</strong> The quality of the delivery of user training can affect the rate of implementation of the new system.</p></td>
 </tr>
 <tr class="even">
-<td colspan=4><strong>System backup</strong></td>
+<td colspan="4" align="center"><strong>System backup</strong></td>
 </tr>
 <tr class="odd">
 <td id="1111">1.1.11</td>
@@ -134,7 +134,7 @@
 <td>These should include failover systems, redundancy, removable media, offsite/online storage.</td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Software deployment</strong></td>
+<td colspan="4" align="center"><strong>Software deployment</strong></td>
 </tr>
 <tr class="even">
 <td id="1114">1.1.14</td>
@@ -159,7 +159,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Components of a computer system</strong></td>
+<td colspan="4" align="center"><strong>Components of a computer system</strong></td>
 </tr>
 <tr class="even">
 <td id="121">1.2.1</td>
@@ -181,7 +181,7 @@
 <p>appreciation of the social and ethical issues associated with continued developments in computer systems.</p></td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>System design and analysis</strong></td>
+<td colspan="4" align="center"><strong>System design and analysis</strong></td>
 </tr>
 <tr class="even">
 <td id="124">1.2.4</td>
@@ -261,7 +261,7 @@
 <td><strong>Teacher’s notes</strong></td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Human interaction with the system</strong></td>
+<td colspan="4" align="center"><strong>Human interaction with the system</strong></td>
 </tr>
 <tr class="even">
 <td id="1212">1.2.12</td>
@@ -313,7 +313,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Computer architecture</strong></td>
+<td colspan="4" align="center"><strong>Computer architecture</strong></td>
 </tr>
 <tr class="even">
 <td id="211">2.1.1</td>
@@ -353,7 +353,7 @@
 <td>This should include the role of data bus and address bus.</td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Secondary memory</strong></td>
+<td colspan="4" align="center"><strong>Secondary memory</strong></td>
 </tr>
 <tr class="even">
 <td id="215">2.1.5</td>
@@ -366,7 +366,7 @@
 <p><strong>AIM 9</strong> An appreciation of the issues related to both the ever increasing amount of data and a need to retain it.</p></td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Operating systems and application systems</strong></td>
+<td colspan="4" align="center"><strong>Operating systems and application systems</strong></td>
 </tr>
 <tr class="even">
 <td id="216">2.1.6</td>
@@ -403,7 +403,7 @@
 <p><strong>AIM 9</strong> An appreciation of the improvements associated with developments in application software.</p></td>
 </tr>
 <tr class="even">
-<td colspan=4><strong>Binary representation</strong></td>
+<td colspan="4" align="center"><strong>Binary representation</strong></td>
 </tr>
 <tr class="odd">
 <td id="219">2.1.9</td>
@@ -420,7 +420,7 @@
 <p><strong>S/E</strong>, <strong>INT</strong> Comparing the number of characters needed in the Latin alphabet with those in Arabic and Asian languages to understand the need for Unicode.</p></td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Simple logic gates</strong></td>
+<td colspan="4" align="center"><strong>Simple logic gates</strong></td>
 </tr>
 <tr class="even">
 <td id="2111">2.1.11</td>
@@ -471,7 +471,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Network fundamentals</strong></td>
+<td colspan="4" align="center"><strong>Network fundamentals</strong></td>
 </tr>
 <tr class="even">
 <td id="311">3.1.1</td>
@@ -519,7 +519,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Data transmission</strong></td>
+<td colspan="4" align="center"><strong>Data transmission</strong></td>
 </tr>
 <tr class="even">
 <td id="316">3.1.6</td>
@@ -559,7 +559,7 @@
 <td></td>
 </tr>
 <tr class="even">
-<td colspan=4><strong>Wireless networking</strong></td>
+<td colspan="4" align="center"><strong>Wireless networking</strong></td>
 </tr>
 <tr class="odd">
 <td id="3112">3.1.12</td>
@@ -624,7 +624,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Thinking procedurally</strong></td>
+<td colspan="4" align="center"><strong>Thinking procedurally</strong></td>
 </tr>
 <tr class="even">
 <td id="411">4.1.1</td>
@@ -649,7 +649,7 @@
 <p><strong>LINK</strong> Abstraction, connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Thinking logically</strong></td>
+<td colspan="4" align="center"><strong>Thinking logically</strong></td>
 </tr>
 <tr class="even">
 <td id="414">4.1.4</td>
@@ -701,7 +701,7 @@
 <td><strong>LINK</strong> Connecting computational thinking and program design, introduction to programming.</td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Thinking ahead</strong></td>
+<td colspan="4" align="center"><strong>Thinking ahead</strong></td>
 </tr>
 <tr class="even">
 <td id="419">4.1.9</td>
@@ -753,7 +753,7 @@
 <p><strong>LINK</strong> Connecting computational thinking and program design, introduction to programming.</p></td>
 </tr>
 <tr class="even">
-<td colspan=4><strong>Thinking concurrently</strong></td>
+<td colspan="4" align="center"><strong>Thinking concurrently</strong></td>
 </tr>
 <tr class="odd">
 <td id="4114">4.1.14</td>
@@ -776,7 +776,7 @@
 <td><strong>LINK</strong> Thinking ahead, thinking procedurally. Connecting computational thinking and program design, introduction to programming.</td>
 </tr>
 <tr class="even">
-<td colspan=4><strong>Thinking abstractly</strong></td>
+<td colspan="4" align="center"><strong>Thinking abstractly</strong></td>
 </tr>
 <tr class="odd">
 <td id="4117">4.1.17</td>
@@ -854,7 +854,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Computer architecture</strong></td>
+<td colspan="4" align="center"><strong>Computer architecture</strong></td>
 </tr>
 <tr class="even">
 <td id="421">4.2.1</td>
@@ -956,7 +956,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Nature of programming languages</strong></td>
+<td colspan="4" align="center"><strong>Nature of programming languages</strong></td>
 </tr>
 <tr class="even">
 <td id="431">4.3.1</td>
@@ -1122,7 +1122,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Thinking recursively</strong></td>
+<td colspan="4" align="center"><strong>Thinking recursively</strong></td>
 </tr>
 <tr class="even">
 <td id="511">5.1.1</td>
@@ -1144,7 +1144,7 @@
 <p><strong>LINK</strong> Binary trees.</p></td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Abstract data structures</strong></td>
+<td colspan="4" align="center"><strong>Abstract data structures</strong></td>
 </tr>
 <tr class="even">
 <td id="514">5.1.4</td>
@@ -1284,7 +1284,7 @@
 <td>Students should be able to sketch diagrams showing the resulting binary tree after adding a new data item, adding one or more new nodes, and/or removing one or more nodes.</td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Applications</strong></td>
+<td colspan="4" align="center"><strong>Applications</strong></td>
 </tr>
 <tr class="even">
 <td id="5118">5.1.18</td>
@@ -1318,7 +1318,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Computer architecture</strong></td>
+<td colspan="4" align="center"><strong>Computer architecture</strong></td>
 </tr>
 <tr class="even">
 <td id="611">6.1.1</td>
@@ -1365,7 +1365,7 @@
 <p>Multi-access and multiprogramming environments should be considered as well as single-user systems.</p></td>
 </tr>
 <tr class="even">
-<td colspan=4><strong>Role of the operating system</strong></td>
+<td colspan="4" align="center"><strong>Role of the operating system</strong></td>
 </tr>
 <tr class="odd">
 <td id="615">6.1.5</td>
@@ -1418,7 +1418,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan=4><strong>Centralized control systems</strong></td>
+<td colspan="4" align="center"><strong>Centralized control systems</strong></td>
 </tr>
 <tr class="even">
 <td id="711">7.1.1</td>
@@ -1465,7 +1465,7 @@
 <td><strong>S/E</strong> For example, tagging prisoners, surveillance, CCTV, improved safety systems.</td>
 </tr>
 <tr class="odd">
-<td colspan=4><strong>Distributed systems</strong></td>
+<td colspan="4" align="center"><strong>Distributed systems</strong></td>
 </tr>
 <tr class="even">
 <td id="717">7.1.7</td>
