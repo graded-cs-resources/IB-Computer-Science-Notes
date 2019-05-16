@@ -1,4 +1,5 @@
 # Welcome!
+
 ## Let's install (and learn about) some software!
 
 If there is one thing that is true about writing your own computer software - a major element of this course and our focus for the first semester - it is that it takes software to make software. 

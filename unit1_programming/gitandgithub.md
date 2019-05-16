@@ -1,6 +1,7 @@
 # Git and Github
 
 ## What is git?
+
 Computer programmers almost always work in teams, often large ones. With many people working on the same files, it is important that they have a way to share work with each other that doesn't break anything and keep track of the work they are doing. They often need to keep track of multiple versions - some with features that are still being written, some without. A version that is ready to be used by all users, a version in beta. And so on. Something like Google Docs, but google docs themselves aren't well-suited to computer code for a variety of reasons. Instead, programmers use software called *version control software* to help them save, track, and share changes to their code.
 
 The most famous example of version control software, and the most commonly used these days, is called *git*. We will practice using git in this course to save our work, keep track of our changes, and share our work with each other.
@@ -8,6 +9,7 @@ The most famous example of version control software, and the most commonly used 
 ### Installing git
 
 ##### On your command line
+
 ```bash
 #mac users do the below line
 brew install git
@@ -28,6 +30,7 @@ git itself runs only on your own computer, so when you use it to "save" a versio
 [Github](https://github.com) is the most popular site on the internet for sharing code with other programmers using git. It is the website you are reading this on! We will be using Github to retrieve and work on assignments in this course.
 
 ### Signing up for GitHub
+
 Visit github (you're already there!) and click the "Sign Up" button in the upper righthand corner. Make an account. It is up to you which e-mail and username to use, use your school e-mail if you want or a personal e-mail if you prefer. I do encourage you to use a username at least somewhat connected to your real name.
 
 ### Installing Github Desktop

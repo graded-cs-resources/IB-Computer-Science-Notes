@@ -60,19 +60,20 @@ space shuttle      <== MOST POWERFUL, LESS FLEXIBLE
 4. Brainstorm with your team and come up with another process that can be placed upon a precision versus power spectrum and write the items down in order. Be ready to share with the class.
 
 #### So... programming?
+
 Programming languages can also arguably be placed on a spectrum of precision and power. Here is a short list containing a few well recognized programming languages ordered from more precise to more powerful. You probably won't understand a lot of these words right now, but read them anyway to get some vocabulary churning in your brain.
 
-|Language | Description|
-|---|---|
-|Machine Language|The computer's only native language. Very difficult for humans to write and understand.|
-|Assembly|Super fast executing and capable of direct hardware and memory manipulation. Very hard to write.|
-|C|Fast executing procedural language. Requires good understanding of hardware to use well. Good for creating operating systems & game engines|
-|C++|General purpose, object oriented version of C, fast but with some modern features.|
-|java|General purpose, object-oriented from the ground up, and can run on multiple platforms. Does not require as deep an understanding of hardware as C or C++. Not as fast as C or C++, but still a fast compiled language.|
-|Python| General purpose, flexible, *interpreted* language. This means that it is changed into machine language every time it is run, rather than only one time, at the beginning. Python is not as fast as earlier languages int his list, but it is easy to use and powerful.|
-|javascript, TypeScript| Originally designed for running on the web, Javascript is designed to be quick and easy, flexible, and powerful (but not necessarily fast). Interpreted, like Python. TypeScript is a layer on top of javascript that adds some more powerful features.|
-|SQL|	The language of, specifically, databases, is very powerful but very special-use|
-|R| A programming language designed almost exclusively for manipulating data quickly and efficiently.
+| Language               | Description                                                                                                                                                                                                                                                            |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Machine Language       | The computer's only native language. Very difficult for humans to write and understand.                                                                                                                                                                                |
+| Assembly               | Super fast executing and capable of direct hardware and memory manipulation. Very hard to write.                                                                                                                                                                       |
+| C                      | Fast executing procedural language. Requires good understanding of hardware to use well. Good for creating operating systems & game engines                                                                                                                            |
+| C++                    | General purpose, object oriented version of C, fast but with some modern features.                                                                                                                                                                                     |
+| java                   | General purpose, object-oriented from the ground up, and can run on multiple platforms. Does not require as deep an understanding of hardware as C or C++. Not as fast as C or C++, but still a fast compiled language.                                                |
+| Python                 | General purpose, flexible, *interpreted* language. This means that it is changed into machine language every time it is run, rather than only one time, at the beginning. Python is not as fast as earlier languages int his list, but it is easy to use and powerful. |
+| javascript, TypeScript | Originally designed for running on the web, Javascript is designed to be quick and easy, flexible, and powerful (but not necessarily fast). Interpreted, like Python. TypeScript is a layer on top of javascript that adds some more powerful features.                |
+| SQL                    | The language of, specifically, databases, is very powerful but very special-use                                                                                                                                                                                        |
+| R                      | A programming language designed almost exclusively for manipulating data quickly and efficiently.                                                                                                                                                                      |
 
 5. Have you heard of any other programming languages? 
     
