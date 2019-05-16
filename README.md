@@ -14,7 +14,7 @@ HL-only topics will be marked as such.
 
 #### Unit 1 - Programming and Typescript
 
-* [Welcome!](unit1_programming/00_HL_intro.md)
+* [Welcome!](unit1_programming/00_Intro.md)
 * [Getting set up](unit1_programming/01_Getting_Set_Up.md)
 * [Variables, Functions, and Types](unit1_programming/02_FirstFunction.md)
 * [Computer memory](unit1_programming/03_Data_on_computers.md)

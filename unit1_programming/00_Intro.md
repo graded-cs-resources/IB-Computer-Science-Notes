@@ -1,4 +1,5 @@
 # Welcome to IB Computer Science HL
+
 ## An Overview
 
 **Computer science** is the study of computers - how they work, how they think, and how they interact.
@@ -8,55 +9,55 @@ The **hardware** :star: of a computer is its body, and its brain. All of the phy
 We will start the year by studying computer software - specifically we will work on understanding how software is created, or **programmed**. :star: Hopefully you already have some experience with computer programming (also called coding).
 
 ## Working as a team
+
 The “Computer Guy” who knows everything about computers does not really exist anymore. Perhaps the last person to completely design and create all of the hardware and software for a commercially viable computer, the Apple II, was Steve Wozniak in 1977. Today, information technology professionals work within areas of expertise because now there is simply too much hardware and software technology for someone to master it all. At some point everyone must depend on some computer hardware and/or software to work, without knowing how it works. How it works is left as an **abstraction** :star:. As such, people working in computer science fields must be comfortable working with various levels of abstraction so they can focus more fully on their assigned tasks.
 
 The “Lone Genius” who writes programs from scratch has largely disappeared along with the “Computer Guy”. Yes, learning to program does require a certain level of quiet concentration, however, cooperating with and building upon the work of other programmers is an essential skill. The computer software and hardware you use today is the result of teams of experienced and motivated people, working together, to create commercially viable products. Much of the work you do in this course, especially in this first year, will involve working with other programming students face-to-face and also expanding upon existing computer programs written by other programmers. The year will culminate in work toward your individual IA, but to get ready you need to trust, and work with, others.
 
 ## Discuss and Answer - Programming Languages
-Computers don't understand English. In fact, computers really only understand one thing; tiny bits of electrical signals that can be interpreted as "ons and offs" or "0's and 1's". Every type of computer 'brain', or **Central Processing Unit (CPU)** :star: has its own language of 0's and 1's. However, humans rarely or never write direct machine coe. Instead, they use a **programming language** :star: to help them translate from their own understanding of the world to the language of machines. There are MANY programming languages to choose from, with a variety of different syntaxes (words and symbols), philosophies, and goals.
+
+Computers don't understand English. In fact, computers really only understand one thing; tiny bits of electrical signals that can be interpreted as "ons and offs" or "0's and 1's". Every type of computer 'brain', or **Central Processing Unit (CPU)** :star: has its own language of 0's and 1's. However, humans rarely or never write direct machine code. Instead, they use a **programming language** :star: to help them translate from their own understanding of the world to the language of machines. There are MANY programming languages to choose from, with a variety of different syntaxes (words and symbols), philosophies, and goals.
 
 1. What programming languages have you worked with before, if any? Have a brief conversation with your neighbors about what you have done before this class and be ready to share with your teacher. (Yes, things like Scratch and MIT App Inventor count as programming languages!)
 
 Because there are so many programming languages, you'll see a lot of arguments about whch one is **BEST**. Many of these arguments are as silly as a surgeon and lumberjack arguing over which cutting tool is the **BEST**, a scalpel or a chainsaw. Each tool is effective in what it was designed to do; the scalpel and chainsaw are simply designed for different purposes.
 
-```
+```bash
 laser                <== MOST PRECISE
-scalpel   
-razor   
-hand saw   
-circular saw   
-axe   
-acetylene torch   
-chainsaw   
+scalpel
+razor
+hand saw
+circular saw
+axe
+acetylene torch
+chainsaw
 bulldozer            <== MOST POWERFUL
 ```
 
-
 Many tasks or tools can be arranged in an order from most precise to most powerful. Consider this list of ways to travel. Is one of these really the **best**?
 
-```
+```bash
 walk                <== MOST PRECISE, MORE TEDIOUS
-run   
-bike   
-car 
-bus   
-train   
-helicopter   
+run
+bike
+car
+bus
+train
+helicopter
 prop plane  
 jet liner
 space shuttle      <== MOST POWERFUL, LESS FLEXIBLE
 ```
 
-
-2) Here is a list of ways to move liquids, in no particular order:
-
+2. Here is a list of ways to move liquids, in no particular order:
+  
     `pipeline, garden hose, spray bottle, watering can, canal, syringe, tanker truck, bucket, fire hose`
-
+  
     Discuss with your team how they would be arranged from most precise to most powerful. Is there a **best** way to move all liquids? Be ready to share your order and reasoning with the class.
 
-3) Consider many of the ways people have to communicate. Try placing 7 to 10 examples into the same kind of spectrum. Is there a type of communication that is always the BEST?
+3. Consider many of the ways people have to communicate. Try placing 7 to 10 examples into the same kind of spectrum. Is there a type of communication that is always the BEST?
 
-3) Brainstorm with your team and come up with another process that can be placed upon a precision versus power spectrum and write the items down in order. Be ready to share with the class.
+4. Brainstorm with your team and come up with another process that can be placed upon a precision versus power spectrum and write the items down in order. Be ready to share with the class.
 
 #### So... programming?
 Programming languages can also arguably be placed on a spectrum of precision and power. Here is a short list containing a few well recognized programming languages ordered from more precise to more powerful. You probably won't understand a lot of these words right now, but read them anyway to get some vocabulary churning in your brain.
@@ -73,9 +74,9 @@ Programming languages can also arguably be placed on a spectrum of precision and
 |SQL|	The language of, specifically, databases, is very powerful but very special-use|
 |R| A programming language designed almost exclusively for manipulating data quickly and efficiently.
 
-5) Have you heard of any other programming languages? 
+5. Have you heard of any other programming languages? 
     
-6) What factors should a software engineer consider when choosing a language?
+6. What factors should a software engineer consider when choosing a language?
 
 ## Why TypeScript and java?
 
