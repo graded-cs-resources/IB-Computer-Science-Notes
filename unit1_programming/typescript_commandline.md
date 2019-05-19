@@ -21,7 +21,7 @@ refreshenv
 
 If all went well, you should now be able to run...
 ```bash
-npm install -g typescript
+npm install -g typescript ts-node
 
 refreshenv # windows only
 ```

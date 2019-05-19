@@ -11,8 +11,11 @@ Every computer has multiple places where data can be stored.
 ### Primary Memory
 
 1. **ROM**:star: or *Read Only Memory* is a tiny piece of medium-fast memory built into the main structure of the computer (but not directly into the main processor chip). It is usually small and contains only the tiny bit of software needed to actually start a computer, before the *operating system* takes over. If you've ever "flashed a firmware update" on your computer, router, or phone, you have edited the ROM. <sup><small>[2.1.2](../unit0_resources/syllabus.md#212)</small></sup>
+   
 2. **RAM**:star:, or *Random Access Memory* is the part of the computer where data is stored that is being actively used by running programs. It is much smaller than the persistant storage, but much faster. Most computer programs work primarily on RAM, except when saving or loading.<sup><small>[2.1.2](../unit0_resources/syllabus.md#212)</small></sup>
+   
 3. **Cache**:star: is an even faster and smaller section of memory that is used by the computer to store things it knows it may need again soon. It is the fastest part of the computer that isn't directly connected to the computer's "brain" (CPU). From the perspective of a programmer, the cache and RAM are essentially interchangeable, but they make a difference at the low level.<sup><small>[2.1.3](../unit0_resources/syllabus.md#213)</small></sup>
+   
 4. **CPU Registers**:star: are extremely tiny, extremely fast places in memory that exist directly on the CPU. They are used only to store the values needed for the current *operation* of the CPU.
    
 As a programmer, we mostly only worry about the persistent storage (which we tend to call the *disk* or the *files*) and the RAM (which we tend to call the *memory*.) The CPU and programming langague handles the movement between RAM, cache, and registers for us.
@@ -31,6 +34,19 @@ Given a single byte (or more than one) we can train our programs to *interpret* 
 ## Check your Understanding
 
 1. What is the difference between RAM and ROM?
+   
 2. How many bits are in one byte?
+   
 3. What are types of primary memory?
 
+## Study Materials
+
+Create flash cards or a [quizlet](http://quizlet.com) deck with the following words on one side and a quick summary on the other.
+* Primary Memory
+* Secondary Memory
+* RAM
+* ROM
+* Cache
+* Registers
+* bit
+* byte

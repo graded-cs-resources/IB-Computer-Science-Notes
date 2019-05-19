@@ -1,12 +1,10 @@
 # Programming Languagues, Variables, and Functions
 
-These notes are associated with the "First Typescript Lesson" activity your teacher will provide you.
-
-Your teacher will make a Github Classroom link available to you via your normal school LMS or e-mail. Please use that link to access the assignment and read the instructions there to complete and submit the assignment.
+These notes are intended to be used AFTER the "myFirstFunction Typescript" assignment. 
 
 ## Programming Languages
 
-A **programming language**:star:, like any language, consists of a vocabulary, syntax, and a set of grammar rules for instructing a computer to perform tasks. Unlike a human language, in a programmign language these all need to be unambiguous, consistent, and predictable; computers don't understand emotion or sarcasm!<sup><small>[4.3.3](../unit0_resources/syllabus.md#433)</small></sup>
+As discussed in the [intro](00_Intro.md), A **programming language**:star:, like any language, consists of a vocabulary, syntax, and a set of grammar rules for instructing a computer to perform tasks. Unlike a human language, in a programming language these all need to be unambiguous, consistent, and predictable; computers don't understand emotion or sarcasm!<sup><small>[4.3.3](../unit0_resources/syllabus.md#433)</small></sup>
 
 Computers don't speak the programming languages directly; computers only understand a very small number of very specific instructions and all programming languages must be translated to that **machine language**:star:<sup><small>[4.3.5](../unit0_resources/syllabus.md#435)</small></sup>. 
 
@@ -20,9 +18,9 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
  
 * **TypeScript**:star: is a language that is built on top of javascript that provides some more structure, powerful apps without as many bugs. TypeScript cannot be run directly; it has to be converted into javascript first. This process of changing from one programming language to another is called **compiling**:star:. As javascript apps have grown, TypeScript has become more popular; in fact, Visual Studio Code and the Github Desktop app you installed are BOTH written in TypeScript! We will start this course working primarily in TypeScript.
 
-* **java**:star: is an older language that works best for making desktop applications and applications that run on network servers. It contains even more structure than TypeScript and is therefore suitable for large, multi-developer development projects. Unlike javascript and TypeScript, java has to be converted into *machine language*, an unreadable collection of `0`'s and `1`'s to be run; this is also called *compiling*. The machine language is then interpreted by a special piece of software called the *Java Virtual Machine*. This keeps it portable, so java apps can, for example, usually run on Window, Linux, and Macs. We will discuss java throughout this course, and switch our primary focus to java down the line.
+* **java**:star: is an older language that works best for making desktop applications and applications that run on network servers. It contains even more structure than TypeScript and is therefore suitable for large, multi-developer development projects. Unlike javascript and TypeScript, java has to be **compiled** into *machine language* to be run. The machine language is then interpreted by a special piece of software called the *Java Virtual Machine*. This keeps it portable, but also very fast, so java apps can, for example, usually run on Window, Linux, and Macs. We will discuss java throughout this course, and switch our primary focus to java down the line.
   
-### Some language features
+### Language Features
 
 * In Typescript and java, multi-line **comments**:star: start with a `/*` symbol and end with a `*/` symbol. Anything between those symbols will be ignored by the program and are only for humans, to add readability.
   
@@ -57,3 +55,29 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
     let s = addTwoValues(2,3); // the value s now has the value 5
     let j = addTwoValues("Bob","Smith"); // the value j now has the value "BobSmith"
     ```
+
+## Check your Learning
+
+1. What are the features of a programming language?
+
+2. What does it mean to *compile* a program?
+
+3. What does it mean that TypeScript and java are *statically typed*?
+
+4. What is the output value of a function called in programmer speak?
+
+5. Can you write a function in TypeScript or java that accepts two numbers (integers) as input variable, and returns the difference between them?
+
+## Preparing Study Materials
+
+Create flash cards or a quizlet deck with the following prompts on the front, then write brief bullets or summaries to put on the back that include what they are for and (if applicable) what they might look like in TypeScript and java:
+
+* programming language
+* machine language
+* comment
+* variable
+* compile
+* function
+* parameter
+* return value
+
