@@ -2,8 +2,6 @@
 
 Notes for Graded's IB Computer Science classes, 2019-2020.
 
-Some of this content will be modified from the CPM Java Computer Science eBook, and is likely protected under their copyright.
-
 [The full official IB syllabus can be found here](unit0_resources/syllabus.md). In the notes, when a section connects to this syllabus, it will be represented with a superscript, like<sup>this</sup>
 
 These notes will be complemented by *assignments* that will be provided to you through Github via Google Classroom. Think of this page as a textbook, and the assignments as, well, assignments. 
@@ -12,15 +10,19 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 HL-only topics will be marked as such.
 
-#### Unit 1 - Programming and Typescript
+### Unit 1 - Storage, Data, and Collections
 
-* [Welcome!](unit1_programming/00_Intro.md)
-* [Getting set up](unit1_programming/01_Getting_Set_Up.md)
-* [Variables, Functions, and Types](unit1_programming/02_FirstFunction.md)
-* [Computer memory](unit1_programming/03_Data_on_computers.md)
-* [Common Data types](unit1_programming/04_Common_data_types.md)
+[Learning Targets](unit1/00_Learning_Targets.md)
 
+* [Welcome!](unit1/00_Intro.md)
+* [Getting set up](unit1/01_Getting_Set_Up.md)
+* [Variables, Functions, and Types](unit1/02_FirstFunction.md)
+* [Computer memory](unit1/03_Data_on_computers.md)
+* [Common Data types](unit1/04_Common_data_types.md)
 
+### Unit 2 - Abstraction and Objects
+
+[Learning Targets](unit2/00_Learning_Targets.md)
 
 ## Outside Resources
 
@@ -31,3 +33,5 @@ HL-only topics will be marked as such.
 ### Other Resources
 
 * [CompSciHub About page](https://ib.compscihub.net/about) - This excellent resource put together by IB CS teachers and students compiles notes and information about the course.
+
+* [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/dp-compsci/) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
