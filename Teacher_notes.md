@@ -11,11 +11,7 @@ These notes are not intended for students to read, though they cetainly can. I a
 * Formative / practice assignments every day, done in and out of class, include programming AND content review
 
 
-## First Intro day (only 20 minutes probably)
 
-Do a quick algorithm-tracing activity in teams, linked below.
-
-[Euclid's Algorithm](unit1/media/euclid.svg)
 
 ## Unit 1 - Storage, Data, and Collections
 
@@ -24,8 +20,6 @@ Do a quick algorithm-tracing activity in teams, linked below.
 ### Project
 
 Madlibs (complete the project. Involves functions, various data types, and arrays.)
-
-
 
 ## Unit 2 - Objects and Abstractions
 

@@ -20,9 +20,9 @@ Let's explore the layers of abstraction for just one part of the computer; the "
 
 - **Level 1** Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! 
   
-- **Level 2** - The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data.
+- **Level 2** - The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates in Unit 3.
   
-- **Level 3** - Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuits create the *fundamental operations* of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. We WILL study logic gates and some of the combined circuits in this course, as well as lightly examine an abstract math built around these gates called boolean algebra.
+- **Level 3** - Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuits create the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. We WILL study logic gates and some of the combined circuits in this course, as well as lightly examine an abstract math built around these gates called boolean algebra.
 
 - **Level 4** - These fundamental operations can then be controlled by sending a signal to a computer in *machine language* (a direct stream of carefully configured `0`'s and `1`'s) or, much more commonly, *assembly language* (a slightly more human-readable way of writing these signals) that is then turned by a computer into machine language. Below is a short example of an assembly program that adds 3 and 4 and prints the result:
 
@@ -41,15 +41,16 @@ Let's explore the layers of abstraction for just one part of the computer; the "
 	int     0x80        ; tell the processor to do its thing.
 	```
 
-	Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be VERY intimately familiar with the specific processor being used! Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like Operating Systems, Compilers, and hardware drivers. (We will NOT be using any assembly language this course.)
+	Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be VERY intimately familiar with the specific computer processor being used. Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like operating systems, compilers, and hardware drivers. (We will NOT be using any assembly language this course.)
 
-- **Level 5** - High level *Programming Languages* can be used to abstract the machine language used for sending instructions to computers into a more readable, almost human language. For example, in the language `C`, one of the first "high level" computer programming languages to gain popularity starting in the 70s (and still in use, a lot, today!), the same program as above might be written:
+- **Level 5** - High level *Programming Languages* can be used to abstract the machine language used for sending instructions to computers into a more readable, almost human language. For example, in the language `C`, one of the first high level computer programming languages to gain popularity starting in the 70s (and still in use, a lot, today!), the same program as above might be written:
 
 	```c
 	#include <stdio.h>
 	int main()
 	{
-		int a = 3, b = 4;
+		int a = 3;
+		int b = 4;
 		printf("%d" , a + b);
 		return 0;
 	}
@@ -71,3 +72,19 @@ The previous exercise doesn'tt even get into the many OTHER layers of abstractio
 **Computer Science** concerns itself with all of these layers, but focuses on the abstract over the physical. At the end of this course, you will NOT be ready to get a job as a software developer, nor as an engineer. That takes on-the-job training and a level of specificity this course won't be able to give you. But you'll have a basic understanding of the entire scope of how computers work and communicate, and the beginnings of an ability to mold them to your desires. 
 
 Let's get to it.
+
+## Study Materials
+
+Every reading will include a section like this at the end, with suggestions for things to make to study later. Regularly returning to this content will enable you to remember for a long time - two years!
+
+### Flashcards
+Make flash cards OR a deck on http://quizlet.com for the following terms from this intro. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
+
+* hardware
+* software
+* abstraction
+* transistors
+* fundamental operations
+* machine language
+* assembly language
+* programming language
