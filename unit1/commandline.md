@@ -9,20 +9,25 @@ Professional computer people spend a lot of time staring at words (or at least l
 ### Mac Users 
 
 You need to open the `Terminal` app. You can find this in your Applications / Utilities folder or by typing `⌘ Command`+`Space` and then typing `terminal`. Go ahead and add it to the dock, we'll be using it a lot! <small>*(image credit:* https://macpaw.com/how-to/use-terminal-on-mac)</small>
+
 ![Mac Terminal Window](media/01/img000_mac_terminal.png)
 
 ### Windows Users
 
 Windows actually has TWO built-in command lines - one is called simply `Command Prompt` or `cmd` and the other is called `Powershell`. Powershell is much more powerful, and since you are learning this for the first time you should definitely use it! The best way to get powershell running is with the "Power Users Menu", which comes up when you RIGHT-click on the start button or type `⊞ Windows`+`X` on your keyboard. To enable this, follow these steps:
+
 - [ ] Press the start button and start typing `Replace Command Prompt With Windows Powershell when using Windows+X Menu` until the option appears as shown below. Click it when it does.
    
    <img alt="Command in Start Menu" src="media/01/img001_replace_command_prompt_option.png" height=150 align=center>
+
 - [ ] In the window that appears, scroll down until you see the option. Toggle it ON, as seen below.
   
    <img alt="Togggle Item" src="media/01/img002_replace_toggle.png" height=50 align=center>
+
 - [ ] Now, you should be able to press `⊞ Windows`+`X` on your keyboard OR right-click on the start menu to get your power menu. When it comes up, choose the option `Windows Powershell (admin)`
   
     <img alt="Powershell Admin" src="media/01/img003_powershell_admin.png" height=70 align=center>
+
 - [ ] You should now have your command prompt open!
   
    ![Powershell Window](media/01/img005_powershell_window.png)
@@ -34,26 +39,37 @@ Not every command line is the same. On Macs, the command line is powered by a pr
 Read about the commands below and follow the instructions!
 
 * **`ls`** will **l**i**s**t the files in the directory (folder) you are currently in. 
-  * Type `ls` and press enter to see a list of files. (on Windows, typing `dir` will do the same thing if you like that better)
-* **`pwd`** will **p**rint the **w**orking **d**irecotry - it tells you what folder you are in! 
-  * type `pwd` and see what happens. You should be in your main user folder. Most command lines give you the output of `pwd` right on the command line without typing.
+  - [ ] Type `ls` and press enter to see a list of files. (on Windows, typing `dir` will do the same thing if you like that better)
+  
+* **`pwd`** will **p**rint the **w**orking **d**irectory - it tells you what folder you are in! 
+  - [ ] type `pwd` and see what happens. You should be in your main user folder. Most command lines give you the output of `pwd` right on the command line without typing.
+  
 * **`cd ~`** **c**hanges **d**irectories to your home (~) folder
-  * You should be in your home, or user, folder. Just in case you aren't, type `cd ~`. The `~` symbol (usually in the upper-left of your keyboard, and you need to use `Shift`) is a shortcut for "home directory" so this will take you to your home folder if you aren't there.
-* **`mkdir `*`name`*** will make a directory, or folder. 
-  * We want to make a directory to hold our code for this course. For simplicity, let's make it right here in your user folder. Type `mkdir ibcs` to make a folder called "ibcs" in the current directory (we can always move this later if you want)
-* **`cd `*`name`*** changes to a directory with the name you enter
-  * Type `cd ibcs` to move into your new folder. **Hint:** if you press `Tab` after you type `cd ib` it should *autocomplete* the rest of the directory. Tabbing is the best!
-* **`touch`*`name`*** will create a new (empty) text file. 
-  * Type `touch test_file` then type `ls` to see that you created the file!
-* **`cp`*`oldfile newfile`*** will copy a file from one place to another. 
-  * Type `cp test_file test2`, then type `ls` to see your new copied file.
-* **`mv`*`oldfile newfile`*** will rename (or rename + move) a new file 
-  * To rename, type the original name then the new one. Type `mv test_file test1` to change its name. Type `ls` to confirm it worked.
-* **`mv`*`oldfile newfolder`*** will move a folder to a new directory/folder, but keep the name.
-  * Make a new directory with `mkdir lesson01`, then type `mv test* lesson01`. The `*` tells the comandline to include *everything* that starts with test, so BOTH files should get moved. Confirm it using `cd lesson01` and `ls`.
-* **`open`*`file_or_folder`*** (Mac) or **`ii`*`file_or_folder`*** (Windows) opens the file or folder just like you double-clicked it.
-  * Type `open .` or `ii .` to open the current folder in the Finder / Explorer (the `.` is a shortcut that means "current folder")
-  * This should have opened a file browser in the `lesson01` folder. Do you see your test files? Go ahead and close it now, we don't need that window.
-  * Type `cd ..` to move up to the previous folder (the `..` is the shortcut for "parent folder"). You should be back in the `ibcs` folder - use `pwd` to confirm that if you're not sure.
+  - [ ] You should be in your home, or user, folder. Just in case you aren't, type `cd ~`. The `~` symbol (usually in the upper-left of your keyboard, and you need to use `Shift`) is a shortcut for "home directory" so this will take you to your home folder if you aren't there.
+  
+* **`mkdir` *`name`*** will make a directory, or folder. 
+  - [ ] We want to make a directory to hold our code for this course. For simplicity, let's make it right here in your user folder. Type `mkdir ibcs` to make a folder called "ibcs" in the current directory (we can always move this later if you want)
+  
+* **`cd` *`name`*** changes to a directory with the name you enter
+  - [ ] Type `cd ibcs` to move into your new folder. **Hint:** if you press `Tab` after you type `cd ib` it should *autocomplete* the rest of the directory. Tabbing is the best!
+  
+* **`touch` *`name`*** will create a new (empty) text file. 
+  - [ ] Type `touch test_file` then type `ls` to see that you created the file!
+  
+* **`cp` *`oldfile newfile`*** will copy a file from one place to another. 
+  - [ ] Type `cp test_file test2`, then type `ls` to see your new copied file.
+  
+* **`mv` *`oldfile newfile`*** will rename (or rename + move) a new file 
+  - [ ] To rename, type the original name then the new one. Type `mv test_file test1` to change its name. Type `ls` to confirm it worked.
+* **`mv` *`oldfile newfolder`*** will move a folder to a new directory/folder, but keep the name.
+  - [ ] Make a new directory with `mkdir lesson01`, then type `mv test* lesson01`. The `*` tells the comandline to include *everything* that starts with test, so BOTH files should get moved. Confirm it using `cd lesson01` and `ls`.
+  
+* **`open` *`file_or_folder`*** (Mac) or **`ii`*`file_or_folder`*** (Windows) opens the file or folder just like you double-clicked it.
+  - [ ] Type `open .` or `ii .` to open the current folder in the Finder / Explorer (the `.` is a shortcut that means "current folder")
+  - [ ] This should have opened a file browser in the `lesson01` folder. Do you see your test files? Go ahead and close it now, we don't need that window.
+  - [ ] Type `cd ..` to move up to the previous folder (the `..` is the shortcut for "parent folder"). You should be back in the `ibcs` folder - use `pwd` to confirm that if you're not sure.
 
 Congratulations! You can now do some basic things in the command line. Welcome to hackerhood.                                                           
+## Study Materials
+
+You should probably make flash cards for these commands, as they are very useful, especially `ls`, `mv`, `cp`, `cd` and `touch`

@@ -18,9 +18,10 @@ Every computer has multiple places where data can be stored.
    
 4. **CPU Registers**:star: are extremely tiny, extremely fast places in memory that exist directly on the CPU. They are used only to store the values needed for the current *operation* of the CPU.
    
-As a programmer, we mostly only worry about the persistent storage (which we tend to call the *disk* or the *files*) and the RAM (which we tend to call the *memory*.) The CPU and programming langague handles the movement between RAM, cache, and registers for us.
+As a programmer, we mostly only worry about the persistent storage (which we tend to call the *disk* or the *files*) and the RAM (which we tend to call the *memory*.) The CPU and programming language handle the movement between RAM, cache, and registers for us.
 
 ![The hierarchy of memory](media/02/memory_heirarchy.jpg)
+
 <small>Image credit: https://www.slideshare.net/rahulbandhe/basics-of-semiconductor-memories-presentation</small>
 
 ## What goes in the memory?
@@ -50,3 +51,5 @@ Create flash cards or a [quizlet](http://quizlet.com) deck with the following wo
 * Registers
 * bit
 * byte
+
+We have a quizlet class at https://quizlet.com/join/S8XGx3k93 and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.

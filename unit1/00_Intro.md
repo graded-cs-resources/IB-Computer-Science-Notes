@@ -18,16 +18,16 @@ Let's explore the layers of abstraction for just one part of the computer; the "
 
 ### Layers of Abstraction in a computer processor
 
-- **Level 1** Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! 
+- **Level 1** Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
   
-- **Level 2** - The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates in Unit 3.
+- **Level 2** - The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates, and the math that surrounds them, in Unit 3.
   
-- **Level 3** - Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuits create the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. We WILL study logic gates and some of the combined circuits in this course, as well as lightly examine an abstract math built around these gates called boolean algebra.
+- **Level 3** - Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuits create the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. 
 
 - **Level 4** - These fundamental operations can then be controlled by sending a signal to a computer in *machine language* (a direct stream of carefully configured `0`'s and `1`'s) or, much more commonly, *assembly language* (a slightly more human-readable way of writing these signals) that is then turned by a computer into machine language. Below is a short example of an assembly program that adds 3 and 4 and prints the result:
 
 	```nasm
-	_start:                     ;tell linker entry point
+	_start:             ; tell the computer we are starting
 
 	mov     eax, 3  	; store the number 3 in register a
 	mov     ebx, 4		; store the number 4 in register b
@@ -67,7 +67,7 @@ Let's explore the layers of abstraction for just one part of the computer; the "
 
 ## Conclusions
 
-The previous exercise doesn'tt even get into the many OTHER layers of abstraction inherent in working with modern computers. Input devices (keyboards, mice, gamepads), output devices (screens, printers, speakers), and storage devices (hard disks, SD cards, CDs) are ALL necessary for a computer to be useful, and every one of them has multiple layers of abstraction between their physical operation and how a computer programmer might use them.
+The previous exercise doesn't even get into the many OTHER layers of abstraction inherent in working with modern computers. Input devices (keyboards, mice, gamepads), output devices (screens, printers, speakers), and storage devices (hard disks, SD cards, CDs) are ALL necessary for a computer to be useful, and every one of them has multiple layers of abstraction between their physical operation and how a computer programmer might use them.
 
 **Computer Science** concerns itself with all of these layers, but focuses on the abstract over the physical. At the end of this course, you will NOT be ready to get a job as a software developer, nor as an engineer. That takes on-the-job training and a level of specificity this course won't be able to give you. But you'll have a basic understanding of the entire scope of how computers work and communicate, and the beginnings of an ability to mold them to your desires. 
 
@@ -88,3 +88,5 @@ Make flash cards OR a deck on http://quizlet.com for the following terms from th
 * machine language
 * assembly language
 * programming language
+
+We have a quizlet class at https://quizlet.com/join/S8XGx3k93 and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.

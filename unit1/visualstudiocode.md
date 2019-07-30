@@ -4,7 +4,7 @@ A *text editor* is a program whose primary purpose is editing files that consist
 
 An *IDE*, or "integrated development environment," can edit text, just like a text editor, but it also comes with built-in tools to color-code the text (*syntax highlighting*), run programs, find problems in programs, and even help make graphical user interfaces. They tend to be much fancier and more complicated than text editors, but also more powerful. They are often designed for a specific programming language. We will use one of these, later in the course, called Netbeans for Java.
 
-For now, we will install [Visual Studio Code](https://code.visualstudio.com) to write our software. This software is somewhere between a basic text editor and an IDE; it isn't as complex as some IDEs, but can do much more than Notepad. You can install it from the website (and probably the Mac store) but it is better to use our new package manager!
+For now, we will install [Visual Studio Code](https://code.visualstudio.com) to write our software. This software is somewhere between a basic text editor and an IDE; it isn't as complex as Netbeans, but can do much more than Notepad. You can install it from the website (and probably the Mac store) but it is better to use our new package manager!
 
 Open your command line if it is closed. ([remember how?](commandline.md))
 
