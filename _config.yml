@@ -1,4 +1,4 @@
-theme: jekkyl-theme-minimal
+theme: jekyll-theme-minimal
 show_downloads: false
 plugins:
   - jemoji
