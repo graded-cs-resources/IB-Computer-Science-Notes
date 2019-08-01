@@ -1,2 +1,5 @@
+theme: jekkyl-theme-minimal
+show_downloads: false
 plugins:
   - jemoji
+title: Graded IB Computer Science Notes
