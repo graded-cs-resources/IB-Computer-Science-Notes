@@ -4,4 +4,3 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 title: Graded IB Computer Science Notes
-remote_theme: "mmistakes/minimal-mistakes@4.16.5"
