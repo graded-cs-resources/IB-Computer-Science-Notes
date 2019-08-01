@@ -6,7 +6,7 @@ title: Graded IB Computer Science Notes
 
 Notes for Graded's IB Computer Science classes, 2019-2020.
 
-[The full official IB syllabus can be found here]({{"/unit0_resources/syllabus" | relative_url}}). In the notes, when a section connects to this syllabus, it will be represented with a superscript, like<sup>this</sup>
+[The full official IB syllabus can be found here](/unit0_resources/syllabus.md). In the notes, when a section connects to this syllabus, it will be represented with a superscript, like<sup>this</sup>
 
 These notes will be complemented by *assignments* that will be provided to you through Github via Google Classroom. Think of this page as a textbook, and the assignments as, well, assignments. 
 
@@ -16,17 +16,17 @@ HL-only topics will be marked as such.
 
 ### Unit 1 - Storage, Data, and Collections
 
-[Learning Targets]({{"/unit1/00_Learning_Targets",relative_url}})
+[Learning Targets](/unit1/00_Learning_Targets.md)
 
-* [Welcome!]({{"/unit1/00_Intro",relative_url}})
-* [Getting set up]({{"/unit1/01_Getting_Set_Up",relative_url}})
-* [Variables, Functions, and Types]({{"/unit1/02_FirstFunction",relative_url}})
-* [Computer memory]({{"/unit1/03_Data_on_computers",relative_url}})
-* [Common Data types]({{"/unit1/04_Common_data_types",relative_url}})
+* [Welcome!](/unit1/00_Intro.md)
+* [Getting set up](/unit1/01_Getting_Set_Up.md)
+* [Variables, Functions, and Types](/unit1/02_FirstFunction.md)
+* [Computer memory](/unit1/03_Data_on_computers.md)
+* [Common Data types](/unit1/04_Common_data_types.md)
 
 ### Unit 2 - Abstraction and Objects
 
-[Learning Targets]({{"/unit2/00_Learning_Targets",relative_url}})
+[Learning Targets](/unit2/00_Learning_Targets.md)
 
 ## Outside Resources
 
