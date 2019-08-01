@@ -15,7 +15,7 @@ These notes are not intended for students to read, though they cetainly can. I a
 
 ## Unit 1 - Storage, Data, and Collections
 
-### [Learning Targets](unit1/00_Learning_Targets.md)
+### [Learning Targets]({{"/unit1/00_Learning_Targets" | relative_url}})
 
 ### Project
 

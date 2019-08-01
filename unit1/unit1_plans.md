@@ -14,10 +14,12 @@ Note: this is a living document - Mr. Griswold is working on it constantly and l
 
 # Unit 1 Lesson Plans
 
-## First Intro day (only 20 minutes probably)
+## First Intro day (35 minutes)
 
 * First-ever algorithm-tracing activity.
 [Google link](https://docs.google.com/drawings/d/1yrl5U_IzgNyaKieflgxOJ7WW1VfZ87B8D5UqZR1I97k/edit)
+* Get on Google Classroom
+* Handbook
 * Link to Github-based notes on Google Classroom. 
 
 ## Day 1 - 80 minutes
@@ -38,3 +40,8 @@ Note: this is a living document - Mr. Griswold is working on it constantly and l
     * What's typescript and how is it different from javascript?
   * After 20 minutes, have students pause and show explicitly how to commit / submit. Let them know they can re-submit before next class for homework if they have not completed.
 * Go back to notes; [programming notes](02_FirstFunction.md). Make flashcards or complete for homework.
+
+## Day 3 - IA information and brainstorming
+* Algorithm
+* Flashcards practice in pairs or teams
+* 
