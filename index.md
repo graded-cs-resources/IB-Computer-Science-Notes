@@ -1,12 +1,12 @@
 ---
-title: Table of Contents
+title: Graded IB Computer Science Notes
 ---
 
-    # Graded IB Computer Science - Notes
+# Graded IB Computer Science Notes
 
 Notes for Graded's IB Computer Science classes, 2019-2020.
 
-[The full official IB syllabus can be found here]({{"/unit0_resources/syllabus",relative_url}}). In the notes, when a section connects to this syllabus, it will be represented with a superscript, like<sup>this</sup>
+[The full official IB syllabus can be found here]({{"/unit0_resources/syllabus" | relative_url}}). In the notes, when a section connects to this syllabus, it will be represented with a superscript, like<sup>this</sup>
 
 These notes will be complemented by *assignments* that will be provided to you through Github via Google Classroom. Think of this page as a textbook, and the assignments as, well, assignments. 
 
