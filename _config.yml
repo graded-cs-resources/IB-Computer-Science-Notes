@@ -1,4 +1,6 @@
 show_downloads: false
 plugins:
   - jemoji
+  - jekyll-remote-theme
 title: Graded IB Computer Science Notes
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
