@@ -2,8 +2,6 @@
 
 ## Let's install (and learn about) some software!
 
-If there is one thing that is true about writing your own computer software - a major element of this course and our focus for the first semester - it is that it takes software to make software. 
-
 Part of my goal as a teacher is to get you comfortable with the way *real computer programmers* use software to make software; that starts today.
 
 Today we will do FIVE major software things. Click each link, follow the instructions, then click back to get back here.

@@ -1,5 +1,7 @@
 # How computers store and interpret data
 
+<small>If you want to print this page or any other page here, I recommend the [Github Markdown Printer Chrome extension](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk)</small>
+
 ## Memory in a computer
 
 Every computer has multiple places where data can be stored. 

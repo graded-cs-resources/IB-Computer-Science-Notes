@@ -1,3 +1,17 @@
+# Unit 1 Assessments
+
+Note: this is a living document - Mr. Griswold is working on it constantly and live. Look and work ahead at your own risk as anything in this is subject to change at any time.
+
+### Formative Assessments
+* Near-daily homework assignments (will not always be assessed as formatives but will always be handed in)
+* Regular in-class quizzes
+* Physical or digital flashcard creation and sharing
+
+### Summative Assessments
+* Large test on content knowledge before CWW trips
+* Programming Projects: madlibs
+
+
 # Unit 1 Lesson Plans
 
 ## First Intro day (only 20 minutes probably)

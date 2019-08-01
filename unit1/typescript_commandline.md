@@ -27,3 +27,8 @@ refreshenv # windows only
 ```
 
 If THAT goes well, when you type `tsc -v` it should print something like `Version 3.4.4`. You're ready to typescript!
+
+
+----
+
+[Return to Getting Set Up](01_Getting_Set_Up.md)

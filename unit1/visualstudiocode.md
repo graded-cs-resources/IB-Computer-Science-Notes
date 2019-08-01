@@ -20,3 +20,8 @@ If all goes well, it should download and install the program for you. When it is
 Go ahead and click the two links at the tope labeled `Javascript` and `TypeScript` to get some additional support installed for those languages.
 
 Congratulations! You have a new text editor. A lot of those links on that welcome page might be worth a look, especially the Interface Overview and Interactive Playground, if you want to master this cool tool.
+
+
+----
+
+[Return to Getting Set Up](01_Getting_Set_Up.md)

@@ -1,5 +1,7 @@
 # Common Data Types
 
+<small>If you want to print this page or any other page here, I recommend the [Github Markdown Printer Chrome extension](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk)</small>
+
 In [previous notes](03_Data_on_computers.md), we mentioned that the bits and bytes on a computer can be interpreted in lots of different ways.
 
 One of the ways our computer programs know how to interpret a byte (or more) of data in the context of a programming language is by the *type* of the data, which is set in the program. Every variable in a program can hold data of a specific type.

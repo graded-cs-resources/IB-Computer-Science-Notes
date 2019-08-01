@@ -1,5 +1,7 @@
 # Welcome to IB Computer Science
 
+<small>If you want to print this page or any other page here, I recommend the [Github Markdown Printer Chrome extension](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk)</small>
+
 ## An Overview
 
 **Computer science** is the study of computers - how they work, how they think, and how they interact.
@@ -18,52 +20,62 @@ Let's explore the layers of abstraction for just one part of the computer; the "
 
 ### Layers of Abstraction in a computer processor
 
-- **Level 1** Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
+#### Level 1 - Transistors
+
+Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
   
-- **Level 2** - The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates, and the math that surrounds them, in Unit 3.
+#### Level 2 - Logic Gates
+
+The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates, and the math that surrounds them, in Unit 3.
   
-- **Level 3** - Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuits create the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. 
+ #### Level 3 - Fundamental Operations
+ 
+ Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuit build the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. 
 
-- **Level 4** - These fundamental operations can then be controlled by sending a signal to a computer in *machine language* (a direct stream of carefully configured `0`'s and `1`'s) or, much more commonly, *assembly language* (a slightly more human-readable way of writing these signals) that is then turned by a computer into machine language. Below is a short example of an assembly program that adds 3 and 4 and prints the result:
+#### Level 4 - Machine / Assembly language
 
-	```nasm
-	_start:             ; tell the computer we are starting
+These fundamental operations can then be controlled by sending a signal to a computer in *machine language* (a direct stream of carefully configured `0`'s and `1`'s) or, much more commonly, *assembly language* (a slightly more human-readable way of writing these signals) that is then turned by a computer into machine language. Below is a short example of an assembly program that adds 3 and 4 and prints the result (you do NOT need to understand this completely or be able to reproduce it!)
 
-	mov     eax, 3  	; store the number 3 in register a
-	mov     ebx, 4		; store the number 4 in register b
-	add     eax, ebx    ; add the stored 3 and 4 and put the result (7) in register a
-	add     eax, '0'	; by adding the character '0', the 7 turns into printable '7'
+```nasm
+_start:             ; tell the computer we are starting
 
-	mov     ecx, eax	; put the '7' into register c
-	mov     edx, 1		; put the length of the message, 1, into register d
-	mov     ebx, 1      ; put 1 into ebx. This sends a signal that we will want to print on the screen, not elsewhere.
-	mov     eax, 4      ; put 4 into eax. This tells the processor we want to actually write something.
-	int     0x80        ; tell the processor to do its thing.
-	```
+mov     eax, 3  	; store the number 3 in register a
+mov     ebx, 4		; store the number 4 in register b
+add     eax, ebx    ; add the stored 3 and 4 and put the result (7) in register a
+add     eax, '0'	; by adding the character '0', the 7 turns into printable '7'
 
-	Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be VERY intimately familiar with the specific computer processor being used. Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like operating systems, compilers, and hardware drivers. (We will NOT be using any assembly language this course.)
+mov     ecx, eax	; put the '7' into register c
+mov     edx, 1		; put the length of the message, 1, into register d
+mov     ebx, 1      ; put 1 into ebx. This sends a signal that we will want to print on the screen, not elsewhere.
+mov     eax, 4      ; put 4 into eax. This tells the processor we want to actually write something.
+int     0x80        ; tell the processor to do its thing.
+```
 
-- **Level 5** - High level *Programming Languages* can be used to abstract the machine language used for sending instructions to computers into a more readable, almost human language. For example, in the language `C`, one of the first high level computer programming languages to gain popularity starting in the 70s (and still in use, a lot, today!), the same program as above might be written:
+Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be VERY intimately familiar with the specific computer processor being used. Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like operating systems, compilers, and hardware drivers. We will NOT be using any assembly language this course.
 
-	```c
-	#include <stdio.h>
-	int main()
-	{
-		int a = 3;
-		int b = 4;
-		printf("%d" , a + b);
-		return 0;
-	}
-	```
+#### Level 5 and higher - High Level Programming Lanuguages
 
-	And in the even simpler, even MORE abstracted language of Python, might simply be:
+High level *Programming Languages* can be used to abstract the machine language used for sending instructions to computers into a more readable, almost human language. For example, in the language `C`, one of the first high level computer programming languages to gain popularity starting in the 70s and still in use, the same program as above might be written:
 
-	```Python
-	a = 3, b = 4
-	print a + b
-	```
+```c
+#include <stdio.h>
+int main()
+{
+	int a = 3;
+	int b = 4;
+	printf("%d" , a + b);
+	return 0;
+}
+```
 
-	People who work using languages like these are called *computer programmers* or *software developers*. While developing software in these languages, programmers themselves often add even MORE layers of abstraction. We will spend a large portion of this class working on learning how to write and solve problems using these high-level languages.
+And in the even simpler, even MORE abstracted language of Python, might simply be:
+
+```Python
+a = 3, b = 4
+print a + b
+```
+
+People who work using languages like these are called *computer programmers* or *software developers*. While developing software in these languages, programmers themselves often add even MORE layers of abstraction. We will spend a large portion of this class working on learning how to write and solve problems using these high-level languages.
 
 ## Conclusions
 

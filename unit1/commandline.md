@@ -47,24 +47,24 @@ Read about the commands below and follow the instructions!
 * **`cd ~`** **c**hanges **d**irectories to your home (~) folder
   - [ ] You should be in your home, or user, folder. Just in case you aren't, type `cd ~`. The `~` symbol (usually in the upper-left of your keyboard, and you need to use `Shift`) is a shortcut for "home directory" so this will take you to your home folder if you aren't there.
   
-* **`mkdir` *`name`*** will make a directory, or folder. 
+* **`mkdir`*`name`*** will make a directory, or folder. 
   - [ ] We want to make a directory to hold our code for this course. For simplicity, let's make it right here in your user folder. Type `mkdir ibcs` to make a folder called "ibcs" in the current directory (we can always move this later if you want)
   
-* **`cd` *`name`*** changes to a directory with the name you enter
+* **`cd`*`name`*** changes to a directory with the name you enter
   - [ ] Type `cd ibcs` to move into your new folder. **Hint:** if you press `Tab` after you type `cd ib` it should *autocomplete* the rest of the directory. Tabbing is the best!
   
-* **`touch` *`name`*** will create a new (empty) text file. 
+* **`touch`*`name`*** will create a new (empty) text file. 
   - [ ] Type `touch test_file` then type `ls` to see that you created the file!
   
-* **`cp` *`oldfile newfile`*** will copy a file from one place to another. 
+* **`cp`*`oldfile newfile`*** will copy a file from one place to another. 
   - [ ] Type `cp test_file test2`, then type `ls` to see your new copied file.
   
-* **`mv` *`oldfile newfile`*** will rename (or rename + move) a new file 
+* **`mv`*`oldfile newfile`*** will rename (or rename + move) a new file 
   - [ ] To rename, type the original name then the new one. Type `mv test_file test1` to change its name. Type `ls` to confirm it worked.
-* **`mv` *`oldfile newfolder`*** will move a folder to a new directory/folder, but keep the name.
+* **`mv`*`oldfile newfolder`*** will move a folder to a new directory/folder, but keep the name.
   - [ ] Make a new directory with `mkdir lesson01`, then type `mv test* lesson01`. The `*` tells the comandline to include *everything* that starts with test, so BOTH files should get moved. Confirm it using `cd lesson01` and `ls`.
   
-* **`open` *`file_or_folder`*** (Mac) or **`ii`*`file_or_folder`*** (Windows) opens the file or folder just like you double-clicked it.
+* **`open`*`file_or_folder`*** (Mac) or **`ii`*`file_or_folder`*** (Windows) opens the file or folder just like you double-clicked it.
   - [ ] Type `open .` or `ii .` to open the current folder in the Finder / Explorer (the `.` is a shortcut that means "current folder")
   - [ ] This should have opened a file browser in the `lesson01` folder. Do you see your test files? Go ahead and close it now, we don't need that window.
   - [ ] Type `cd ..` to move up to the previous folder (the `..` is the shortcut for "parent folder"). You should be back in the `ibcs` folder - use `pwd` to confirm that if you're not sure.
@@ -72,4 +72,9 @@ Read about the commands below and follow the instructions!
 Congratulations! You can now do some basic things in the command line. Welcome to hackerhood.                                                           
 ## Study Materials
 
-You should probably make flash cards for these commands, as they are very useful, especially `ls`, `mv`, `cp`, `cd` and `touch`
+You should probably make flash cards for these commands, as they are very useful, especially `ls`, `mv`, `cp`, `cd`, `pwd` and `touch`
+
+
+----
+
+[Return to Getting Set Up](01_Getting_Set_Up.md)

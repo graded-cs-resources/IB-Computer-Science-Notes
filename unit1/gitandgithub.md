@@ -48,3 +48,8 @@ Once it is installed, you should be able to open the app. It will look like this
 ![Github Desktop](media/01/img006_github_desktop.png)
 
 You can close it for now. When the time comes, we will open it again and learn how to get it working!
+
+
+----
+
+[Return to Getting Set Up](01_Getting_Set_Up.md)
