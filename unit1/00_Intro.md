@@ -7,8 +7,8 @@ layout: default
 
 ## What is this course about?
 
-**Computer science** is the study of computers - how they work, how they think, and how they interact. In this course we will work together to learn lots of CONTENT about computers, as well as work to develop the SKILLS that come with thinking computationally; problem-solving skills that can be used to make computers work better and smarter.
-![Bitmoji quesion](media/00/bitmoji_question.png){: .image-left }
+![Bitmoji quesion](media/00/bitmoji_question.png){: .image-left } **Computer science** is the study of computers - how they work, how they think, and how they interact. In this course we will work together to learn lots of CONTENT about computers, as well as work to develop the SKILLS that come with thinking computationally; problem-solving skills that can be used to make computers work better and smarter.
+
 
 ## Working as a Team
 
