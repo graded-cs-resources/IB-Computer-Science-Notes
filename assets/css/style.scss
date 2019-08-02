@@ -10,8 +10,7 @@ header {
 }
 
 @media print {
-    pre {
+    pre, code {
         white-space: pre-wrap;
-        text-indent: 10em hanging;
     }
 }
