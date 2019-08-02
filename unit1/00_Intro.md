@@ -1,6 +1,6 @@
 ---
 title: Introduction
-layout: layout: default
+layout: default
 ---
 
 # Welcome to IB Computer Science
