@@ -18,8 +18,9 @@ layout: default
 
 ## Assessments
 
+![Level Up Bitmoji](media/00/bitmoji_levelup.png){: .image-left}
 ### Formative Assessments
-![Level Up Bitmoji](media/00/bitmoji_levelup.png){: .image-right}
+
 In addition to the casual, non-tracked formative assessment I do regularly in class, some of the formative assessments that will be tracked (and required for reassessment) include:
 
 * Flash cards (digital or for key ideas are required and will be regularly used in class, getting feedback from me and each other about their quality.
