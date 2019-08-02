@@ -1,6 +1,5 @@
 ---
 title: Graded IB Computer Science Notes
-layout: default
 ---
 
 # Graded IB Computer Science Notes
