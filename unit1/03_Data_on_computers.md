@@ -54,4 +54,4 @@ Create flash cards or a [quizlet](http://quizlet.com) deck with the following wo
 * bit
 * byte
 
-We have a quizlet class at https://quizlet.com/join/S8XGx3k93 and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.
+We have a quizlet class at [https://quizlet.com/join/S8XGx3k93] and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.

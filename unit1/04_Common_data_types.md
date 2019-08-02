@@ -7,9 +7,9 @@ In [previous notes](03_Data_on_computers.md), we mentioned that the bits and byt
 One of the ways our computer programs know how to interpret a byte (or more) of data in the context of a programming language is by the *type* of the data, which is set in the program. Every variable in a program can hold data of a specific type.
 
 In a program, there are three types of things that have types:
-* Variables, named locations in memory whose value may change over the course of the program.
-* Constants, named locations whose value will always be the same
-* Literals, individual typed things like `2` or `"abc"` that are used only once and represent a value directly.
+* *Variables* are named locations in memory whose value may change over the course of the program.
+* *Constants* are like variables but their value will always be the same
+* *Literals* are individual elements like `2` or `"abc"` that are used only once and represent a value directly.
 
 |General Type| Languague-Specific usage | Description |
 |------------|--------------------------|-------------|
@@ -44,3 +44,16 @@ In a program, there are three types of things that have types:
 
    What do you think is the VALUE and TYPE of b?
 
+## Study Materials
+
+Create flash cards or a [quizlet](http://quizlet.com) deck with the following words, with examples, a description, and a code example for TypeScript and java on the back.
+* Boolean
+* Number
+* Integer
+* Floating Point Number (double)
+* Character
+* String
+* Array
+* Object
+
+We have a quizlet class at [https://quizlet.com/join/S8XGx3k93] and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.
