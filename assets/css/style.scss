@@ -9,6 +9,20 @@ header {
     border-bottom: 1px gray solid;
 }
 
+.image-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+.image-right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
 @media print {
     pre, code {
         white-space: pre-wrap;
