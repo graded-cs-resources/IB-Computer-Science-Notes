@@ -13,14 +13,14 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  float: right;
+  float: left;
 }
 
 .image-right {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    float: left;
+    float: right;
 }
 
 @media print {
