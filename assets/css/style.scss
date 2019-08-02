@@ -8,3 +8,10 @@ header {
     margin-bottom: 10px;
     border-bottom: 1px gray solid;
 }
+
+@media print {
+    pre {
+        white-space: pre-wrap;
+        text-indent: 10em hanging;
+    }
+}
