@@ -1,3 +1,8 @@
+---
+title: Introduction
+layout: layout: default
+---
+
 # Welcome to IB Computer Science
 
 ## An Overview
