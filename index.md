@@ -4,7 +4,9 @@ title: Graded IB Computer Science Notes
 
 # Graded IB Computer Science Notes
 
-Notes for Graded's IB Computer Science classes, 2019-2020. They will be updated over the course of the school year, so check back frequently!
+![Graded CS Logo](unit0_resources/computer-science-logo.png)
+
+These are the notes for Graded's IB Computer Science classes, 2019-2020. They will be updated over the course of the school year, so check back frequently!
 
 [The full official IB syllabus can be found here](/unit0_resources/syllabus.md). In the notes, when a section connects to this syllabus, it will be represented with a superscript, like<sup>this</sup>
 
