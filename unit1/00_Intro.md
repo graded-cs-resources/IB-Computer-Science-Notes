@@ -1,7 +1,5 @@
 # Welcome to IB Computer Science
 
-<small>If you want to print this page or any other page here, I recommend the [Github Markdown Printer Chrome extension](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk)</small>
-
 ## An Overview
 
 **Computer science** is the study of computers - how they work, how they think, and how they interact.
@@ -20,6 +18,10 @@ Let's explore the layers of abstraction for just one part of the computer; the "
 
 ### Layers of Abstraction in a computer processor
 
+![Abstraction image from Beauty and Joy of Computing](media/00/hardware-abstraction.png)
+
+<small>Image Credit: [The Beauty and Joy of Computing, Berkeley](https://bjc.edc.org/bjc-r/cur/programming/6-computers/1-abstraction/01-abstraction.html)</small>
+
 #### Level 1 - Transistors
 
 Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
@@ -28,9 +30,9 @@ Computer processors, at their core, are made up of trillions of tiny circuits ca
 
 The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates, and the math that surrounds them, in Unit 3.
   
- #### Level 3 - Fundamental Operations
+#### Level 3 - Fundamental Operations
  
- Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuit build the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. 
+Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuit build the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. 
 
 #### Level 4 - Machine / Assembly language
 
@@ -53,7 +55,7 @@ int     0x80        ; tell the processor to do its thing.
 
 Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be VERY intimately familiar with the specific computer processor being used. Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like operating systems, compilers, and hardware drivers. We will NOT be using any assembly language this course.
 
-#### Level 5 and higher - High Level Programming Lanuguages
+#### Level 5 and higher - Higher Level programming
 
 High level *Programming Languages* can be used to abstract the machine language used for sending instructions to computers into a more readable, almost human language. For example, in the language `C`, one of the first high level computer programming languages to gain popularity starting in the 70s and still in use, the same program as above might be written:
 
@@ -90,7 +92,7 @@ Let's get to it.
 Every reading will include a section like this at the end, with suggestions for things to make to study later. Regularly returning to this content will enable you to remember for a long time - two years!
 
 ### Flashcards
-Make flash cards OR a deck on http://quizlet.com for the following terms from this intro. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
+Make flash cards OR a deck on [http://quizlet.com] for the following terms from this intro. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
 
 * hardware
 * software
@@ -101,4 +103,4 @@ Make flash cards OR a deck on http://quizlet.com for the following terms from th
 * assembly language
 * programming language
 
-We have a quizlet class at https://quizlet.com/join/S8XGx3k93 and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.
+We have a quizlet class at [https://quizlet.com/join/S8XGx3k93] and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.

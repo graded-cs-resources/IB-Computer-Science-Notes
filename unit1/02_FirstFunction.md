@@ -1,4 +1,4 @@
-# Programming Languagues, Variables, and Functions
+# Programming Languages, Variables, and Functions
 
 These notes are intended to be used AFTER the "myFirstFunction Typescript" assignment. 
 
