@@ -73,7 +73,7 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
 
 ## Preparing Study Materials
 
-Create flash cards or a quizlet.com deck with the following prompts on the front, then write brief bullets or summaries to put on the back that include what they are for and (if applicable) what they might look like in TypeScript and java:
+Create flash cards or a <quizlet.com> deck with the following prompts on the front, then write brief bullets or summaries to put on the back that include what they are for and (if applicable) what they might look like in TypeScript and java:
 
 * programming language
 * machine language
@@ -85,4 +85,4 @@ Create flash cards or a quizlet.com deck with the following prompts on the front
 * return value
 * variable type
 
-We have a quizlet class at [https://quizlet.com/join/S8XGx3k93] and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.
+We have a quizlet class at <https://quizlet.com/join/S8XGx3k93> and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.

@@ -98,7 +98,7 @@ Let's get to it.
 Every reading will include a section like this at the end, with suggestions for things to make to study later. Regularly returning to this content will enable you to remember for a long time - two years!
 
 ### Flashcards
-Make flash cards OR a deck on [http://quizlet.com] for the following terms from this intro. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
+Make flash cards OR a deck on [http://quizlet.com](http://quizlet.com) for the following terms from this intro. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
 
 * hardware
 * software
@@ -109,4 +109,4 @@ Make flash cards OR a deck on [http://quizlet.com] for the following terms from 
 * assembly language
 * programming language
 
-We have a quizlet class at [https://quizlet.com/join/S8XGx3k93] and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.
+We have a quizlet class at <https://quizlet.com/join/S8XGx3k93> and you can add your decks there if you make them, but you REALLY should make your own deck before using those of others. You learn as much from making the flashcards as using them, if not more.
