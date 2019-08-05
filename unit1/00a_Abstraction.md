@@ -108,7 +108,7 @@ Every reading will include a section like this at the end, with suggestions for 
 
 ### Flashcards
 
-![Bitmoji Books](media/00/bitmoji_books.png){: .image-left}
+![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
 Make flash cards OR a deck on [http://quizlet.com](http://quizlet.com) for the following terms from this introduction. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
 
 * hardware

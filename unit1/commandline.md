@@ -72,6 +72,7 @@ Read about the commands below and follow the instructions!
 Congratulations! You can now do some basic things in the command line. Welcome to hackerhood.                                                           
 ## Study Materials
 
+![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
 You should probably make flash cards for these commands, as they are very useful, especially `ls`, `mv`, `cp`, `cd`, `pwd` and `touch`
 
 

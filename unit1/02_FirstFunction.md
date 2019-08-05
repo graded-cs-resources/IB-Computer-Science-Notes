@@ -73,6 +73,7 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
 
 ## Preparing Study Materials
 
+![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
 Create flash cards or a <quizlet.com> deck with the following prompts on the front, then write brief bullets or summaries to put on the back that include what they are for and (if applicable) what they might look like in TypeScript and java:
 
 * programming language

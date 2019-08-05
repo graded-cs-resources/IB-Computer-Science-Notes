@@ -44,6 +44,7 @@ Given a single byte (or more than one) we can train our programs to *interpret* 
 
 ## Study Materials
 
+![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
 Create flash cards or a [quizlet](http://quizlet.com) deck with the following words on one side and a quick summary on the other.
 * Primary Memory
 * Secondary Memory

@@ -46,6 +46,7 @@ In a program, there are three types of things that have types:
 
 ## Study Materials
 
+![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
 Create flash cards or a [quizlet](http://quizlet.com) deck with the following words, with examples, a description, and a code example for TypeScript and java on the back.
 * Boolean
 * Number
