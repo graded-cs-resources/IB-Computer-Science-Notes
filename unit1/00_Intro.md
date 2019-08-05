@@ -23,7 +23,7 @@ layout: default
 
 In addition to the casual, non-tracked formative assessment I do regularly in class, some of the formative assessments that will be tracked (and required for reassessment) include:
 
-* Flash cards (digital or for key ideas are required and will be regularly used in class, getting feedback from me and each other about their quality.
+* Flash cards, digital or physical, for key ideas. These are required and will be regularly used in class, getting feedback from me and each other about their quality.
   
 * Formative programming and analysis assignments will be assigned for work in class and at home. These will range from small single-day assignments to large multi-day problems. These will be managed using an online platform called Github Classroom.
 

@@ -24,16 +24,20 @@ Most people who work with or even write software do not interact directly with t
 
 ### ---- The Hardware Layer ----
 
+![Transistor](media/00/transistor.png){: .image-left}
 #### Level 1 - Transistors
 
 Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
-  
+{: .clearfix} 
+
 #### Level 2 - Logic Gates
 
+![Logic Gates](media/00/logic_gates.png)(: .image-right)
 The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates, and the math that surrounds them, in Unit 3.
 
 Even though logic gates are built directly in hardware, we tend to THINK of them as purely theoretical objects.
-  
+{: .clearfix}
+
 #### Level 3 - Fundamental Operations
  
 Individual logic gates are then combined into larger, combined circuits that do more complicated things, such as add two numbers or read data from memory. These larger circuit build the **fundamental operations** of a computer processor, and are usually hardwired directly into the computer processor. People who think about how these logic gates should be combined in a given computer, and how many of each type of circuit to make, and how to wire them together, are called *microprocessor designers* or *processor engineers*. Though the fundamental operations are often hardwired.
@@ -98,7 +102,9 @@ Let's get to it.
 Every reading will include a section like this at the end, with suggestions for things to make to study later. Regularly returning to this content will enable you to remember for a long time - two years!
 
 ### Flashcards
-Make flash cards OR a deck on [http://quizlet.com](http://quizlet.com) for the following terms from this intro. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
+
+![Bitmoji Books](media/00/bitmoji_books.png){: .image-left}
+Make flash cards OR a deck on [http://quizlet.com](http://quizlet.com) for the following terms from this introduction. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
 
 * hardware
 * software
