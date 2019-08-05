@@ -8,7 +8,6 @@ The physical objects are made to *do* things through the aid of **software** - t
 
 ## Using abstraction to manage complexity
 
-
 ![Steve Wozniak](media/00/apple-ii.jpg)  
 <small>Steve Wozniak with an Apple II.  
 Image Credit: [TechCrunch](https://techcrunch.com/2014/11/04/nearly-40-years-later-steve-wozniak-still-brainstorms-ways-the-apple-ii-could-have-been-better/)</small>
@@ -24,8 +23,7 @@ The *processor* is the "brain" of the computer - the part of computer that does 
 
 Most people who work with or even write software do not interact directly with the processor - instead, they interact through many, many layers of abstraction. Let's explore some of those layers.
 
-![Abstraction image from Beauty and Joy of Computing](media/00/hardware-abstraction.png)
-
+![Abstraction image from Beauty and Joy of Computing](media/00/hardware-abstraction.png)  
 <small>Image Credit: [The Beauty and Joy of Computing, Berkeley](https://bjc.edc.org/bjc-r/cur/programming/6-computers/1-abstraction/01-abstraction.html)</small>
 
 ### ---- The Hardware Layer ----
