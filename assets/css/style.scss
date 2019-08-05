@@ -15,6 +15,7 @@ header {
   padding-right: 1em;
   margin-right: auto;
   float: left;
+  clear: left;
 }
 
 .image-right {
@@ -23,6 +24,7 @@ header {
     margin-right: auto;
     padding-left: 1em;
     float: right;
+    clear: right;
 }
 
 @media print {
