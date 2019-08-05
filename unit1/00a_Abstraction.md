@@ -24,15 +24,16 @@ Most people who work with or even write software do not interact directly with t
 
 ### ---- The Hardware Layer ----
 
-![Transistor](media/00/transistor.png){: .image-left}
+
 #### Level 1 - Transistors
 
+![Transistor](media/00/transistor.png){: .image-right}
 Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
 {: .clearfix} 
 
 #### Level 2 - Logic Gates
 
-![Logic Gates](media/00/logic_gates.png)(: .image-right)
+![Logic Gates](media/00/logic_gates.png){: .image-right}
 The transistors are typically combined in groups of two or three into small circuits called *logic gates*. These logic gates allow circuit designers to forget about the electricity itself, and instead think about the flow of data. We will learn more about logic gates, and the math that surrounds them, in Unit 3.
 
 Even though logic gates are built directly in hardware, we tend to THINK of them as purely theoretical objects.
