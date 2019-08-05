@@ -29,7 +29,6 @@ Most people who work with or even write software do not interact directly with t
 
 ### ---- The Hardware Layer ----
 
-
 #### Level 1 - Transistors
 
 ![Transistor](media/00/transistor.png){: .image-right}
