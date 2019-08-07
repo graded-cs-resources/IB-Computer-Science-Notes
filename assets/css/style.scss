@@ -18,11 +18,11 @@ header {
   clear: left;
 }
 
-.spoiler {
+code .spoiler, pre .spoiler {
     background-color: lightgray;
     color: lightgray;
 }
-.spoiler::selection {
+code .spoiler::selection, pre .spoiler::selection {
     background-color: lightgray;
     color: black;
 }
