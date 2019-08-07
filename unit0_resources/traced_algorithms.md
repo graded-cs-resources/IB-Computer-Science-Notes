@@ -12,7 +12,7 @@ As we trace new algorithms in class, I will add them to this page as reference, 
 
 #### Solution
 
-Highlight the region below to see the solution.
+Hover or tap the region below to see the solution.
 
 ```
 N:  47  37  26  14

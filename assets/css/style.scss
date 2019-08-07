@@ -18,12 +18,12 @@ header {
   clear: left;
 }
 
-code .spoiler, pre .spoiler {
-    background-color: lightgray;
-    color: lightgray;
+.spoiler pre {
+    background-color: rgb(231, 235, 238)!important;
+    color: rgb(231,235,238)!important
 }
-code .spoiler::selection, pre .spoiler::selection {
-    background-color: lightgray;
+.spoiler pre::hover {
+    background-color: rgb(231,235,238);
     color: black;
 }
 
