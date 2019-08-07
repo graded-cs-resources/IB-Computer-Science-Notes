@@ -6,13 +6,17 @@ Professional computer people spend a lot of time staring at words (or at least l
 
 ## Let's get into our command line.
 
+The instructions below will both *explain things* and tell you *to do things*. If you see a checkbox, that means we want you to DO something. You can check them off as you go! If you do not see a checkbox, you are not being asked to do anything.
+
 ### Mac Users
 
 ![Mac Terminal Window](media/01/img000_mac_terminal.png)  
 <small>*(image credit:* https://macpaw.com/how-to/use-terminal-on-mac)</small>
 {: .image-right}
 
-You need to open the `Terminal` app. You can find this in your Applications / Utilities folder or by typing `⌘ Command`+`Space` and then typing `terminal`. Go ahead and add it to the dock, we'll be using it a lot! 
+You need to open the `Terminal` app.
+- [ ] Type `⌘ Command`+`Space` to open your search menu, type `terminal`, then open the app. 
+- [ ] Add this app to the dock by right-clicking it's icon in the dock, choosing "Options" then "Keep in Dock"
 
 <small>Mac users can now jump to [Basic Commands](#some-basic-commands)</small>
 {: .clearfix}
@@ -21,16 +25,16 @@ You need to open the `Terminal` app. You can find this in your Applications / Ut
 
 Windows actually has TWO built-in command lines - one is called simply `Command Prompt` or `cmd` and the other is called `Powershell`. Powershell is much more powerful, and since you are learning this for the first time you should definitely use it! 
 
-- [ ]  Press the start button and start typing `Replace Command Prompt With Windows Powershell when using Windows+X Menu` until the option appears as shown below. Click it when it does.  
-- [ ]  ![Command in Start Menu](media/01/img001_replace_command_prompt_option.png){: height=150 align=center}
+- [ ]  Press the start button and just *start* typing `Replace Command Prompt With Windows Powershell when using Windows+X Menu`. The option with that name should appear pretty quickly, and you can click it. 
+![Command in Start Menu](media/01/img001_replace_command_prompt_option.png){: height=150 align=center}
 
-- [ ]  In the window that appears, scroll down until you see the option. Toggle it ON, as seen below.  
+- [ ]  In the window that appears, scroll down until you see the option. Toggle it ON, if it's not already, as seen below.  
 ![Togggle Item](media/01/img002_replace_toggle.png){: height=50 align=center}
 
 - [ ] Now, you should be able to press `⊞ Windows`+`X` on your keyboard OR right-click on the start menu to get your power menu. When it comes up, choose the option `Windows Powershell`  
 ![Powershell option](media/01/img003_powershell_admin.png){: height=70 align=center}
 
-- [ ] You should now have your command prompt open!  
+You should now have your command prompt open! You can pin this to the taskbar if you wish, for easy access later.  
 ![Powershell Window](media/01/img005_powershell_window.png){: align=center}
 
 ## Some basic commands
@@ -43,10 +47,10 @@ In each line, you will need to READ about the command first (without doing anyth
   - [ ] Type `ls` and press enter to see a list of files. (on Windows, typing `dir` will do the same thing if you like that better)
   
 * **`pwd`** will **p**rint the **w**orking **d**irectory - it tells you what folder you are in! 
-  - [ ] type `pwd` and see what happens. You should be in your main user folder. Most command lines give you the output of `pwd` right on the command line without typing.
+  - [ ] type `pwd` and press enter, then see what happens. You should be in your main user folder. Most command lines give you the output of `pwd` right on the command line without typing.
   
 * **`cd ~`** **c**hanges **d**irectories to your home (~) folder
-  - [ ] You should be in your home, or user, folder. Just in case you aren't, type `cd ~`. The `~` symbol (usually in the upper-left of your keyboard, and you need to use `Shift`) is a shortcut for "home directory" so this will take you to your home folder if you aren't there.
+  - [ ] If you type this command now, it's quite possible nothing will happen! You should already be in your home, or user, folder. Just in case you aren't, type `cd ~` and press enter.
   
 * **`mkdir`*`name`*** will make a directory, or folder. 
   - [ ] We want to make a directory to hold our code for this course. For simplicity, let's make it right here in your user folder. Type `mkdir ibcs` to make a folder called "ibcs" in the current directory (we can always move this later if you want)
@@ -62,8 +66,9 @@ In each line, you will need to READ about the command first (without doing anyth
   
 * **`mv`*`oldfile newfile`*** will rename (or rename + move) a new file 
   - [ ] To rename, type the original name then the new one. Type `mv test_file test1` to change its name. Type `ls` to confirm it worked.
+
 * **`mv`*`oldfile newfolder`*** will move a folder to a new directory/folder, but keep the name.
-  - [ ] Make a new directory with `mkdir lesson01`, then type `mv test* lesson01`. The `*` tells the comandline to include *everything* that starts with test, so BOTH files should get moved. Confirm it using `cd lesson01` and `ls`.
+  - [ ] Make a new directory with `mkdir lesson01`, then type `mv test* lesson01`. The `*` tells the commandline to include *everything* that starts with test, so BOTH files should get moved. Confirm it using `cd lesson01` followed by `ls`.
   
 * **`open`*`file_or_folder`*** (Mac) or **`ii`*`file_or_folder`*** (Windows) opens the file or folder just like you double-clicked it.
   - [ ] Type `open .` or `ii .` to open the current folder in the Finder / Explorer (the `.` is a shortcut that means "current folder")
@@ -74,7 +79,7 @@ Congratulations! You can now do some basic things in the command line. Welcome t
 ## Study Materials
 
 ![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
-You should probably make flash cards for these commands, as they are very useful, especially `ls`, `mv`, `cp`, `cd`, `pwd` and `touch`
+You should probably make flash cards for these commands eventually, as they are very useful, especially `ls`, `mv`, `cp`, `cd`, `pwd` and `touch`
 
 
 ----
