@@ -6,25 +6,28 @@ Professional computer people spend a lot of time staring at words (or at least l
 
 ## Let's get into our command line.
 
-### Mac Users 
+### Mac Users
 
+<small>Windows user? Move on to [Windows Users](#windows-users)</small>
+
+![Mac Terminal Window](media/01/img000_mac_terminal.png){: .image-right}
 You need to open the `Terminal` app. You can find this in your Applications / Utilities folder or by typing `⌘ Command`+`Space` and then typing `terminal`. Go ahead and add it to the dock, we'll be using it a lot! <small>*(image credit:* https://macpaw.com/how-to/use-terminal-on-mac)</small>
-
-![Mac Terminal Window](media/01/img000_mac_terminal.png)
 
 ### Windows Users
 
-Windows actually has TWO built-in command lines - one is called simply `Command Prompt` or `cmd` and the other is called `Powershell`. Powershell is much more powerful, and since you are learning this for the first time you should definitely use it! The best way to get powershell running is with the "Power Users Menu", which comes up when you RIGHT-click on the start button or type `⊞ Windows`+`X` on your keyboard. To enable this, follow these steps:
+<small>Mac user? Move on to [Basic Commands](#some-basic-commands))</small>
 
-- [ ] Press the start button and start typing `Replace Command Prompt With Windows Powershell when using Windows+X Menu` until the option appears as shown below. Click it when it does.
+Windows actually has TWO built-in command lines - one is called simply `Command Prompt` or `cmd` and the other is called `Powershell`. Powershell is much more powerful, and since you are learning this for the first time you should definitely use it! 
+
+- [ ]  Press the start button and start typing `Replace Command Prompt With Windows Powershell when using Windows+X Menu` until the option appears as shown below. Click it when it does.
    
    <img alt="Command in Start Menu" src="media/01/img001_replace_command_prompt_option.png" height=150 align=center>
 
-- [ ] In the window that appears, scroll down until you see the option. Toggle it ON, as seen below.
+- [ ]  In the window that appears, scroll down until you see the option. Toggle it ON, as seen below.
   
    <img alt="Togggle Item" src="media/01/img002_replace_toggle.png" height=50 align=center>
 
-- [ ] Now, you should be able to press `⊞ Windows`+`X` on your keyboard OR right-click on the start menu to get your power menu. When it comes up, choose the option `Windows Powershell (admin)`
+- [ ] Now, you should be able to press `⊞ Windows`+`X` on your keyboard OR right-click on the start menu to get your power menu. When it comes up, choose the option `Windows Powershell`
   
     <img alt="Powershell Admin" src="media/01/img003_powershell_admin.png" height=70 align=center>
 
@@ -36,7 +39,7 @@ Windows actually has TWO built-in command lines - one is called simply `Command 
 
 Not every command line is the same. On Macs, the command line is powered by a program called `bash`. On Windows, it is `Powershell`.  They are very different in a lot of ways, but luckily there are some commands that will work similarly on the two systems. Let's practice some! Each of these commands should be followed by presing `Enter` or `Return` to run the command. 
 
-Read about the commands below and follow the instructions!
+In each line, you will need to READ about the command first (without doing anything!) then follow the specific instructions below each line.
 
 * **`ls`** will **l**i**s**t the files in the directory (folder) you are currently in. 
   - [ ] Type `ls` and press enter to see a list of files. (on Windows, typing `dir` will do the same thing if you like that better)

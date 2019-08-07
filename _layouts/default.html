@@ -23,5 +23,11 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
+    <script>
+      // Set all task list checkboxes to be enabled rather than disabled, so students
+      // can check them off as they go. This will not persist on reload.
+      let cbs = document.getElementsByClassName("task-list-item-checkbox");
+      for (let i = 0; i < cbs.length; i++) cbs[i].disabled=false;
+    </script>
   </body>
 </html>

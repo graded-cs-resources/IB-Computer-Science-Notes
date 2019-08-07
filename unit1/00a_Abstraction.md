@@ -1,4 +1,4 @@
-# The many layers of a computer
+# Abstraction and the parts of a computer
 
 Computers consist of two universes that interact with each other.
 
@@ -67,11 +67,11 @@ mov     eax, 4      ; put 4 into eax. This tells the processor we want to actual
 int     0x80        ; tell the processor to do its thing.
 ```
 
-Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be VERY intimately familiar with the specific computer processor being used. Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like operating systems, compilers, and hardware drivers. We will NOT be using any assembly language this course.
+Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be intimately familiar with the specific computer processor being used. Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like operating systems, compilers, and hardware drivers. We will NOT be using any assembly language this course.
 
 #### Level 5 and higher - Higher Level programming
 
-High level *Programming Languages* can be used to abstract the machine language used for sending instructions to computers into a more readable, almost human language. For example, in the language `C`, one of the first high level computer programming languages to gain popularity starting in the 70s and still in use, the same program as above might be written:
+High level *Programming Languages* can be used to abstract the machine language used for sending instructions to computers into a more readable, almost human language. For example, in the language `C`, one of the first high level computer programming languages to gain popularity, the same program as above might be written:
 
 ```c
 #include <stdio.h>
@@ -108,7 +108,7 @@ Every reading will include a section like this at the end, with suggestions for 
 ### Flashcards
 
 ![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
-Make flash cards OR a deck on [http://quizlet.com](http://quizlet.com) for the following terms from this introduction. On the back, write a 2-3 bullet point summary. We will return to some of these terms later, and you can add more bullet points then.
+Make flash cards OR a deck on [http://quizlet.com](http://quizlet.com) for the following terms from this introduction. On the back, write a 2-3 bullet point summary. This is NOT a definition - write whatever you know, using the term on the front as a key term for recall. We will return to some of these terms later, and you can add more bullet points then.
 
 * hardware
 * software

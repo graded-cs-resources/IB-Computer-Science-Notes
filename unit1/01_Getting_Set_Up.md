@@ -1,6 +1,4 @@
-# Welcome!
-
-## Let's install (and learn about) some software!
+# Setting up our Software!
 
 Part of my goal as a teacher is to get you comfortable with the way *real computer programmers* use software to make software; that starts today.
 
