@@ -18,6 +18,15 @@ header {
   clear: left;
 }
 
+.spoiler {
+    background-color: lightgray;
+    color: lightgray;
+}
+.spoiler::selection {
+    background-color: lightgray;
+    color: black;
+}
+
 .image-right {
     display: block;
     margin-left: auto;
