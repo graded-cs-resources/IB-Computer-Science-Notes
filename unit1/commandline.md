@@ -8,32 +8,30 @@ Professional computer people spend a lot of time staring at words (or at least l
 
 ### Mac Users
 
-<small>Windows user? Move on to [Windows Users](#windows-users)</small>
+![Mac Terminal Window](media/01/img000_mac_terminal.png)  
+<small>*(image credit:* https://macpaw.com/how-to/use-terminal-on-mac)</small>
+{: .image-right}
 
-![Mac Terminal Window](media/01/img000_mac_terminal.png){: .image-right}
-You need to open the `Terminal` app. You can find this in your Applications / Utilities folder or by typing `⌘ Command`+`Space` and then typing `terminal`. Go ahead and add it to the dock, we'll be using it a lot! <small>*(image credit:* https://macpaw.com/how-to/use-terminal-on-mac)</small>
+You need to open the `Terminal` app. You can find this in your Applications / Utilities folder or by typing `⌘ Command`+`Space` and then typing `terminal`. Go ahead and add it to the dock, we'll be using it a lot! 
+
+<small>Mac users can now jump to [Basic Commands](#some-basic-commands)</small>
+{: .clearfix}
 
 ### Windows Users
 
-<small>Mac user? Move on to [Basic Commands](#some-basic-commands))</small>
-
 Windows actually has TWO built-in command lines - one is called simply `Command Prompt` or `cmd` and the other is called `Powershell`. Powershell is much more powerful, and since you are learning this for the first time you should definitely use it! 
 
-- [ ]  Press the start button and start typing `Replace Command Prompt With Windows Powershell when using Windows+X Menu` until the option appears as shown below. Click it when it does.
-   
-   <img alt="Command in Start Menu" src="media/01/img001_replace_command_prompt_option.png" height=150 align=center>
+- [ ]  Press the start button and start typing `Replace Command Prompt With Windows Powershell when using Windows+X Menu` until the option appears as shown below. Click it when it does.  
+- [ ]  ![Command in Start Menu](media/01/img001_replace_command_prompt_option.png){: height=150 align=center}
 
-- [ ]  In the window that appears, scroll down until you see the option. Toggle it ON, as seen below.
-  
-   <img alt="Togggle Item" src="media/01/img002_replace_toggle.png" height=50 align=center>
+- [ ]  In the window that appears, scroll down until you see the option. Toggle it ON, as seen below.  
+![Togggle Item](media/01/img002_replace_toggle.png){: height=50 align=center}
 
-- [ ] Now, you should be able to press `⊞ Windows`+`X` on your keyboard OR right-click on the start menu to get your power menu. When it comes up, choose the option `Windows Powershell`
-  
-    <img alt="Powershell Admin" src="media/01/img003_powershell_admin.png" height=70 align=center>
+- [ ] Now, you should be able to press `⊞ Windows`+`X` on your keyboard OR right-click on the start menu to get your power menu. When it comes up, choose the option `Windows Powershell`  
+![Powershell option](media/01/img003_powershell_admin.png){: height=70 align=center}
 
-- [ ] You should now have your command prompt open!
-  
-   ![Powershell Window](media/01/img005_powershell_window.png)
+- [ ] You should now have your command prompt open!  
+![Powershell Window](media/01/img005_powershell_window.png){: align=center}
 
 ## Some basic commands
 
