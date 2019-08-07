@@ -15,8 +15,8 @@ As we trace new algorithms in class, I will add them to this page as reference, 
 Hover or tap the region below to see the solution.
 
 ```
-N:  47  37  26  14
-K:  10  11  12  13
+K:  47  37  26  14
+N:  10  11  12  13
 D:  37  26  14  1
  
 Output: 47  37  26  14
