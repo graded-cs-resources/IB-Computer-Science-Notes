@@ -14,7 +14,7 @@ As we trace new algorithms in class, I will add them to this page as reference, 
 
 Highlight the region below to see the solution.
 
-```{: .spoiler}
+{: .spoiler}```
 N:  47  37  26  14
 K:  10  11  12  13
 D:  37  26  14  1
