@@ -11,7 +11,7 @@ The instructions below will both *explain things* and tell you *to do things*. I
 ### Mac Users
 
 ![Mac Terminal Window](media/01/img000_mac_terminal.png)  
-<small>*(image credit:* https://macpaw.com/how-to/use-terminal-on-mac)</small>
+<small>*(image credit:* [MacPaw](https://macpaw.com/how-to/use-terminal-on-mac))</small>
 {: .image-right}
 
 You need to open the `Terminal` app.
