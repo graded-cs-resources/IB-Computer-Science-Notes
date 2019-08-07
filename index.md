@@ -8,12 +8,16 @@ title: Graded IB Computer Science Notes
 
 These are the notes for Graded's IB Computer Science classes, 2019-2020. They will be updated over the course of the school year, so check back frequently!
 
-[The full official IB syllabus can be found here](/unit0_resources/syllabus.md). In the notes, when a section connects to this syllabus, it will be represented with a superscript, like<sup>this</sup>
+). 
 
 These notes will be complemented by *assignments* that will be provided to you through Github via Google Classroom. Think of this page as a textbook; the assignments are separate.
+
 ## Table of Contents
 
-HL-only topics will be marked as such.
+### Course Resources
+
+* [Official IB Syllabus](/unit0_resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>
+* [Traced algorithms](/unit0_resources/traced_algorithms.md). We will trace algorithms nearly every class. As we trace new ones, I will add them (and their solutions) to this page for reference.
 
 ### Unit 1 - Storage, Data, and Collections
 

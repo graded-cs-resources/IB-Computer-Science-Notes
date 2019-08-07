@@ -23,8 +23,8 @@ header {
     color: rgb(231,235,238)!important
 }
 .spoiler pre::hover {
-    background-color: rgb(231,235,238);
-    color: black;
+    background-color: rgb(231,235,238)!important;
+    color: black!important;
 }
 
 .image-right {
