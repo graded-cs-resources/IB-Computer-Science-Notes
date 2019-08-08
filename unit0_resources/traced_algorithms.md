@@ -26,9 +26,9 @@ Output: 47  37  26  14
 {: .spoiler}
 
 
-### First algorithm ever!
+### Algorithm 2
 
-This was done on August 6 in HL, August 7 in SL
+This was done on August 8 in HL, August 9 in SL
 
 #### Algorithm
 
