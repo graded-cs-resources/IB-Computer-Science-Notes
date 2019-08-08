@@ -15,7 +15,8 @@ The instructions below will both *explain things* and tell you *to do things*. I
 {: .image-right}
 
 You need to open the `Terminal` app.
-- [ ] Type `⌘ Command`+`Space` to open your search menu, type `terminal`, then open the app. 
+- [ ] Type `⌘ Command`+`Space` to open your search menu
+- [ ] Type `terminal`, then open the app. 
 - [ ] Add this app to the dock by right-clicking it's icon in the dock, choosing "Options" then "Keep in Dock"
 
 <small>Mac users can now jump to [Basic Commands](#some-basic-commands)</small>
@@ -58,8 +59,8 @@ In each line, you will need to READ about the command first (without doing anyth
 * **`cd`*`name`*** changes to a directory with the name you enter
   - [ ] Type `cd ibcs` to move into your new folder. **Hint:** if you press `Tab` after you type `cd ib` it should *autocomplete* the rest of the directory. Tabbing is the best!
   
-* **`touch`*`name`*** will create a new (empty) text file. 
-  - [ ] Type `touch test_file` then type `ls` to see that you created the file!
+* **`touch`*`name`*** (Mac) or **`ni`*`name`*** will create a new (empty) text file. 
+  - [ ] Type `touch test_file` (Mac) or `ni test_file` then type `ls` to see that you created the file!
   
 * **`cp`*`oldfile newfile`*** will copy a file from one place to another. 
   - [ ] Type `cp test_file test2`, then type `ls` to see your new copied file.
@@ -79,7 +80,7 @@ Congratulations! You can now do some basic things in the command line. Welcome t
 ## Study Materials
 
 ![Bitmoji Books](media/00/bitmoji_books.png){: .image-right}
-You should probably make flash cards for these commands eventually, as they are very useful, especially `ls`, `mv`, `cp`, `cd`, `pwd` and `touch`
+You should probably make flash cards for these commands eventually, as they are very useful, especially `ls`, `mv`, `cp`, `cd`, `pwd` and `touch` (or `ni`)
 
 
 ----

@@ -31,16 +31,16 @@ git itself runs only on your own computer, so when you use it to "save" a versio
 
 ### Signing up for GitHub
 
-Visit github (you're already there!) and click the "Sign Up" button in the upper righthand corner. Make an account. It is up to you which e-mail and username to use, use your school e-mail if you want or a personal e-mail if you prefer. I do encourage you to use a username at least somewhat connected to your real name.
+Open a new tab to [github](http://www.github.com) and click the "Sign Up" button in the upper righthand corner. Make an account. It is up to you which e-mail and username to use. PLEASE use your school e-mail and an appropriate username; if you want to create a personal account later you're welcome to, but for our class let's keep it classy. (hah)
 
 ### Installing Github Desktop
 
 For new git and github users, it can be helpful to use a desktop program to interact with git, rather than relying on the command line. So let's install github desktop.
 
 ```bash
-brew cask install github #mac users
+brew cask install github #mac users need only this line!
 
-choco install github-desktop #windows
+choco install github-desktop #windows users need only this line!
 ```
 
 Once it is installed, you should be able to open the app. It will look like this:
