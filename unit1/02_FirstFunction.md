@@ -2,8 +2,6 @@
 
 These notes are intended to be used AFTER the "myFirstFunction Typescript" assignment. 
 
-<small>If you want to print this page or any other page here, I recommend the [Github Markdown Printer Chrome extension](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk)</small>
-
 ## Programming Languages
 
 A **programming language**:star:, like any language, consists of a vocabulary, syntax, and a set of grammar rules for instructing a computer to perform tasks. Unlike a human language, in a programming language these all need to be unambiguous, consistent, and predictable; computers don't understand emotion or sarcasm!<sup><small>[4.3.3](../unit0_resources/syllabus.md#433)</small></sup>

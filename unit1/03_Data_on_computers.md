@@ -10,7 +10,9 @@ Every computer has multiple places where data can be stored.
    
 ### Primary Memory
 
-![The hierarchy of memory](media/02/memory_heirarchy.jpg) {: .image-right}
+![The hierarchy of memory](media/02/memory_heirarchy.jpg)  
+<small>Image credit: https://www.slideshare.net/rahulbandhe/basics-of-semiconductor-memories-presentation</small>
+{: .image-right width="50%"}
 
 1. **ROM**:star: or *Read Only Memory* is a tiny piece of medium-fast memory built into the main structure of the computer (but not directly into the main processor chip). It is usually small and contains only the tiny bit of software needed to actually start a computer, before the *operating system* takes over. If you've ever "flashed a firmware update" on your computer, router, or phone, you have edited the ROM. <sup><small>[2.1.2](../unit0_resources/syllabus.md#212)</small></sup>
    
@@ -24,7 +26,7 @@ As a programmer, we mostly only worry about the persistent storage (which we ten
 {: .clearfix}
 
 
-<small>Image credit: https://www.slideshare.net/rahulbandhe/basics-of-semiconductor-memories-presentation</small>
+
 
 ## What goes in the memory?
 
