@@ -11,13 +11,19 @@ Computers don't speak the programming languages directly; computer processors on
 Programming languagues come in LOTS of different shapes and sizes, with different purposes and capabilities. 
 
 ### Some key languages for this class
-  
-* **javascript**:star:, also known as *ECMAScript*, is the native programming language of the web. Javascript files tell a web browser to DO things (like do a calculation, process some data, make an animation, or change something about the page dynamically). Javascript is a *dynamically typed*, *scripting* language that is built directly into browsers. This means it is flexible and quick to write, but not as efficient to run as some other languages, like java. In recent years, technologies have become available that let javascript programs run on desktop computers as well as the browser.
- 
-* **TypeScript**:star: is a language that is built on top of javascript that provides some more structure, making it easier to write large, powerful apps without as many bugs. TypeScript cannot be run directly; it has to be converted into javascript first. This process of changing from one programming language to another is called **compiling**:star:. As javascript apps have grown, TypeScript has become more popular; in fact, Visual Studio Code and the Github Desktop app you installed are BOTH written in TypeScript, then compiled to javascript! We will start this course working primarily in TypeScript.
 
+![javascript logo](media/02/js.jpg){: .image-right}  
+* **javascript**:star:, also known as *ECMAScript*, is the native programming language of the web. Javascript files tell a web browser to DO things (like do a calculation, process some data, make an animation, or change something about the page dynamically). Javascript is a *dynamically typed*, *scripting* language that is built directly into browsers. This means it is flexible and quick to write, but not as efficient to run as some other languages, like java. In recent years, technologies have become available that let javascript programs run on desktop computers as well as the browser.
+{: .clearfix}
+
+![TypeScript logo](media/02/TypeScript_Logo.svg){: .image-right style="width:150px;margin-top:50px;margin-bottom:50px"}
+* **TypeScript**:star: is a language that is built on top of javascript that provides some more structure, making it easier to write large, powerful apps without as many bugs. TypeScript cannot be run directly; it has to be converted into javascript first. This process of changing from one programming language to another is called **compiling**:star:. As javascript apps have grown, TypeScript has become more popular; in fact, Visual Studio Code and the Github Desktop app you installed are BOTH written in TypeScript, then compiled to javascript! We will start this course working primarily in TypeScript.
+{: .clearfix}
+
+![java logo](media/02/java-4-logo-png-transparent.png){: .image-right}
 * **java**:star: is an older language that works best for making desktop applications and applications that run on network servers. It contains even more structure than TypeScript and is therefore suitable for large, multi-developer development projects. Unlike javascript and TypeScript, java has to be **compiled** into *machine language* to be run. The machine language is then interpreted by a special piece of software called the *Java Virtual Machine*. This keeps it portable, but also very fast, so java apps can, for example, usually run on Window, Linux, and Macs. We will discuss java throughout this course, and switch our primary focus to java down the line (probably next year, though some may do their IAs with it).
-  
+{: .clearfix}
+
 ### Language Features
 
 * Multi-line **comments**:star: start with a `/*` symbol and end with a `*/` symbol. Anything between those symbols will be ignored by the program and are only for humans, to add readability.
@@ -30,7 +36,7 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
 
     The example below is a function in TypeScript
   
-    ```ts
+    ```typescript
     function addTwoNumbers(num1:number, num2:number):number {
         return num1 + num2;
     }
@@ -53,8 +59,8 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
     function addTwoValues(val1, val2) {
         return val1 + val2;
     }
-    let s = addTwoValues(2,3); // the value s now has the value 5
-    let j = addTwoValues("Bob","Smith"); // the value j now has the value "BobSmith"
+    let s = addTwoValues(2,3); // the variable s now has the value 5
+    let j = addTwoValues("Bob","Smith"); // the variable j now has the value "BobSmith"
     ```
 
 ## Check your Learning
