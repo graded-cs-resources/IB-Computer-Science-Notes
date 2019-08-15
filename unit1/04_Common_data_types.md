@@ -1,7 +1,5 @@
 # Common Data Types
 
-<small>If you want to print this page or any other page here, I recommend the [Github Markdown Printer Chrome extension](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk)</small>
-
 In [previous notes](03_Data_on_computers.md), we mentioned that the bits and bytes on a computer can be interpreted in lots of different ways.
 
 One of the ways our computer programs know how to interpret a byte (or more) of data in the context of a programming language is by the *type* of the data, which is set in the program. Every variable in a program can hold data of a specific type.
@@ -22,7 +20,9 @@ In a program, there are three types of things that have types:
 ### Check your Understanding
 
 1. What type of data is the value `234` in TypeScript? What is it in java?
+   
 2. You want to write the code `j = "bob"`. What data type must `j` be declared as for this to not give an error?
+   
 3. The following TypeScript code gives an error. Why?
 
    ```TypeScript

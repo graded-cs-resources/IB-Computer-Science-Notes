@@ -1,28 +1,28 @@
 # How computers store and interpret data
 
-<small>If you want to print this page or any other page here, I recommend the [Github Markdown Printer Chrome extension](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk)</small>
-
 ## Memory in a computer
 
 Every computer has multiple places where data can be stored. 
 
 ### Secondary Memory
 
-**Secondary Memory**:star:, also called *persistent storage* is the part of a computer where data lives when its not being directly used. In most computers this will be a *hard drive* or *solid-state storage.* This could also be exterior storage such as CDs, DVDs, USB Flash drives, SD Cards, video game cartridges, and so forth. Slow, but permanent (or mostly permanent)<sup><small>[2.1.5](../unit0_resources/syllabus.md#215)</small></sup>
+**Secondary Memory**:star:, also called *persistent storage*, is the part of a computer where data lives when it's not being directly used. In most computers this will be a *hard drive* or *solid-state storage.* This could also be exterior storage such as CDs, DVDs, USB Flash drives, SD Cards, video game cartridges, and so forth. This memory is slow, but permanent (or mostly permanent)<sup><small>[2.1.5](../unit0_resources/syllabus.md#215)</small></sup>
    
 ### Primary Memory
+
+![The hierarchy of memory](media/02/memory_heirarchy.jpg) {: .image-right}
 
 1. **ROM**:star: or *Read Only Memory* is a tiny piece of medium-fast memory built into the main structure of the computer (but not directly into the main processor chip). It is usually small and contains only the tiny bit of software needed to actually start a computer, before the *operating system* takes over. If you've ever "flashed a firmware update" on your computer, router, or phone, you have edited the ROM. <sup><small>[2.1.2](../unit0_resources/syllabus.md#212)</small></sup>
    
 2. **RAM**:star:, or *Random Access Memory* is the part of the computer where data is stored that is being actively used by running programs. It is much smaller than the persistant storage, but much faster. Most computer programs work primarily on RAM, except when saving or loading.<sup><small>[2.1.2](../unit0_resources/syllabus.md#212)</small></sup>
    
-3. **Cache**:star: is an even faster and smaller section of memory that is used by the computer to store things it knows it may need again soon. It is the fastest part of the computer that isn't directly connected to the computer's "brain" (CPU). From the perspective of a programmer, the cache and RAM are essentially interchangeable, but they make a difference at the low level.<sup><small>[2.1.3](../unit0_resources/syllabus.md#213)</small></sup>
+3. **Cache**:star: is an even faster and smaller section of memory that is used by the computer to store things it knows it may need again soon. It is usually directly connected to the computer's "brain" (CPU), which gives it extreme speed. From the perspective of a *programmer*, the cache and RAM are essentially interchangeable, but they make a huge difference at the low level; computer processor designers spend lots of time optimizing cache usage, since the cache can be up to 100 times faster than the RAM!. It is very expensive, however, so most computers only have a few megabytes of cache.<sup><small>[2.1.3](../unit0_resources/syllabus.md#213)</small></sup>
    
-4. **CPU Registers**:star: are extremely tiny, extremely fast places in memory that exist directly on the CPU. They are used only to store the values needed for the current *operation* of the CPU.
+4. **CPU Registers**:star: are extremely tiny, extremely fast places in memory that are used only temporarily. They are used only to store the values needed for the current *operation* of the CPU.
    
 As a programmer, we mostly only worry about the persistent storage (which we tend to call the *disk* or the *files*) and the RAM (which we tend to call the *memory*.) The CPU and programming language handle the movement between RAM, cache, and registers for us.
+{: .clearfix}
 
-![The hierarchy of memory](media/02/memory_heirarchy.jpg)
 
 <small>Image credit: https://www.slideshare.net/rahulbandhe/basics-of-semiconductor-memories-presentation</small>
 

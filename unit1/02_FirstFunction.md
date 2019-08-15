@@ -18,11 +18,11 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
  
 * **TypeScript**:star: is a language that is built on top of javascript that provides some more structure, making it easier to write large, powerful apps without as many bugs. TypeScript cannot be run directly; it has to be converted into javascript first. This process of changing from one programming language to another is called **compiling**:star:. As javascript apps have grown, TypeScript has become more popular; in fact, Visual Studio Code and the Github Desktop app you installed are BOTH written in TypeScript, then compiled to javascript! We will start this course working primarily in TypeScript.
 
-* **java**:star: is an older language that works best for making desktop applications and applications that run on network servers. It contains even more structure than TypeScript and is therefore suitable for large, multi-developer development projects. Unlike javascript and TypeScript, java has to be **compiled** into *machine language* to be run. The machine language is then interpreted by a special piece of software called the *Java Virtual Machine*. This keeps it portable, but also very fast, so java apps can, for example, usually run on Window, Linux, and Macs. We will discuss java throughout this course, and switch our primary focus to java down the line.
+* **java**:star: is an older language that works best for making desktop applications and applications that run on network servers. It contains even more structure than TypeScript and is therefore suitable for large, multi-developer development projects. Unlike javascript and TypeScript, java has to be **compiled** into *machine language* to be run. The machine language is then interpreted by a special piece of software called the *Java Virtual Machine*. This keeps it portable, but also very fast, so java apps can, for example, usually run on Window, Linux, and Macs. We will discuss java throughout this course, and switch our primary focus to java down the line (probably next year, though some may do their IAs with it).
   
 ### Language Features
 
-* In TypeScript and java, multi-line **comments**:star: start with a `/*` symbol and end with a `*/` symbol. Anything between those symbols will be ignored by the program and are only for humans, to add readability.
+* Multi-line **comments**:star: start with a `/*` symbol and end with a `*/` symbol. Anything between those symbols will be ignored by the program and are only for humans, to add readability.
   
 * A single-line comment begins with a `//` symbol and lasts to the end of the line.
   
@@ -37,7 +37,7 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
         return num1 + num2;
     }
 
-    let s = addTwoNumbers(2, 3); // The variable s now has the value 5
+    let s:number = addTwoNumbers(2, 3); // The variable s now has the value 5
     ```
 
     The java equivalent (which will only work with integers, not any number) would look like:
@@ -60,6 +60,7 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
     ```
 
 ## Check your Learning
+Try to answer these in your head WITHOUT looking back, then check your answers. This is called *recall practice* and has been shown in many, many studies to be a far more efficient way of learning than if you skip the attempt to recall.
 
 1. What are the features of a programming language?
 
