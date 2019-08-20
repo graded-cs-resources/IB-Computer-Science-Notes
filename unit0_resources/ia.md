@@ -1,6 +1,6 @@
 # The IB Computer Science Internal Assessment
 
-<small>Much of the material in this section comes directly from the IA Manual for Students published by long-time IB CS teacher Paul Baumgarten on (his website)[https://pbaumgarten.com/dp-compsci/internal-assessment/]. Incredible thanks to him for his hard work. The rest of his website is a fantastic resource for IB CS students as well.</small>
+<small>Much of the material in this section comes directly from the IA Manual for Students published by long-time IB CS teacher Paul Baumgarten on [his website](https://pbaumgarten.com/dp-compsci/internal-assessment/). Incredible thanks to him for his hard work. The rest of his website is a fantastic resource for IB CS students as well.</small>
 
 The Internal Assessment for Computer Science is an opportunity for you to showcase your algorithmic and technical prowess at developing software intended to solve a legitimate, real world problem for someone.Approximately 30 hours of class time will be devoted to the Internal Assessment. Beyond that it is expected you will contribute at least the same amount of your own time towards the project.
 
@@ -17,21 +17,21 @@ We will spend about 30 hours of class time SPECIFICALLY devoted towards working 
 ### Step 1 - Find a client
 
 * The choice of client can make or break a project
-  
+
 * The client can be a teacher, parent, friend, or someone else entirely. They must be an ACTUAL PERSON who exists and is prepared to spend time - probably at least 4-5 hours over several meetings - working with you. Choose carefully - don't pick somebody who will flake out.
-  
+
 * Your client needs to be able to explain ther needs clearly and help come up with a list of attainable *success criteria* for your project.
-  
+
 * Your client will also need to evaluate (or help evaluate) the project once it is complete.
-  
+
 * NOTE: Though being your own client is allowed by the IA, it rarely results in a high-scoring project. A big purpose of the IA is to communicate back and forth with a real person, so if you have a project for yourself that you are REALLY passionate about, you will need to get an official advisor (likely me) to work with.
 
 ### Step 2 - Define the meaningful project (WITH your client)
 
 * The project needs to be challenging at a level appropriate to IB Computer Science - this typically means it needs to include significant *computer programming* so students can showcase their organizational skills and algorithmic thinking.
-  
+
 * The project must demonstrate computational thinking, which, again, essentially means a significant amount of original code. That said, it is possible that a good IA could start with with extending or improving an existing project.
-  
+
 * Some examples of things you could do (definitely NOT every idea!):
   * Design and implement a a mobile app for iOS, Android, or a web app that works on both.
   * Design and implement a desktop application that runs on windows or mac PCs.
@@ -43,7 +43,7 @@ We will spend about 30 hours of class time SPECIFICALLY devoted towards working 
   * Create a Google Apps script (of reasonable complexity) to provide extra features to google docs or other google apps or automate tasks your client does regularly
   * Create a game using any of many different game development tools on Windows or Mac PCs
   * Create programming code for a VEX robot
-  
+
 * If you check YouTube, you can find examples of good IB CS project videos - this could give you ideas.
 * If possible, I will support you in learning (and choosing) an appropriate programming language for your project; most programming concepts covered in this course will work in any language.
 
@@ -83,7 +83,7 @@ The success criteria should be presented as a bulleted list, in which case it wi
 
 #### Report Section: Record of Tasks
 
-The IB provides a template, as shown below, for this part of your report. 
+The IB provides a template, as shown below, for this part of your report.
 
 | Task Number | Planned Action | Planned Outcome | Time Estimated | Target Completion Date | Criterion |
 --------------|----------------|-----------------|----------------|------------------------|-----------|
@@ -109,9 +109,9 @@ This MUST be limited to PLANNING information - do not include screenshots of the
 
 #### Report Section: Test Plan
 
-This is included as part of the Design Overview, but feels different enough to be worth its own heading. 
+This is included as part of the Design Overview, but feels different enough to be worth its own heading.
 
-This should describe EXACTLY how you will test the success criteria in part A. Format it as a table Success Criteria, Method of Testing, Expected Result. 
+This should describe EXACTLY how you will test the success criteria in part A. Format it as a table Success Criteria, Method of Testing, Expected Result.
 
 Again, as long as it is presented as a table with limited writing, no word count applies.
 

@@ -8,8 +8,6 @@ title: Graded IB Computer Science Notes
 
 These are the notes for Graded's IB Computer Science classes, 2019-2020. They will be updated over the course of the school year, so check back frequently!
 
-). 
-
 These notes will be complemented by *assignments* that will be provided to you through Github via Google Classroom. Think of this page as a textbook; the assignments are separate.
 
 ## Table of Contents
@@ -18,6 +16,7 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 * [Official IB Syllabus](/unit0_resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>
 * [Traced algorithms](/unit0_resources/traced_algorithms.md). We will trace algorithms nearly every class. As we trace new ones, I will add them (and their solutions) to this page for reference.
+* [IA Information](/unit0_resources/ia.md)
 
 ### Unit 1 - Storage, Data, and Collections
 
@@ -46,4 +45,4 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 * [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/dp-compsci/) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
 
-* [The Beauty and Joy of Computing](https://bjc.edc.org/bjc-r/course/bjc4nyc.html) Berkeley's computer science course for freshmen, aligned to the AP Computer Science Principles exam, contains lots of valuable information mixed in its programming exercises. Check out Unit 6 for good content review notes, unit 5 for some interesting conceptual challenges, and Unit 4 for some valuable information about networks and the internet. 
+* [The Beauty and Joy of Computing](https://bjc.edc.org/bjc-r/course/bjc4nyc.html) Berkeley's computer science course for freshmen, aligned to the AP Computer Science Principles exam, contains lots of valuable information mixed in its programming exercises. Check out Unit 6 for good content review notes, unit 5 for some interesting conceptual challenges, and Unit 4 for some valuable information about networks and the internet.
