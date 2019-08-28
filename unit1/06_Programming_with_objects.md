@@ -85,7 +85,9 @@ You now have three new notes! The diagram below provides a visual of what we've 
 You could still use arrays to help you keep track of an unknown number of notes, but now you only need ONE array - an array of Note objects - instead of multiple arrays.
 ```ts
 let notes:Note[];
-// the "push" method used below adds a new item to the end of an array. Very useful!
+// the "push" method used below adds a new item to the end of an array in TypeScript
+// in java, you would need to use an ArrayList or LinkedList 
+// and the .add() method to do this.
 notes.push(new Note("first note!"));
 notes.push(new Note("second note!","green"));
 notes.push(new Note("third note","purple"));

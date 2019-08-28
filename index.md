@@ -28,6 +28,7 @@ These notes will be complemented by *assignments* that will be provided to you t
 * [Variables, Functions, and Types](/unit1/02_FirstFunction.md)
 * [Computer memory](/unit1/03_Data_on_computers.md)
 * [Common Data types](/unit1/04_Common_data_types.md)
+* [Arrays](/unit1/05_Arrays.md)
 
 ### Unit 2 - Abstraction and Objects
 
