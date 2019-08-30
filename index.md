@@ -17,18 +17,21 @@ These notes will be complemented by *assignments* that will be provided to you t
 * [Official IB Syllabus](/unit0_resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>
 * [Traced algorithms](/unit0_resources/traced_algorithms.md). We will trace algorithms nearly every class. As we trace new ones, I will add them (and their solutions) to this page for reference.
 * [IA Information](/unit0_resources/ia.md)
-
+* [Introduction](/unit1/00_Intro.md)
+* [Setting up your software environment](/unit1/01_Getting_Set_Up.md)
+  
 ### Unit 1 - Storage, Data, and Collections
 
 [Learning Targets](/unit1/00_Learning_Targets.md)
 
-* [Introduction](/unit1/00_Intro.md)
 * [Abstraction and the computer processor](/unit1/00a_Abstraction.md)
-* [Setting up your software environment](/unit1/01_Getting_Set_Up.md)
 * [Variables, Functions, and Types](/unit1/02_FirstFunction.md)
 * [Computer memory](/unit1/03_Data_on_computers.md)
 * [Common Data types](/unit1/04_Common_data_types.md)
-* [Arrays](/unit1/05_Arrays.md)
+* [Operators](/unit1/05_Operators.md)
+* [Arrays](/unit1/06_Arrays.md)
+
+* [Intro to p5](/unit1/07_intro_to_p5.md)
 
 ### Unit 2 - Abstraction and Objects
 
