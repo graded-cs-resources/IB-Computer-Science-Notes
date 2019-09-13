@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 header {
-    text-align: right;
-    margin-bottom: 10px;
-    border-bottom: 1px gray solid;
+  text-align: right;
+  margin-bottom: 10px;
+  border-bottom: 1px gray solid;
 }
 
 .image-left {
@@ -19,33 +19,34 @@ header {
 }
 
 .spoiler pre {
-    color: rgba(0,0,0,0);
+  visibility: hidden;
 }
-.spoiler pre:hover {
-    color: black;
+
+.spoiler:hover pre {
+  visibility: visible;
 }
 
 .task-list-item-checkbox {
-    margin-right: .5em;
-
+  margin-right: 0.5em;
 }
 
 .task-list {
-    list-style-type: none;
-    text-indent: -1.3em;
+  list-style-type: none;
+  text-indent: -1.3em;
 }
 
 .image-right {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1em;
-    float: right;
-    clear: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  float: right;
+  clear: right;
 }
 
 @media print {
-    pre, code {
-        white-space: pre-wrap;
-    }
+  pre,
+  code {
+    white-space: pre-wrap;
+  }
 }
