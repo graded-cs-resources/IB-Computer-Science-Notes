@@ -6,13 +6,13 @@ A **collection**:star: is a general term for a set of values that are stored in 
 
 The following table comes directly from the IB exam:
 
-|Method  name|Brief description| Example: <br>HOT, a collection of temperatures |Comment|
-|--|--|--|--|
-|`addItem()`| Add item |`HOT.addItem(42)`<br>`HOT.addItem("chile")`|Adds an element to the end of the collection that contains the argument, whether it is a value, String, object, etc.|
-|`getNext()`|	Get the next item|`TEMP = HOT.getNext()`| 	`getNext()` will return the first item in the collection when it is first called.<br><br>Note: getNext() does not remove the item from the collection.| 
-|`resetNext()` |Go back to the start of the collection |HOT.resetNext()<br>HOT.getNext()| 	Restarts the iteration through the collection.  The two lines shown will retrieve the first item in the collection. |
-|`hasNext()`| 	Test: has next item |	`if HOT.hasNext() then`| 	Returns TRUE if there are one or more elements in the collection that have not been accessed by the present iteration: used to see if we are at the end of the list.| 
-|`isEmpty()`| Test: collection is empty |	`if HOT.isEmpty() then` |Returns TRUE if the collection does not contain any elements.| 
+| Method  name  | Brief description                      | Example: <br>HOT, a collection of temperatures | Comment                                                                                                                                                              |
+| ------------- | -------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `addItem()`   | Add item                               | `HOT.addItem(42)`<br>`HOT.addItem("chile")`    | Adds an element to the end of the collection that contains the argument, whether it is a value, String, object, etc.                                                 |
+| `getNext()`   | Get the next item                      | `TEMP = HOT.getNext()`                         | `getNext()` will return the first item in the collection when it is first called.<br><br>Note: getNext() does not remove the item from the collection.               |
+| `resetNext()` | Go back to the start of the collection | HOT.resetNext()<br>HOT.getNext()               | Restarts the iteration through the collection.  The two lines shown will retrieve the first item in the collection.                                                  |
+| `hasNext()`   | Test: has next item                    | `if HOT.hasNext() then`                        | Returns TRUE if there are one or more elements in the collection that have not been accessed by the present iteration: used to see if we are at the end of the list. |
+| `isEmpty()`   | Test: collection is empty              | `if HOT.isEmpty() then`                        | Returns TRUE if the collection does not contain any elements.                                                                                                        |
 
 A common goal is to go through all the items in a collection: for this, you could use a structure like this one.
 
@@ -35,8 +35,8 @@ An **array**:star: is an ordered list of values (generally of the same type) wit
 ```ts
 // TYPESCRIPT declaring an array with initial values
 let array1:number[] = [1.2, 2.8, 9.9];
-// no initial value
-let array2:number[];
+// no initial value (empty array)
+let array2:number[] = [];
 ```
 {: style="width:50%"}
 ```java
@@ -85,11 +85,9 @@ console.log(array1) // [1.2, 2.8, 11.2, 32];
 
 In java, if you want an array whose size can be changed, you can create a special object called an ArrayList instead. We will look at that another time.
 
-## Looping through an array, two ways
+## Looping through an array with a for loop
 
-A common thing to do with any collection is to go through each element one at a time, and do something to it. It's so common, in fact, that you can expect to see these structures usually multiple times in any remotely large project. Arrays are no exception. There are two super-common ways to do this.
-
-### Option 1 - The For Loop with an Index
+A common thing to do with any collection is to go through each element one at a time, and do something to it. It's so common, in fact, that you can expect to see these structures usually multiple times in any remotely large project. 
 
 This is the MOST COMMON way because something like it works in every language that has arrays.
 
@@ -110,39 +108,19 @@ Let's break this code down!
 
 If we assume that `names` has 3 elements in it, then `i` will first take the value 0, then 1, then 2, at which point the loop will end. Those are, conveniently, the indexes of the array! So every element of the array will be printed in this loop.
 
-### Option 2 - The For...of loop
-
-This looping is so common that both TypeScript and java provide *shortcuts* for it (though languages like C and javascript do not, so the above loop is still important!)
-
-```ts
-// typescript
-for (let thisName:string of names) {
-    console.log(thisName);
-}
-```
-
-```java
-// java
-for (String thisName: names) {
-    System.out.println(thisName);
-}
-```
-
-This is certainly shorter and likely easier to use, but it is also less common; the index loop has been around for decades, works well, and needs to be understood by all programmers!
-
 ## Implementing IB Collections with TypeScript arrays
 
 An interesting mental exercise to try to better understand both the IB Collections and arrays is to compare their code. The below table shows how you would implement each of the IB collection methods with a TypeScript array. (in java, an array would be a poor choice for this because of its fixed size. Better choices exist; we will discuss them (much) later).
 
 For each of these, assume a variable called `current_index` exists, and it starts out equal to 0 when the new collection is made.
 
-|Method  name|Brief description| Example: <br>HOT, a collection of temperatures |TypeScript equivalent|
-|--|--|--|--|
-|`addItem()`| Add item at end|`HOT.addItem(42)`<br>`HOT.addItem("chile")`|`hot.push(42)` or `hot[hot.length]=42;`|
-|`getNext()`|	Get the next item|`TEMP = HOT.getNext()`| `next = hot[current_index];`<br>`current_index++;`| 
-|`resetNext()` |Go back to the start of the collection |`HOT.resetNext()`| `current_index = 0;`|
-|`hasNext()`| 	Test: has next item |	`if HOT.hasNext() then`| 	`if (current_index >= hot.length) {`| 
-|`isEmpty()`| Test: collection is empty |	`if HOT.isEmpty() then` |`if (hot.length==0) {`|
+| Method  name  | Brief description                      | Example: <br>HOT, a collection of temperatures | TypeScript equivalent                              |
+| ------------- | -------------------------------------- | ---------------------------------------------- | -------------------------------------------------- |
+| `addItem()`   | Add item at end                        | `HOT.addItem(42)`<br>`HOT.addItem("chile")`    | `hot.push(42)` or `hot[hot.length]=42;`            |
+| `getNext()`   | Get the next item                      | `TEMP = HOT.getNext()`                         | `next = hot[current_index];`<br>`current_index++;` |
+| `resetNext()` | Go back to the start of the collection | `HOT.resetNext()`                              | `current_index = 0;`                               |
+| `hasNext()`   | Test: has next item                    | `if HOT.hasNext() then`                        | `if (current_index >= hot.length) {`               |
+| `isEmpty()`   | Test: collection is empty              | `if HOT.isEmpty() then`                        | `if (hot.length==0) {`                             |
 
 ## Check your Understanding
 1. What does the "resetNext()" command do for IB collections?
@@ -152,7 +130,7 @@ For each of these, assume a variable called `current_index` exists, and it start
 5. How would you access the third element ("c") in the previous array?
 6. If you want to change the last element to be "z", how would you do that?
 7. How do you loop through all of the elements in your array of letters and print them all out (using `console.log`)?
-8. Open `ts-node` on your computer. Then try these things. **Try to do each step WITHOUT referring back to the notes. Try 2 or 3 or 4 times if you need to, paying attention to the errors. If you still can't do them, look back, but do NOT copy and paste!**
+8. Open `ts-node` on your computer by typing the command on your command line. Then try these things. **Try to do each step WITHOUT referring back to the notes. Try 2 or 3 or 4 times if you need to, paying attention to the errors. If you still can't do them, look back, but do NOT copy and paste!**
    1. Create a new string array called `students`. 
    2. Assign this array to `students`: `["luca","joao","sofia","marina","yash"]`
    3. Write a loop that will go through all of the names and, for each one, use `console.log()` to print "Student name is: *name*".
