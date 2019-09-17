@@ -124,16 +124,57 @@ For each of these, assume a variable called `current_index` exists, and it start
 
 ## Check your Understanding
 1. What does the "resetNext()" command do for IB collections?
+   ```
+   It makes it so the next time you call `getNext()` you will get the FIRST element.
+   ```
+   {: .spoiler} 
 2. How could you loop through an IB collection named NAMES and print out each element in the collection?
+   ```
+   NAMES.resetNext()
+   loop while NAMES.hasNext()
+     output(NAMES.getNext())
+   end loop
+   ```
+   {: .spoiler}
 3. How would you make a new array holding the first five letters of the alphabet (as strings) in TypeScript?
+   ```ts
+   let arr:string[] = ["a", "b", "c", "d", "e"];
+   ```
+   {: .spoiler}
 4. How would you make the same array in java?
-5. How would you access the third element ("c") in the previous array?
-6. If you want to change the last element to be "z", how would you do that?
-7. How do you loop through all of the elements in your array of letters and print them all out (using `console.log`)?
-8. Open `ts-node` on your computer by typing the command on your command line. Then try these things. **Try to do each step WITHOUT referring back to the notes. Try 2 or 3 or 4 times if you need to, paying attention to the errors. If you still can't do them, look back, but do NOT copy and paste!**
+   ```java
+   String[] arr = {"a", "b", "c", "d", "e"};
+   ```
+   {: .spoiler}
+6. How would you access the third element ("c") in the previous array?
+    ```ts
+   arr[2]
+   ```
+   {: .spoiler}
+7. If you want to change the last element to be "z", how would you do that?
+   ```ts
+   arr[4]="z";
+   ```
+   {: .spoiler}
+8. How do you loop through all of the elements in your array of letters and print them all out (using `console.log`)?
+   ```ts
+   for (let i = 0; i < arr.length; i++) {
+       console.log(arr[i]);
+   }
+   ```
+   {: .spoiler}
+9. Open `ts-node` on your computer by typing the command on your command line. Then try these things. **Try to do each step WITHOUT referring back to the notes. Try 2 or 3 or 4 times if you need to, paying attention to the errors. If you still can't do them, look back, but do NOT copy and paste!*
    1. Create a new string array called `students`. 
    2. Assign this array to `students`: `["luca","joao","sofia","marina","yash"]`
    3. Write a loop that will go through all of the names and, for each one, use `console.log()` to print "Student name is: *name*".
+      ```ts
+      let students:string[] = [];
+      students = ["luca", "joao", "sofia", "marina", "yash"];
+      for (let i = 0; i < students.length; i++) {
+          console.log("Student name is: " + students[i]);
+      }
+      ```
+      {: .spoiler}
 
 ## Flashcards
 

@@ -15,10 +15,15 @@ These notes will be complemented by *assignments* that will be provided to you t
 ### Course Resources
 
 * [Official IB Syllabus](/unit0_resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>
+  
 * [Traced algorithms](/unit0_resources/traced_algorithms.md). We will trace algorithms nearly every class. As we trace new ones, I will add them (and their solutions) to this page for reference.
+* [CodingTS - Coding practice in TypeScript!](https://graded-cs-resources.github.io/CodingTS/)
+  
 * [IA Information](/unit0_resources/ia.md)
+  
 * [Introduction](/unit1/00_Intro.md)
 * [Setting up your software environment](/unit1/01_Getting_Set_Up.md)
+  
   
 ### Unit 1 - Storage, Data, and Collections
 

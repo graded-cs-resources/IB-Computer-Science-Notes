@@ -64,17 +64,39 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
     ```
 
 ## Check your Learning
-Try to answer these in your head WITHOUT looking back, then check your answers. This is called *recall practice* and has been shown in many, many studies to be a far more efficient way of learning than if you skip the attempt to recall.
+Try to answer these in your head WITHOUT looking back, then check your answers. This is called *recall practice* and has been shown in many, many studies to be a far more efficient way of learning than if you skip the attempt to recall. Answers for each one can be found by hovering over the blank area below them.
 
 1. What are the features of a programming language?
+   ```
+   A fixed vocabulary, syntax, and set of grammar rules.
+   ```
+   {: .spoiler}
 
 2. What does it mean to *compile* a program?
+   ```
+   To convert the code into another language, such as machine language or javascript
+   ```
+   {: .spoiler}
 
 3. What does it mean that TypeScript and java have *static variable types*?
+   ```
+   Each variable can only hold one type of data, decided when the variable is made.
+   ```
+   {: .spoiler}
 
 4. What is the output value of a function called in programmer speak?
+   ```
+   the return value
+   ```
+   {: .spoiler}
 
 5. Can you write a function in TypeScript or java that accepts two numbers (integers) as input variable, and returns the difference between them?
+   ```ts
+   function diff(a:number, b:number) {
+       return a-b;
+   }
+   ```
+   {: .spoiler}
 
 ## Preparing Study Materials
 
