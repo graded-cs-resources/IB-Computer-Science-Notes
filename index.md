@@ -36,6 +36,8 @@ These notes will be complemented by *assignments* that will be provided to you t
 * [Operators](/unit1/05_Operators.md)
 * [Arrays](/unit1/06_Arrays.md)
 
+* [Intro to Resource Management](/unit1/08_Resource_Management_Intro.md) (HL Only)
+
 * [Intro to p5](/unit1/07_intro_to_p5.md)
 
 ### Unit 2 - Abstraction and Objects

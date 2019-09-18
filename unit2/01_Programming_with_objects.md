@@ -17,7 +17,7 @@ function change_note_color(noteNumber:number, color:string){
 }
 ```
 
-This would work, but if you wanted to add an additional *parameter* to your note - for example, `date_created` or `due_date` - you'd need to add additinal arrays and keep track of even more things. This is where the idea of an *object* really starts to become useful and powerful.
+This would work, but if you wanted to add an additional *property* to your note - for example, `date_created` or `due_date` - you'd need to add additinal arrays and keep track of even more things. This is where the idea of an *object* really starts to become useful and powerful.
 
 ## What is an object?
 
