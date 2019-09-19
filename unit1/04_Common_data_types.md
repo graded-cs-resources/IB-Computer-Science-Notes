@@ -21,7 +21,18 @@ In a program, there are three types of things that have types:
 
 1. What type of data is the value `234` in TypeScript? What is it in java?
    
+   ```
+   Typescript: number
+   java: int
+   ```
+   {: .spoiler}
+   
 2. You want to write the code `j = "bob"`. What data type must `j` be declared as for this to not give an error?
+   
+   ```
+   string
+   ```
+   {: .spoiler}
    
 3. The following TypeScript code gives an error. Why?
 
@@ -29,12 +40,23 @@ In a program, there are three types of things that have types:
    let j:string;
    j = 123;
    ```
+   
+   ```
+   j is a string but you are trying to assign it a number
+   ```
+   {: .spoiler}
+
 4. The following java code gives an error. Why?
 
     ```java
     int j;
     j = "123";
     ```
+
+    ```
+    j is an integer, but you are assigning it a string.
+    ```
+    {: .spoiler}
 
 5. You write the following code:
  
@@ -43,6 +65,11 @@ In a program, there are three types of things that have types:
    ```
 
    What do you think is the VALUE and TYPE of b? (cool thing to try: you can check your answer by typing "ts-node" on your command line, then typing that code. After pressing enter, type `b` to output its value. Type `.exit` (notice the period!) to exit.) 
+
+   ```
+   b is a boolean, with the value false
+   ```
+   {: .spoiler}
 
 ## Study Materials
 

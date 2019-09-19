@@ -40,6 +40,9 @@ Given a single byte (or more than one) we can train our programs to *interpret* 
 
 1. What is the difference between RAM and ROM?
    
+   ```
+   RAM means Random Access Memory, and it is the section of primary memory that holds
+   
 2. How many bits are in one byte?
    
 3. What are types of primary memory?

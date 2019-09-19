@@ -85,7 +85,7 @@ There are also versions of the last one for subtraction `-=`, division `/=`, and
 
 ## Check your Learning
 
-To check your answers, open `ts-node` in your command line and copy these commanss.
+To check your answers, open `ts-node` in your command line and copy these commands.
 
 1. At the end of the code block below, what will be printed?
    

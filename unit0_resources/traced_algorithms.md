@@ -187,3 +187,49 @@ for (let i = 0; i < FIRST.length; i++) {
 }
 ```
 {:.spoiler}
+
+### Algorithm 6
+
+Collections!
+
+#### Algorithm
+
+Trace the algorithm below for a collection NAMES with the values {David, Jake, Ross, David, Jim}
+
+```
+// Assume LIST is an array with plenty of room, but currently empty
+
+COUNT = 0 // number of names currently added to array LIST
+loop while NAMES.hasNext() 
+    DATA = NAMES.getNext()
+
+    FOUND = false
+    loop POS from 0 to COUNT - 1
+        if DATA = LIST[POS] then
+            FOUND = TRUE
+        end if
+    end loop
+
+    if FOUND = false then
+        LIST[COUNT] = DATA
+        COUNT = COUNT + 1
+    end if
+end loop
+
+output LIST
+```
+
+#### Solution
+
+```
+LIST:   []          [David]        [David, Jake]     [David,Jake,Ross]    //same    [David,Jake,Ross,Jim]
+COUNT:  0              1               2               3                  //same
+DATA:      David            Jake                Ross                    David           Jim
+FOUND:       f                 f   f             f f                      t t t       f f f f f
+POS:                             0              0 1                      0 1 2         0 1 2 3
+
+output: [David, Jake, Ross, Jim]
+
+This algorithm moves items from a list to an array, ignoring duplicate values
+```
+{: .spoiler}
