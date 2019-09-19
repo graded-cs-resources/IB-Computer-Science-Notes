@@ -9,6 +9,13 @@ header {
   border-bottom: 1px gray solid;
 }
 
+ol ol {
+  list-style-type:lower-alpha
+}
+
+ol ol ol {
+  list-style-type:lower-roman
+}
 .image-left {
   display: block;
   margin-left: auto;
@@ -18,12 +25,28 @@ header {
   clear: left;
 }
 
+pre {
+  font-family: Consolas, Monaco, 'Courier New', Courier, monospace;
+  display:inline-block;
+  margin-left: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+pre.sourceCode {
+  margin-left: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .spoiler pre {
   visibility: hidden;
 }
 
 .spoiler:hover pre {
   visibility: visible;
+  margin-left:0;
+  word-wrap:pre-wrap
 }
 
 .task-list-item-checkbox {
@@ -44,9 +67,58 @@ header {
   clear: right;
 }
 
+table {
+  border: 1 px solid black;
+}
+
+
+
+p {
+  margin-bottom: .5em;
+  margin-top: .2em;
+}
+
 @media print {
   pre,
   code {
     white-space: pre-wrap;
   }
+  header {
+    display:none
+  }
+
+  li {
+      page-break-inside: avoid;
+  }
+
+  code {
+    white-space:nowrap;
+  }
+
+  table {
+    font-size:inherit;
+  }
+
+  table td,th {
+    padding:2px 5px;
+  }
+
+  body {
+    margin:0px;
+    padding: 0px;
+    width:100%;
+    max-width:100%;
+  }
+
+  html {
+    width:100%;
+    max-width:100%;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@page {
+  size: auto;
+  margin: .5in .75in;
 }

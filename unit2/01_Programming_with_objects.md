@@ -65,6 +65,7 @@ class Note { //classes are, by convention, capitalized
         this.contents = in_contents;
         this.color = in_color; 
     }
+    // the method below does what it sounds like - it changes the color!
     public change_color(color:string) {
         this.color = color;
     }
@@ -97,12 +98,63 @@ notes.push(new Note("oh my god how many notes????","orange"));
 ## Check your Understanding
 
 1. What is an object property?
+   
+   ```
+   A variable that is associated with a specific object, accessed with the `.` operator.
+   ```
+   {: .spoiler}
+
 2. What is an object method?
+   
+   ```
+   A FUNCTION that is associated with a specific object, accessed with the `.` operator.
+   ```
+   {: .spoiler}
+   
 3. What is a constructor method?
+   
+   ```
+   A special method that is used to make a new *instance* of an object when you use the new command.
+   ```
+   {: .spoiler}
+   
 4. If I have an object called named `ball`, how would I access its `color` property, if it has one?
+   
+   ```
+   ball.color
+   ```
+   {: .spoiler}
+
 5. If I have an object named `ball`, how would I call its `changeColor` method if it has one?
+   
+   ```
+   ball.changeColor("red");
+   ```
+   {: .spoiler}
+
 6. If I have a class named `Ball`, how can I create a new instance of that class named `ball1` (assume I don't need any arguments in the constructor)
+   
+   ```
+   ball1 = new Ball();
+   ```
+   {: .spoiler}
+
 7. Create a class for `Cookie` objects with three properties: `flavor` is a string, `size` is a number, and `temperature` is also a number. Include a constructor funtion to make a new `Cookie`.
+   
+   ```ts
+   class Cookie {
+       public flavor:string;
+       public size: number;
+       public temperature: number;
+
+       constructor(flavor:string, size:number, temp: number) {
+           this.flavor = flavor;
+           this.size = size;
+           this.temperature = temp;
+       }
+   }
+   ```
+   {: .spoiler}
 
 ## Flash Cards
 * object
