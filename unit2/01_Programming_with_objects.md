@@ -53,8 +53,8 @@ class Note { //classes are, by convention, capitalized
     // These are *properties*. They are not declared with a `let`.
     // They are instead declared as *private* (only accessible inside the class)
     // or they are delcared as *public* (accessible outside the class)
-    public contents = string;
-    public color = string;
+    public contents:string;
+    public color:string;
 
     // Below we have the methods. They are ALSO declared using `public` or `private`.
     

@@ -85,16 +85,39 @@ stroke(Snowflake.randomColor());
 
 is essentially the same as the `snowflake()` function we defined in an earlier exploration, just organized into the `Snowflake` class. You don't need to make a `new` snowflake to use the method.
 
-**instance methods and properties**:star:, which are the default like `moveDown()` and `drawThis()`, assume you are working with a SPECIFIC snowflake; they use the `this` value inside, which doesn't make sense without an actual snowflake to refer to! To use those you would do something like:
+**instance methods and properties**:star: are the default. In our example, they include `x`,,`color`, `moveDown()` and `drawThis()`. These assume you are working with a SPECIFIC snowflake. The methods, like `moveDown()` will use the keyword `this` to refer to the specific object they are being called from.
 
 ```ts
 let s = new Snowflake();
+let s2 = new Snowflake();
 s.drawThis() // draws snowflake s
 s.moveDown(10); // moves snowflake s down ten pixels
-s.drawThis() // draws s again, now 10 lower!
+s2.drawThis() // draws snowflake s2
+s2.moveDown(200); // moves snowflake s2 down 200 pixels
 
-s.drawOne(10,10,10) // also works; you can call static methods
-                    // from instances, but it's weird
+s.drawOne(10,10,10) // this also works; you CAN call static methods
+                    // from instances this way, Snowflake.drawOne() is better
 ```
 
-Whenever you are making a new property or method in an object, you have to think about whether it should be `static` or left as instance, and whether it should be `public` or `private`. In java, you have to declare `publi`c or `private` for EVERY VARIABLE. In typescript, `public` is the default unless specified. In both languages, instance is the default but `static` must be declared.
+Whenever you are making a new property or method in an object, you have to think about whether it should be `static` or left as instance, and whether it should be `public` or `private`. In java, you have to declare `public` or `private` for EVERY VARIABLE. In typescript, `public` is the default unless specified. In both languages, instance is the default but `static` must be declared.
+
+
+## Check your Understanding
+
+1. In the `Snowflake` class defined above, what does it mean that `randomColor()` is private and static?
+   ```
+   Since it is private, you can only call the function within the class.
+   Since it is static, you call it from the class name, like Snowflake.randomColor()
+   ```
+   {: .spoiler}
+
+2. Write code for a class `Dog` with three string properties: `species`, `furColor`, and `name`. `name` should be available and changeable outside the class (we can change a dog's name!) but `furColor` should only be available internally since it can't be changed. `species` should be shared among all instances of the Dog class (give it the value `"Canis familiaris"`) and also declared as a `const` so it can't be edited. Do not include any methods (not even a constructor for now).
+   
+   ```ts
+   class Dog {
+       private static const species = "Canis familiaris";
+       public name:string;
+       private furColor:string;
+   }
+   ```
+   {: .spoiler}
