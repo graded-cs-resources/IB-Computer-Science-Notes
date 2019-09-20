@@ -58,7 +58,7 @@ Let's break down some of the words we see here.
 
 ## public vs private properties and methods
 
-Public properties and methods are available OUTSIDE the class itself, while private methods can only be called from other methods INSIDE the calss. Consider the following code, which we might call from setup or draw:
+Public properties and methods are available OUTSIDE the class itself, while private methods can only be called from other methods INSIDE the calss. Consider the following code, which we might use from setup or draw:
 
 ```ts
 s = new Snowflake();
@@ -68,7 +68,7 @@ s.drawThis(); // draws the snowflake
 console.log(s.randomColor()); // gives an error, randomColor() is private
 ```
 
-Private properties are an important of **encapsulation**:star:, one of the key ideas of object-oriented programming. Encapsulation is the idea that data should be bundled together by its purpose, and only the most important elements should be available outside of the bundle.
+Private properties are an important of **encapsulation**:star:, one of the key ideas of object-oriented programming. Encapsulation is the idea that data should be bundled together by its purpose, and data should be hidden inside that bundle (or object) whenever possible. Encapsulation is a valuable tool in adding abstraction to your code.
 
 ## static vs. instance properties and methods
 
@@ -79,12 +79,13 @@ Properties and methods can also be defined as *static* or *instance* values. In 
 ```ts
 Snowflake.drawOne(20, 50, 50, color("blue"));
 stroke(Snowflake.randomColor()); 
-// gives an error if used outside of the Snowflake class, because it is private, but works inside
+// this gives an error if used outside of the Snowflake class, because it is private,
+// but works fine when used inside the class
 ```
 
 is essentially the same as the `snowflake()` function we defined in an earlier exploration, just organized into the `Snowflake` class. You don't need to make a `new` snowflake to use the method.
 
-**instance methods and properties**:star:, which are simply not marked with the `static` keyword, like `moveDown()` and `drawThis()`, assume you are working with a SPECIFIC snowflake; they use the `this` value inside, which doesn't make sense without an actual snowflake to refer to! To use those you would do something like:
+**instance methods and properties**:star:, which are the default like `moveDown()` and `drawThis()`, assume you are working with a SPECIFIC snowflake; they use the `this` value inside, which doesn't make sense without an actual snowflake to refer to! To use those you would do something like:
 
 ```ts
 let s = new Snowflake();
@@ -93,7 +94,7 @@ s.moveDown(10); // moves snowflake s down ten pixels
 s.drawThis() // draws s again, now 10 lower!
 
 s.drawOne(10,10,10) // also works; you can call static methods
-                    // from specific objects, but it's weird
+                    // from instances, but it's weird
 ```
 
-Whenever you are making a new property or method in an object, you have to think about whether it should be static or instance, and whether it should be public or private. In java, you have to declare public or private for EVERY VARIABLE. In typescript, public is the default unless specified. In both languages, instance is the default but static must be declared.
+Whenever you are making a new property or method in an object, you have to think about whether it should be `static` or left as instance, and whether it should be `public` or `private`. In java, you have to declare `publi`c or `private` for EVERY VARIABLE. In typescript, `public` is the default unless specified. In both languages, instance is the default but `static` must be declared.

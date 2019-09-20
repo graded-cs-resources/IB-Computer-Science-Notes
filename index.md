@@ -45,6 +45,7 @@ These notes will be complemented by *assignments* that will be provided to you t
 [Learning Targets](/unit2/00_Learning_Targets.md)
 
 * [Introducing objects](/unit2/01_Programming_with_objects.md)
+* [Public, Private, and Static](/unit2/02_Private_Public_Static.md)
 
 ## Outside Resources
 
