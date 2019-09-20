@@ -1,4 +1,4 @@
-# Objects - Helping Programs get Large
+# Introduction to Objects and Classes
 
 Imagine you are writing a simple note-keeping app. You want to be able to use the app to create notes with different content and background colors.
 
@@ -42,7 +42,7 @@ note1.change_color("green");
 console.log(note1.color) // "green"
 ```
 
-This helps us group information about `note1` together, but it doesn't really help us make new notes or take advantage of the fact that all notes have the same properites. So for that, let's add a new idea: *classes*.
+This helps us group information about `note1` together, but it doesn't really help us make new notes or take advantage of the fact that all notes have the same properties. So for that, let's add a new idea: *classes*.
 
 ## Classes
 
@@ -81,9 +81,10 @@ let note3:Note = new Note("This is my third note. It is yellow by default!");
 
 You now have three new notes! The diagram below provides a visual of what we've got.
 
-![class diagram](media/05/class_instance.png)
+![class diagram](media/01/Class&#32;Instance&#32;diagram.png)
 
 You could still use arrays to help you keep track of an unknown number of notes, but now you only need ONE array - an array of Note objects - instead of multiple arrays.
+
 ```ts
 let notes:Note[];
 // the "push" method used below adds a new item to the end of an array in TypeScript
@@ -139,7 +140,7 @@ notes.push(new Note("oh my god how many notes????","orange"));
    ```
    {: .spoiler}
 
-7. Create a class for `Cookie` objects with three properties: `flavor` is a string, `size` is a number, and `temperature` is also a number. Include a constructor funtion to make a new `Cookie`.
+7. Create a class for `Cookie` objects with three properties: `flavor` is a string, `size` is a number, and `temperature` is also a number. Include a constructor function to make a new `Cookie`.
    
    ```ts
    class Cookie {

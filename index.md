@@ -56,6 +56,6 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 * [CompSciHub About page](https://ib.compscihub.net/about) - This excellent resource put together by IB CS teachers and students compiles notes and information about the course.
 
-* [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/dp-compsci/) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
+* [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/ib-compsci//) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
 
 * [The Beauty and Joy of Computing](https://bjc.edc.org/bjc-r/course/bjc4nyc.html) Berkeley's computer science course for freshmen, aligned to the AP Computer Science Principles exam, contains lots of valuable information mixed in its programming exercises. Check out Unit 6 for good content review notes, unit 5 for some interesting conceptual challenges, and Unit 4 for some valuable information about networks and the internet.
