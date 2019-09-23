@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "_site": true,
+    ".vscode": true
+  }
+}

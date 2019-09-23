@@ -4,9 +4,9 @@ These notes are intended to be used AFTER the "myFirstFunction Typescript" assig
 
 ## Programming Languages
 
-A **programming language**:star:, like any language, consists of a vocabulary, syntax, and a set of grammar rules for instructing a computer to perform tasks. Unlike a human language, in a programming language these all need to be unambiguous, consistent, and predictable; computers don't understand emotion or sarcasm!<sup><small>[4.3.3](../unit0_resources/syllabus.md#433)</small></sup>
+A **programming language**:star:, like any language, consists of a vocabulary, syntax, and a set of grammar rules for instructing a computer to perform tasks. Unlike a human language, in a programming language these all need to be unambiguous, consistent, and predictable; computers don't understand emotion or sarcasm!<sup><small>[4.3.3](../unit0/syllabus.md#433)</small></sup>
 
-Computers don't speak the programming languages directly; computer processors only understand a very small number of very specific instructions and all programming languages must be translated to that **machine language**:star:<sup><small>[4.3.5](../unit0_resources/syllabus.md#435)</small></sup>. 
+Computers don't speak the programming languages directly; computer processors only understand a very small number of very specific instructions and all programming languages must be translated to that **machine language**:star:<sup><small>[4.3.5](../unit0/syllabus.md#435)</small></sup>. 
 
 Programming languagues come in LOTS of different shapes and sizes, with different purposes and capabilities. 
 
@@ -30,9 +30,9 @@ Programming languagues come in LOTS of different shapes and sizes, with differen
   
 * A single-line comment begins with a `//` symbol and lasts to the end of the line.
   
-* A **variable**:star: is a named place in memory that can hold a piece of data.<sup><small>[4.3.6](../unit0_resources/syllabus.md#436)</small></sup> In TypeScript (and java), variables are **statically typed**:star: which means a particular variable name can only be associated with one *type* of data - for example a **number**, **string** (word, usually written in quotes), or **boolean** (true/false) value. In javascript (and other languages, like Python) variables are **dynamically typed**:star: and can be associated with any type of data. 
+* A **variable**:star: is a named place in memory that can hold a piece of data.<sup><small>[4.3.6](../unit0/syllabus.md#436)</small></sup> In TypeScript (and java), variables are **statically typed**:star: which means a particular variable name can only be associated with one *type* of data - for example a **number**, **string** (word, usually written in quotes), or **boolean** (true/false) value. In javascript (and other languages, like Python) variables are **dynamically typed**:star: and can be associated with any type of data. 
   
-* A **function**:star: is a named "section" of code that can be run as many times as you want. A function takes one or more *inputs* (also known as **parameters**:star:) inside of parentheses and sends back one *output* (also known as the **return value**:star:). For example, the function below will add two numbers and return the result as a number. Sometimes we think of functions as "sub-programmes" - little programs that run inside the main one and make it easier to understand the code. They are also called *methods*.<sup><small>[4.3.12](../unit0_resources/syllabus.md#4312)</small></sup>
+* A **function**:star: is a named "section" of code that can be run as many times as you want. A function takes one or more *inputs* (also known as **parameters**:star:) inside of parentheses and sends back one *output* (also known as the **return value**:star:). For example, the function below will add two numbers and return the result as a number. Sometimes we think of functions as "sub-programmes" - little programs that run inside the main one and make it easier to understand the code. They are also called *methods*.<sup><small>[4.3.12](../unit0/syllabus.md#4312)</small></sup>
 
     The example below is a function in TypeScript
   

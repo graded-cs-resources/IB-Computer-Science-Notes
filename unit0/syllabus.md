@@ -7,72 +7,118 @@
 #### Planning and system installation 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="111">1.1.1</td>
 <td>Identify the context for which a new system is planned.</td>
 <td>2</td>
-<td><p>The extent and limitations of a new system should be appreciated.</p>
-<p>Organizational issues related to the installation of new systems such as user roles, underlying technologies.</p></td>
+<td>
+<p>The extent and limitations of a new system should be appreciated.</p>
+<p>
+Organizational issues related to the installation of new systems such as user roles, underlying technologies.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="112">1.1.2</td>
 <td>Describe the need for change management.</td>
 <td>2</td>
-<td><p>Students should understand there are a number of factors that need to be managed to ensure change is successful.</p>
-<p><strong>S/E</strong> The way that change is managed can have significant effects on employers and employees.</p></td>
+<td>
+<p>
+Students should understand there are a number of factors that need to be managed to ensure change is
+successful.
+</p>
+<p>
+<strong>S/E</strong>
+The way that change is managed can have significant effects on employers and employees.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="113">1.1.3</td>
 <td>Outline compatibility issues resulting from situations including legacy systems or business mergers.</td>
 <td>2</td>
-<td><strong>INT</strong>, <strong>S/E</strong> When organizations interact, particularly on an international basis, there may be issues of software compatibility and language differences.</td>
+<td>
+<strong>INT</strong>
+,
+<strong>S/E</strong>
+When organizations interact, particularly on an international basis, there may be issues of software
+compatibility and language differences.
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="114">1.1.4</td>
 <td>Compare the implementation of systems using a client’s hardware with hosting systems remotely.</td>
 <td>3</td>
-<td><p>The benefits and drawbacks of SaaS (Software-as-a-Service) should be considered.</p>
-<p><strong>S/E</strong>, <strong>INT</strong>, <strong>AIM 8</strong> The remote host may be in a different time zone and this can have significant effects on end-users.</p></td>
+<td>
+<p>The benefits and drawbacks of SaaS (Software-as-a-Service) should be considered.</p>
+<p>
+<strong>S/E</strong>
+,
+<strong>INT</strong>
+,
+<strong>AIM 8</strong>
+The remote host may be in a different time zone and this can have significant effects on end-users.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="115">1.1.5</td>
 <td>Evaluate alternative installation processes.</td>
 <td>3</td>
-<td><p>Students should be aware of the methods of implementation/ conversion.</p>
+<td>
+<p>Students should be aware of the methods of implementation/ conversion.</p>
 <p>Parallel running, pilot running, direct changeover and phased conversion.</p>
-<p><strong>S/E</strong> Training issues may require organizations to restructure their workforce.</p></td>
+<p>
+<strong>S/E</strong>
+Training issues may require organizations to restructure their workforce.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="116">1.1.6</td>
 <td>Discuss problems that may arise as a part of data migration.</td>
 <td>3</td>
-<td><strong>INT</strong> These include incompatible file formats, data structures, validation rules, incomplete data transfer and international conventions on dates, currencies and character sets.</td>
+<td>
+<strong>INT</strong>
+These include incompatible file formats, data structures, validation rules, incomplete data transfer and
+international conventions on dates, currencies and character sets.
+</td>
 <td></td>
 </tr>
-
 <tr class="odd">
 <td id="117">1.1.7</td>
 <td>Suggest various types of testing.</td>
 <td>3</td>
-<td><p>The crucial importance of testing at all stages of implementation should be emphasized, with the stages clearly defined.</p>
+<td>
+<p>
+The crucial importance of testing at all stages of implementation should be emphasized, with the stages
+clearly defined.
+</p>
 <p>Types of testing can include: user acceptance testing, debugging, beta testing.</p>
-<p>Students should be aware that there are programs that can test other programs, thereby automating parts of the testing process and reducing costs.</p>
-<p><strong>S/E</strong> Inadequate testing can reduce employee productivity and lead to end-user dissatisfaction.</p></td>
+<p>
+Students should be aware that there are programs that can test other programs, thereby automating parts of the
+testing process and reducing costs.
+</p>
+<p>
+<strong>S/E</strong>
+Inadequate testing can reduce employee productivity and lead to end-user dissatisfaction.
+</p>
+</td>
 <td></td>
 </tr>
 </tbody>
@@ -81,39 +127,54 @@
 #### User focus
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="118">1.1.8</td>
 <td>Describe the importance of user documentation.</td>
 <td>2</td>
-<td><p><strong>S/E</strong> The quality of user</p>
-<p>documentation can affect the rate of implementation of the new system.</p></td>
+<td>
+<p>
+<strong>S/E</strong>
+The quality of user
+</p>
+<p>documentation can affect the rate of implementation of the new system.</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="119">1.1.9</td>
 <td>Evaluate different methods of providing user documentation.</td>
 <td>3</td>
-<td><p>Examples should include methods such as: help files, online support and printed manuals.</p>
-<p><strong>S/E</strong> The quality of user</p>
-<p>documentation can affect the rate of implementation of the new system.</p></td>
+<td>
+<p>Examples should include methods such as: help files, online support and printed manuals.</p>
+<p>
+<strong>S/E</strong>
+The quality of user
+</p>
+<p>documentation can affect the rate of implementation of the new system.</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="1110">1.1.10</td>
 <td>Evaluate different methods of delivering user training.</td>
 <td>3</td>
-<td><p>Examples should include selfinstruction, formal classes, remote/ online training.</p>
-<p><strong>S/E</strong> The quality of the delivery of user training can affect the rate of implementation of the new system.</p></td>
+<td>
+<p>Examples should include selfinstruction, formal classes, remote/ online training.</p>
+<p>
+<strong>S/E</strong>
+The quality of the delivery of user training can affect the rate of implementation of the new system.
+</p>
+</td>
 <td></td>
 </tr>
 </tbody>
@@ -122,32 +183,39 @@
 #### System backup 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="1111">1.1.11</td>
 <td>Identify a range of causes of data loss.</td>
 <td>2</td>
-<td><p>Causes include malicious activities and natural disasters.</p>
-<p><strong>S/E</strong> Malicious activity may be a result of activities by employees within the organization or intruders.</p></td>
+<td>
+<p>Causes include malicious activities and natural disasters.</p>
+<p>
+<strong>S/E</strong>
+Malicious activity may be a result of activities by employees within the organization or intruders.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="1112">1.1.12</td>
 <td>Outline the consequences of data loss in a specified situation.</td>
 <td>2</td>
-<td><strong>S/E</strong> Loss of medical records, cancellation of a hotel reservation without the knowledge of the traveller.</td>
+<td>
+<strong>S/E</strong>
+Loss of medical records, cancellation of a hotel reservation without the knowledge of the traveller.
+</td>
 <td></td>
 </tr>
-
 <tr class="even">
 <td id="1113">1.1.13</td>
 <td>Describe a range of methods that can be used to prevent data loss.</td>
@@ -161,22 +229,33 @@
 #### Software deployment 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="1114">1.1.14</td>
 <td>Describe strategies for managing releases and updates.</td>
 <td>2</td>
-<td><p>Students should be aware of a variety of ways in which updates and patches are made available and deployed. This includes automatic updates received on a regular basis online.</p>
-<p><strong>S/E</strong>, <strong>INT</strong> Performance issues related to the inability to install updates may hinder end-users and reduce compatibility between systems in geographically diverse locations.</p></td>
+<td>
+<p>
+Students should be aware of a variety of ways in which updates and patches are made available and deployed.
+This includes automatic updates received on a regular basis online.
+</p>
+<p>
+<strong>S/E</strong>
+,
+<strong>INT</strong>
+Performance issues related to the inability to install updates may hinder end-users and reduce compatibility
+between systems in geographically diverse locations.
+</p>
+</td>
 <td></td>
 </tr>
 </tbody>
@@ -187,22 +266,24 @@
 #### Components of a computer system 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="121">1.2.1</td>
 <td>Define the terms: hardware, software, peripheral, network, human resources.</td>
 <td>1</td>
 <td></td>
-<td></td>
+<td markdown="1">
+[Unit 1](../unit1/00_Learning_Targets.md) (hardware/software only)
+</td>
 </tr>
 <tr class="odd">
 <td id="122">1.2.2</td>
@@ -215,8 +296,15 @@
 <td id="123">1.2.3</td>
 <td>Discuss the social and ethical issues associated with a networked world.</td>
 <td>3</td>
-<td><p><strong>AIM 8</strong>, <strong>AIM 9</strong> Develop an</p>
-<p>appreciation of the social and ethical issues associated with continued developments in computer systems.</p></td>
+<td>
+<p>
+<strong>AIM 8</strong>
+,
+<strong>AIM 9</strong>
+Develop an
+</p>
+<p>appreciation of the social and ethical issues associated with continued developments in computer systems.</p>
+</td>
 <td></td>
 </tr>
 </tbody>
@@ -225,134 +313,213 @@
 #### System design and analysis 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="124">1.2.4</td>
 <td>Identify the relevant stakeholders when planning a new system.</td>
 <td>2</td>
-<td><p><strong>S/E</strong> The role of the end-user must be considered when planning a new system.</p>
+<td>
+<p>
+<strong>S/E</strong>
+The role of the end-user must be considered when planning a new system.
+</p>
 <p>Who is a relevant stakeholder?</p>
-<p><strong>TOK</strong> Utilitarianism, the greatest good for the greatest number. The means justify the ends.</p></td>
+<p>
+<strong>TOK</strong>
+Utilitarianism, the greatest good for the greatest number. The means justify the ends.
+</p>
+</td>
 <td></td>
 </tr>
-
 <tr class="odd">
 <td id="125">1.2.5</td>
 <td>Describe methods of obtaining requirements from stakeholders.</td>
 <td>2</td>
-<td><p>Including surveys, interviews, direct observations.</p>
-<p><strong>AIM 5</strong> The need for effective collaboration to obtain appropriate information from stakeholders.</p>
-<p><strong>S/E</strong> The question of privacy for stakeholders.</p></td>
+<td>
+<p>Including surveys, interviews, direct observations.</p>
+<p>
+<strong>AIM 5</strong>
+The need for effective collaboration to obtain appropriate information from stakeholders.
+</p>
+<p>
+<strong>S/E</strong>
+The question of privacy for stakeholders.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="126">1.2.6</td>
 <td>Describe appropriate techniques for gathering the information needed to arrive at a workable solution.</td>
 <td>2</td>
-<td><p>Examining current systems, competing products, organizational capabilities, literature searches.</p>
-<p><strong>S/E</strong> Intellectual property.</p></td>
+<td>
+<p>Examining current systems, competing products, organizational capabilities, literature searches.</p>
+<p>
+<strong>S/E</strong>
+Intellectual property.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="127">1.2.7</td>
 <td>Construct suitable representations to illustrate system requirements.</td>
 <td>3</td>
-<td><p>Examples include: system flow charts, data flow diagrams, structure chart.</p>
+<td>
+<p>Examples include: system flow charts, data flow diagrams, structure chart.</p>
 <p>UML is not required.</p>
-<p><strong>LINK</strong> Flow chart symbols, flow charts and pseudocode.</p></td>
+<p>
+<strong>LINK</strong>
+Flow chart symbols, flow charts and pseudocode.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="128">1.2.8</td>
 <td>Describe the purpose of prototypes to demonstrate the proposed system to the client.</td>
 <td>2</td>
-<td><p><strong>AIM 5</strong> The need to effectively collaborate to gather appropriate information to resolve complex problems.</p>
-<p><strong>AIM 6</strong> To develop logical and critical thinking to develop proposed systems.</p></td>
+<td>
+<p>
+<strong>AIM 5</strong>
+The need to effectively collaborate to gather appropriate information to resolve complex problems.
+</p>
+<p>
+<strong>AIM 6</strong>
+To develop logical and critical thinking to develop proposed systems.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="129">1.2.9</td>
 <td>Discuss the importance of iteration during the design process.</td>
 <td>3</td>
-<td><strong>MYP</strong> Design cycle.</td>
+<td>
+<strong>MYP</strong>
+Design cycle.
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="1210">1.2.10</td>
 <td>Explain the possible consequences of failing to involve the end-user in the design process.</td>
 <td>3</td>
-<td><p><strong>S/E</strong> The failure to involve the enduser may lead to software that is not suitable for its intended use, which may have adverse effects on user productivity.</p>
-<p><strong>AIM 5</strong> The need for effective collaboration and communication between the client, developer and end-user.</p></td>
+<td>
+<p>
+<strong>S/E</strong>
+The failure to involve the enduser may lead to software that is not suitable for its intended use, which may
+have adverse effects on user productivity.
+</p>
+<p>
+<strong>AIM 5</strong>
+The need for effective collaboration and communication between the client, developer and end-user.
+</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="1211">1.2.11</td>
 <td>Discuss the social and ethical issues associated with the introduction of new IT systems.</td>
 <td>3</td>
-<td><p><strong>AIM 8</strong>, <strong>AIM 9</strong> Develop an</p>
-<p>appreciation of the social and ethical issues associated with continued developments in specified computer systems.</p></td>
+<td>
+<p>
+<strong>AIM 8</strong>
+,
+<strong>AIM 9</strong>
+Develop an
+</p>
+<p>
+appreciation of the social and ethical issues associated with continued developments in specified computer
+systems.
+</p>
+</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-#### Human interaction with the system 
+#### Human interaction with the system
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th>
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="1212">1.2.12</td>
 <td>Define the term usability.</td>
 <td>1</td>
-<td><strong>S/E</strong> This includes ergonomics and accessibility.</td>
+<td>
+<strong>S/E</strong>
+This includes ergonomics and accessibility.
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="1213">1.2.13</td>
 <td>Identify a range of usability problems with commonly used digital devices.</td>
 <td>2</td>
-<td><strong>S/E</strong> Students should be aware of usability issues in a range of devices including PCs, digital cameras, cell phones, games consoles, MP3 players and other commonly used digital devices.</td>
+<td>
+<strong>S/E</strong>
+Students should be aware of usability issues in a range of devices including PCs, digital cameras, cell phones,
+games consoles, MP3 players and other commonly used digital devices.
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="1214">1.2.14</td>
 <td>Identify methods that can be used to improve the accessibility of systems.</td>
 <td>2</td>
-<td><p><strong>S/E</strong> Examples include touch screen, voice recognition, text-to-speech,</p>
-<p>Braille keyboard.</p></td>
+<td>
+<p>
+<strong>S/E</strong>
+Examples include touch screen, voice recognition, text-to-speech,
+</p>
+<p>Braille keyboard.</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td id="1215">1.2.15</td>
 <td>Identify a range of usability problems that can occur in a system.</td>
 <td>2</td>
-<td><p><strong>S/E</strong> These should be related to the systems.</p>
-<p>Systems include ticketing, online payroll, scheduling, voice recognition, systems that provide feedback.</p></td>
+<td>
+<p>
+<strong>S/E</strong>
+These should be related to the systems.
+</p>
+<p>Systems include ticketing, online payroll, scheduling, voice recognition, systems that provide feedback.</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td id="1216">1.2.16</td>
-<td>Discuss the moral, ethical, social, economic and environmental implications of the interaction between humans and machines.</td>
+<td>
+Discuss the moral, ethical, social, economic and environmental implications of the interaction between humans
+and machines.
+</td>
 <td>3</td>
-<td><strong>AIM 8</strong> Raise awareness of the moral, ethical, social, economic and environmental implications of using science and technology.</td>
+<td>
+<strong>AIM 8</strong>
+Raise awareness of the moral, ethical, social, economic and environmental implications of using science and
+technology.
+</td>
 <td></td>
 </tr>
 </tbody>
@@ -365,16 +532,16 @@
 #### Computer architecture 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="211">2.1.1</td>
 <td>Outline the architecture of the central processing unit (CPU) and the functions of the arithmetic logic unit (ALU) and the control unit (CU) and the registers within the CPU.</td>
@@ -387,7 +554,9 @@
 <td>Describe primary memory.</td>
 <td>2</td>
 <td>Distinguish between random access memory (RAM) and read-only memory (ROM), and their use in primary memory.</td>
-<td>Unit 1</td>
+<td markdown="1">
+[Unit 1](../unit1/03_Data_on_computers.md)
+</td>
 </tr>
 
 <tr class="odd">
@@ -395,7 +564,9 @@
 <td>Explain the use of cache memory.</td>
 <td>3</td>
 <td>Students should be able to explain the effect of cache memory in speeding up the system as well as being able to explain how it is used.</td>
-<td>Unit 1</td>
+<td markdown="1">
+[Unit 1](../unit1/03_Data_on_computers.md)
+</td>
 </tr>
 <tr class="even">
 <td id="214">2.1.4</td>
@@ -410,16 +581,16 @@
 #### Secondary memory 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="215">2.1.5</td>
 <td>Identify the need for persistent storage.</td>
@@ -429,7 +600,9 @@
 <p><strong>TOK</strong> If there are no consequences of data loss, why is it stored.</p>
 <p><strong>TOK</strong> There is no such thing as persistent storage.</p>
 <p><strong>AIM 9</strong> An appreciation of the issues related to both the ever increasing amount of data and a need to retain it.</p></td>
-<td>Unit 1</td>
+<td markdown="1">
+[Unit 1](../unit1/03_Data_on_computers.md)
+</td>
 </tr>
 </tbody>
 </table>
@@ -437,22 +610,22 @@
 #### Operating systems and application systems 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="216">2.1.6</td>
 <td>Describe the main functions of an operating system.</td>
 <td>2</td>
 <td>This is confined to a single-user operating system. Technical details are not needed. For example, memory management should be described but how this is handled in a multitasking environment is not expected.</td>
-<td></td>
+<td>Unit 2</td>
 </tr>
 <tr class="odd">
 <td id="217">2.1.7</td>
@@ -478,22 +651,22 @@
 #### representation 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="219">2.1.9</td>
 <td>Define the terms: bit, byte, binary, denary/decimal, hexadecimal.</td>
 <td>1</td>
 <td></td>
-<td>Unit 1</td>
+<td>Unit 2</td>
 </tr>
 <tr class="even">
 <td id="2110">2.1.10</td>
@@ -502,7 +675,7 @@
 <td><p>To include strings, integers, characters and colours. This should include considering the space taken by data, for instance the relation between the hexadecimal representation of colours and the number of colours available.</p>
 <p><strong>TOK</strong>, <strong>INT</strong> Does represent an example of a lingua franca?</p>
 <p><strong>S/E</strong>, <strong>INT</strong> Comparing the number of characters needed in the Latin alphabet with those in Arabic and Asian languages to understand the need for Unicode.</p></td>
-<td>Unit 1</td>
+<td>Unit 2</td>
 </tr>
 </tbody>
 </table>
@@ -510,22 +683,22 @@
 #### Simple logic gates 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="2111">2.1.11</td>
 <td>Define the Boolean operators: AND, OR, NOT, NAND, NOR and XOR.</td>
 <td>1</td>
 <td><strong>LINK</strong> Introduction to programming, approved notation sheet.</td>
-<td></td>
+<td>Unit 2</td>
 </tr>
 <tr class="odd">
 <td id="2112">2.1.12</td>
@@ -535,7 +708,7 @@
 <p>Not more than three inputs are used.</p>
 <p><strong>LINK</strong> Thinking logically.</p>
 <p><strong>TOK</strong> Reason as a way of knowing.</p></td>
-<td></td>
+<td>Unit 2</td>
 </tr>
 
 <tr class="odd">
@@ -547,7 +720,7 @@
 <p>For example:</p>
 <p><strong>OR</strong></p>
 <p><strong>LINK</strong> Thinking logically, connecting computational thinking and program design, introduction to programming.</p></td>
-<td></td>
+<td>Unit 2</td>
 </tr>
 </tbody>
 </table>
@@ -559,16 +732,16 @@
 #### Network fundamentals 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="311">3.1.1</td>
 <td>Identify different types of networks.</td>
@@ -612,16 +785,16 @@
 #### Data transmission 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="316">3.1.6</td>
 <td>Define the terms: protocol, data packet.</td>
@@ -671,16 +844,16 @@
 #### Wireless networking 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="3112">3.1.12</td>
 <td>Outline the advantages and disadvantages of wireless networks.</td>
@@ -727,22 +900,22 @@
 ### 4.1 General principles (10 hours)
 
 > This should not be taught as a separate topic but must be incorporated and connected to all sections— especially flow charts, pseudocode and programming in the SL/HL core and abstract data structures (HL extension). It is essential that these elements are not addressed in isolation—they have to be approached as a whole.
- 
+
 > The basic ideas and their application should be illustrated with non-computer examples. Each basic idea should then be practised in specific algorithmic contexts using concepts drawn from flow charts, pseudocode and programming. The teacher support material illustrates examples such as the home/locker/ knapsack for thinking ahead.
 
 #### Thinking procedurally 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="411">4.1.1</td>
 <td>Identify the procedure appropriate to solving a problem.</td>
@@ -774,16 +947,16 @@
 #### Thinking logically 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="414">4.1.4</td>
 <td>Identify when decision-making is required in a specified situation.</td>
@@ -832,16 +1005,16 @@
 #### Thinking ahead 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="419">4.1.9</td>
 <td>Identify the inputs and outputs required in a solution.</td>
@@ -890,16 +1063,16 @@
 #### Thinking concurrently 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="4114">4.1.14</td>
 <td>Identify the parts of a solution that could be implemented concurrently.</td>
@@ -929,16 +1102,16 @@
 #### Thinking abstractly 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="4117">4.1.17</td>
 <td>Identify examples of abstraction.</td>
@@ -993,20 +1166,20 @@
 > In externally assessed components questions will be presented using flow charts and/or pseudocode as outlined in the approved notation sheet. Answers will only be required in pseudocode.
 
 > Students must be given the opportunity to convert algorithms into working code that is executed and tested.
- 
+
 > Working code will not be assessed in the externally assessed components.
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="421">4.2.1</td>
 <td>Describe the characteristics of standard algorithms on linear arrays.</td>
@@ -1090,16 +1263,16 @@
 #### Nature of programming languages 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="431">4.3.1</td>
 <td>State the fundamental operations of a computer.</td>
@@ -1148,29 +1321,33 @@
 > There is no programming language specified in the SL/HL core. However, students must use a language that supports the basic constructs on the approved notation sheet.
 > 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="436">4.3.6</td>
 <td>Define the terms: variable, constant, operator, object.</td>
 <td>1</td>
 <td></td>
-<td></td>
+<td markdown="1">
+[Unit 1](../unit1/04_Operators.md)
+</td>
 </tr>
 <tr class="even">
 <td id="437">4.3.7</td>
 <td>Define the operators =, ≠, &lt;, &lt;=, &gt;, &gt;=, mod, div.</td>
 <td>1</td>
 <td><strong>LINK</strong> Approved notation sheet.</td>
-<td></td>
+<td markdown="1">
+[Unit 1](../unit1/04_Operators.md)
+</td>
 </tr>
 <tr class="odd">
 <td id="438">4.3.8</td>
@@ -1257,16 +1434,16 @@
 #### Thinking recursively 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="511">5.1.1</td>
 <td>Identify a situation that requires the use of recursive thinking.</td>
@@ -1295,16 +1472,16 @@
 #### Abstract data structures 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="514">5.1.4</td>
 <td>Describe the characteristics of a two dimensional array.</td>
@@ -1379,19 +1556,19 @@
 
 #### Linked lists
 
-<p>Linked lists will be examined at the level of diagrams and descriptions. Students are not expected to construct linked list algorithms using pseudocode.</p></td>
+Linked lists will be examined at the level of diagrams and descriptions. Students are not expected to construct linked list algorithms using pseudocode.
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="5111">5.1.11</td>
 <td>Describe the features and characteristics of a dynamic data structure.</td>
@@ -1421,16 +1598,16 @@
 <p>trees will be examined at the level of diagrams and descriptions. Students are not expected to construct tree algorithms using pseudocode.</p>
 <p>Tracing and constructing algorithms are not expected.</p>
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="5114">5.1.14</td>
 <td>Describe how trees operate logically (both and non-binary).</td>
@@ -1465,16 +1642,16 @@
 #### Applications 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="5118">5.1.18</td>
 <td>Define the term dynamic data structure.</td>
@@ -1551,16 +1728,16 @@
 #### Role of the operating system 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td id="615">6.1.5</td>
 <td>Explain the role of the operating system in terms of managing memory, peripherals and hardware interfaces.</td>
@@ -1602,16 +1779,16 @@
 #### Centralized control systems 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="711">7.1.1</td>
 <td>Discuss a range of control systems.</td>
@@ -1662,16 +1839,16 @@
 #### Distributed systems 
 
 <table>
- <thead>
- <tr class="header">
- <th></th>
- <th><strong>Assessment statement</strong></th>
- <th><strong>Obj</strong></th>
- <th><strong>Teacher’s notes</strong></th> 
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Assessment statement</strong></th>
+<th><strong>Obj</strong></th>
+<th><strong>Teacher’s notes</strong></th> 
 <th><strong>Units / Lessons</strong></th>
- </tr>
- </thead>
- <tbody>
+</tr>
+</thead>
+<tbody>
 <tr class="even">
 <td id="717">7.1.7</td>
 <td>Compare a centrally controlled system with a distributed system.</td>
@@ -1712,7 +1889,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>D.1.1</td>
+<td id="D11">D.1.1</td>
 <td>Outline the general nature of an object.</td>
 <td>2</td>
 <td><p>An object as an abstract entity and its components—data and actions.</p>
@@ -1720,21 +1897,21 @@
 <td>Unit 2</td>
 </tr>
 <tr class="even">
-<td>D.1.2</td>
+<td id="D12">D.1.2</td>
 <td>Distinguish between an object (definition, template or class) and instantiation.</td>
 <td>2</td>
 <td>Students must understand the difference in terms of code definitions, memory use and the potential creation of multiple instantiated objects.</td>
 <td>Unit 2</td>
 </tr>
 <tr class="odd">
-<td>D.1.3</td>
+<td id="D13">D.1.3</td>
 <td>Construct unified modelling language (UML) diagrams to represent object designs.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
 <td>Unit 2</td>
 </tr>
 <tr class="even">
-<td>D.1.4</td>
+<td id="D14">D.1.4</td>
 <td>Interpret UML diagrams.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
@@ -1742,7 +1919,7 @@
 </tr>
 
 <tr class="odd">
-<td>D.1.5</td>
+<td id="D15">D.1.5</td>
 <td>Describe the process of decomposition into several related objects.</td>
 <td>2</td>
 <td><p>A simple example with 3–5 objects is suggested. Examples related to D.1.1 could be employers, traffic simulation models, calculators, calendars, media collections.</p>
@@ -1751,24 +1928,24 @@
 <td>Unit 2</td>
 </tr>
 <tr class="even">
-<td>D.1.6</td>
+<td id="D16">D.1.6</td>
 <td>Describe the relationships between objects for a given problem.</td>
 <td>2</td>
 <td><p>The relationships that should be known are dependency</p>
 <p>(“uses”), aggregation (“has a”) and inheritance (“is a”).</p>
 <p><strong>LINK</strong> Thinking abstractly.</p>
 <p><strong>AIM 4</strong> Applying thinking skills critically to decompose scenarios.</p></td>
-<td>Unit 2Unit 2</td>
+<td>Unit 2</td>
 </tr>
 <tr class="odd">
-<td>D.1.7</td>
+<td id="D17">D.1.7</td>
 <td>Outline the need to reduce dependencies between objects in a given problem.</td>
 <td>2</td>
 <td>Students should understand that dependencies increase maintenance overheads.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.1.8</td>
+<td id="D18">D.1.8</td>
 <td>Construct related objects for a given problem.</td>
 <td>3</td>
 <td><p>In examinations problems will require the students to construct definitions for no more than three objects and to explain their relationships to each other and to any additional classes defined by the examiners.</p>
@@ -1777,14 +1954,14 @@
 <td>Unit 2</td>
 </tr>
 <tr class="odd">
-<td>D.1.9</td>
+<td id="D19">D.1.9</td>
 <td>Explain the need for different data types to represent data items.</td>
 <td>3</td>
 <td>The data types will be restricted to integer, real, string and Boolean.</td>
 <td>Unit 1 (HL/SL</td>
 </tr>
 <tr class="even">
-<td>D.1.10</td>
+<td id="D110">D.1.10</td>
 <td>Describe how data items can be passed to and from actions as parameters.</td>
 <td>2</td>
 <td>Parameters will be restricted to passby-value of one of the four types in D.1.9. Actions may return at most one data item.</td>
@@ -1810,56 +1987,58 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>D.2.1</td>
+<td id="D21">D.2.1</td>
 <td>Define the term encapsulation.</td>
 <td>1</td>
 <td>Data and actions are limited to the object in which they are defined.</td>
-<td></td>
+<td markdown="1">
+[Unit 2](../unit2/02_Private_Public_Static.md)
+</td>
 </tr>
 <tr class="even">
-<td>D.2.2</td>
+<td id="D22">D.2.2</td>
 <td>Define the term inheritance.</td>
 <td>1</td>
 <td>A parent object holds common data and actions for a group of related child objects. Multiple inheritance is not required.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.2.3</td>
+<td id="D23">D.2.3</td>
 <td>Define the term polymorphism.</td>
 <td>1</td>
 <td>Actions have the same name but different parameter lists and processes.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.2.4</td>
+<td id="D24">D.2.4</td>
 <td>Explain the advantages of encapsulation.</td>
 <td>3</td>
 <td>For example, the scope of data should be confined to the object in which it is defined as far as possible in order to limit side effects and dependencies.</td>
-<td></td>
+<td>Unit 2</td>
 </tr>
 <tr class="odd">
-<td>D.2.5</td>
+<td id="D25">D.2.5</td>
 <td>Explain the advantages of inheritance.</td>
 <td>3</td>
 <td>For example, a parent object holds common data and actions, which enhances reuse and reduces maintenance overheads.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.2.6</td>
+<td id="D26">D.2.6</td>
 <td>Explain the advantages of polymorphism.</td>
 <td>3</td>
 <td>For example, an action in a child object may choose to override actions of a parent object. This allows an external program to use the same action on a family of objects without knowing the implementation detail.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.2.7</td>
+<td id="D27">D.2.7</td>
 <td>Describe the advantages of libraries of objects.</td>
 <td>2</td>
 <td>For example, sorts and other complex algorithms and processes do not have to be “re-invented”.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.2.8</td>
+<td id="D28">D.2.8</td>
 <td>Describe the disadvantages of OOP.</td>
 <td>2</td>
 <td><p>For example, increased complexity for small problems; unsuited to particular classes of problem.</p>
@@ -1867,7 +2046,7 @@
 <td></td>
 </tr>
 <tr class="even">
-<td>D.2.9</td>
+<td id="D29">D.2.9</td>
 <td>Discuss the use of programming teams.</td>
 <td>3</td>
 <td><p>As compared to individuals working alone. Examples include speed to completion, information hiding to reduce module dependencies, expertise in narrow fields (eg testing, documentation), etc.</p>
@@ -1875,7 +2054,7 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.2.10</td>
+<td id="D210">D.2.10</td>
 <td>Explain the advantages of modularity in program development.</td>
 <td>3</td>
 <td>Advantages include easier debugging and testing, speedier completion, etc.</td>
@@ -1898,28 +2077,28 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>D.3.1</td>
+<td id="D31">D.3.1</td>
 <td>Define the terms: class, identifier, primitive, instance variable, parameter variable, local variable.</td>
 <td>1</td>
 <td>These are generally related to the object’s data. See JETS.</td>
 <td>Unit 2</td>
 </tr>
 <tr class="even">
-<td>D.3.2</td>
+<td id="D32">D.3.2</td>
 <td>Define the terms: method, accessor, mutator, constructor, signature, return value.</td>
 <td>1</td>
 <td>These are generally related to the object’s actions. See JETS.</td>
 <td>Unit 2 (mostly)</td>
 </tr>
 <tr class="odd">
-<td>D.3.3</td>
+<td id="D33">D.3.3</td>
 <td>Define the terms: private, protected, public, extends, static.</td>
 <td>1</td>
 <td>These are generally related to the OOP features described in D.2. See JETS.</td>
-<td></td>
+<td>Unit 2</td>
 </tr>
 <tr class="even">
-<td>D.3.4</td>
+<td id="D34">D.3.4</td>
 <td>Describe the uses of the primitive data types and the reference class string.</td>
 <td>2</td>
 <td><p>In examination questions the primitive types will be limited to int, long, double, char and Boolean.</p>
@@ -1927,35 +2106,35 @@
 <td>Unit 2</td>
 </tr>
 <tr class="odd">
-<td>D.3.5</td>
+<td id="D35">D.3.5</td>
 <td>Construct code to implement assessment statements D.3.1–D.3.4.</td>
 <td>3</td>
 <td>Students may be asked to trace, explain or construct algorithms using the concepts associated with the terms.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.3.6</td>
+<td id="D36">D.3.6</td>
 <td>Construct code examples related to selection statements.</td>
 <td>3</td>
 <td>Students may be asked to trace, explain or construct algorithms using simple and compound if … else constructs.</td>
-<td></td>
+<td>Unit 1</td>
 </tr>
 <tr class="odd">
-<td>D.3.7</td>
+<td id="D37">D.3.7</td>
 <td>Construct code examples related to repetition statements.</td>
 <td>3</td>
 <td>Students may be asked to trace, explain or construct algorithms using for, while or do … while loops.</td>
-<td></td>
+<td>Unit 1</td>
 </tr>
 <tr class="even">
-<td>D.3.8</td>
+<td id="D38">D.3.8</td>
 <td>Construct code examples related to static arrays.</td>
 <td>3</td>
 <td>Students may be asked to trace, explain or construct algorithms using static arrays.</td>
-<td></td>
+<td>Unit 1</td>
 </tr>
 <tr class="even">
-<td>D.3.9</td>
+<td id="D39">D.3.9</td>
 <td>Discuss the features of modern programming languages that enable internationalization.</td>
 <td>3</td>
 <td><p>For example, use of UNICODE character sets.</p>
@@ -1963,7 +2142,7 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.3.10</td>
+<td id="D310">D.3.10</td>
 <td>Discuss the ethical and moral obligations of programmers.</td>
 <td>3</td>
 <td><p>For example, adequate testing of products to prevent the possibilities of commercial or other damage. Acknowledging the work of other programmers. The main aims of the Open Source movement should be known.</p>
@@ -1989,14 +2168,14 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>D.4.1</td>
+<td id="D41">D.4.1</td>
 <td>Define the term recursion.</td>
 <td>1</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.4.2</td>
+<td id="D42">D.4.2</td>
 <td>Describe the application of recursive algorithms.</td>
 <td>2</td>
 <td><p>Students should understand that recursion can be applied to a small subset of programming problems to produce elegant solutions. Students should also understand that recursive algorithms are rarely used in practice.</p>
@@ -2004,7 +2183,7 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.4.3</td>
+<td id="D43">D.4.3</td>
 <td>Construct algorithms that use recursion.</td>
 <td>3</td>
 <td><p>This is limited to a method that returns no more than one result and contains either one or two recursive calls.</p>
@@ -2012,7 +2191,7 @@
 <td></td>
 </tr>
 <tr class="even">
-<td>D.4.4</td>
+<td id="D44">D.4.4</td>
 <td>Trace recursive algorithms.</td>
 <td>2</td>
 <td><p>All steps and calls must be shown clearly.</p>
@@ -2020,14 +2199,14 @@
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.4.5</td>
+<td id="D45">D.4.5</td>
 <td>Define the term object reference.</td>
 <td>1</td>
 <td>As typified by simple classes that are self-referential.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.4.6</td>
+<td id="D46">D.4.6</td>
 <td>Construct algorithms that use reference mechanisms.</td>
 <td>3</td>
 <td></td>
@@ -2035,35 +2214,35 @@
 </tr>
 
 <tr class="odd">
-<td>D.4.7</td>
+<td id="D47">D.4.7</td>
 <td>Identify the features of the abstract data type (ADT) list.</td>
 <td>2</td>
 <td>Students should understand the nature of an ADT—where no implementation details are known but the actions/methods are standard.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.4.8</td>
+<td id="D48">D.4.8</td>
 <td>Describe applications of lists.</td>
 <td>2</td>
 <td>Students should understand that lists can be used to represent stacks and queues.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.4.9</td>
+<td id="D49">D.4.9</td>
 <td>Construct algorithms using a static implementation of a list.</td>
 <td>3</td>
 <td>Lists will be restricted to singly linked types. Methods that should be known are add (head and tail), insert (in order), delete, list, isEmpty, isFull.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.4.10</td>
+<td id="D410">D.4.10</td>
 <td>Construct list algorithms using object references.</td>
 <td>3</td>
 <td>Lists will be restricted to singly linked types. Methods that should be known are add (head and tail), insert (in order), delete, list, isEmpty, isFull.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.4.11</td>
+<td id="D411">D.4.11</td>
 <td>Construct algorithms using the standard library collections included in JETS.</td>
 <td>3</td>
 <td><p>The classes are ArrayList and LinkedList. Students should have a broad understanding of the operation</p>
@@ -2071,28 +2250,28 @@
 <td></td>
 </tr>
 <tr class="even">
-<td>D.4.12</td>
+<td id="D412">D.4.12</td>
 <td>Trace algorithms using the implementations described in assessment statements D.4.9–D.4.11.</td>
 <td>2</td>
 <td>In examination questions, definitions of ArrayList and LinkedList methods will be given where necessary.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.4.13</td>
+<td id="D413">D.4.13</td>
 <td>Explain the advantages of using library collections.</td>
 <td>3</td>
 <td>Students should understand that libraries provide convenient and reliable implementations of common programming tasks.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>D.4.14</td>
+<td id="D414">D.4.14</td>
 <td>Outline the features of ADT’s stack, queue and tree.</td>
 <td>2</td>
 <td>Students should be able to provide diagrams, applications and descriptions of these ADTs. For example, they should know that a tree can be used to efficiently store and retrieve unique keys.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>D.4.15</td>
+<td id="D415">D.4.15</td>
 <td>Explain the importance of style and naming conventions in code.</td>
 <td>3</td>
 <td><p>Students should understand that meaningful identifiers, proper indentation and adequate comments all improve the readability of code for humans and thus save money, time and effort in programming teams.</p>

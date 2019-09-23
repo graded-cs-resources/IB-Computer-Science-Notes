@@ -2,7 +2,7 @@
 title: Graded IB Computer Science Notes
 ---
 
-![Graded CS Logo](unit0_resources/computer-science-logo.png){: .centered}
+![Graded CS Logo](unit0/computer-science-logo.png){: .centered}
 
 # Graded IB Computer Science Notes Page
 
@@ -14,12 +14,12 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 ### Course Resources
 
-* [Official IB Syllabus](/unit0_resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>
+* [Official IB Syllabus](/unit0/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>
   
-* [Traced algorithms](/unit0_resources/traced_algorithms.md). We will trace algorithms nearly every class. As we trace new ones, I will add them (and their solutions) to this page for reference.
+* [Traced algorithms](/unit0/traced_algorithms.md). We will trace algorithms nearly every class. As we trace new ones, I will add them (and their solutions) to this page for reference.
 * [CodingTS - Coding practice in TypeScript!](https://graded-cs-resources.github.io/CodingTS/)
   
-* [IA Information](/unit0_resources/ia.md)
+* [IA Information](/unit0/ia.md)
   
 * [Introduction](/unit1/00_Intro.md)
 * [Setting up your software environment](/unit1/01_Getting_Set_Up.md)
@@ -35,9 +35,8 @@ These notes will be complemented by *assignments* that will be provided to you t
 * [Common Data types](/unit1/04_Common_data_types.md)
 * [Operators](/unit1/05_Operators.md)
 * [Arrays](/unit1/06_Arrays.md)
-
 * [Intro to Resource Management](/unit1/08_Resource_Management_Intro.md) (HL Only)
-
+^
 * [Intro to p5](/unit1/07_intro_to_p5.md)
 
 ### Unit 2 - Abstraction and Objects
@@ -45,7 +44,7 @@ These notes will be complemented by *assignments* that will be provided to you t
 [Learning Targets](/unit2/00_Learning_Targets.md)
 
 * [Introducing objects](/unit2/01_Programming_with_objects.md)
-* [Public, Private, and Static](/unit2/02_Private_Public_Static.md)
+* [Public, Private, Static, Readonly, and Const](/unit2/02_Private_Public_Static.md)
 
 ## Outside Resources
 
