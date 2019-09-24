@@ -28,6 +28,7 @@ In TypeScript you can make SINGLE objects like this:
 ```ts
 let note1 = {
   // the first two values are properties of the object
+  // these are also called *instance variables*
   contents: "This is my first note",
   color: "red",
   width: 100,
@@ -47,20 +48,19 @@ This helps us group information about `note1` together, but it doesn't really he
 
 ## Classes
 
-A **`class`**:star: is a DESCRIPTION of an object, a template or recipe that describes the overall shape and behavior of a type of object. It describes what types of information we will hold about the object, what types of methods will be done to or by the object, and how to create a new **`instance`**:star:, or specific case, of the object.
+A **class**:star: is a DESCRIPTION of an object, a template or recipe that describes the overall shape and behavior of a type of object.[D.3.1](../unit0/syllabus.md#D31){: .syl} It describes what types of information we will hold about the object, what types of methods will be done to or by the object, and how to create a new **instance**:star:, or specific case, of the object.
 
 When you define a class you are essentially creating your own data type. The class below defines a new object of type `Note`.
 
 ```ts
 class Note { //classes are, by convention, capitalized
-  /*==============PROPERTIES=======================*/
-  // properties are essentially variables associated with an object. No need for 'let'
-  // They define the STATE of the object.
+  /*============== PROPERTIES / INSTANCE VARIABLES =======================*/
+  // No need for 'let'. These define the STATE or DATA of the object.
   contents:string;
   color:string;
   complete:boolean;
 
-  /*=========CONSTRUCTOR====================*/
+  /*========= CONSTRUCTOR ====================*/
   // The constructor is a special function that defines how to create a new
   // *instance* of an object. Does not need 'function'. Returns a new Note object.
   constructor(contents:string, color = "yellow") {
@@ -71,7 +71,7 @@ class Note { //classes are, by convention, capitalized
   }
 
   /*=============METHODS===================*/
-  // methods define the ACTIONS of the object. They are like functions.
+  // methods define the ACTIONS of the object.
   // they do not need the function keyword when in a class.
   check_off():boolean {
     this.complete = true;
@@ -105,17 +105,17 @@ notes.push(new Note("oh my god how many notes????","orange"));
 
 ## Check your Understanding
 
-1. What is an object property?
+1. What is an instance variable, or property?[D.3.1](../unit0/syllabus.md#D31){: .syl}
 
    > A variable that is associated with a specific object, accessed with the `.` operator.
    {: .spoiler}
 
-2. What is an object method?
+2. What is a method?[D.3.2](../unit0/syllabus.md#D32){: .syl}
    
    > A FUNCTION that is associated with a specific object, accessed with the `.` operator.
    {: .spoiler}
    
-3. What is a constructor method?
+3. What is a constructor method?[D.3.2](../unit0/syllabus.md#D32){: .syl}
   
    >A special method that is used to make a new *instance* of an object when you use the new command.
    {: .spoiler}
@@ -141,13 +141,13 @@ notes.push(new Note("oh my god how many notes????","orange"));
    ```
    {: .spoiler}
 
-7. Create a class for `Cookie` objects with three properties: `flavor` is a string, `size` is a number, and `temperature` is also a number. Include a constructor function to make a new `Cookie`.
+7. Create a class for `Cookie` objects with three instance variables: `flavor` is a string, `size` is a number, and `temperature` is also a number. Include a constructor function to make a new `Cookie`.
    
    ```ts
    class Cookie {
-      public flavor:string;
-      public size:number;
-      public temperature:number;
+      flavor:string;
+      size:number;
+      temperature:number;
 
       constructor(flavor:string, size:number, temp:number) {
         this.flavor = flavor;
@@ -160,7 +160,7 @@ notes.push(new Note("oh my god how many notes????","orange"));
 
 ## Flash Cards
 * object
-* property
+* property / instance variable
 * method
 * constructor
 * dot operator

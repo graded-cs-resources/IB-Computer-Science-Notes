@@ -53,7 +53,7 @@ Let's break down some of the words we see here.
 
 ## public vs private properties and methods
 
-Public properties and methods are available OUTSIDE the class itself, while private methods can only be called from other methods INSIDE the calss. Consider the following code, which we might use from setup or draw:
+Public properties and methods are available OUTSIDE the class itself, while private methods can only be called from other methods INSIDE the class.[D.3.3](../unit0/syllabus.md#D33){: .syl} Consider the following code, which we might use from setup or draw:
 
 ```ts
 s = new Snowflake();
@@ -63,15 +63,15 @@ s.drawThis(); // draws the snowflake
 console.log(s.randomColor()); // ERROR randomColor() is private
 ```
 
-Private properties are an important of **encapsulation**:star:, one of the key ideas of object-oriented programming. Encapsulation is the idea that data should be bundled together by its purpose, and data should be hidden inside that bundle (or object) whenever possible. Encapsulation is a valuable tool in adding abstraction to your code.
+Private properties are an important of **encapsulation**:star:[D.2.1](../unit0/syllabus.md#D21){: .syl}, one of the key ideas of object-oriented programming. Encapsulation is the idea that data should be bundled together by its purpose, and data should be hidden inside that bundle (or object) whenever possible. Encapsulation is a valuable tool in adding abstraction to your code, as well as reducing the connections between code, reducing side-effects.[D.2.4](../unit0/syllabus.md#D24){: .syl}
 
 ## static vs. instance properties and methods
 
-Properties and methods can also be defined as *static* or *instance* values. In the above code, we have only instance properties, but we have one two static method, marked with `static`, and two instance methods that aren't marked with that word.
+Properties and methods can also be defined as *static* or *instance* values. In the above code, we have only instance properties, but we have one static method, marked with `static`, and two instance methods that aren't marked with that word.
 
 ### Static methods and properties
 
-**static methods and properties**:star: are defined for the entire CLASS and can be used even if you don't have any specific instances of the object. They are essentially just normal functions that we stick in a class for organization reasons; they don't depend on the property values of the specific object. You call a static method by using the name of the entire CLASS (generally capitalized), followed by the dot operator, followed by the method name.
+**Static methods and properties**:star:[D.3.3](../unit0/syllabus.md#D33){: .syl} are defined for the entire CLASS and can be used even if you don't have any specific instances of the object. They are essentially just normal functions that we stick in a class for organization reasons; they don't depend on the property values of the specific object. You call a static method by using the name of the entire CLASS (generally capitalized), followed by the dot operator, followed by the method name.
 
 ```ts
 Snowflake.drawOne(20, 50, 50, color("blue"));
@@ -86,40 +86,41 @@ In this case, `Snowflake.drawOne()` is essentially the same as the `snowflake()`
 
 These four keywords are often confused, but they do very different things! It is important to keep them straight.
 
-**static** is used ONLY in classes, to declare properties or methods that are associated with the object type but don't belong to any particular instance. However, they can still be changed! The change simply applies to the static property.
+* `static` is used ONLY in classes, to declare properties or methods that are associated with the object type but don't belong to any particular instance. However, they can still be changed! The change simply applies to the static property.
 
-```ts 
-class Bob {
-    static a:number = 3;
-}
+  ```ts 
+  class Bob {
+      static a:number = 3;
+  }
 
-Bob.a = 4;
-console.log(Bob.a) // 4 prints out
-b = new Bob();
-console.log(b.a) // error, a is static
-```
-**const** (typescript) is used to declare VARIABLES (not object properties!) that should not be reassigned to a new value. 
+  Bob.a = 4;
+  console.log(Bob.a) // 4 prints out
+  b = new Bob();
+  console.log(b.a) // error, a is static
+  ```
 
-```ts
-const a = 3;
-a = 4; //error, cannot change constants
-```
+* `const` (typescript) is used to declare VARIABLES (not object properties!) that should not be reassigned to a new value. 
 
-**readonly** (typescript) and **final** (java) are used to declare OBJECT properties that should not be reassigned to a new value. These words can be used with static or instance properties.
+  ```ts
+  const a = 3;
+  a = 4; //error, cannot change constants
+  ```
 
-```ts
-class Bob {
-    readonly a:number = 3;
-}
+* `readonly` (typescript) and `final` (java) are used to declare object properties that should not be reassigned to a new value. These words can be used with static or instance variables within a class.
 
-Bob.a = 4; // error, Bob.a does not exist, a is an instance property
-let b = new Bob();
-b.a = 4; // error, a is read-only, cannot be edited.
-```
+  ```ts
+  class Bob {
+      readonly a:number = 3;
+  }
+
+  Bob.a = 4; // error, Bob.a does not exist, a is an instance property
+  let b = new Bob();
+  b.a = 4; // error, a is read-only, cannot be edited.
+  ```
 
 ### Instance methods and properties
 
-**instance methods and properties**:star: are the most common type of element in a class. In our example, they include `x`,,`color`, `moveDown()` and `drawThis()`. These assume you are working with a SPECIFIC snowflake. The methods, like `moveDown()`, will use the keyword `this` to refer to the specific object they are being called from.
+**Instance methods and properties**:star:[D.3.3](../unit0/syllabus.md#D33){: .syl} are the most common type of element in a class. In our example, they include `x`,,`color`, `moveDown()` and `drawThis()`. These assume you are working with a SPECIFIC snowflake. The methods, like `moveDown()`, will use the keyword `this` to refer to the specific object they are being called from.
 
 ```ts
 let s = new Snowflake(); //uses constructor to make a random flake
@@ -184,7 +185,7 @@ Whenever you are making a new property or method in an object, you have to think
       
       class Cookie {
           const SHAPE:string = "circle";
-            // ERROR. cannot use `const` in an object, need `readonly`.
+          // ERROR. cannot use `const` in an object, need `readonly` or `static` depending
           private flavor:string = "chocolate chip";
           temperature:number = 35;
           
