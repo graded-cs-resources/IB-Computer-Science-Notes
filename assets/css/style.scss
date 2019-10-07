@@ -25,16 +25,18 @@ ol ol ol {
   clear: left;
 }
 
+div.highlighter-rouge {
+  margin-left:2em;
+}
+
 pre {
   font-family: Consolas, Monaco, 'Courier New', Courier, monospace;
   display:inline-block;
-  margin-left: 3em;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 pre.sourceCode {
-  margin-left: 3em;
   margin-top: 0;
   margin-bottom: 0;
 }

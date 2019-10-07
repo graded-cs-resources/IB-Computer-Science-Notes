@@ -45,6 +45,9 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 * [Introducing objects](/unit2/01_Programming_with_objects.md)
 * [Public, Private, Static, Readonly, and Const](/unit2/02_Private_Public_Static.md)
+^
+* [Practice Problems](/unit2/02a_object_anatomy_practice_problems.md)
+
 
 ## Outside Resources
 

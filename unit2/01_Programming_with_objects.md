@@ -86,17 +86,17 @@ let note2: Note = new Note("This is my second note", "blue");
 let note3: Note = new Note("This is my third note. It is yellow by default!");
 ```
 
-You now have three new notes! The diagram below provides a visual of what we've got.
+You now have three new notes! The diagram below provides a visual of what we've got. The first box, at the top, is called a *UML class diagram*, and you will be expected to construct them for IB tests.
 
-![class diagram](media/01/Class&#32;Instance&#32;diagram.png)
+![class diagram](media/01/Note&#32;Class&#32;Diagram.svg){: style="width:80%;margin:auto;display:block;"}
 
 You could still use arrays to help you keep track of an unknown number of notes, but now you only need ONE array - an array of Note objects - instead of multiple arrays.
 
 ```ts
-let notes:Note[];
+let notes:Note[] = [];
 // the "push" method used below adds a new item to the end of an array in TypeScript
-// in java, you would need to use an ArrayList or LinkedList 
-// and the .add() method to do this.
+// java does not have an equivalent for arrays, but it does have other structures
+// that can do this.
 notes.push(new Note("first note!"));
 notes.push(new Note("second note!","green"));
 notes.push(new Note("third note","purple"));
