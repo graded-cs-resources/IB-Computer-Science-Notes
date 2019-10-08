@@ -207,4 +207,10 @@ Whenever you are making a new property or method in an object, you have to think
    ```
    {: .spoiler}
       
+4. What is **encapsulation**?
+   
+   > The idea of grouping data together by its purpose, and hiding the data from outside access whenever possible.
+   {: .spoiler}
+
+
 

@@ -96,3 +96,61 @@
    
     > B is correct. You should be able to evaluate all of these.
     {: .spoiler}
+
+6.  Consider the class below:
+   
+    ```typescript
+    class Dog {
+        private breed:string;
+        private name:string;
+        private weight:number;
+
+        constructor(/*code missing */) {
+            /* code missing */
+        }
+
+        static public sound():string {
+            return "bark!";
+        }
+
+        public speak():string {
+            return this.name + " says " + Dog.sound();
+        }
+
+        public eat(amount:number):void {
+            /* code missing */
+        }
+    }
+    /* Code missing */
+    ```
+    1.  Identify the instance variables.
+
+        > breed, name, and weight
+        {: .spoiler}
+
+    2.  Complete the constructor code so that it sets all instance variables.
+
+        ```ts
+        constructor(breed:string, name:string, weight:number) {
+            this.breed = breed;
+            this.name = name;
+            this.weight = weight;
+        }
+        ```
+        {: .spoiler}
+    
+    3.  Write code to create two new dogs of your choice, then make one of them speak. Predict the return output of your dog speaking.
+
+        ```ts
+        let rover = new Dog("dachsund", "Rover",8.2);
+        let django = new Dog("mutt", "Django", 21.3);
+        django.speak() // output will be "Django says 'bark!'"
+        ```
+        {: .spoiler}
+    
+    4.  Explain the difference between the static method `sound()` and the instance method `speak()`
+
+        > The static method `sound` is called in the format `Dog.sound()` and returns the sound for any Dog. The instance method `speak()` is called in the form `d.speak()` for some specific Dog object `d`, and makes the specific dog speak; that is why it has access to the `this` keyword while static methods do not.
+        {: .spoiler}
+
+    

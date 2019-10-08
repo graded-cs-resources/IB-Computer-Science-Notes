@@ -1,6 +1,8 @@
 # All Algorithms We have Traced This year
 
-As we trace new algorithms in class, I will add them to this page as reference, with solutions.
+As we trace and construct new algorithms in class, I will add them to this page as reference, with solutions.
+
+When you are constructing an algorithm in pseudocode, it may help to use [this pseudocode simulator](http://ibcomp.fis.edu/pseudocode/pcode.html) made by IB CS teacher Dave Mulkey. It allows you to actually run pseudocode and see if it works!
 
 ## Unit 1
 
@@ -233,3 +235,107 @@ output: [David, Jake, Ross, Jim]
 This algorithm moves items from a list to an array, ignoring duplicate values
 ```
 {: .spoiler}
+
+### Algorithm 7
+
+Imagine you have an array called SCORES that represents all the scores a player has earned on a video game (all positive numbers). The array is NOT sorted. Construct an algorithm that finds the highest score and outputs the sentence "Your high score is: ____" (with the correct high score in the blank). NOTE: You should NOT initialize SCORES in your algorithm - you should assume it exists before your algorithm starts.
+
+#### Solution
+
+```python
+HIGH=0
+loop i from 0 to SCORES.length
+  if SCORES[i]>HIGH then
+    HIGH=SCORES[i]
+  end if
+end loop
+output "Your high score is " + HIGH
+
+# to test your own code, add the line SCORES = [1, 44, 2, 4] above your algorithm
+# in the simulator linked at top, and look for output "Your high score is 44".
+```
+{: .spoiler}
+
+### Algorithm 8
+
+Construct an algorithm identical to the one for algorithm 7, but using an IB Collection called SCORES rather than an array.
+
+#### Solution
+
+```python
+SCORES.resetNext()
+HIGH = 0
+loop while SCORES.hasNext()
+  A = SCORES.getNext()
+  if A > HIGH then
+    HIGH = A
+  end if
+end loop
+output "Your high score is " + HIGH
+
+# To test your own code, add the lines below before your algorithm in the simulator:
+#  SCORES = new Collection()
+#  SCORES.addItem(1)
+#  SCORES.addItem(44)
+#  SCORES.addItem(3)
+
+# If your code runs correctly, the output will be "Your high score is 44".
+```
+{: .spoiler}
+
+
+### Algorithm 9
+
+Predict the output of the code below. The `firstLetter` function returns the first letter of a string.
+
+#### Algorithm
+
+```python
+NAMES = new Collection()
+
+NAMES.addItem("Bob")
+NAMES.addItem("Dave")
+NAMES.addItem("Betty")
+NAMES.addItem("Kim")
+NAMES.addItem("Debbie")
+NAMES.addItem("Lucy")
+
+NAMES.resetNext()
+
+loop while NAMES.hasNext()
+    NAME = NAMES.getNext()
+    if firstLetter(NAME) = "D" then
+      output NAME
+    end if
+end loop
+```
+
+#### Solution
+
+```
+Dave
+Debbie
+```
+{: .spoiler}
+
+### Algorithm 10
+
+Imagine you have an IB collection called NAMES. Construct an algorithm that will take the collection and output a single sentence in the form `The names are: {Bob Mary Joe Dave }`
+
+#### Solution
+
+```python
+OUT = "The names are: {"
+NAMES.resetNext()
+loop while NAMES.hasNext()
+  OUT = OUT + NAMES.getNext() + " "
+end loop
+OUT = OUT + "}"
+output OUT
+
+# You can check your answer by copying the NAMES setup information from Algorithm 9
+# into the pseudocode simulator then adding your algorithm underneath
+# but remember, if your pseudocode isn't perfect you can still get full credit
+```
+
+  
