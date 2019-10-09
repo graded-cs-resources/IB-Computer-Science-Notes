@@ -153,4 +153,6 @@
         > The static method `sound` is called in the format `Dog.sound()` and returns the sound for any Dog. The instance method `speak()` is called in the form `d.speak()` for some specific Dog object `d`, and makes the specific dog speak; that is why it has access to the `this` keyword while static methods do not.
         {: .spoiler}
 
+    5.  Implement the code for the `eat()` method, which should increase dog's weight by the amount it wait (we will not implement a `poop()` method, its reverse.)
+
     
