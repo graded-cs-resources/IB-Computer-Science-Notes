@@ -67,7 +67,7 @@
     ```
     {: .spoiler}
 
-4. Write a class called `Bobbies` that has one private instance variable, `jo` with an initial value of "what?" and an empty constructor. Add a static method named `merles` that accepts formal parameters `wagging` and `reaching` as numbers, finds their sum, stores the result in a local variable call `verbs` then returns the value of `verbs`.  Outside the class, create a new Boobies object named `b`, then call the `merles` method with the values 2 and 3, storing the result in a global variable called `yo`.
+4. Write a class called `Bobbies` that has one private instance variable, `jo` with an initial value of "what?" and an empty constructor. Add a static method named `merles` that accepts formal parameters `wagging` and `reaching` as numbers, finds their sum, stores the result in a local variable call `verbs` then returns the value of `verbs`.  Outside the class, create a new Bobbies object named `b`, then call the `merles` method with the values 2 and 3, storing the result in a global variable called `yo`.
    
    ```ts
    class Bobbies {
