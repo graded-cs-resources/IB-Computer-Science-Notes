@@ -48,7 +48,9 @@ These notes will be complemented by *assignments* that will be provided to you t
 ^
 * [Practice Problems](/unit2/02a_object_anatomy_practice_problems.md)
 
-* [UML Class Diagrams](/unit2/03_UML_Class_diagrams.md)]
+* [UML Class Diagrams](/unit2/03_UML_Class_diagrams.md)
+
+* [Search Algorithms](/unit2/04_Standard_Algorithms.md)
 
 ## Outside Resources
 

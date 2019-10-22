@@ -64,3 +64,7 @@ The image above shows three classes that are interconnected. Here are some thing
 2. There are probably properties and methods that are not shown. It is not always required to show ALL of the instance variables and methods in large classes, just the most important ones to give an idea of how the class works.
 3. The arrows connecting them show a relationship. Notice the text on each side of the arrow. It shows how many of the nearby objects you could expect to see in a relationship. `0..n` means "0 or more". So you expect 2 or more employees for each flight, but only one airplane for each flight. However, an airplane can be associated with many future flights, or as few as none (perhaps if it is under maintenance). The arrows do not show you how the relationship is IMPLEMENTED, only that the relationship exists.
 
+## Check your Understanding
+1. Create potential UML diagrams to represent a `Snowman` class and a `Circle` class. The `Snowman` object should contain AT LEAST multiple instance variables of type `Circle` (e.g. `head`, `body`, `buttons`), public method `draw()` and private methods to draw the head, body, and buttons.
+
+2. Look back at the [Object Anatomy practice problems](../unit2/02a_object_anatomy_practice_problems.md) and make UML diagrams for every class in those problems.
