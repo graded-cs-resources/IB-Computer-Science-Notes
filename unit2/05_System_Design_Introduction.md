@@ -1,6 +1,6 @@
 # Introduction to Systems Design - Requirements Analysis
 
-These notes are taken almost verbatim from Paul Baumgarten's page [here](https://pbaumgarten.com/ib-compsci/unit-1/). I have made only a few changes.
+These notes are taken almost verbatim from Paul Baumgarten's page [here](https://pbaumgarten.com/ib-compsci/unit-1/). Some material and ideas have been added using the resources at [IB Compsci Hub](https://ib.compscihub.net/)
 
 ## System development life cycle
 
@@ -57,13 +57,15 @@ It is inevitable that a project scope will change over time. Make sure that your
 
 ### Stakeholder consultation
 
-Identifying stakeholders
+#### Identifying stakeholders
 
 * Who is relevant? Employers, employees, customers…?
 * Who will use the system?
 * Who will depend on the system (even if they don't use it directly)?
 * Who will provide information the system depends on? (even if they don't enter it directly)
 * Who is paying for the system? (why?)
+
+#### Getting information from the stakeholders
 
 Possible strategies for obtaining requirements from stakeholders
 
@@ -86,16 +88,6 @@ Be aware of privacy issues – being able to get honest, frank information from 
 * Examine **competing products** – strengths, weaknesses, idiosyncrasies.
 * Examine **your capabilities** – what are you capable of producing? if you need additional expertise, what can you afford to recruit?
 * Examine the **literature** (journals, online forums) – how are other people addressing the problem?
-
-When researching your project, don't forget to account for international factors.
-
-* Does your program only have to work for a homogeneous group of people in the same location? Or might you have to deal with different timezones, different languages, different conventions in date formats? Things can get very complex very quickly as these videos demonstrate.
-
-* The Problem with Time & Timezones - Computerphile  
-  [https://www.youtube.com/watch?v=-5wpm-gesOY](https://www.youtube.com/watch?v=-5wpm-gesOY)
-
-* Internationalis(z)ing Code - Computerphile  
-  [https://www.youtube.com/watch?v=0j74jcxSunY](https://www.youtube.com/watch?v=0j74jcxSunY)
 
 ---
 
@@ -132,3 +124,40 @@ Save these project outlines as we will continue to use them.
 ## Your IA
 
 You will go through these steps with your client as part of the first step of your IA. 
+
+## Check your Understanding
+
+1.  Imagine you are working for a governnment designing a system to accept emergency signals from cell phones and forward them to the appropriate emergency responders. 
+    1.  Who are the stakeholders for this system?
+
+    2.  What are some strategies you might use to gather requirement information from these various stakeholders?
+
+    3.  If some of the stakeholders are in conflict about their desires, which stakeholders do you think should be prioritized in this system?
+
+    4.  What are some functional requirements of such a system?
+
+    5.  what are some possible non-functional requirements of such a system?
+
+
+2.  Mr. Griswold worked for a textbook company a few years ago; he worked on writing a statistics textbook and accompanying web applications to support the learning in the textbook. After discussion, it was decided to make most of the web apps available for anybody to use - they can be found at http://stats.cpm.org.
+
+    1.  Who were some of the stakeholders for this system (the system being the book + apps)?
+
+    2.  When Mr. Griswold joined the team, he was given three requirements for his textbook writing:
+
+        1.  He was required to write it in Microsoft Word
+        2.  The problems needed to be written in a way where students could engage in problem-solving and discussion in the process of learning the material
+        3.  The font had to be Times New Roman.
+   
+        Which of these were *functional* requirements and which were *non-functional* requirements?
+
+    3.  Partway through the project, Mr. Griswold was asked to work on a website where students and teachers using the textbook could click a button and generate sample problems and tests automatically. The program was already partially completed, and Mr. Griswold was making it more attractive and adding features. Here were some of the requirements laid on in his scope statement:
+   
+        1.  The project will have a simple user-interface that allows students to generate single problems or entire assignments, based either on a single chapter or cumulative up to a specific chapter.
+        2.  It will be possible to export assignments in Word or PDF formats.
+        3.  The code will be written in Dart and HTML and based on already-existing code.
+        4.  The names used in the problem generator word problems will come from a wide variety of cultures and will be both male and female.
+
+        which of these were *functional* and which were *non-functional* requirements?
+
+    4. What are some steps Mr. Griswold and his team might have gone through in the initial research stage before writing the book?
