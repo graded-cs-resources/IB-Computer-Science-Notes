@@ -52,6 +52,8 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 * [Search Algorithms](/unit2/04_Standard_Algorithms.md)
 
+* [Inheritance and Polymorphism](/unit2/05_Inheritance_and_polymorphism.md)
+
 ## Outside Resources
 
 ### Official IB Resources
