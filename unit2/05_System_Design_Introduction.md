@@ -139,7 +139,7 @@ You will go through these steps with your client as part of the first step of yo
     5.  what are some possible non-functional requirements of such a system?
 
 
-2.  Mr. Griswold worked for a textbook company a few years ago; he worked on writing a statistics textbook and accompanying web applications to support the learning in the textbook. After discussion, it was decided to make most of the web apps available for anybody to use - they can be found at http://stats.cpm.org.
+2.  Mr. Griswold worked for a textbook company a few years ago; he worked on writing a statistics textbook and accompanying web applications to support the learning in the textbook. After discussion, it was decided to make most of the web apps available for anybody to use - they can be found at [http://stats.cpm.org](http://stats.cpm.org).
 
     1.  Who were some of the stakeholders for this system (the system being the book + apps)?
 
@@ -158,6 +158,6 @@ You will go through these steps with your client as part of the first step of yo
         3.  The code will be written in Dart and HTML and based on already-existing code.
         4.  The names used in the problem generator word problems will come from a wide variety of cultures and will be both male and female.
 
-        which of these were *functional* and which were *non-functional* requirements?
+        Which of these were *functional* and which were *non-functional* requirements?
 
     4. What are some steps Mr. Griswold and his team might have gone through in the initial research stage before writing the book?
