@@ -70,9 +70,17 @@ It is inevitable that a project scope will change over time. Make sure that your
 Possible strategies for obtaining requirements from stakeholders
 
 * Surveys
+  * Advantages: Easy to get a lot of data
+  * Disadvantages: Many won't answer, data may be superficial
 * Interviews
+  * Advantages: More detailed data, here individual perspectives
+  * Disadvantages: Not as many voices, questions may not be clear, responses may not be honest
 * Direct observations
-* Document collection
+  * Advantages: Can directly see problems or issues as they occur
+  * Disadvantages: People may not work as normal under observation. Not all possible problems or concerns will always occur and may only occur rarely.
+* Document collection (about the current system)
+  * Advantage: Allows one to understand the system in place
+  * Disadvantage: May not make requirements clear alone, can be confusing
 
 Failure to involve all relevant stakeholders may lead to software that is not suitable for its intended use! (The manager doesn't necessarily always know what the clerical staff do!)
 
