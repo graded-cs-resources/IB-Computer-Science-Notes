@@ -192,7 +192,7 @@ These logic operators are the primary source of flow control inside of processor
 
 In these little circuits, the two pins on the left represent electrical connection points. If the electricity is ON that can be thought of as a `1` or a `TRUE` input, while if the electricity is OFF that can be thought of as a `0` or `FALSE` input. The output is either on or off depending on the inputs, following the rules.
 
-You have to learn which gate is which (yes, really).
+You have to learn which gate is which (yes, really). 
 
 ### Sample problem
 
