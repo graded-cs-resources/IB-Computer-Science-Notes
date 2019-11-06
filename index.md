@@ -61,7 +61,7 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 * [Introduction to System Design - Requirements Analysis](/unit2/05_System_Design_Introduction.md)
 
-* [Truth Tables and Boolean Logic](/unit2/06_boolean_logic.md)
+* [Boolean operators, truth tables, and logic diagrams](/unit2/06_boolean_logic.md)
 
 ## Outside Resources
 
