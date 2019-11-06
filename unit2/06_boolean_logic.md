@@ -131,6 +131,16 @@ Then for the final column, we are applying the OR operator to the two columns I 
 
 This statement is always true! Oops, that was a lot of work for a rather simple output!
 
+### Order of Operations
+
+Sometimes, the IB will provide you with a logic statement that doesn't include parentheses, so you have to figure out which order to apply your operations. The rules are:
+
+1. NOT goes first, so NOT A OR B is the same as (NOT A) OR B
+2. AND and NAND go next (left-to right) so A OR B AND C is the same as A OR (B AND C)
+3. OR, XOR, and NOR go last (left to right) so A OR B XOR C is (A OR B) XOR C but A XOR B OR C is (A XOR B) OR C
+
+### Practice problems 
+
 Try these examples (bonus: for each one try to come up with a DIFFERENT statement that would have the same result)
 
 1.  Create a truth table for the statement `(A NOR B) OR A`
@@ -194,9 +204,21 @@ In these little circuits, the two pins on the left represent electrical connecti
 
 You have to learn which gate is which (yes, really). 
 
-### Sample problem
+### Sample problems using logic gates
 
-Create a truth table for the following logic diagram.
+1.  Convert the diagram below into a logic statement and calculate the truth table of its output.
 
-![logic diagram](media/06/logic&#32;gate&#32;sample&#32;problem.png)
+    ![logic diagram](media/06/logic&#32;gate&#32;sample&#32;problem.png)
+
+    <div markdown="1" class="spoiler">
+    This is equivalent to `(NOT A AND B) OR (NOT B AND A)` which is itself equivalent to `A XOR B` (either one of these would be accepted as an answer)
+
+    | A   | B   | Final Result |
+    | --- | --- | ------------ |
+    | 1   | 1   | 0            |
+    | 1   | 0   | 1            |
+    | 0   | 1   | 1            |
+    | 0   | 0   | 0            |
+
+    </div>
 
