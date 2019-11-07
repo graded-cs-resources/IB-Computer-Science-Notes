@@ -41,6 +41,18 @@ pre.sourceCode {
   margin-bottom: 0;
 }
 
+summary {
+  color: darkgreen;
+  outline-color: transparent;
+}
+
+details {
+  border: 1px dashed black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* out of date now
 .spoiler {
   border: 1px dotted black;
   padding: 5px;
@@ -67,6 +79,8 @@ pre.sourceCode {
   margin: 0;
   padding: 0;
 }
+
+*/
 
 .markdown-body .spoiler .highlight,
 .markdown-body .spoiler pre {

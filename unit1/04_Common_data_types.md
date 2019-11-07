@@ -21,18 +21,18 @@ In a program, there are three types of things that have types:
 
 1. What type of data is the value `234` in TypeScript? What is it in java?
    
-   ```
-   Typescript: number
-   java: int
-   ```
-   {: .spoiler}
+   <details markdown="1"><summary>Click to expand answer</summary>
+   Typescript: `number`
+   java: `int`
+   </details>
    
 2. You want to write the code `j = "bob"`. What data type must `j` be declared as for this to not give an error?
    
+   <details markdown="1"><summary>Click to expand answer</summary>
    ```
    string
    ```
-   {: .spoiler}
+   </details>
    
 3. The following TypeScript code gives an error. Why?
 
@@ -41,10 +41,9 @@ In a program, there are three types of things that have types:
    j = 123;
    ```
    
-   ```
-   j is a string but you are trying to assign it a number
-   ```
-   {: .spoiler}
+   <details markdown="1"><summary>Click to expand answer</summary>
+   `j` is a string but you are trying to assign it a number  
+   </details>
 
 4. The following java code gives an error. Why?
 
@@ -53,10 +52,9 @@ In a program, there are three types of things that have types:
     j = "123";
     ```
 
-    ```
+    <details markdown="1"><summary>Click to expand answer</summary>
     j is an integer, but you are assigning it a string.
-    ```
-    {: .spoiler}
+    </details>
 
 5. You write the following code:
  
@@ -66,10 +64,9 @@ In a program, there are three types of things that have types:
 
    What do you think is the VALUE and TYPE of b? (cool thing to try: you can check your answer by typing "ts-node" on your command line, then typing that code. After pressing enter, type `b` to output its value. Type `.exit` (notice the period!) to exit.) 
 
-   ```
+   <details markdown="1"><summary>Click to expand answer</summary>
    b is a boolean, with the value false
-   ```
-   {: .spoiler}
+   </details>
 
 ## Study Materials
 

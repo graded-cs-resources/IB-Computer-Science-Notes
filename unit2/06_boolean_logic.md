@@ -210,7 +210,7 @@ You have to learn which gate is which (yes, really).
 
     ![logic diagram](media/06/logic&#32;gate&#32;sample&#32;problem.png)
 
-    <div markdown="1" class="spoiler">
+    <details markdown="1"><summary>Click to expand answer</summary>
     This is equivalent to `(NOT A AND B) OR (NOT B AND A)` which is itself equivalent to `A XOR B` (either one of these would be accepted as an answer)
 
     | A   | B   | Final Result |
@@ -220,5 +220,5 @@ You have to learn which gate is which (yes, really).
     | 0   | 1   | 1            |
     | 0   | 0   | 0            |
 
-    </div>
+    </details>
 

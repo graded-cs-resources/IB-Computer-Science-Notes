@@ -16,8 +16,7 @@ This was done on August 6 in HL, August 7 in SL
 
 #### Solution
 
-Hover or tap the region below to see the solution.
-
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 K:  47  37  26  14
 N:  10  11  12  13
@@ -25,7 +24,7 @@ D:  37  26  14  1
 
 Output: 47  37  26  14
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 2
 
@@ -37,8 +36,7 @@ This was done on August 8 in HL, August 9 in SL
 
 #### Solution
 
-Hover or tap the region below to see the solution.
-
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 Run 1
 T: 42 31 20 9
@@ -57,7 +55,7 @@ Output: 0
 
 The output is the REMAINDER when T is divided by F.
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 3
 
@@ -75,15 +73,14 @@ You also need to know that `A div B` means to do division but drop the decimal p
 
 #### Solution
 
-Hover or tap the region below to see the solution.
-
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 K: 47 23 11
 N: 10 10 10
 
 Output: 47 23 11
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 4
 
@@ -107,8 +104,8 @@ end if
 
 #### Solution
 
-Hover or tap the region below to see the solution.
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 SUM:    0   1    3    6
 COUNT:    1    2    3
@@ -123,7 +120,7 @@ N:      7
 
 Output: "not perfect"
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 4
 
@@ -154,6 +151,7 @@ end if
 
 #### Solution
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 STOCKS = [42, 11, 6, 3]
 
@@ -164,7 +162,7 @@ AVERAGE:                 15.5
 
 output: "Average = 15.5"
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 5
 
@@ -174,12 +172,13 @@ Construct code that would accept an array of strings named FIRST and an array of
 
 ##### Pseudocode
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 loop N from 0 to FIRST.length - 1
     output LAST[N], ", ", FIRST[N]
 end loop
 ```
-{: .spoiler}
+</details>
 
 ##### Typescript
 
@@ -223,6 +222,7 @@ output LIST
 
 #### Solution
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 LIST:   []          [David]        [David, Jake]     [David,Jake,Ross]    //same    [David,Jake,Ross,Jim]
 COUNT:  0              1               2               3                  //same
@@ -234,7 +234,7 @@ output: [David, Jake, Ross, Jim]
 
 This algorithm moves items from a list to an array, ignoring duplicate values
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 7
 
@@ -242,6 +242,7 @@ Imagine you have an array called SCORES that represents all the scores a player 
 
 #### Solution
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```python
 HIGH=0
 loop i from 0 to SCORES.length
@@ -254,7 +255,7 @@ output "Your high score is " + HIGH
 # to test your own code, add the line SCORES = [1, 44, 2, 4] above your algorithm
 # in the simulator linked at top, and look for output "Your high score is 44".
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 8
 
@@ -262,6 +263,7 @@ Construct an algorithm identical to the one for algorithm 7, but using an IB Col
 
 #### Solution
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```python
 SCORES.resetNext()
 HIGH = 0
@@ -281,7 +283,7 @@ output "Your high score is " + HIGH
 
 # If your code runs correctly, the output will be "Your high score is 44".
 ```
-{: .spoiler}
+</details>
 
 
 ### Algorithm 9
@@ -312,11 +314,12 @@ end loop
 
 #### Solution
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```
 Dave
 Debbie
 ```
-{: .spoiler}
+</details>
 
 ### Algorithm 10
 
@@ -324,6 +327,7 @@ Imagine you have an IB collection called NAMES. Construct an algorithm that will
 
 #### Solution
 
+<details markdown="1"><summary>Click to expand answer</summary>
 ```python
 OUT = "The names are: {"
 NAMES.resetNext()
@@ -337,5 +341,6 @@ output OUT
 # into the pseudocode simulator then adding your algorithm underneath
 # but remember, if your pseudocode isn't perfect you can still get full credit
 ```
+</details>
 
   

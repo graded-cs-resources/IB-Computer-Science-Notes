@@ -126,7 +126,8 @@ So the decision tree for sequential vs binary looks like this:
     | needle | max | min | max >= min? | mid | haystack[mid] | return |
     | ------ | --- | --- | ----------- | --- | ------------- | ------ |
     |        |     |     |             |     |               |        |
-    
+
+    <details markdown="1"><summary>Click to expand answer</summary>
     | needle     | max     | min     | max >= min?     | mid     | haystack[mid]     | return     |
     | ---------- | ------- | ------- | --------------- | ------- | ----------------- | ---------- |
     | 15         | 13      | 0       | true            | 6       | 13                |            |
@@ -141,7 +142,7 @@ So the decision tree for sequential vs binary looks like this:
     | 5          | 5       | 0       | true            | 2       | 3                 |            |
     | 5          | 5       | 3       | true            | 4       | 7                 |            |
     | 5          | 3       | 3       | true            | 3       | 5                 | 3          |
-    {: .spoiler}
+    </details>
 
     
 
@@ -149,6 +150,7 @@ So the decision tree for sequential vs binary looks like this:
    1. You want to implement a spell checker that looks up words in a large dictionary of several hundred thousand words.
    2. You want to find the the highest score in an unsorted array of high scores.
    3. You have an array of Ball objects in a p5.js game and want to search for the ball closest to the mouse
-
-   > a) Yes! This is a perfect binary search scenario. b) nope. Not sorted, go sequential. c) Nope! Not sorted, go sequential.
-   {: .spoiler}
+   
+   <details markdown="1"><summary>Click to expand answer</summary>
+   a) Yes! This is a perfect binary search scenario. b) nope. Not sorted, go sequential. c) Nope! Not sorted, go sequential.
+   </details>

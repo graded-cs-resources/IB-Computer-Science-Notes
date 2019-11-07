@@ -141,12 +141,14 @@ Whenever you are making a new property or method in an object, you have to think
 
 1. In the `Snowflake` class defined above, what does it mean that `randomColor()` is private and static?
    
-   > Since it is private, you can only call the function within the class.  
-   > Since it is static, you call it from the class name, like Snowflake.randomColor()
-   {: .spoiler}
+   <details markdown="1"><summary>Click to expand answer</summary>
+   Since it is private, you can only call the function within the class.   
+   Since it is static, you call it from the class name, like Snowflake.randomColor()
+   </details>
 
 2. Write code for a class `Dog` with three string properties: `species`, `furColor`, and `name`. `name` should be available and changeable outside the class (we can change a dog's name!) but `furColor` should only be available internally since it can't be changed. `species` should be shared among all instances of the Dog class (give it the value `"Canis familiaris"`) and also declared as a `const` so it can't be edited. Do not include any methods (not even a constructor for now).
    
+   <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
    class Dog {
        private static const species = "Canis familiaris";
@@ -154,10 +156,10 @@ Whenever you are making a new property or method in an object, you have to think
        private furColor:string;
    }
    ```
-   {: .spoiler}
+   </details>
 
 3. Several lines of code in Typescript are shown below. Identify where errors would occur and explain each error.
-      
+
    ```ts
       const NUM_COOKIES=7;
       
@@ -179,7 +181,8 @@ Whenever you are making a new property or method in an object, you have to think
       console.log(c.flavor);
       console.log(c.temperature);
    ```
-   
+
+   <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
       const NUM_COOKIES=7;
       
@@ -205,12 +208,13 @@ Whenever you are making a new property or method in an object, you have to think
       // ERROR. flavor is a private property and cannot be accessed outside the class.
       console.log(c.temperature);
    ```
-   {: .spoiler}
+   </details>
       
 4. What is **encapsulation**?
-   
-   > The idea of grouping data together by its purpose, and hiding the data from outside access whenever possible.
-   {: .spoiler}
+5. 
+   <details markdown="1"><summary>Click to expand answer</summary>
+   The idea of grouping data together by its purpose, and hiding the data from outside access whenever possible.
+   </details>
 
 
 

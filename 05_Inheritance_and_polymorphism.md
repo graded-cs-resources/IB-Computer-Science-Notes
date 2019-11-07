@@ -139,16 +139,16 @@ Most object-oriented languages provide other tools (such as abstract classes and
 ## Check your Understanding
 
 1.  What keyword is used to make a class inherit from another class?
-   
+   <details markdown="1"><summary>Click to expand answer</summary>
     ```
     extends
     ```
-    {: .spoiler}
+    </details>
 
 2.  Describe what the keyword `protected` does.
-
-    > It makes a method or instance variable accessible from subclasses but not the outside world
-    {: .spoiler}
+    <details markdown="1"><summary>Click to expand answer</summary>
+    It makes a method or instance variable accessible from subclasses but not the outside world
+    </details>
 
 3.  Imagine you have a `Ball` subclass that inherits from a `Circle` superclass. The `Ball` class has a `bounce()` method, but the `Circle` method does not. Both of them have a `draw()` method.
 
@@ -186,8 +186,9 @@ Most object-oriented languages provide other tools (such as abstract classes and
 
     2.  Imagine the `draw()` method for `Ball` object draws a filled in circle, but the `draw()` method for `Circle` objects only draws the border. What is it called when we duplicate a method name like this? And which of lines 9-12 will draw a filled in circle?
    
-        > This is called **polymorphism**. Lines 9 and 11 will draw filled-in circles, since b1 and c1 are both ball; even though TypeScript only knows for sure that c1 is a Circle, the actual instances are balls and that's what matter when the method is run. Line 10 won't do anything because of the error on line 6. Line 12, which both **is** and **looks like** a circle, only the border will get drawn.
-        {: .spoiler}
+        <details markdown="1"><summary>Click to expand answer</summary>
+        This is called **polymorphism**. Lines 9 and 11 will draw filled-in circles, since b1 and c1 are both ball; even though TypeScript only knows for sure that c1 is a Circle, the actual instances are balls and that's what matter when the method is run. Line 10 won't do anything because of the error on line 6. Line 12, which both **is** and **looks like** a circle, only the border will get drawn.
+        </details>
 
 4. Describe some advantages and disadvantages of inheritance and polymorphism.
 

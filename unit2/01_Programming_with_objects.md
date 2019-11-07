@@ -107,42 +107,49 @@ notes.push(new Note("oh my god how many notes????","orange"));
 
 1. What is an instance variable, or property?[D.3.1](../unit0/syllabus.md#D31){: .syl}
 
-   > A variable that is associated with a specific object, accessed with the `.` operator.
-   {: .spoiler}
+   <details markdown="1"><summary>Click to expand answer</summary>
+   A variable that is associated with a specific object, accessed with the `.` operator.
+   </details>
 
 2. What is a method?[D.3.2](../unit0/syllabus.md#D32){: .syl}
    
-   > A FUNCTION that is associated with a specific object, accessed with the `.` operator.
-   {: .spoiler}
+   <details markdown="1"><summary>Click to expand answer</summary>
+   A FUNCTION that is associated with a specific object, accessed with the `.` operator.
+   </details>
    
 3. What is a constructor method?[D.3.2](../unit0/syllabus.md#D32){: .syl}
-  
-   >A special method that is used to make a new *instance* of an object when you use the new command.
-   {: .spoiler}
+   
+   <details markdown="1"><summary>Click to expand answer</summary>
+   A special method that is used to make a new *instance* of an object when you use the new command.
+   </details>
    
 4. If I have an object called named `ball`, how would I access its `color` property, if it has one?
    
+   <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
    ball.color
    ```
-   {: .spoiler}
+   </details>
 
 5. If I have an object named `ball`, how would I call its `changeColor` method if it has one?
    
+   <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
    ball.changeColor("red");
    ```
-   {: .spoiler}
+   </details>
 
 6. If I have a class named `Ball`, how can I create a new instance of that class named `ball1` (assume I don't need any arguments in the constructor)
    
+   <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
    ball1 = new Ball();
    ```
-   {: .spoiler}
+   </details>
 
 7. Create a class for `Cookie` objects with three instance variables: `flavor` is a string, `size` is a number, and `temperature` is also a number. Include a constructor function to make a new `Cookie`.
    
+   <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
    class Cookie {
       flavor:string;
@@ -156,7 +163,7 @@ notes.push(new Note("oh my god how many notes????","orange"));
        }
    }
    ```
-   {: .spoiler}
+   </details>
 
 ## Flash Cards
 * object
