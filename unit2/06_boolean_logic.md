@@ -144,6 +144,8 @@ Sometimes, the IB will provide you with a logic statement that doesn't include p
 Try these examples (bonus: for each one try to come up with a DIFFERENT statement that would have the same result)
 
 1.  Create a truth table for the statement `(A NOR B) OR A`
+  
+    <details markdown="1"><summary>Click to expand answer</summary>
 
     | A   | B   | A NOR B | (A NOR B) OR A |
     | --- | --- | ------- | -------------- |
@@ -151,19 +153,25 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
     | T   | F   | F       | T              |
     | F   | T   | F       | F              |
     | F   | F   | T       | T              |
-    {: .spoiler .text-center}
+
+    </details>
 
 2.  Create a truth table for the statement `(A XOR B) AND A`
    
+     <details markdown="1"><summary>Click to expand answer</summary>
+
     | A   | B   | A XOR B | (A XOR B) AND A |
     | --- | --- | ------- | --------------- |
     | T   | T   | F       | F               |
     | T   | F   | T       | T               |
     | F   | T   | T       | F               |
     | F   | F   | F       | F               |
-    {: .spoiler .text-center}
+
+    </details>
     
 3.  Create a truth table for the statement `NOT (A XOR B)`
+
+    <details markdown="1"><summary>Click to expand answer</summary>
 
     | A   | B   | A XOR B | NOT (A XOR B) |
     | --- | --- | ------- | ------------- |
@@ -171,19 +179,25 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
     | T   | F   | T       | F             |
     | F   | T   | T       | F             |
     | F   | F   | F       | T             |
-    {: .spoiler .text-center}
+
+    </details>
 
 4.  Create a truth table for the statement `NOT (A OR B)`
    
+    <details markdown="1"><summary>Click to expand answer</summary>
+
     | A   | B   | A OR B | NOT (A OR B) |
     | --- | --- | ------ | ------------ |
     | T   | T   | T      | F            |
     | T   | F   | T      | F            |
     | F   | T   | T      | F            |
     | F   | F   | F      | T            |
-    {: .spoiler .text-center}
+
+    </details>
     
 5.  Create a truth table for the statement `NOT A AND NOT B`
+
+    <details markdown="1"><summary>Click to expand answer</summary>
 
     | A   | B   | NOT A | NOT B | NOT A AND NOT B |
     | --- | --- | ----- | ----- | --------------- |
@@ -191,7 +205,8 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
     | T   | F   | F     | T     | F               |
     | F   | T   | T     | F     | F               |
     | F   | F   | T     | T     | T               |
-    {: .spoiler .text-center}
+    
+    </details>
 
 
 ## Logic Gates

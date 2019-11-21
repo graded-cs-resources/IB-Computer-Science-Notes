@@ -52,6 +52,20 @@ details {
   padding: 5px;
 }
 
+details.normal {
+  color: black;
+  border: none;
+}
+
+.normal summary {
+  color: black;
+}
+
+.giantText {
+  font-size: 3em;
+  text-align: center;
+}
+
 /* out of date now
 .spoiler {
   border: 1px dotted black;

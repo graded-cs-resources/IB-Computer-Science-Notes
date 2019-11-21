@@ -698,7 +698,8 @@ technology.
 <td>Define the Boolean operators: AND, OR, NOT, NAND, NOR and XOR.</td>
 <td>1</td>
 <td><strong>LINK</strong> Introduction to programming, approved notation sheet.</td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/06_boolean_logic.md)
+</td>
 </tr>
 <tr class="odd">
 <td id="2112">2.1.12</td>
@@ -708,7 +709,8 @@ technology.
 <p>Not more than three inputs are used.</p>
 <p><strong>LINK</strong> Thinking logically.</p>
 <p><strong>TOK</strong> Reason as a way of knowing.</p></td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/06_boolean_logic.md)
+</td>
 </tr>
 
 <tr class="odd">
@@ -720,7 +722,8 @@ technology.
 <p>For example:</p>
 <p><strong>OR</strong></p>
 <p><strong>LINK</strong> Thinking logically, connecting computational thinking and program design, introduction to programming.</p></td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/06_boolean_logic.md)
+</td>
 </tr>
 </tbody>
 </table>
@@ -1185,14 +1188,15 @@ technology.
 <td>Describe the characteristics of standard algorithms on linear arrays.</td>
 <td>2</td>
 <td>These are: sequential search, search, bubble sort, selection sort.     </td>
-<td></td>
+<td markdown="1">[Unit 2](../unit2/04_Standard_Algorithms.md) (search only)
+</td>
 </tr>
 <tr class="odd">
 <td id="422">4.2.2</td>
 <td>Outline the standard operations of collections.</td>
 <td>2</td>
 <td>These are: addition and retrieval of data.</td>
-<td></td>
+<td>Unit 1</td>
 </tr>
 <tr class="even">
 <td id="423">4.2.3</td>
@@ -1894,28 +1898,32 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>2</td>
 <td><p>An object as an abstract entity and its components—data and actions.</p>
 <p>Familiar examples from different domains might be people, cars, fractions, dates and music tracks.</p></td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/01_Programming_with_objects.md)
+</td>
 </tr>
 <tr class="even">
 <td id="D12">D.1.2</td>
 <td>Distinguish between an object (definition, template or class) and instantiation.</td>
 <td>2</td>
 <td>Students must understand the difference in terms of code definitions, memory use and the potential creation of multiple instantiated objects.</td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/01_Programming_with_objects.md)
+</td>
 </tr>
 <tr class="odd">
 <td id="D13">D.1.3</td>
 <td>Construct unified modelling language (UML) diagrams to represent object designs.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/03_UML_Class_diagrams.md)
+</td>
 </tr>
 <tr class="even">
 <td id="D14">D.1.4</td>
 <td>Interpret UML diagrams.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/03_UML_Class_diagrams.md)
+</td>
 </tr>
 
 <tr class="odd">
@@ -1935,7 +1943,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <p>(“uses”), aggregation (“has a”) and inheritance (“is a”).</p>
 <p><strong>LINK</strong> Thinking abstractly.</p>
 <p><strong>AIM 4</strong> Applying thinking skills critically to decompose scenarios.</p></td>
-<td>Unit 2</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td id="D17">D.1.7</td>
@@ -1951,14 +1959,14 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td><p>In examinations problems will require the students to construct definitions for no more than three objects and to explain their relationships to each other and to any additional classes defined by the examiners.</p>
 <p><strong>LINK</strong> Connecting computational thinking and program design.</p>
 <p><strong>AIM 4</strong> Applying thinking and algorithmic skills to resolve problems.</p></td>
-<td>Unit 2</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td id="D19">D.1.9</td>
 <td>Explain the need for different data types to represent data items.</td>
 <td>3</td>
 <td>The data types will be restricted to integer, real, string and Boolean.</td>
-<td>Unit 1 (HL/SL</td>
+<td>Unit 1</td>
 </tr>
 <tr class="even">
 <td id="D110">D.1.10</td>
@@ -2014,7 +2022,8 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Explain the advantages of encapsulation.</td>
 <td>3</td>
 <td>For example, the scope of data should be confined to the object in which it is defined as far as possible in order to limit side effects and dependencies.</td>
-<td>Unit 2</td>
+<td markdown="1">[Unit 2](../unit2/02_Private_Public_Static.md)
+</td>
 </tr>
 <tr class="odd">
 <td id="D25">D.2.5</td>
@@ -2103,7 +2112,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>2</td>
 <td><p>In examination questions the primitive types will be limited to int, long, double, char and Boolean.</p>
 <p><strong>MYP</strong> Mathematics: forms of numbers.</p></td>
-<td>Unit 2</td>
+<td>Unit 1</td>
 </tr>
 <tr class="odd">
 <td id="D35">D.3.5</td>
