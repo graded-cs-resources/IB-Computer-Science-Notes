@@ -41,6 +41,8 @@ These notes will be complemented by *assignments* that will be provided to you t
 
 </details>
 
+[Unit 1 Sample Assessment](/unit1/09_sample_assessment.md)
+
 ### Unit 2 - Abstraction and Objects
 
 [Learning Targets](/unit2/00_Learning_Targets.md)
