@@ -20,6 +20,7 @@ These notes will be complemented by *assignments* that will be provided to you t
 * [CodingTS - Coding practice in TypeScript!](https://graded-cs-resources.github.io/CodingTS/)
   
 * [IA Information](/unit0/ia.md)
+* [Sample IA Made in Class by Mr. G](/unit0/sample_ia.md)
   
 * [Introduction](/unit1/00_Intro.md)
 * [Setting up your software environment](/unit1/01_Getting_Set_Up.md)
