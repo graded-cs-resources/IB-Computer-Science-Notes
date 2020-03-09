@@ -128,6 +128,10 @@ Primary - RAM, ROM, Cache, CPU Registers
 Secondary - Hard disks, cd roms, floppy drives, flash drives, etc.
 ```
 
+## Test Plan
+
+To test my product, I will create several sample flashcard decks, and load them all on my computer and test all of the buttons to make sure they do what they are supposed to do (flip, next, previous, shuffle/random if implemented). I will also try loading some files that aren't made right and see how my program handles that, since we don't want it crashing! I will also package the file as a program and send it to a friend who has a Mac so I can test it on his computer as well. Finally I will have my client try to use it with a whole class of students and see if it works.
+
 # Criterion C - Development
 
 <small>
