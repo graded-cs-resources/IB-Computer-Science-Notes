@@ -2,75 +2,57 @@
 title: Graded IB Computer Science Notes
 ---
 
-![Graded CS Logo](unit0/computer-science-logo.png){: .centered}
+![Graded CS Logo](./resources/computer-science-logo.png){: .centered}
 
 # Graded IB Computer Science Notes Page
 
-These are the notes for Graded's IB Computer Science classes, 2019-2020. They will be updated over the course of the school year, so check back frequently!
+This page will store notes made by Mr. Griswold for students in IB Computer Science. It will be updated and edited over time, but old versions will be archived.
 
-These notes will be complemented by *assignments* that will be provided to you through Github via Google Classroom. Think of this page as a textbook; the assignments are separate.
+### [See the version of these notes used from 2019-2020](./2019/index.md)
+
+The table of contents below is broken into three sections - general course resources, Programming Notes, and Non-Programming Notes. A significant portion of this class will be devoted to learning to program computers in java, and we will use the website CodeHS.ccom to help us with that. However, in each unit we will also cover at least a little non-programming content, which will be in its own section. 
 
 ## Table of Contents
 
-### Course Resources
+## Course Resources
 
-* [Official IB Syllabus](/unit0/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>
+* [Official IB Syllabus](./resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>.
+
+* [CodeHS](http://www.codehs.com). This is the primary online platform we will use to learn to program in Java.
   
-* [Traced algorithms](/unit0/traced_algorithms.md). We will trace algorithms nearly every class. As we trace new ones, I will add them (and their solutions) to this page for reference.
-* [CodingTS - Coding practice in TypeScript!](https://graded-cs-resources.github.io/CodingTS/)
+* [Traced algorithms and coding problems](./resources/traced_algorithms.md). I will add coding problems and traced algorithms to this page, over time, for you to view and practice with.
+
+* [CodingBat](https://codingbat.com/java). Coding practice in java
   
-* [IA Information](/unit0/ia.md)
-* [Sample IA Made in Class by Mr. G](/unit0/sample_ia.md)
-  
-* [Introduction](/unit1/00_Intro.md)
-* [Setting up your software environment](/unit1/01_Getting_Set_Up.md)
-  
-### Unit 1 - Storage, Data, and Collections
+* [IA Information](./resources/ia.md)
 
-[Learning Targets](/unit1/00_Learning_Targets.md)
+* [Sample IA Made in Class by Mr. G](./resources/sample_ia.md)
 
-<details markdown="1" class="normal"><summary>Click to expand lessons</summary>
-
-* [Abstraction and the computer processor](/unit1/00a_Abstraction.md)
-* [Variables, Functions, and Types](/unit1/02_FirstFunction.md)
-* [Computer memory](/unit1/03_Data_on_computers.md)
-* [Common Data types](/unit1/04_Common_data_types.md) 
-* [Operators](/unit1/05_Operators.md)
-* [Arrays](/unit1/06_Arrays.md)
-* [Intro to Resource Management](/unit1/08_Resource_Management_Intro.md) (HL Only)
-* [Intro to p5](/unit1/07_intro_to_p5.md)
-
-</details>
-
-[Unit 1 Sample Assessment](/unit1/09_sample_assessment.md)
-
-### Unit 2 - Abstraction and Objects
-
-[Learning Targets](/unit2/00_Learning_Targets.md)
-
-<details markdown="1" class="normal"><summary>Click to expand lessons</summary>
-
-* [Introducing objects](/unit2/01_Programming_with_objects.md)
-* [Public, Private, Static, Readonly, and Const](/unit2/02_Private_Public_Static.md)
-* [Practice Problems](/unit2/02a_object_anatomy_practice_problems.md)
-* [UML Class Diagrams](/unit2/03_UML_Class_diagrams.md)
-* [Search Algorithms](/unit2/04_Standard_Algorithms.md)
-* [Introduction to System Design - Requirements Analysis](/unit2/05_System_Design_Introduction.md)
-* [Boolean operators, truth tables, and logic diagrams](/unit2/06_boolean_logic.md)
-* [Binary and Hexadecimal](/unit2/07_binary_and_hexadecimal.md)
-
-</details>
-
-## Outside Resources
-
-### Official IB Resources
+<details markdown="1"><summary>Click to see a list of other external resources</summary>
 
 * [The IB CS Guide](https://ib.compscihub.net/wp-content/uploads/2015/04/IBCompSciGuide.pdf) - Includes the full syllabus and IA guidelines among other things
-
-### Other Resources
 
 * [CompSciHub About page](https://ib.compscihub.net/about) - This excellent resource put together by IB CS teachers and students compiles notes and information about the course.
 
 * [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/ib-compsci//) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
+</details>
 
-* [The Beauty and Joy of Computing](https://bjc.edc.org/bjc-r/course/bjc4nyc.html) Berkeley's computer science course for freshmen, aligned to the AP Computer Science Principles exam, contains lots of valuable information mixed in its programming exercises. Check out Unit 6 for good content review notes, unit 5 for some interesting conceptual challenges, and Unit 4 for some valuable information about networks and the internet.
+## Programming Notes
+
+These notes will be correlated with the programming we are doing in CodeHS, and will expand upon them. It is expected that you will read these as we work through CodeHS, and tests will draw from these notes as well as skills from CodeHS.
+
+## Non-programming Notes
+
+These notes cover content not included in CodeHS, because they are not about programming. They are organized in the order we will learn about them, rather than directly with the IB Syllabus.
+  
+### Section 1 - Components of a Computer System and Computer Architecture (Topics 1/2)
+
+These notes for this unit will cover the [Components of a Computer System](./resources/syllabus.md#components-of-a-computer-system),  [Computer Architecture](./resources/syllabus.md#computer-architecture), and [Secondary Memory](./resources/syllabus.md#secondary-memory) sections of the IB syllabus.
+
+* [1.1 - Abstraction and the Elements of a Computer System](./nonprogramming/1.1_abstraction.md)
+
+* [1.2 - Memory and Storage](./nonprogramming/1.2_memory.md)
+
+* [1.3 - Computer Processor Architecture](./nonprogramming/1.3_architecture.md)
+
+ 

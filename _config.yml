@@ -4,3 +4,4 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 title: Graded IB Computer Science Notes
+host: 0.0.0.0
