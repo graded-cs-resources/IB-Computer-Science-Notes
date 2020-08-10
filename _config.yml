@@ -5,3 +5,8 @@ plugins:
   - jekyll-include-cache
 title: Graded IB Computer Science Notes
 host: 0.0.0.0
+markdown: kramdown
+theme: jekyll-theme-primer
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: java

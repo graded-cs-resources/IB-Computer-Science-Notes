@@ -25,96 +25,63 @@ ol ol ol {
   clear: left;
 }
 
-div.highlighter-rouge {
-  margin-left: 2em;
+
+.markdown-body .rouge-table {
+  margin-bottom:0;
 }
 
-pre {
+.markdown-body .rouge-table pre {
+  padding-top:0;
+  padding-bottom: 0;
+}
+
+.markdown-body pre > code {
+  display:inline-block;
+  background-color:#eaeaea;
+  border: 0.5px gray dashed;
+  padding: 1rem;
   font-family: Consolas, Monaco, "Courier New", Courier, monospace;
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
+  font-size: 1rem
 }
 
-pre.sourceCode {
-  margin-top: 0;
-  margin-bottom: 0;
+.markdown-body code {
+  padding: 0;
+  background-color:#e2e2e2;
+  font-size: 1rem;
+  font-family: Consolas, Inconsolata, Monaco, "Courier New", Courier, monospace;
+}
+.markdown-body h1 > code, 
+.markdown-body h2 > code, 
+.markdown-body h3 > code, 
+.markdown-body h4 > code, 
+.markdown-body h4> code, 
+.markdown-body h5> code, 
+.markdown-body h6 > code {
+  padding-left:.1rem;
+  font-family: Consolas, Inconsolata, Monaco, "Courier New", Courier, monospace;
+  background-color: #eaeaea;
 }
 
-summary {
+.markdown-body summary {
   color: darkgreen;
+  font-weight:bold;
   outline-color: transparent;
 }
 
-details {
-  border: 1px dashed black;
-  border-radius: 5px;
-  padding: 5px;
+.markdown-body details {
+  margin-left: 0.5rem;
+  padding: .5rem;
+  border: .75px darkgreen dashed;
+  border-radius: 8px;
 }
 
-details.normal {
-  color: black;
-  border: none;
-}
-
-.normal summary {
-  color: black;
+.markdown-body details[open] summary {
+  border-bottom: 1px solid darkgreen;
 }
 
 .giantText {
   font-size: 3em;
   text-align: center;
-}
-
-/* out of date now
-.spoiler {
-  border: 1px dotted black;
-  padding: 5px;
-  position: relative;
-}
-
-.spoiler::before {
-  color: lightgray;
-  font-style: italic;
-  content: "Hover for answer";
-  height: 0;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  display: inline-block;
-}
-
-.spoiler:hover::before {
-  content: "";
-}
-
-.spoiler * {
-  visibility: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-*/
-
-.markdown-body .spoiler .highlight,
-.markdown-body .spoiler pre {
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-.spoiler:hover * {
-  visibility: initial;
-  margin: 0;
-}
-
-blockquote.spoiler {
-  border-left: 1px dotted black;
-  padding: 5px;
-  color: black;
-}
-.task-list-item-checkbox {
-  margin-right: 0.5em;
 }
 
 .task-list {
@@ -140,18 +107,14 @@ table {
   margin-top: 0.5em;
 }
 
+.markdown-body .highlight {
+  margin-bottom: 0;
+}
+
 .syl {
   vertical-align: super;
   font-size: 75%;
 }
-
-
-
-
-
-
-
-
 
 @media print {
   pre,

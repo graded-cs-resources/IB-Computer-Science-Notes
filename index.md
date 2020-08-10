@@ -41,18 +41,37 @@ The table of contents below is broken into three sections - general course resou
 
 These notes will be correlated with the programming we are doing in CodeHS, and will expand upon them. It is expected that you will read these as we work through CodeHS, and tests will draw from these notes as well as skills from CodeHS.
 
+### Unit 1
+
+* [1.2 - Printing in Java](./programming/1.2_printing.md)
+
+* [1.3 - Variables and data types](./programming/1.3_variables.md)
+
+* [1.4 - Expressions and Assignment](./programming/1.4_expressions.md)
+{% comment %}  
+* [1.5 - Compound Assignment](./programming/1.5_compoundassignment.md)
+
+* [1.6 - User Input](./programming/1.6_userinput.md)
+
+* [1.7 - Casting](./programming/1.7_casting.md)
+{% endcomment %}
+
 ## Non-programming Notes
 
 These notes cover content not included in CodeHS, because they are not about programming. They are organized in the order we will learn about them, rather than directly with the IB Syllabus.
   
-### Section 1 - Components of a Computer System and Computer Architecture (Topics 1/2)
+### Unit 1 - Components of a Computer System and Computer Architecture (Topics 1/2)
 
-These notes for this unit will cover the [Components of a Computer System](./resources/syllabus.md#components-of-a-computer-system),  [Computer Architecture](./resources/syllabus.md#computer-architecture), and [Secondary Memory](./resources/syllabus.md#secondary-memory) sections of the IB syllabus.
+These notes for this unit will cover the [Components of a Computer System](./resources/syllabus.md#components-of-a-computer-system),  [Computer Architecture](./resources/syllabus.md#computer-architecture), and [Secondary Memory](./resources/syllabus.md#secondary-memory) sections of the IB syllabus. 
+
+<details markdown="1"><summary>Click to expand.</summary>
 
 * [1.1 - Abstraction and the Elements of a Computer System](./nonprogramming/1.1_abstraction.md)
 
 * [1.2 - Memory and Storage](./nonprogramming/1.2_memory.md)
 
 * [1.3 - Computer Processor Architecture](./nonprogramming/1.3_architecture.md)
+
+</details>
 
  
