@@ -64,14 +64,11 @@ These notes cover content not included in CodeHS, because they are not about pro
 
 These notes for this unit will cover the [Components of a Computer System](./resources/syllabus.md#components-of-a-computer-system),  [Computer Architecture](./resources/syllabus.md#computer-architecture), and [Secondary Memory](./resources/syllabus.md#secondary-memory) sections of the IB syllabus. 
 
-<details markdown="1"><summary>Click to expand.</summary>
-
 * [1.1 - Abstraction and the Elements of a Computer System](./nonprogramming/1.1_abstraction.md)
 
 * [1.2 - Memory and Storage](./nonprogramming/1.2_memory.md)
 
 * [1.3 - Computer Processor Architecture](./nonprogramming/1.3_architecture.md)
 
-</details>
 
  
