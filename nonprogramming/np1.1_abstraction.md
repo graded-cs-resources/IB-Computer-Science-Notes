@@ -1,5 +1,5 @@
 ---
-title: Section 1.1 - Abstraction and the Parts of a Computer
+title: Non-programming Lesson 1.1 - Abstraction and the Parts of a Computer
 ---
 
 # Abstraction and the Parts of a Computer

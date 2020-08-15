@@ -43,17 +43,17 @@ These notes will be correlated with the programming we are doing in CodeHS, and 
 
 ### Unit 1
 
-* [1.2 - Printing in Java](./programming/1.2_printing.md)
+* [P.1.2 - Printing in Java](./programming/p1.2_printing.md)
 
-* [1.3 - Variables and data types](./programming/1.3_variables.md)
+* [P.1.3 - Variables and data types](./programming/p1.3_variables.md)
 
-* [1.4 - Expressions and Assignment](./programming/1.4_expressions.md)
+* [P.1.4 - Expressions and Assignment](./programming/p1.4_expressions.md)
 {% comment %}  
-* [1.5 - Compound Assignment](./programming/1.5_compoundassignment.md)
+* [P.1.5 - Compound Assignment](./programming/p1.5_compoundassignment.md)
 
-* [1.6 - User Input](./programming/1.6_userinput.md)
+* [P.1.6 - User Input](./programming/p1.6_userinput.md)
 
-* [1.7 - Casting](./programming/1.7_casting.md)
+* [P.1.7 - Casting](./programming/p1.7_casting.md)
 {% endcomment %}
 
 ## Non-programming Notes
@@ -64,11 +64,11 @@ These notes cover content not included in CodeHS, because they are not about pro
 
 These notes for this unit will cover the [Components of a Computer System](./resources/syllabus.md#components-of-a-computer-system),  [Computer Architecture](./resources/syllabus.md#computer-architecture), and [Secondary Memory](./resources/syllabus.md#secondary-memory) sections of the IB syllabus. 
 
-* [1.1 - Abstraction and the Elements of a Computer System](./nonprogramming/1.1_abstraction.md)
+* [NP.1.1 - Abstraction and the Elements of a Computer System](./nonprogramming/np1.1_abstraction.md)
 
-* [1.2 - Memory and Storage](./nonprogramming/1.2_memory.md)
+* [NP.1.2 - Memory and Storage](./nonprogramming/np1.2_memory.md)
 
-* [1.3 - Computer Processor Architecture](./nonprogramming/1.3_architecture.md)
+* [NP.1.3 - Computer Processor Architecture](./nonprogramming/np1.3_architecture.md)
 
 
  

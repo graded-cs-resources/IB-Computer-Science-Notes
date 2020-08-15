@@ -1,5 +1,5 @@
 ---
-title: Section 1.2 - Computer Processor Architecture
+title: Programming Lesson 1.3 - Computer Processor Architecture
 ---
 
 
@@ -27,7 +27,7 @@ To get a deeper understanding of how the fetch-execute cycle works in a processo
 
 # The CPU and Its Connections([Topic 2.1.1](../resources/syllabus.md#211))
 
-In [Section 1.1](./1.1_abstraction.md) we got an overview of the many layers of the computer processor, or CPU. The block diagram below shows more information about the key components in almost any general computer processor and its connections to the outside world. We will break down all of the components of this block diagram below the image.  This is not a complete diagram for every computer - many processors will have far more components than shown here, and some of these explanations are intentionally simplified - but it is enough to get the general idea (and as much as the IB wants you to know!). *Please Note:* The size of the components does not mean anything in the diagram below.
+In [Section 1.1](./np1.1_abstraction.md) we got an overview of the many layers of the computer processor, or CPU. The block diagram below shows more information about the key components in almost any general computer processor and its connections to the outside world. We will break down all of the components of this block diagram below the image.  This is not a complete diagram for every computer - many processors will have far more components than shown here, and some of these explanations are intentionally simplified - but it is enough to get the general idea (and as much as the IB wants you to know!). *Please Note:* The size of the components does not mean anything in the diagram below.
 
 ![CPU Block Diagram](https://docs.google.com/drawings/d/e/2PACX-1vTOCnYreSRrRRgnSdEweY9YHfS-UHgL3Sfvs-1WxDTDlCiJBYxkwjrRqKUjO08ZzqaBbFChdYbeinIX/pub?w=956&amp;h=545)
 <small>**Important Exam Note** [Topic 2.1.1](../resources/syllabus.md#211) in the IB syllabus specifically states that you will need to be able to reproduce a diagram like the one above that includes the ALU, CU, MAR, MDR, Input, Output, Storage, and Memory at least. So this is a very important diagram!  
@@ -63,7 +63,7 @@ In our previous section, we mentioned CPU registers as tiny memory circuits that
 
 ### Cache and RAM
 
-These were already addressed a bit in [Section 1.2](./1.2_memory.md). All of the data that will be used by the processor during its operation, including the instructions for the program currently being run, are stored in the primary memory, a.k.a. the cache and RAM combo.
+These were already addressed a bit in [Section 1.2](./np1.2_memory.md). All of the data that will be used by the processor during its operation, including the instructions for the program currently being run, are stored in the primary memory, a.k.a. the cache and RAM combo.
 
 ## Buses
 

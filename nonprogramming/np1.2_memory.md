@@ -1,5 +1,5 @@
 ---
-title: Section 1.2 - Memory and Storage
+title: Programming Lesson 1.2 - Memory and Storage
 ---
 
 # How computers store and interpret data
@@ -24,14 +24,14 @@ Every computer has multiple places where data - 0's and 1's - can be stored. Eac
    
 3. **Cache**:star: is an even faster and smaller section of memory that is used by the computer to store things it knows it may need again soon. It is usually directly connected to the computer's "brain" (CPU), which gives it extreme speed. From the perspective of a *programmer*, the cache and RAM are essentially interchangeable, but they make a huge difference at the low level; computer processor designers spend lots of time optimizing cache usage, since the cache can be up to 100 times faster than the RAM!. It is very expensive, however, so most computers have less than a gigabyte of cache total, and often significantly less of the fastest level 1 cache.<sup><small>[2.1.3](../resources/syllabus.md#213)</small></sup>
    
-4. **CPU Registers**:star: are the smallest, fastest memory, but they are usually considered as part of the CPU architecture. They are used only for values involved in the current *operations* of the processor. We will discuss them more in [Section 1.3](./1.3_architecture.md)
+4. **CPU Registers**:star: are the smallest, fastest memory, but they are usually considered as part of the CPU architecture. They are used only for values involved in the current *operations* of the processor. We will discuss them more in [Section 1.3](./np1.3_architecture.md)
    
 As a programmer, we mostly only worry about the persistent storage (which we tend to call the *disk* or the *files*) and the RAM (which we tend to call the *memory*.) The CPU and programming language handle the movement between RAM, cache, and registers for us, while the ROM does its own thing when the computer starts and is otherwise not our concern.
 {: .clearfix}
 
 ## What goes in the memory?
 
-Though the different storage types all works very differently at a physical or chemical level (hard drives use magnets, dvds use lasers, etc), for a programmer it is reasonable to think of memory as holding a giant series of `0`'s and `1`s. This is an example of an [**abstraction**!](../1.1_abstraction.md)<sup><small>[4.1.17](../resources/syllabus.md#4117)</small></sup>
+Though the different storage types all works very differently at a physical or chemical level (hard drives use magnets, dvds use lasers, etc), for a programmer it is reasonable to think of memory as holding a giant series of `0`'s and `1`s. This is an example of an [**abstraction**!](../np1.1_abstraction.md)<sup><small>[4.1.17](../resources/syllabus.md#4117)</small></sup>
 
 Each `0` or `1` is called a **bit**:star:.<sup><small>[2.1.9](../resources/syllabus.md#219)</small></sup> By itself, a bit can't convey a lot of meaning, since there are only two options. But if you combine the `0`s and `1`s into groups, you can get more interesting combinations. A group of 8 bits is called a **byte**:star: and provides $$2^8=256$$ possible values, from `0000 0000` to `1111 1111`. 
 

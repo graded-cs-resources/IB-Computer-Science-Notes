@@ -282,7 +282,7 @@ between systems in geographically diverse locations.
 <td>1</td>
 <td></td>
 <td markdown="1">
-[1.1 - Abstraction and the parts of a computer](../nonprogramming/1.1_abstraction.md)
+[NP.1.1](../nonprogramming/np1.1_abstraction.md)
 </td>
 </tr>
 <tr class="odd">
@@ -548,7 +548,7 @@ technology.
 <td>2</td>
 <td>Students should be able to reproduce a block diagram showing the relationship between the elements of the CPU, input and output and storage. The memory address register (MAR) and memory data register (MDR) are the only ones that need to be included.</td>
 <td markdown="1">
-[Section 1.3, Architecture](../nonprogramming/1.3_architecture.md)
+[NP1.3](../nonprogramming/np1.3_architecture.md)
 </td>
 </tr>
 <tr class="odd">
@@ -557,7 +557,7 @@ technology.
 <td>2</td>
 <td>Distinguish between random access memory (RAM) and read-only memory (ROM), and their use in primary memory.</td>
 <td markdown="1">
-[Section 1.2, Memory](../nonprogramming/1.2_memory.md)
+[NP1.2](../nonprogramming/np1.2_memory.md)
 </td>
 </tr>
 
@@ -567,7 +567,7 @@ technology.
 <td>3</td>
 <td>Students should be able to explain the effect of cache memory in speeding up the system as well as being able to explain how it is used.</td>
 <td markdown="1">
-[Section 1.2, Memory](../nonprogramming/1.2_memory.md)
+[NP1.2](../nonprogramming/np1.2_memory.md)
 </td>
 </tr>
 <tr class="even">
@@ -575,7 +575,9 @@ technology.
 <td>Explain the machine instruction cycle.</td>
 <td>3</td>
 <td>This should include the role of data bus and address bus.</td>
-<td></td>
+<td markdown="1">
+[NP1.3](../nonprogramming/np1.3_architecture.md)
+</td>
 </tr>
 </tbody>
 </table>
@@ -603,7 +605,7 @@ technology.
 <p><strong>TOK</strong> There is no such thing as persistent storage.</p>
 <p><strong>AIM 9</strong> An appreciation of the issues related to both the ever increasing amount of data and a need to retain it.</p></td>
 <td markdown="1">
-[Section 1., Memory](../nonprogramming/1.2_memory.md)
+[NP1.2](../nonprogramming/np1.2_memory.md)
 </td>
 </tr>
 </tbody>
@@ -627,7 +629,7 @@ technology.
 <td>Describe the main functions of an operating system.</td>
 <td>2</td>
 <td>This is confined to a single-user operating system. Technical details are not needed. For example, memory management should be described but how this is handled in a multitasking environment is not expected.</td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 <tr class="odd">
 <td id="217">2.1.7</td>
@@ -668,7 +670,7 @@ technology.
 <td>Define the terms: bit, byte, binary, denary/decimal, hexadecimal.</td>
 <td>1</td>
 <td></td>
-<td>[Section 1.2, Memory](../nonprogramming/1.2_memory.md) for bit and byte</td>
+<td>[Section 1.2, Memory](../nonprogramming/np1.2_memory.md) for bit and byte</td>
 </tr>
 <tr class="even">
 <td id="2110">2.1.10</td>
@@ -677,7 +679,7 @@ technology.
 <td><p>To include strings, integers, characters and colours. This should include considering the space taken by data, for instance the relation between the hexadecimal representation of colours and the number of colours available.</p>
 <p><strong>TOK</strong>, <strong>INT</strong> Does represent an example of a lingua franca?</p>
 <p><strong>S/E</strong>, <strong>INT</strong> Comparing the number of characters needed in the Latin alphabet with those in Arabic and Asian languages to understand the need for Unicode.</p></td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 </tbody>
 </table>
@@ -700,7 +702,7 @@ technology.
 <td>Define the Boolean operators: AND, OR, NOT, NAND, NOR and XOR.</td>
 <td>1</td>
 <td><strong>LINK</strong> Introduction to programming, approved notation sheet.</td>
-<td markdown="1">[Unit 2](../unit2/06_boolean_logic.md)
+<td markdown="1">
 </td>
 </tr>
 <tr class="odd">
@@ -711,7 +713,7 @@ technology.
 <p>Not more than three inputs are used.</p>
 <p><strong>LINK</strong> Thinking logically.</p>
 <p><strong>TOK</strong> Reason as a way of knowing.</p></td>
-<td markdown="1">[Unit 2](../unit2/06_boolean_logic.md)
+<td markdown="1">
 </td>
 </tr>
 
@@ -724,7 +726,7 @@ technology.
 <p>For example:</p>
 <p><strong>OR</strong></p>
 <p><strong>LINK</strong> Thinking logically, connecting computational thinking and program design, introduction to programming.</p></td>
-<td markdown="1">[Unit 2](../unit2/06_boolean_logic.md)
+<td markdown="1">
 </td>
 </tr>
 </tbody>
@@ -1123,7 +1125,7 @@ technology.
 <td>2</td>
 <td><p>Selecting the pieces of information that are relevant to solving the problem.</p>
 <p><strong>LINK</strong> Thinking ahead.</p></td>
-<td>[1.1](../nonprogramming/1.1_abstraction.md), [1.3](../nonprogramming/1.2_memory.md), more</td>
+<td>[NP.1.1](../nonprogramming/np1.1_abstraction.md), [NP.1.2](../nonprogramming/np1.2_memory.md), more</td>
 </tr>
 <tr class="even">
 <td id="4118">4.1.18</td>
@@ -1142,7 +1144,7 @@ technology.
 <li><p>OOP: classes, sub-classes</p></li>
 <li><p>Web science: distributed applications</p></li>
 </ul></td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="4119">4.1.19</td>
@@ -1152,14 +1154,14 @@ technology.
 <p>Levels of abstraction through successive decomposition.</p>
 <p>A school can be decomposed into faculties. A faculty can be decomposed into departments.</p>
 <p><strong>LINK</strong> Thinking ahead, thinking procedurally. Connecting computational thinking and program design, introduction to programming.</p></td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 <tr class="odd">
 <td id="4120">4.1.20</td>
 <td>Distinguish between a real-world entity and its abstraction.</td>
 <td>2</td>
 <td><strong>TOK</strong> The map as an abstraction of the territory.</td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 </tbody>
 </table>
@@ -1190,7 +1192,7 @@ technology.
 <td>Describe the characteristics of standard algorithms on linear arrays.</td>
 <td>2</td>
 <td>These are: sequential search, search, bubble sort, selection sort.     </td>
-<td markdown="1">[Unit 2](../unit2/04_Standard_Algorithms.md) (search only)
+<td markdown="1">
 </td>
 </tr>
 <tr class="odd">
@@ -1198,7 +1200,7 @@ technology.
 <td>Outline the standard operations of collections.</td>
 <td>2</td>
 <td>These are: addition and retrieval of data.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="423">4.2.3</td>
@@ -1217,7 +1219,7 @@ technology.
 <p>Students will not be expected to construct a flow chart to represent an algorithm in an externally assessed component.</p>
 <p><strong>MYP</strong> Mathematics: using flow charts to solve problems in real-life contexts, patterns and sequences, logic, algorithms.</p>
 <p><strong>MYP</strong> Technology: design cycle (inputs, processes, outputs, feedback, iteration).</p></td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="425">4.2.5</td>
@@ -1227,7 +1229,7 @@ technology.
 <p>This would include tracing an algorithm as well as assessing its correctness.</p>
 <p><strong>MYP</strong> Mathematics: using flow charts to solve problems in real-life contexts, patterns and sequences, logic, algorithms.</p>
 <p><strong>MYP</strong> Technology: design cycle (inputs, processes, outputs, feedback, iteration).</p></td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="odd">
 <td id="426">4.2.6</td>
@@ -1259,7 +1261,7 @@ technology.
 <td>Determine the number of times a step in an algorithm will be performed for given input data.</td>
 <td>3</td>
 <td>Examination questions will involve specific algorithms (in pseudocode/ flow charts), and students may be expected to give an actual number (or range of numbers) of iterations that a step will execute.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 </tbody>
 </table>
@@ -1285,14 +1287,16 @@ technology.
 <td>1</td>
 <td><p>These include: add, compare, retrieve and store data.</p>
 <p>Complex capabilities are composed of very large numbers of very simple operations.</p></td>
-<td>Unit 1</td>
+<td markdown="1">
+[NP.1.1](../nonprogramming/np1.1_abstraction.md)
+</td>
 </tr>
 <tr class="odd">
 <td id="432">4.3.2</td>
 <td>Distinguish between fundamental and compound operations of a computer.</td>
 <td>2</td>
 <td>For example, “find the largest” is a compound operation.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 
 <tr class="odd">
@@ -1343,7 +1347,6 @@ technology.
 <td>1</td>
 <td></td>
 <td markdown="1">
-[Unit 1](../unit1/04_Operators.md)
 </td>
 </tr>
 <tr class="even">
@@ -1352,7 +1355,6 @@ technology.
 <td>1</td>
 <td><strong>LINK</strong> Approved notation sheet.</td>
 <td markdown="1">
-[Unit 1](../unit1/04_Operators.md)
 </td>
 </tr>
 <tr class="odd">
@@ -1382,14 +1384,14 @@ technology.
 <td><p>Characteristics:</p>
 <p>• Contains similar elements. <strong>LINK</strong> HL extension, recursive thinking.</p>
 <p><strong>LINK</strong> General principles of computational thinking, connecting computational thinking and program design.</p></td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="4311">4.3.11</td>
 <td>Construct algorithms using the access methods of a collection.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="odd">
 <td id="4312">4.3.12</td>
@@ -1703,7 +1705,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Identify the resources that need to be managed within a computer system.</td>
 <td>2</td>
 <td>Resources include: primary memory, secondary storage, processor speed, bandwidth, screen resolution, disk storage, sound processor, graphics processor, cache, network connectivity.     </td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="odd">
 <td id="612">6.1.2</td>
@@ -1711,14 +1713,14 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>3</td>
 <td><p>These should include: mainframes, servers, PCs, sub-laptops, as well as personal digital devices such as cell phones, PDAs and digital cameras.</p>
 <p><strong>AIM 9</strong> Develop an appreciation of the issues linked to resource availability with continued developments in computer systems.</p></td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="613">6.1.3</td>
 <td>Identify the limitations of a range of resources in a specified computer system.</td>
 <td>2</td>
 <td>For example, single processor computers may not be able to render 3D graphics effectively.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="odd">
 <td id="614">6.1.4</td>
@@ -1726,7 +1728,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>2</td>
 <td><p>For example, user time wasted if the primary memory is too small or processor speed inadequate.</p>
 <p>Multi-access and multiprogramming environments should be considered as well as single-user systems.</p></td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 </tbody>
 </table>
@@ -1900,7 +1902,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>2</td>
 <td><p>An object as an abstract entity and its components—data and actions.</p>
 <p>Familiar examples from different domains might be people, cars, fractions, dates and music tracks.</p></td>
-<td markdown="1">[Unit 2](../unit2/01_Programming_with_objects.md)
+<td markdown="1">
 </td>
 </tr>
 <tr class="even">
@@ -1908,7 +1910,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Distinguish between an object (definition, template or class) and instantiation.</td>
 <td>2</td>
 <td>Students must understand the difference in terms of code definitions, memory use and the potential creation of multiple instantiated objects.</td>
-<td markdown="1">[Unit 2](../unit2/01_Programming_with_objects.md)
+<td markdown="1">
 </td>
 </tr>
 <tr class="odd">
@@ -1916,15 +1918,14 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Construct unified modelling language (UML) diagrams to represent object designs.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
-<td markdown="1">[Unit 2](../unit2/03_UML_Class_diagrams.md)
-</td>
+<td markdown="1">
 </tr>
 <tr class="even">
 <td id="D14">D.1.4</td>
 <td>Interpret UML diagrams.</td>
 <td>3</td>
 <td><strong>LINK</strong> Connecting computational thinking and program design.</td>
-<td markdown="1">[Unit 2](../unit2/03_UML_Class_diagrams.md)
+<td markdown="1">
 </td>
 </tr>
 
@@ -1935,7 +1936,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td><p>A simple example with 3–5 objects is suggested. Examples related to D.1.1 could be employers, traffic simulation models, calculators, calendars, media collections.</p>
 <p><strong>LINK</strong> Thinking abstractly.</p>
 <p><strong>AIM 4</strong> Applying thinking skills critically to decompose scenarios.</p></td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="D16">D.1.6</td>
@@ -1968,14 +1969,16 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Explain the need for different data types to represent data items.</td>
 <td>3</td>
 <td>The data types will be restricted to integer, real, string and Boolean.</td>
-<td>Unit 1</td>
+<td markdown="1">
+[Lesson P.1.3 - Data Types](../programming/p1.3_variables.md)
+</td>
 </tr>
 <tr class="even">
 <td id="D110">D.1.10</td>
 <td>Describe how data items can be passed to and from actions as parameters.</td>
 <td>2</td>
 <td>Parameters will be restricted to passby-value of one of the four types in D.1.9. Actions may return at most one data item.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 </tbody>
 </table>
@@ -2002,7 +2005,6 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>1</td>
 <td>Data and actions are limited to the object in which they are defined.</td>
 <td markdown="1">
-[Unit 2](../unit2/02_Private_Public_Static.md)
 </td>
 </tr>
 <tr class="even">
@@ -2024,7 +2026,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Explain the advantages of encapsulation.</td>
 <td>3</td>
 <td>For example, the scope of data should be confined to the object in which it is defined as far as possible in order to limit side effects and dependencies.</td>
-<td markdown="1">[Unit 2](../unit2/02_Private_Public_Static.md)
+<td markdown="1">
 </td>
 </tr>
 <tr class="odd">
@@ -2069,7 +2071,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Explain the advantages of modularity in program development.</td>
 <td>3</td>
 <td>Advantages include easier debugging and testing, speedier completion, etc.</td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 </tbody>
 </table>
@@ -2092,7 +2094,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Define the terms: class, identifier, primitive, instance variable, parameter variable, local variable.</td>
 <td>1</td>
 <td>These are generally related to the object’s data. See JETS.</td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="D32">D.3.2</td>
@@ -2106,7 +2108,7 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Define the terms: private, protected, public, extends, static.</td>
 <td>1</td>
 <td>These are generally related to the OOP features described in D.2. See JETS.</td>
-<td>Unit 2</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="D34">D.3.4</td>
@@ -2114,7 +2116,9 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>2</td>
 <td><p>In examination questions the primitive types will be limited to int, long, double, char and Boolean.</p>
 <p><strong>MYP</strong> Mathematics: forms of numbers.</p></td>
-<td>Unit 1</td>
+<td markdown="1">
+[Lesson P.1.3 - Data Types](../programming/p1.3_variables.md)
+</td>
 </tr>
 <tr class="odd">
 <td id="D35">D.3.5</td>
@@ -2128,21 +2132,21 @@ Linked lists will be examined at the level of diagrams and descriptions. Student
 <td>Construct code examples related to selection statements.</td>
 <td>3</td>
 <td>Students may be asked to trace, explain or construct algorithms using simple and compound if … else constructs.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="odd">
 <td id="D37">D.3.7</td>
 <td>Construct code examples related to repetition statements.</td>
 <td>3</td>
 <td>Students may be asked to trace, explain or construct algorithms using for, while or do … while loops.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="D38">D.3.8</td>
 <td>Construct code examples related to static arrays.</td>
 <td>3</td>
 <td>Students may be asked to trace, explain or construct algorithms using static arrays.</td>
-<td>Unit 1</td>
+<td></td>>
 </tr>
 <tr class="even">
 <td id="D39">D.3.9</td>
