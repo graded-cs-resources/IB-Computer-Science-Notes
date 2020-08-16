@@ -12,30 +12,7 @@ This page will store notes made by Mr. Griswold for students in IB Computer Scie
 
 The table of contents below is broken into three sections - general course resources, Programming Notes, and Non-Programming Notes. A significant portion of this class will be devoted to learning to program computers in java, and we will use the website CodeHS.ccom to help us with that. However, in each unit we will also cover at least a little non-programming content, which will be in its own section. 
 
-## Table of Contents
-
-## Course Resources
-
-* [Official IB Syllabus](./resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>.
-
-* [CodeHS](http://www.codehs.com). This is the primary online platform we will use to learn to program in Java.
-  
-* [Traced algorithms and coding problems](./resources/traced_algorithms.md). I will add coding problems and traced algorithms to this page, over time, for you to view and practice with.
-
-* [CodingBat](https://codingbat.com/java). Coding practice in java
-  
-* [IA Information](./resources/ia.md)
-
-* [Sample IA Made in Class by Mr. G](./resources/sample_ia.md)
-
-<details markdown="1"><summary>Click to see a list of other external resources</summary>
-
-* [The IB CS Guide](https://ib.compscihub.net/wp-content/uploads/2015/04/IBCompSciGuide.pdf) - Includes the full syllabus and IA guidelines among other things
-
-* [CompSciHub About page](https://ib.compscihub.net/about) - This excellent resource put together by IB CS teachers and students compiles notes and information about the course.
-
-* [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/ib-compsci//) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
-</details>
+# Table of Contents
 
 ## Programming Notes
 
@@ -69,6 +46,26 @@ These notes for this unit will cover the [Components of a Computer System](./res
 * [NP.1.2 - Memory and Storage](./nonprogramming/np1.2_memory.md)
 
 * [NP.1.3 - Computer Processor Architecture](./nonprogramming/np1.3_architecture.md)
+
+## Course Resources
+
+* [Official IB Syllabus](./resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>.
+
+* [CodeHS](http://www.codehs.com). This is the primary online platform we will use to learn to program in Java.
+  
+* [Traced algorithms and coding problems](./resources/traced_algorithms.md). I will add coding problems and traced algorithms to this page, over time, for you to view and practice with.
+
+* [CodingBat](https://codingbat.com/java). Coding practice in java
+  
+* [IA Information](./resources/ia.md)
+
+* [Sample IA Made in Class by Mr. G](./resources/sample_ia.md)
+
+* [The IB CS Guide](https://ib.compscihub.net/wp-content/uploads/2015/04/IBCompSciGuide.pdf) - Includes the full syllabus (as a PDF, rather than the website above) and IA guidelines among other things
+
+* [CompSciHub About page](https://ib.compscihub.net/about) - This excellent resource put together by IB CS teachers and students compiles notes and information about the course.
+
+* [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/ib-compsci//) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
 
 
  
