@@ -1,5 +1,5 @@
 ---
-title: Programming Lesson 1.2 - Memory and Storage
+title: Non-Programming Lesson 1.2 - Memory and Storage
 ---
 
 # How computers store and interpret data

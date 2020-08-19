@@ -1,5 +1,5 @@
 ---
-title: Programming Lesson 1.3 - Computer Processor Architecture
+title: Non-Programming Lesson 1.3 - Computer Processor Architecture
 ---
 
 

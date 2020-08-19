@@ -24,7 +24,7 @@ These notes will be correlated with the programming we are doing in CodeHS, and 
 
 * [P.1.3 - Variables and data types](./programming/p1.3_variables.md)
 
-* [P.1.4 - Expressions and Assignment](./programming/p1.4_expressions.md)
+* [P.1.4 - Operators and Assignment](./programming/p1.4_operators.md)
 {% comment %}  
 * [P.1.5 - Compound Assignment](./programming/p1.5_compoundassignment.md)
 
@@ -46,6 +46,8 @@ These notes for this unit will cover the [Components of a Computer System](./res
 * [NP.1.2 - Memory and Storage](./nonprogramming/np1.2_memory.md)
 
 * [NP.1.3 - Computer Processor Architecture](./nonprogramming/np1.3_architecture.md)
+
+* [NP 1.4 - Software, the OS, and Programming languages](./nonprogramming/np1.4_software.md)
 
 ## Course Resources
 
