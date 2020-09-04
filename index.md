@@ -24,14 +24,12 @@ These notes will be correlated with the programming we are doing in CodeHS, and 
 
 * [P.1.3 - Variables and data types](./programming/p1.3_variables.md)
 
-* [P.1.4 - Operators and Assignment](./programming/p1.4_operators.md)
-{% comment %}  
-* [P.1.5 - Compound Assignment](./programming/p1.5_compoundassignment.md)
+* [P.1.4 and 1.5 - Operators and Assignment](./programming/p1.4_operators.md)
 
 * [P.1.6 - User Input](./programming/p1.6_userinput.md)
 
 * [P.1.7 - Casting](./programming/p1.7_casting.md)
-{% endcomment %}
+
 
 ## Non-programming Notes
 
