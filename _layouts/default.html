@@ -31,9 +31,18 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="{{ "/assets/images/ms-icon-144x144.png" | relative_url }}">
   <meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript">
+    function openDetail() {
+      let details = document.getElementsByTagName("details");
+      for (d of details) {
+        d.setAttribute("open","open")
+      }
+    }
+  </script>
 </head>
 
-<body>
+<body onbeforeprint="openDetail()">
   <div class="container-lg px-3 my-5 markdown-body">
     {% if site.title and site.title != page.title %}
     <header>

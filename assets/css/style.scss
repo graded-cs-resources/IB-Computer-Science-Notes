@@ -184,6 +184,10 @@ table {
     padding: 0px;
     margin: 0px;
   }
+
+  details:not([open])>*:not(summary) {
+    display: block !important;
+  }
 }
 
 @page {
