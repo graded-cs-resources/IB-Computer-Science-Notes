@@ -49,6 +49,16 @@ These notes for this unit will cover the [Components of a Computer System](./res
 
 * [NP 1.4 - Software, the OS, and Programming languages](./nonprogramming/np1.4_software.md)
 
+* [NP 1.5 - The Operationg System (HL Only)](./nonprogramming/np1.5_operating_system.md)
+
+### Unit 2 - Data representation and Logic Gates
+
+These notes cover the [Representation](./resources/syllabus.md#representation) and [Simple Logic Gates](./resources/syllabus.md#simple-logic-gates) section of the IB syllabus, finishing up the remaining elements from Topic 2!
+
+* [NP 2.1 - Representing integers with binary, hexadecimal, and two's complement](nonprogramming/np2.1_representing_integers.md)
+
+* [NP 2.2 - Representing characters on computers](nonprogramming/np2.2_representing_characters.md)
+
 ## Course Resources
 
 * [Official IB Syllabus](./resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>.

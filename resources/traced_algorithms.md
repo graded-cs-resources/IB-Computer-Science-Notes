@@ -17,7 +17,7 @@ This was done on August 6 in HL, August 7 in SL
 #### Solution
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```
+```none
 K:  47  37  26  14
 N:  10  11  12  13
 D:  37  26  14  1
@@ -37,7 +37,7 @@ This was done on August 8 in HL, August 9 in SL
 #### Solution
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```
+```none
 Run 1
 T: 42 31 20 9
 F: 11
@@ -74,7 +74,7 @@ You also need to know that `A div B` means to do division but drop the decimal p
 #### Solution
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```
+```none
 K: 47 23 11
 N: 10 10 10
 
@@ -88,7 +88,7 @@ Trace for N = 6 and N = 7
 
 #### Algorithm
 
-```
+```none
 SUM = 0
 loop COUNT from 1 to (N div 2)
     if N mod COUNT = 0 then
@@ -106,7 +106,7 @@ end if
 
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```
+```none
 SUM:    0   1    3    6
 COUNT:    1    2    3
 N:      6
@@ -130,7 +130,7 @@ Introducing arrays!
 
 Trace the algorithm below for `STOCKS = [42, 11, 6, 3]`
 
-```
+```none
 COUNT = 0
 TOTAL = 0
 
@@ -152,7 +152,7 @@ end if
 #### Solution
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```
+```none
 STOCKS = [42, 11, 6, 3]
 
 N:      0   1   2   3
@@ -197,7 +197,7 @@ Collections!
 
 Trace the algorithm below for a collection NAMES with the values {David, Jake, Ross, David, Jim}
 
-```
+```none
 // Assume LIST is an array with plenty of room, but currently empty
 
 COUNT = 0 // number of names currently added to array LIST
@@ -243,7 +243,7 @@ Imagine you have an array called SCORES that represents all the scores a player 
 #### Solution
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```python
+```none
 HIGH=0
 loop i from 0 to SCORES.length
   if SCORES[i]>HIGH then
@@ -264,7 +264,7 @@ Construct an algorithm identical to the one for algorithm 7, but using an IB Col
 #### Solution
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```python
+```none
 SCORES.resetNext()
 HIGH = 0
 loop while SCORES.hasNext()
@@ -292,7 +292,7 @@ Predict the output of the code below. The `firstLetter` function returns the fir
 
 #### Algorithm
 
-```python
+```none
 NAMES = new Collection()
 
 NAMES.addItem("Bob")
@@ -328,7 +328,7 @@ Imagine you have an IB collection called NAMES. Construct an algorithm that will
 #### Solution
 
 <details markdown="1"><summary>Click to expand answer</summary>
-```python
+```none
 OUT = "The names are: {"
 NAMES.resetNext()
 loop while NAMES.hasNext()
@@ -343,4 +343,71 @@ output OUT
 ```
 </details>
 
-  
+### Algorithm 11
+
+This one comes from [FIS's list of old algorithms](http://ibcomp.fis.edu/275979/ibcomp/review/TSM2006PcodeAlgs.pdf)
+
+The following algorithm fragment has been designed to analyse the temperatures at a tourist
+resort.
+
+```none
+COUNT = 0
+TOTAL = 0
+TEMP = input("Enter a temperature")
+BIG = TEMP
+loop while not(TEMP = 0)
+  TOTAL = TOTAL + TEMP
+  COUNT = COUNT + 1
+  input TEMP
+  if TEMP > BIG then
+    BIG = TEMP
+  endif
+end loop
+AVERAGE = TOTAL / COUNT
+output AVERAGE, BIG
+```
+
+Copy, add lines, and complete the trace table below, assuming the user enters the data **15, 7, 23, 9, 0**
+
+| Count | Total | Temp | Big | not (TEMP = 0) | output |
+| ----- | ----- | ---- | --- | -------------- | ------ |
+| 0     | 0     | 15   |     |                |        |
+|       |       |      |     |                |        |
+
+### Algorithm 12
+
+Consider the fragment of code below:
+
+```none
+X = 1
+loop while X < 6
+    Y = 1
+    loop while Y < 5
+        Y = Y + 1
+    end loop
+    output “The product of X and Y is ”, X * Y
+    output “The values of X and Y are ”, X, Y
+    X = X + 1
+end loop
+```
+
+Write down the complete output of this algorithm (no full trace required)
+
+### Algorithm 13
+
+Consider the fragment of code below:
+
+```none
+X = 1
+loop while X < 6
+    Y = 1
+    loop while Y < 6
+        output “The product of X and Y is ”, X * Y
+        Y <-- Y + 2
+    end loop
+    output “The values of X and Y are ”, X, Y
+    X = X + 2
+end loop
+```
+
+Write down the complete output of this algorithm (no full trace required)

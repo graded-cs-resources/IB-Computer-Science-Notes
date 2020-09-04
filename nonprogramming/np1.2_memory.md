@@ -39,7 +39,7 @@ Given a single byte (or more than one) we can train our programs to *interpret* 
 
 ## Virtual Memory (HL topic)
 
-Occasionally, a computer will completely run out of available cache and RAM to keep track of all of the running programs. In that situation, the **operating system**, which is the primary software that controls how the computer works, may all programs to use use **virtual memory**, or *swap space*, which allows the programs to use space on persistent storage in the same way they might use RAM.
+Occasionally, a computer will completely run out of available cache and RAM to keep track of all of the running programs. In that situation, the **operating system**, which is the primary software that controls how the computer works, may allow programs to use **virtual memory**, or *swap space*, which allows the programs to use space on persistent storage in the same way they might use RAM.
 
 The advantage of this is that the computer can continue to run all of the programs on the computer without causing any sort of error caused by insufficient RAM, and extremely large programs can run even on devices with less RAM.
 

@@ -37,29 +37,29 @@ ol ol ol {
 
 .markdown-body pre > code {
   display:inline-block;
-  background-color:#eaeaea;
-  border: 0.5px gray dashed;
+  border: 0.1rem dashed #cccccc;
+  border-radius: 1rem;
+  background-color:#eeeeee;
   padding: 1rem;
   font-family: Consolas, Monaco, "Courier New", Courier, monospace;
-  font-size: 1rem
+  font-size: 1rem;
+  margin: 1rem 2rem;
+}
+
+.markdown-body .highlight pre, .markdown-body pre {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 .markdown-body code {
-  padding: 0;
-  background-color:#e2e2e2;
+  padding: 0.1rem 0.4rem;
+  border: 0.1rem dashed #cccccc;
+  border-radius: 0.2rem;
+  background-color:#eeeeee;
   font-size: 1rem;
   font-family: Consolas, Inconsolata, Monaco, "Courier New", Courier, monospace;
-}
-.markdown-body h1 > code, 
-.markdown-body h2 > code, 
-.markdown-body h3 > code, 
-.markdown-body h4 > code, 
-.markdown-body h4> code, 
-.markdown-body h5> code, 
-.markdown-body h6 > code {
-  padding-left:.1rem;
-  font-family: Consolas, Inconsolata, Monaco, "Courier New", Courier, monospace;
-  background-color: #eaeaea;
 }
 
 .markdown-body summary {
@@ -80,8 +80,19 @@ ol ol ol {
 }
 
 .giantText {
-  font-size: 3em;
+  font-size: 2.5rem;
+}
+
+.center {
   text-align: center;
+}
+
+.largeText {
+  font-size: 1.5rem;
+}
+
+.smallText {
+  font-size: 0.75rem;
 }
 
 .task-list {
@@ -114,6 +125,22 @@ table {
 .syl {
   vertical-align: super;
   font-size: 75%;
+}
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
 @media print {
