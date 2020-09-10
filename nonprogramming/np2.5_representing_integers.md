@@ -119,13 +119,16 @@ We could confirm that this is the same value by converting the new hexadecimal v
 
 ### Check Your Understanding
 
-1. Convert the binary value `0010 1111` to hexadecimal
+1. Convert the binary value `0101 1110` to hexadecimal. (IB November 2018 SL problem 8ci)
    <details markdown="1"><summary>Click to expand answer</summary>
    Working one nibble at a time:  
-   `0010` is equivalent to 2 in decimal, so it is 2 in hexadecimal.  
-   `1111` is equivalent to 8 + 4 + 2 + 1 = 15 in decimal, so it is F in hexadecimal.  
-   Thus, the total value here is `2F` in hexadecimal.
+   `0101` is equivalent to 1 + 4 = 5 in decimal, so it is 5 in hexadecimal.  
+   `1110` is equivalent to 8 + 4 + 2 = 14 in decimal, so it is E in hexadecimal.  
+   Thus, the total value here is `5E` in hexadecimal.
+
+   The IB would award only one mark for this, for the correct answser, no partial credit.
    </details>
+
 2. Convert the binary value `1101 0101 0000 1011` to hexadecimal
    <details markdown="1"><summary>Click to expand answer</summary>
    Working one nibble at a time:  
@@ -135,6 +138,7 @@ We could confirm that this is the same value by converting the new hexadecimal v
    `1011` is 8 + 2 + 1 = 11 = B in hexadecimal.  
    Thus, the total value here is `D5 0B`
    </details>
+
 3. Convert the hexadecimal value `A5` to binary and decimal
    <details markdown="1"><summary>Click to expand answer</summary>
    Working one nibble at a time (for binary conversion): 
@@ -160,106 +164,77 @@ You will not have a calculator available on IB tests, so for problems like this 
 
 ### Check your undersanding
 
-1. How many different values can be stored in 3 bytes? (leave your answer as an unworked value)
+1. State how many different integers can be represented in a single byte (November 2018 SL Problem 8cii)
+   <details markdown="1"><summary>Click to expand answer</summary>
+   $$2^{8}$$ or $$256$$
+   </details>
+
+2. How many different colours can be represented using two hexadecimal characters? (May 2018 SL Problem 3)
+   <details markdown="1"><summary>Click to expand answer</summary>
+   Each hex character can have up to sixteen options so one way to represent this is $$16^2=256$$
+
+   Alternatively, if you remember 2 hex characters is one byte, this is $$2^8=256$$
+   (IB mark for $$16^2$$, $$2^8$$, or $$256$$)
+   </details>
+
+3. How many different values can be stored in 3 bytes? (leave your answer as an unworked value)
    <details markdown="1"><summary>Click to expand answer</summary>
    $$2^{24}$$ or $$256^3$$
    </details>
-1. Web browsers represent colors using 4 bytes. How many different colors can be represented using four bytes? (leave your answer as an unworked value)
+
+4. Web browsers represent colors using 4 bytes. How many different colors can be represented using four bytes? (leave your answer as an unworked value)
    <details markdown="1"><summary>Click to expand answer</summary>
    $$2^{32}$$ or $$256^4$$
    </details>
-1. The Unicode standard uses 21 bits to hold different characters. How many possible characters can be encoded using 21 bits?
+
+5. The Unicode standard uses 21 bits to hold different characters. How many possible characters can be encoded using 21 bits?
    <details markdown="1"><summary>Click to expand answer</summary>
    $$2^{21}$$
    </details>
+   
+# Larger Sizes
 
-# Negative Integers
+It is very common to consider thousands, millions, or billions of bytes at a time. For this reason, computers use a modified metric system to refer to really large numbers of bytes.
 
-The above information is useful to help us visualize the actual bits inside a computer as numbers that are easier for us to understand, but you might notice that we can only use this system to represent non-negative, or *unsigned* integers. What if we want to represent something else, like, say, negative numbers?
+The metric system, of course, is based on powers of 10: one kilogram is 1,000 grams, one megameter is 1,000,000 meters, etc. But with computers, the powers of ten don't make as much sense.
 
-If we want to represent other things, we need to come up with an **encoding scheme**:star: - an agreed-upon way of storing the information we care about using nothing but bits. As long as the person or program STORING the data and the person or program READING the data both agree on the encoding scheme, then the information can be stored.
+Therefore, all storage prefixes in computers are based not on 10, but on $$2^10 = 1024$$**
 
-The first encoding scheme we will use is called **Two's Complement** and it is used in almost every modern processor to let us store NEGATIVE numbers.
+**1 Kilobyte (KB) = 2^10 = 1024 bytes**
 
-## Two's Complement
+**1 Megabyte (MB) = 2^20 = 1024^2 = 1,048,576 bytes**
 
-Consider the positive number represented in binary by the value `0101 1011`. You can convert that to decimal to see that this will have the value 91.
+**1 Gigabyte (GB) = 2^30 = 1024^3 = 1,073,741,824 bytes**
 
-Two's complement allows you to represent the value -91 by following these steps:
+**1 Terabyte (TB) = 2^40 = 1024^4 = 1,099,511,627,776 bytes**
 
-1. Reverse all of the bits in the original number - in this case creating `1010 0100`
-2. Add 1 to the number. In this case that creates `1010 0101`
+Despite this definition, you will occasionally see manufacturers use the real metric system (1 GB = 1 billion bytes) when describing their products, as seen below. This is solely so they can advertise more space than the product actually holds! A 1TB hard drive SHOULD hold 1.1 trillion bytes, but will usually hold only 1 trillion, 10% less!
 
-This value is called the *Two's Complement* of 91. Why do we use this? Well, imagine adding the two numbers together. Note that adding binary numbes works exactly like adding numbers in decimal, except that since 1 + 1 = 10 in binay, you have to carry a one whenever you have 1+1, which is what the litte 1's represent in the picture below. 
+![HD Fine Print](media/hd_fineprint.jpg)
+<small>Image Credit: [The Dream Within Pictures](http://thedreamwithinpictures.com/blog/why-hard-drives-and-memory-cards-have-less-space-than-advertised)</small>
 
-**Note**: You will never be required to add binary numbers like in the below section, though I'd like you to be able to calculate the two's complement of a given binary number. Try to follow the area below, but don't stress too much if it feels overwhelming.
-{: .smallText}
+### Check your undersanding
 
-```none
-   ₁₁₁₁ ₁₁₁
-   0101 1011
-+  1010 0101
-  ---------
-  10000 0000
-```
-
-This value, if converted to decimal, is 256. But it's also 9 bits, but we started with 8-bit integers, so what actually happens is *the 1 in front is dropped and completely disappears*, leaving this sum as 0. Exactly what -91 + 91 should be!
-
-Consider this example, where we add -91 (the same nubmer before) and positive 4.
-
-```none
-       ₁   
-  1010 0101
-+ 0000 0100
-  ---------
-  1010 1101
- ```
-
-The final number, `1010 1001` is negative - we can tell because of the 1 in front. To find its value, undo two's complement by subtracting 1 and reversing, which gives us `0101 0111`. This number has the value 87 (check it!), so the actual sum was -87, as expected.
-
-Consider another addition, -91 + -5. (-5 is `1111 1011` in two's complement...)
-
-```none
-  ₁₁₁₁ ₁₁₁
-  1010 0101
-+ 1111 1011
------------
-1 1010 0000
-```
-
-Again, we can ignore the first 1 here since it's the 9th bit, so the sum we will look at here is `1010 0000`, a negative number. Subtract one to get `1001 1111`and then invert to get `0110 0000`, which = 32 + 64 = 96. Thus our sum had the value -96, as expected.
-
-### The takeaway
-
-
-
-
-### Check your understanding
-
-1. What is the two's complement of `0110 1011` and what value does it represent?
+1. How many bytes are in 2KB? 
    <details markdown="1"><summary>Click to expand answer</summary>
-   To find two's complement, invert every bit then add one.  
-   Inverting gives: `1001 0100` and adding one gives `1001 0101`
-
-   To find the value, convert the original binary to decimal.  
-   $$2^0 + 2^1 + 2^3 + 2^5 + 2^6 = 1 + 2 + 8 + 32 + 64 = 107$$  
-   Therefore the two's complement value represents $$-107$$
+   $$1024 \cdot 2 = 2048$$
    </details>
-2. Why do we use two's complement to represent negative numbers, instead of a simpler scheme?
+2. How many bytes are in 5MB? (leave your answer as an unworked value)
    <details markdown="1"><summary>Click to expand answer</summary>
-   Two's complement allows us to add negative numbers using the same adding systems we use for
-   positive numbers. A simpler encoding scheme might be easier to understand, but would not allow
-   us to do that.
+   $$5 \cdot 2^20 " or " 5 \cdot 1024^2$$
+   </details>
+3. If a character in UTF-16 takes two bytes on average, about how many characters can fit on a 300GB hard drive? (leave your answer as an unworked calculation)
+   <details markdown="1"><sum  mary>Click to expand answer</summary>
+   $$2^{21}$$
    </details>
 
-## What if we have more than one byte?
-
-With one byte, using two's complement will allow you to store numbers from -128 (represented by 1000 0000) up through 127 (represented by 0111 1111).
-
-If you use TWO bytes to represent integers, your values can range from -32768 (-2^15) (1000 0000 0000 0000) up through 32767 (0111 1111 1111 1111). (2^15-1)
-
-If you use FOUR bytes, the standard for an `int` variable in java, you can go from -2^31, or -2,147,483,648 up to 2^31 - 1, or 2,147,483,647
-
-These are all asymmetric because we have a representation for 0, which takes up one of the "slots". More bytes (such as the 8 bytes used by `long` values on java) allow for even more possible values.
 
 
+
+```java
+int i = 7;
+int j = 4;
+i -= j;
+j += i;
+i++;
+```

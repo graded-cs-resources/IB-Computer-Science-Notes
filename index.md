@@ -14,7 +14,7 @@ The table of contents below is broken into three sections - general course resou
 
 # Table of Contents
 
-## Programming Notes
+## Paper 2 - Java Programming Notes
 
 These notes will be correlated with the programming we are doing in CodeHS, and will expand upon them. It is expected that you will read these as we work through CodeHS, and tests will draw from these notes as well as skills from CodeHS.
 
@@ -31,31 +31,31 @@ These notes will be correlated with the programming we are doing in CodeHS, and 
 * [P.1.7 - Casting](./programming/p1.7_casting.md)
 
 
-## Non-programming Notes
+## Paper 1 Notes - Nonprogramming
 
 These notes cover content not included in CodeHS, because they are not about programming. They are organized in the order we will learn about them, rather than directly with the IB Syllabus.
   
-### Unit 1 - Components of a Computer System and Computer Architecture (Topics 1/2)
+### IB Topic 2 - Computer Organization
 
-These notes for this unit will cover the [Components of a Computer System](./resources/syllabus.md#components-of-a-computer-system),  [Computer Architecture](./resources/syllabus.md#computer-architecture), and [Secondary Memory](./resources/syllabus.md#secondary-memory) sections of the IB syllabus. 
+* [NP.2.1 - Abstraction and the Elements of a Computer System](./nonprogramming/np2.1_abstraction.md) (IB Topic 2)
 
-* [NP.1.1 - Abstraction and the Elements of a Computer System](./nonprogramming/np1.1_abstraction.md)
+* [NP.2.2 - Memory and Storage](./nonprogramming/np2.2_memory.md) (IB Topic 2)
 
-* [NP.1.2 - Memory and Storage](./nonprogramming/np1.2_memory.md)
+* [NP.2.3 - Computer Processor Architecture](./nonprogramming/np2.3_architecture.md) (IB topic 2)
 
-* [NP.1.3 - Computer Processor Architecture](./nonprogramming/np1.3_architecture.md)
+* [NP 2.4 - Software, the OS, and Programming languages](./nonprogramming/np2.4_software.md) (IB Topic 2)
 
-* [NP 1.4 - Software, the OS, and Programming languages](./nonprogramming/np1.4_software.md)
+* [NP 2.5 - Working with Binary and Hexadecimal](nonprogramming/np2.5_representing_integers.md)
 
-* [NP 1.5 - The Operationg System (HL Only)](./nonprogramming/np1.5_operating_system.md)
+* [NP 2.6 - Representing characters on computers](nonprogramming/np2.6_representing_characters.md)
 
-### Unit 2 - Data representation and Logic Gates
+* [NP 2.7 - Representing other numbers](nonprogramming/np2.7_representing_other_numbers.md)
 
-These notes cover the [Representation](./resources/syllabus.md#representation) and [Simple Logic Gates](./resources/syllabus.md#simple-logic-gates) section of the IB syllabus, finishing up the remaining elements from Topic 2!
+* [NP 2.8 - Logic gates and circuits](nonprogramming/np2.8_boolean_logic.md)
 
-* [NP 2.1 - Representing integers with binary, hexadecimal, and two's complement](nonprogramming/np2.1_representing_integers.md)
+### IB Topic 4 - Programmatic Thinking and Pseudocode
 
-* [NP 2.2 - Representing characters on computers](nonprogramming/np2.2_representing_characters.md)
+* [NP 4.10 - Common Pseudocode Techniques](nonprogramming/np4.10_common_pseudocode.md)
 
 ## Course Resources
 
