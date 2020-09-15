@@ -1,5 +1,5 @@
 ---
-title: Non-Programming Lesson 1.4 - Software
+title: Paper 1 Lesson 2.4 - Software
 ---
 
 # Programs and Software
@@ -56,7 +56,7 @@ Commonly used operating systems you might have encountered include Mac OS X, Mic
 
 * Provides a **user interface**:star: for the user of the computer - modern ones would include elements such as application icons, windows, consistent buttons, menus, notifications, and so on. These are called **Graphical User Interfaces**. Simpler or older operating systems may only provide a *command line interface*, where the user types commands into a screen, or a *menu-based interface* for selecting from a menu, while some OSes even provide a *natural language interface* for talking to the device.
   
-* Does **memory management**:star:, meaning it figures out how to alot the space in **RAM** and **cache** to the various other pieces of software running on the machine. The operating system will also manage any **virtual memory** on the computer. (see [NP1.2](np1.2_memory.md) to remember more about these memory types).
+* Does **memory management**:star:, meaning it figures out how to alot the space in **RAM** and **cache** to the various other pieces of software running on the machine. This is called **allocation**:star: Once a program is through with the memory blocks, it will become available and the OS will offer it to other programs. The operating system will also manage any **virtual memory** on the computer. (see [NP1.2](np1.2_memory.md) to remember more about these memory types).
 
 * Keeps track of secondary storage, and provides tools to manage where files and information are saved in secondary storage.
   
@@ -101,3 +101,24 @@ Most of the software that a user interacts with on a traditional computer can is
 * **Communication software** is used to aid with communication with other people. Examples include e-mail programs like Microsoft Mail or Gmail, and instant messaging software like WhatsApp or Discord.
 
 All of these types of software, as well as other software you might install, should include some common features such as windows, toolbars, menus, and so on, as defined by the OS and implemented by the application software itself.<sup><small>[2.1.8](../resources/syllabus.md#218)</small></sup>
+
+#### Check Your Understanding
+
+1. One of the things a compiler does is translate source code to byte code. Name two other things done by a compiler. (IB )
+
+2. Identify two types of general application software that might be installed on office computers. (IB SL May 2019 #15c)
+   
+   <details markdown="1"><summary>Show official IB markscheme</summary>
+   Examples might include: web browser; word processor software; spreadsheet software; database management software; e-mail client
+
+   Award 1 mark for each reasonable category, up to [2] marks. Award NO marks for specific software title (e.g. Microsoft Word or Google Chrome)
+   </details>
+
+3. Outline the role of the operating system in managing primary memory (IB SL Nov 2018 #8aii)
+
+   <details markdown="1"><summary>Show official IB markscheme</summary>
+   Award [1] for the answer saying that the function of OS in primary memory management is allocation of specific memory blocks to individual programs and [1] for reallocation up to [2 max].
+
+   Example answer:  
+   A part of the OS (memory manager) assigns that block of memory to the program when a running program requests a block of memory; When the program no longer needs the data in previously allocated memory blocks, they become available for reassignment;
+   </details>

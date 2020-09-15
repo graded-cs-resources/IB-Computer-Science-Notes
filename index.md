@@ -30,6 +30,10 @@ These notes will be correlated with the programming we are doing in CodeHS, and 
 
 * [P.1.7 - Casting](./programming/p1.7_casting.md)
 
+### Unit 2
+
+* [P2.1 - Introducing Objects](./programming/p2.1_introducing_objects.md)
+
 
 ## Paper 1 Notes - Nonprogramming
 

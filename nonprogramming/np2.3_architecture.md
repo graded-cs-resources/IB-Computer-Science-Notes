@@ -1,9 +1,6 @@
 ---
-title: Non-Programming Lesson 1.3 - Computer Processor Architecture
+title: Paper 1 Lesson 2.3 - CPU Architecture
 ---
-
-
-
 
 Before we begin, I'd like to give credit to the amazing resources at [IB Compscihub](https://ib.compscihub.net) for helping me a lot with this topic. Many of the explanations and images below are taken from their notes on topic 2.1.1, with some changes and reorganization.
 

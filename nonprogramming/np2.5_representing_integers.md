@@ -1,5 +1,5 @@
 ---
-title: Non-Programming Lesson 2.1 - Representing Integers
+title: Paper 1 Lesson 2.5 - Bits, Bytes, Binary, Hex
 ---
 
 # Binary and Hexadecimal
@@ -65,6 +65,37 @@ This, of course, is equivalent to 14 in decimal, as we already saw. You could co
    So in binary, we would write this as `11 0111`
    </details>
    
+#### Test Yourself
+
+Use the little boxes below to test yourself.
+
+<div>
+<label for="binaryInput">Binary </label>
+<input type="text" id="binaryInput" oninput="validateBinary(event)">
+<button id="bToD" onclick="bToD()">---></button>
+<button id="dToB" onclick="dToB()"><---</button>
+<input type="text" id="decimalInput" oninput="validateDecimal(event)">
+<label for="binaryInput">Decimal</label>
+<script type="text/javascript">
+var bIn = document.getElementById("binaryInput");
+var dIn = document.getElementById("decimalInput");
+function validateBinary(e) {
+   e.target.value = e.target.value.replaceAll(/[^01]/g,"");
+}
+function validateDecimal(e) {
+   e.target.value = e.target.value.replaceAll(/[^0123456789]/g,"");
+}
+function bToD() {
+   var val = parseInt(bIn.value, 2);
+   dIn.value = val;
+}
+function dToB() {
+   var val = parseInt(dIn.value);
+   bIn.value = val.toString(2);
+}
+</script>
+</div>
+
 If you want more information about converting to and from decimal and binary, I suggest using [Khan Academy's article](https://www.khanacademy.org/computing/ap-computer-science-principles/computers-101/digital-data-representation/a/bits-and-binary) and [practice problems](https://www.khanacademy.org/computing/ap-computer-science-principles/computers-101/digital-data-representation/e/bits-and-binary-exercise) to help you understand more completely.
 
 ### Hexadecimal digits
@@ -149,6 +180,55 @@ We could confirm that this is the same value by converting the new hexadecimal v
    For the decimal conversion, we use powers of 16.  
    $$10 \cdot 16^1 + 5 \cdot 10^0 = 160 + 5 = 165$$ in decimal.
    </details>
+
+#### Test Yourself
+
+Use the little boxes below to test yourself.
+
+<div>
+<p>
+<label for="binaryInput2">Binary </label>
+<input type="text" id="binaryInput2" oninput="validateBinary(event)">
+<button id="bToH" onclick="bToH()">---></button>
+<button id="hToB" onclick="hToB()"><---</button>
+<input type="text" id="hexInput" oninput="validateHex(event)">
+<label for="hexInput">Hexadecimal</label>
+</p>
+<p>
+<label for="decimalInput2">Decimal </label>
+<input type="text" id="decimalInput2" oninput="validateDecimal(event)">
+<button id="dToH" onclick="dToH()">---></button>
+<button id="hToD" onclick="hToD()"><---</button>
+<input type="text" id="hexInput2" oninput="validateHex(event)">
+<label for="hexInput2">Hexadecimal</label><br>
+</p>
+
+<script type="text/javascript">
+var hIn = document.getElementById("hexInput");
+var hIn2 = document.getElementById("hexInput2");
+var bIn2 = document.getElementById("binaryInput2");
+var dIn2 = document.getElementById("decimalInput2");
+function validateHex(e) {
+   e.target.value = e.target.value.replaceAll(/[^0123456789abcdefABCDEF]/g,"");
+}
+function hToD() {
+   var val = parseInt(hIn2.value, 16);
+   dIn2.value = val;
+}
+function dToH() {
+   var val = parseInt(dIn2.value);
+   hIn2.value = val.toString(16);
+}
+function hToB() {
+   var val = parseInt(hIn.value, 16);
+   bIn2.value = val.toString(2);
+}
+function bToH() {
+   var val = parseInt(bIn2.value,2);
+   hIn.value = val.toString(16);
+}
+</script>
+</div>
    
 If you want to read more about hexadecimal, and do some practice conversions, [khan academy](https://www.khanacademy.org/computing/ap-computer-science-principles/computers-101/digital-data-representation/a/hexadecimal-numbers) is still your friend.
 
@@ -184,7 +264,7 @@ You will not have a calculator available on IB tests, so for problems like this 
 
 4. Web browsers represent colors using 4 bytes. How many different colors can be represented using four bytes? (leave your answer as an unworked value)
    <details markdown="1"><summary>Click to expand answer</summary>
-   $$2^{32}$$ or $$256^4$$
+   $$2^{32}$$ or $$256^4$$ (this equals about 4 billion colors!)
    </details>
 
 5. The Unicode standard uses 21 bits to hold different characters. How many possible characters can be encoded using 21 bits?
@@ -198,15 +278,15 @@ It is very common to consider thousands, millions, or billions of bytes at a tim
 
 The metric system, of course, is based on powers of 10: one kilogram is 1,000 grams, one megameter is 1,000,000 meters, etc. But with computers, the powers of ten don't make as much sense.
 
-Therefore, all storage prefixes in computers are based not on 10, but on $$2^10 = 1024$$**
+Therefore, all storage prefixes in computers are based not on 10, but on $$2^{10} = 1024$$
 
-**1 Kilobyte (KB) = 2^10 = 1024 bytes**
+**1 Kilobyte (KB) = $$2^{10}$$ = 1024 bytes**
 
-**1 Megabyte (MB) = 2^20 = 1024^2 = 1,048,576 bytes**
+**1 Megabyte (MB) = $$2^{20} = 1024^2$$ = 1,048,576 bytes**
 
-**1 Gigabyte (GB) = 2^30 = 1024^3 = 1,073,741,824 bytes**
+**1 Gigabyte (GB) = $$2^{30} = 1024^3$$ = 1,073,741,824 bytes**
 
-**1 Terabyte (TB) = 2^40 = 1024^4 = 1,099,511,627,776 bytes**
+**1 Terabyte (TB) = $$2^{40} = 1024^4$$ = 1,099,511,627,776 bytes**
 
 Despite this definition, you will occasionally see manufacturers use the real metric system (1 GB = 1 billion bytes) when describing their products, as seen below. This is solely so they can advertise more space than the product actually holds! A 1TB hard drive SHOULD hold 1.1 trillion bytes, but will usually hold only 1 trillion, 10% less!
 
@@ -221,20 +301,9 @@ Despite this definition, you will occasionally see manufacturers use the real me
    </details>
 2. How many bytes are in 5MB? (leave your answer as an unworked value)
    <details markdown="1"><summary>Click to expand answer</summary>
-   $$5 \cdot 2^20 " or " 5 \cdot 1024^2$$
+   $$5 \cdot 2^{20}$$ or  $$5 \cdot 1024^2$$
    </details>
 3. If a character in UTF-16 takes two bytes on average, about how many characters can fit on a 300GB hard drive? (leave your answer as an unworked calculation)
-   <details markdown="1"><sum  mary>Click to expand answer</summary>
+   <details markdown="1"><summary>Click to expand answer</summary>
    $$2^{21}$$
    </details>
-
-
-
-
-```java
-int i = 7;
-int j = 4;
-i -= j;
-j += i;
-i++;
-```

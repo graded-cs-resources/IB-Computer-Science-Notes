@@ -1,5 +1,5 @@
 ---
-title: Non-programming Lesson 1.1 - Abstraction and the Parts of a Computer
+title: Paper 1 Lesson 2.1 - Abstraction and the parts of a computer
 ---
 
 # Abstraction and the Parts of a Computer
@@ -41,7 +41,7 @@ Most people who work with or even write software do not interact directly with t
 #### Level 1 - Transistors
 
 ![Transistor](media/transistor.png){: .image-right}
-Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory* (specifically, at this level, they are called *CPU registers*). The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
+Computer processors, at their core, are made up of trillions of tiny circuits called *transistors,* as well as other circuits that hold data called *memory*. The people who design transistors and memory themselves are basically physicists or electrical enginers - at that level, computer science is essentially physics! We will learn more about the details of how memory and transistors communicate in a later unit.
 {: .clearfix} 
 
 #### Level 2 - Logic Gates
@@ -67,18 +67,18 @@ Logic gates and fundamental operaions are combined in clever ways into *units* t
 Humans tell the control unit what to do by sending a signal to it in *machine language* (a direct stream of carefully configured `0`'s and `1`'s) or, much more commonly, *assembly language* (a slightly more human-readable way of writing these signals) that is then turned by a computer into machine language. Below is a short example of an assembly program that adds 3 and 4 and prints the result (you do NOT need to understand this completely or be able to reproduce it!)
 
 ```nasm
-_start:             ; tell the control unit we are starting a program
+_start:              ; tell the control unit we are starting a program
 
-mov     eax, 3  	; store the number 3 in register a
-mov     ebx, 4		; store the number 4 in register b
-add     eax, ebx    ; add the stored 3 and 4 and put the result (7) in a spot of memory called register a
-add     eax, '0'	; by adding the character '0', the 7 turns into printable '7'
+mov     eax, 3  	   ; store the number 3 in register a
+mov     ebx, 4		   ; store the number 4 in register b
+add     eax, ebx     ; add the stored 3 and 4 and put the result (7) in a spot of memory called register a
+add     eax, '0'	   ; by adding the character '0', the 7 turns into printable '7'
 
-mov     ecx, eax	; put the '7' into register c
-mov     edx, 1		; put the length of the message, 1, into register d
-mov     ebx, 1      ; put 1 into ebx. This sends a signal that we will want to print on the screen, not elsewhere.
-mov     eax, 4      ; put 4 into eax. This tells the processor we want to actually write something.
-int     0x80        ; tell the processor to do its thing.
+mov     ecx, eax	   ; put the '7' into register c
+mov     edx, 1		   ; put the length of the message, 1, into register d
+mov     ebx, 1       ; put 1 into ebx. This sends a signal that we will want to print on the screen, not elsewhere.
+mov     eax, 4       ; put 4 into eax. This tells the processor we want to actually write something.
+int     0x80         ; tell the processor to do its thing.
 ```
 
 Though more readable than machine language, assembly is clearly very hard to understand, and requires that the person writing the code be intimately familiar with the specific computer processor being used. Most people who write in assembly regularly would probably consider themselves to be *computer engineers*, and they write things like operating systems, compilers, and hardware drivers. We will NOT be using any assembly language this course.
