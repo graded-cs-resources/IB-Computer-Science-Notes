@@ -2,7 +2,7 @@
 title: Paper 1 Lesson 2.2 - Memory and Storage
 ---
 
-# How computers store and interpret data
+# Memory and Storage
 
 ## Memory in a computer
 

@@ -1,8 +1,8 @@
 ---
-title: Paper 1 Lesson 2.1 - Abstraction and the parts of a computer
+title: Paper 1 Lesson 2.1 - Abstraction and the Elements of a Computer System
 ---
 
-# Abstraction and the Parts of a Computer
+# Abstraction and the Elements of a Computer System
 
 ## Components of a computer system<sup><small>[1.2.1](../resources/syllabus.md#121)</small></sup>
 
