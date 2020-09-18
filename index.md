@@ -55,7 +55,9 @@ These notes cover content not included in CodeHS, because they are not about pro
 
 * [NP 2.7 - Representing other numbers](nonprogramming/np2.7_representing_other_numbers.md)
 
-* [NP 2.8 - Logic gates and circuits](nonprogramming/np2.8_boolean_logic.md)
+* [NP 2.8 - Representing colors](nonprogramming/np2.8_representing_colors.md)
+
+* [NP 2.9 - Logic gates and circuits](nonprogramming/np2.9_boolean_logic.md)
 
 ### IB Topic 4 - Programmatic Thinking and Pseudocode
 
