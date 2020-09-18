@@ -54,6 +54,13 @@ Title: Lesson 2.8 - Representing Colors
     width:100%;
 }
 
+
+@media print {
+    .colorcontainer {
+        display:none;
+    }
+}
+
 </style>
 
 <script type="text/javascript">
