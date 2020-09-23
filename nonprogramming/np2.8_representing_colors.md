@@ -4,8 +4,8 @@ Title: Lesson 2.8 - Representing Colors
 
 <style>
   .circle {
-  width: 10rem;
-  height: 10rem;
+  width: 10.5rem;
+  height: 10.5rem;
   border-radius: 50%;
   mix-blend-mode: screen;
   position: absolute;
