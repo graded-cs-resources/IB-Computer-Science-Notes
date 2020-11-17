@@ -33,6 +33,10 @@ These notes will be correlated with the programming we are doing in CodeHS, and 
 ### Unit 2
 
 * [P2.1 - Introducing Objects](./programming/p2.1_introducing_objects.md)
+  
+* [P2.1a - Object Anatomy Practice](./programming/p2.1a_object_anatomy_practice.md)
+
+* [P2.2 - UML Class Diagrams](./programming/p2.2_uml_class_diagrams.md)
 
 
 ## Paper 1 Notes - Nonprogramming
