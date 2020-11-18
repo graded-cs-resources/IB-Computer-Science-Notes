@@ -10,3 +10,5 @@ theme: jekyll-theme-primer
 kramdown:
   syntax_highlighter_opts:
     default_lang: java
+    block:
+      line_numbers: true

@@ -87,7 +87,7 @@ ol ol ol {
 }
 
 .markdown-body pre > code {
-  display:inline-block;
+  display:block;
   border-radius: 1rem;
   background-color:#fdf6e3;
   padding: 1rem;
@@ -119,6 +119,14 @@ ol ol ol {
 .markdown-body table tr {
   background-color: #fdf6e3;
   
+}
+
+.markdown-body .rouge-table td, .markdown-body .rouge-table tr {
+  border: 0;
+}
+
+.markdown-body .rouge-table td.rouge-gutter {
+  border-right: 1px solid #93a1a1;
 }
 
 .markdown-body table tr:nth-child(2n) {
