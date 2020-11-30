@@ -1,9 +1,9 @@
 ---
-title: Non-Programming Lesson 2.2 - Representing Characters
+title: Non-Programming Lesson 2.6 - Representing Characters
 ---
 # Representing Characters
 
-In [Lesson 1.6](np1.6_representing_integers.md) we learned how we can think of the 0's and 1's inside of a computer as other numbers, in either decimal or hexadecimal. But we often want to store other things than just nonnegative numbers!
+In [Lesson 2.5](np2.5_representing_integers.md) we learned how we can think of the 0's and 1's inside of a computer as other numbers, in either decimal or hexadecimal. But we often want to store other things than just nonnegative numbers!
 
 If we want to represent other things, we need to come up with an **encoding scheme**:star: - an agreed-upon way of storing the information we care about using nothing but bits. As long as the person or program STORING the data and the person or program READING the data both agree on the encoding scheme, then the information can be stored.
 
