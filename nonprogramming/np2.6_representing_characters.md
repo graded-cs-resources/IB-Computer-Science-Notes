@@ -1,5 +1,5 @@
 ---
-title: Non-Programming Lesson 2.6 - Representing Characters
+title: Paper 1 Lesson 2.6 - Representing Characters
 ---
 # Representing Characters
 

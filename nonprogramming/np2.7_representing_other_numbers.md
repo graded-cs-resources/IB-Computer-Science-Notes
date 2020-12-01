@@ -1,5 +1,5 @@
 ---
-title: Representing Other Numbers
+title: Paper 1 Lesson 2.7 - Representing Other Numbers
 ---
 
 # A Note Before Reading
@@ -78,9 +78,9 @@ Again, we can ignore the first 1 here since it's the 9th bit, so the sum we will
 
 With one byte, using two's complement will allow you to store numbers from -128 (represented by `1000 0000`) up through 127 (represented by `0111 1111`).
 
-If you use TWO bytes to represent integers, your values can range from -32768 (-2^15) (`1000 0000 0000 0000`) up through 32767 (`0111 1111 1111 1111`). (2^15-1)
+If you use TWO bytes to represent integers, your values can range from $$-32768 (-2^15)$$ (`1000 0000 0000 0000`) up through $$32767 (2^15 - 1)$$ (`0111 1111 1111 1111`).
 
-If you use FOUR bytes, the standard for an `int` variable in java, you can go from -2^31, or -2,147,483,648 up to 2^31 - 1, or 2,147,483,647
+If you use FOUR bytes, the standard for an `int` variable in java, you can go from $$-2^31$$, or $$-2,147,483,648$$, up to $$2^31 - 1$$, or $$2,147,483,647$$
 
 These are all asymmetric because we have a representation for 0, which takes up one of the "slots". More bytes (such as the 8 bytes used by `long` values on java) allow for even more possible values.
 

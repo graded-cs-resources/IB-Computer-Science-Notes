@@ -1,3 +1,7 @@
+---
+title: Paper 1 Lesson 2.9 - Boolean statements and logic
+---
+
 # Boolean Statements and Logic
 
 As we have seen in earlier notes, a **boolean statement** is a statement that evaluates to either "True" or "False". 
@@ -213,7 +217,7 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
 
 These logic operators are the primary source of flow control inside of processors. We can make tiny circuits that behave exactly like these operators - we call them *logic gates*. The image below shows the diagrams for each of the logic gates, as well as their truth tables. IN this format, `0` means `False` while `1` means `True`.
 
-![Logic gates diagram](media/06/logic-gates.png)
+![Logic gates diagram](media/logic-gates.png)
 
 In these little circuits, the two pins on the left represent electrical connection points. If the electricity is ON that can be thought of as a `1` or a `TRUE` input, while if the electricity is OFF that can be thought of as a `0` or `FALSE` input. The output is either on or off depending on the inputs, following the rules.
 
@@ -223,7 +227,7 @@ For the IB you do NOT need to memorize which gate is which - the IB uses circles
 
 1.  Convert the diagram below into a logic statement and calculate the truth table of its output.
 
-    ![logic diagram](media/06/logic&#32;gate&#32;sample&#32;problem.png)
+    ![logic diagram](media/logic&#32;gate&#32;sample&#32;problem.png)
 
     <details markdown="1"><summary>Click to expand answer</summary>
     This is equivalent to `(NOT A AND B) OR (NOT B AND A)` which is itself equivalent to `A XOR B` (either one of these would be accepted as an answer)
