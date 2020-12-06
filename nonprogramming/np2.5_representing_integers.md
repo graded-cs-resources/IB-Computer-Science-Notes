@@ -305,5 +305,5 @@ Despite this definition, you will occasionally see manufacturers use the real me
    </details>
 3. If a character in UTF-16 takes two bytes on average, about how many characters can fit on a 300GB hard drive? (leave your answer as an unworked calculation)
    <details markdown="1"><summary>Click to expand answer</summary>
-   $$150 \cdot 2^30$$ or $$300 \cdot 2^29$$ (or any equivalent answer)
+   $$150 \cdot 2^{30}$$ or $$300 \cdot 2^{29}$$ (or any equivalent answer)
    </details>
