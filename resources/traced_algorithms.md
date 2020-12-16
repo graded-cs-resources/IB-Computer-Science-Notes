@@ -12,7 +12,7 @@ This was done on August 6 in HL, August 7 in SL
 
 #### Algorithm
 
-![First traced algorithm](algorithm_images/algorithm1.svg){: style="max-width:600px"}
+![First traced algorithm](https://docs.google.com/drawings/d/e/2PACX-1vTJ_SPDE41Gk7U3wS4-qJav3oHrnrloknLu0P_C2Tnt_ReOsoMFCSQAsBlrAuePnsx9R7dCPGhf5nHp/pub?w=783&h=667){: style="max-width:600px"}
 
 #### Solution
 
