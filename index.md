@@ -66,7 +66,10 @@ These notes cover content not included in CodeHS, because they are not about pro
 ### IB Topic 4 - Programmatic Thinking and Pseudocode
 
 
-* [NP 4.3 - IB collections and arrays](nonprogramming/np4.3_data_structures.md)
+* [NP 4.3 - IB collections](nonprogramming/np4.3_collectioni
+* s.md)
+
+* [NP 4.4 - IB Arrays](nonprogramming/np4.4_arrays.md)
   
 * [NP 4.10 - Common Pseudocode Techniques](nonprogramming/np4.10_common_pseudocode.md)
 
