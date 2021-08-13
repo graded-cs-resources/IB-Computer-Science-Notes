@@ -93,7 +93,7 @@ Here are some important things to understand about IB collections
    ```
    </details>
 
-For more practice, visit the IB Pseudocode practice site at https://graded-cs-resources.github.io/CodingBatPseudo/ and looking at the problems under the subheading **Collections**
+For more practice, visit the [IB Pseudocode Practice Site](https://graded-cs-resources.github.io/CodingBatPseudo/) and try the problems under the subheading **Collections**
 
 ## Key terms
 

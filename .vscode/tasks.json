@@ -6,7 +6,7 @@
     {
       "label": "jekyll serve",
       "type": "shell",
-      "command": "bundle exec jekyll serve",
+      "command": "bundle exec jekyll serve  --force-polling",
       "problemMatcher": [],
       "group": {
         "kind": "build",
