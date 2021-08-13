@@ -85,7 +85,8 @@ Here are some important things to understand about IB collections
    else
       START.resetNext()
       loop while START.hasNext()
-         END.addItem(START.getNext())
+         ITEM = START.getNext()
+         END.addItem(ITEM)
       end loop
       output "Collection copied"
    end if
