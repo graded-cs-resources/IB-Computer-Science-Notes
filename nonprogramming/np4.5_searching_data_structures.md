@@ -1,3 +1,7 @@
+---
+title: Search Algorithms
+---
+
 # The Standard Search Algorithms
 There are a number of algorithms the IB course will assume you know by memory. These are the “standard algorithms”.
 

@@ -1,5 +1,5 @@
 ---
-title: Non-Programming 4.3 (associated with Programming 3.1!) - Introducing IB Collections
+title: IB Collections
 ---
 # Collections in the IB Exam
 

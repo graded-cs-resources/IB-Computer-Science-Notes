@@ -1,5 +1,5 @@
 ---
-title: Non-Programming 4.3 (associated with Programming 3.1!) - IB Collections and Arrays
+title: IB Arrays
 ---
 
 # IB Arrays
