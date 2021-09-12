@@ -69,6 +69,8 @@ These notes cover content not included in CodeHS, because they are not about pro
 * [NP 4.3 - IB collections](nonprogramming/np4.3_collections.md)
 
 * [NP 4.4 - IB Arrays](nonprogramming/np4.4_arrays.md)
+
+* [NP 4.5 - Search Algorithms](nonprogramming/np4.5_searching_data_structures.md)
   
 * [NP 4.10 - Common Pseudocode Techniques](nonprogramming/np4.10_common_pseudocode.md)
 
