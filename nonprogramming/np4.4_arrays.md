@@ -15,7 +15,7 @@ The code below shows two ways you might see arrays created in pseudocode
 
 ```js
    array1 = [1.2, 2.8, 9.9]
-   array2 = new Array(10)
+   array2 = new Array(5)
 ```
 
 After running the code above, you will create the following in memory:
@@ -42,7 +42,7 @@ array1; // [1.2, 2.8, 11.2]
 
 In most languages like java and javascript, you can use the `length` property of an array to learn how many elements an array has. In IB Pseudocode this is not officially defined, but when it is needed the problem will *tell* you the length or how to access the length.
 
-```ts
+```js
 array1.length; // 3
 ```
 
