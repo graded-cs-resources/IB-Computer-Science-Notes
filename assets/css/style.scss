@@ -65,11 +65,12 @@ ol ol ol {
 }
 .image-left {
   display: block;
-  margin-left: auto;
   padding-right: 1rem;
   margin-right: auto;
   float: left;
   clear: left;
+  padding: .5rem;
+  border: 0.1rem dotted #586e75;
 }
 
 .markdown-body img {
@@ -153,6 +154,7 @@ ol ol ol {
   padding: .5rem;
   border: 1.2px #859900 dashed;
   border-radius: 8px;
+  clear: both;
 }
 
 .markdown-body details[open] summary {
@@ -182,18 +184,30 @@ ol ol ol {
 
 .image-right {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 1em;
   float: right;
   clear: right;
+  padding: .5rem;
+  border: 0.1rem dotted #586e75;
+  margin-left: 0.5rem;
+}
+
+.image-small {
+  max-width: 250px;
+}
+
+.image-medium {
+  max-width: 500px;
 }
 
 .image-center {
   display:block;
-  width:90%;
+  max-width:90%;
+  width:fit-content;
   margin:auto;
-  border: 0.1rem dashed #586e75;
+  padding: auto;
+  padding: .5rem;
+  border: 0.1rem dotted #586e75;
   border-radius: 0.3rem;
 }
 

@@ -14,75 +14,80 @@ The table of contents below is broken into three sections - general course resou
 
 # Table of Contents
 
-## Paper 2 - Java Programming Notes
+## Paper 1 Notes 
 
-These notes will be correlated with the programming we are doing in CodeHS, and will expand upon them. It is expected that you will read these as we work through CodeHS, and tests will draw from these notes as well as skills from CodeHS.
-
-### Unit 1
-
-* [P.1.2 - Printing in Java](./programming/p1.2_printing.md)
-
-* [P.1.3 - Variables and data types](./programming/p1.3_variables.md)
-
-* [P.1.4 and 1.5 - Operators and Assignment](./programming/p1.4_operators.md)
-
-* [P.1.6 - User Input](./programming/p1.6_userinput.md)
-
-* [P.1.7 - Casting](./programming/p1.7_casting.md)
-
-### Unit 2
-
-* [P2.1 - Introducing Objects](./programming/p2.1_introducing_objects.md)
-  
-* [P2.1a - Object Anatomy Practice](./programming/p2.1a_object_anatomy_practice.md)
-
-* [P2.2 - UML Class Diagrams](./programming/p2.2_uml_class_diagrams.md)
-
-
-## Paper 1 Notes - Nonprogramming
-
-These notes cover content not included in CodeHS, because they are not about programming. They are organized in the order we will learn about them, rather than directly with the IB Syllabus.
+These notes cover content not included in CS Awesome, because they are not about programming. They are organized by IB topic, which may not be the order we learn about them. Not every topic we learn has corresponding notes here - for some sections, we will use external resources.
   
 ### IB Topic 2 - Computer Organization
 
-* [NP.2.1 - Abstraction and the Elements of a Computer System](./nonprogramming/np2.1_abstraction.md) (IB Topic 2)
+* [P1 2.1 - Abstraction and the Elements of a Computer System](./paper1/np2.1_abstraction.md) (IB Topic 2)
 
-* [NP.2.2 - Memory and Storage](./nonprogramming/np2.2_memory.md) (IB Topic 2)
+* [P1 2.2 - Memory and Storage](./paper1/np2.2_memory.md) (IB Topic 2)
 
-* [NP.2.3 - Computer Processor Architecture](./nonprogramming/np2.3_architecture.md) (IB topic 2)
+* [P1 2.3 - Computer Processor Architecture](./paper1/np2.3_architecture.md) (IB topic 2)
 
-* [NP 2.4 - Software, the OS, and Programming languages](./nonprogramming/np2.4_software.md) (IB Topic 2)
+* [P1 2.4 - Software, the OS, and Programming languages](./paper1/np2.4_software.md) (IB Topic 2)
 
-* [NP 2.5 - Working with Binary and Hexadecimal](nonprogramming/np2.5_representing_integers.md)
+* [P1 2.5 - Working with Binary and Hexadecimal](paper1/np2.5_representing_integers.md)
 
-* [NP 2.6 - Representing characters on computers](nonprogramming/np2.6_representing_characters.md)
+* [P1 2.6 - Representing characters on computers](paper1/np2.6_representing_characters.md)
 
-* [NP 2.7 - Representing other numbers](nonprogramming/np2.7_representing_other_numbers.md)
+* [P1 2.7 - Representing other numbers](paper1/np2.7_representing_other_numbers.md)
 
-* [NP 2.8 - Representing colors](nonprogramming/np2.8_representing_colors.md)
+* [P1 2.8 - Representing colors](paper1/np2.8_representing_colors.md)
 
-* [NP 2.9 - Logic gates and circuits](nonprogramming/np2.9_boolean_logic.md)
+* [P1 2.9 - Logic gates and circuits](paper1/np2.9_boolean_logic.md)
 
 ### IB Topic 4 - Programmatic Thinking and Pseudocode
 
+* [P1 4.3 - IB collections](paper1/np4.3_collections.md)
 
-* [NP 4.3 - IB collections](nonprogramming/np4.3_collections.md)
+* [P1 4.4 - IB Arrays](paper1/np4.4_arrays.md)
 
-* [NP 4.4 - IB Arrays](nonprogramming/np4.4_arrays.md)
-
-* [NP 4.5 - Search Algorithms](nonprogramming/np4.5_searching_data_structures.md)
+* [P1 4.5 - Search Algorithms](paper1/np4.5_searching_data_structures.md)
   
-* [NP 4.10 - Common Pseudocode Techniques](nonprogramming/np4.10_common_pseudocode.md)
+* [P1 4.10 - Common Pseudocode Techniques](paper1/np4.10_common_pseudocode.md)
+
+### IB Topic 7 - HL ONLY - Control
+
+* [P1 7.1 - Introducing Control](paper1/np7.1_introducing_control_systems.md)
+
+## Paper 2 - Java Programming Notes
+
+These notes will be correlated with the programming we are doing in CS Awesome and will occasionally expand upon them to be a better fit for the IB. 
+
+### Unit 1
+
+* [P2 1.2 - Printing in Java](./programming/p1.2_printing.md)
+
+* [P2 1.3 - Variables and data types](./programming/p1.3_variables.md)
+
+* [P2 1.4 and 1.5 - Operators and Assignment](./programming/p1.4_operators.md)
+
+* [P2 1.6 - User Input](./programming/p1.6_userinput.md)
+
+* [P2 1.7 - Casting](./programming/p1.7_casting.md)
+
+### Unit 2
+
+* [P2 2.1 - Introducing Objects](./programming/p2.1_introducing_objects.md)
+  
+* [P2 2.1a - Object Anatomy Practice](./programming/p2.1a_object_anatomy_practice.md)
+
+* [P2 2.2 - UML Class Diagrams](./programming/p2.2_uml_class_diagrams.md)
+
 
 ## Course Resources
 
 * [Official IB Syllabus](./resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>.
 
-* [CodeHS](http://www.codehs.com). This is the primary online platform we will use to learn to program in Java.
+* [CS Awesome](http://csawesome.runestone.academy). This is the primary online platform we will use to learn to program in Java.
   
 * [Traced algorithms and coding problems](./resources/traced_algorithms.md). I will add coding problems and traced algorithms to this page, over time, for you to view and practice with.
 
 * [CodingBat](https://codingbat.com/java). Coding practice in java
+
+* [CodingBat Pseudocode Practice](https://graded-cs-resources.github.io/CodingBatPseudo/) - Coding practice in IB Pseudocode
   
 * [IA Information](./resources/ia.md)
 
@@ -92,7 +97,8 @@ These notes cover content not included in CodeHS, because they are not about pro
 
 * [CompSciHub About page](https://ib.compscihub.net/about) - This excellent resource put together by IB CS teachers and students compiles notes and information about the course.
 
-* [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/ib-compsci//) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
+* [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/ib-compsci/) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
 
+* [Mr. Wach's IB CS Page](https://mrwachs.wordpress.com/current-classes/computer-science-i-b/) - Mr. Wachs is a teacher of many computer science courses including IB CS. He has many videos, slideshows, and workbooks that we will look at for some units, and makes a good resource for studying many aspects of the course.
 
  
