@@ -87,55 +87,17 @@ Notice that the loop in IB Pseudocode is simpler it some ways - it simply allows
 
 Remember: when you are WRITING pseudocode, you have some flexibility in how you write it. If you wrote javascript code instead it would probably be fine, as long as they understood what you wrote. But you need to be able to READ IB Pseudocode.
 
-## Implementing IB Collections with TypeScript arrays
-
-An interesting mental exercise to try to better understand both the IB Collections and arrays is to compare their code. The below table shows how you would implement each of the IB collection methods with a TypeScript array. (in java, an array would be a poor choice for this because of its fixed size. Better choices exist; we will discuss them (much) later).
-
-For each of these, assume a variable called `current_index` exists, and it starts out equal to 0 when the new collection is made.
-
-| Method  name  | Brief description                      | Example: <br>HOT, a collection of temperatures | TypeScript equivalent                              |
-| ------------- | -------------------------------------- | ---------------------------------------------- | -------------------------------------------------- |
-| `addItem()`   | Add item at end                        | `HOT.addItem(42)`<br>`HOT.addItem("chile")`    | `hot.push(42)` or `hot[hot.length]=42;`            |
-| `getNext()`   | Get the next item                      | `TEMP = HOT.getNext()`                         | `next = hot[current_index];`<br>`current_index++;` |
-| `resetNext()` | Go back to the start of the collection | `HOT.resetNext()`                              | `current_index = 0;`                               |
-| `hasNext()`   | Test: has next item                    | `if HOT.hasNext() then`                        | `if (current_index >= hot.length) {`               |
-| `isEmpty()`   | Test: collection is empty              | `if HOT.isEmpty() then`                        | `if (hot.length==0) {`                             |
-
 ## Check your Understanding
-1. What does the "resetNext()" command do for IB collections?
-   
-   <details markdown="1"><summary>Click to expand answer</summary>
-   It makes it so the next time you call `getNext()` you will get the FIRST element.
-   </details> 
 
-2. How could you loop through an IB collection named NAMES and print out each element in the collection?
-      
+1. How would you make a new array holding the first five letters of the alphabet (as strings) in JavaScript?
+
    <details markdown="1"><summary>Click to expand answer</summary>
-   ```python
-   NAMES.resetNext()
-   loop while NAMES.hasNext()
-     output(NAMES.getNext())
-   end loop
+   ```js
+   var arr = ["a", "b", "c", "d", "e"];
    ```
    </details>
 
-3. How would you make a new array holding the first five letters of the alphabet (as strings) in TypeScript?
-
-   <details markdown="1"><summary>Click to expand answer</summary>
-   ```ts
-   let arr:string[] = ["a", "b", "c", "d", "e"];
-   ```
-   </details>
-
-4. How would you make the same array in java?
-
-   <details markdown="1"><summary>Click to expand answer</summary>
-   ```java
-   String[] arr = {"a", "b", "c", "d", "e"};
-   ```
-   </details>
-
-5. How would you access the third element ("c") in the previous array?
+2. How would you access the third element ("c") in the previous array?
 
    <details markdown="1"><summary>Click to expand answer</summary>
     ```ts
@@ -143,7 +105,7 @@ For each of these, assume a variable called `current_index` exists, and it start
    ```
    </details>
 
-6. If you want to change the last element to be "z", how would you do that?
+3. If you want to change the last element to be "z", how would you do that?
 
    <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
@@ -151,7 +113,7 @@ For each of these, assume a variable called `current_index` exists, and it start
    ```
    </details>
 
-7. How do you loop through all of the elements in your array of letters and print them all out (using `console.log`)?
+4. How do you loop through all of the elements in your array of letters and print them all out (using `console.log`)?
 
    <details markdown="1"><summary>Click to expand answer</summary>
    ```ts
@@ -161,16 +123,16 @@ For each of these, assume a variable called `current_index` exists, and it start
    ```
    </details>
 
-8. Open `ts-node` on your computer by typing the command on your command line. Then try these things. **Try to do each step WITHOUT referring back to the notes. Try 2 or 3 or 4 times if you need to, paying attention to the errors. If you still can't do them, look back, but do NOT copy and paste!*
-   1. Create a new string array called `students`. 
+5. Open a fresh app on code.org App Lab, Tten try these things. **Try to do each step WITHOUT referring back to the notes. Try 2 or 3 or 4 times if you need to, paying attention to the errors. If you still can't do them, look back, but do NOT copy and paste!*
+   1. Create a new array called `students`. 
    2. Assign this array to `students`: `["luca","joao","sofia","marina","yash"]`
    3. Write a loop that will go through all of the names and, for each one, use `console.log()` to print "Student name is: *name*".
       
       <details markdown="1"><summary>Click to expand answer</summary>
       ```ts
-      let students:string[] = [];
+      var students = [];
       students = ["luca", "joao", "sofia", "marina", "yash"];
-      for (let i = 0; i < students.length; i++) {
+      for (var i = 0; i < students.length; i++) {
           console.log("Student name is: " + students[i]);
       }
       ```
@@ -178,12 +140,6 @@ For each of these, assume a variable called `current_index` exists, and it start
 
 ## Flashcards
 
-* collection
-* collection.addItem()
-* collection.getNext()
-* collection.resetNext()
-* collection.hasNext()
-* collection.isEmpty()
 * array
 * contiguous memory
 * index

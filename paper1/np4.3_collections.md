@@ -9,6 +9,12 @@ A **collection**:star: or a **data structure** is a general term for a set of MA
 
 Some types of collections that you might see in modern programming languages include *arrays*, *linked lists*, *doubly linked lists*, *stacks*, *queues*, *dictionaries*, and *array lists* - most of these will not be explored in the SL curriculum, with the two exceptions that follow.
 
+## Static vs Dynamic data structures
+
+Some data structures are **dynamic**, which means they can grow in size arbitrarily; it is not necessary for the programmer to know in advance how large they will get. Other data structures are **static**, which means they take up a fixed amount of space and can neither grow nor shrink.
+
+In our class, the most important dynamic data structure is the *IB Collection* described below, and the most important static data structure is the *Array*, discussed on the [next page of notes](np4.4_arrays.md).
+
 ## The IB Collection
 
 The IB defines their own *special type* of collection for use in all of their problems that involve *pseudocode*. We will call this special type of data structure the **IB Collection**. It is intentionally very limited, with only a few ways of interacting with it.
