@@ -48,6 +48,10 @@ These notes cover content not included in CS Awesome, because they are not about
   
 * [P1 4.10 - Common Pseudocode Techniques](paper1/np4.10_common_pseudocode.md)
 
+### IB Topic 6 - HL ONLY - Resource management
+
+* [P1 6.2 - Types of computers and their resources](paper1/np6.2_resources.md)
+
 ### IB Topic 7 - HL ONLY - Control
 
 * [P1 7.1 - Introducing Control](paper1/np7.1_introducing_control_systems.md)
@@ -58,25 +62,20 @@ These notes will be correlated with the programming we are doing in CS Awesome a
 
 ### Unit 1
 
-* [P2 1.2 - Printing in Java](./programming/p1.2_printing.md)
+* [P2 1.2 - Printing in Java](./paper2/p1.2_printing.md)
 
-* [P2 1.3 - Variables and data types](./programming/p1.3_variables.md)
+* [P2 1.3 - Variables and data types](./paper2/p1.3_variables.md)
 
-* [P2 1.4 and 1.5 - Operators and Assignment](./programming/p1.4_operators.md)
+* [P2 1.4 and 1.5 - Operators and Assignment](./paper2/p1.4_operators.md)
 
-* [P2 1.6 - User Input](./programming/p1.6_userinput.md)
+* P2 1.6 - User Input (coming soon?)
 
-* [P2 1.7 - Casting](./programming/p1.7_casting.md)
+* P2 1.7 - Casting (coming soon?)
 
 ### Unit 2
 
-* [P2 2.1 - Introducing Objects](./programming/p2.1_introducing_objects.md)
+* [P2 2.1 - A complete class, with notes](./paper2/p2_2.1_classes.md)
   
-* [P2 2.1a - Object Anatomy Practice](./programming/p2.1a_object_anatomy_practice.md)
-
-* [P2 2.2 - UML Class Diagrams](./programming/p2.2_uml_class_diagrams.md)
-
-
 ## Course Resources
 
 * [Official IB Syllabus](./resources/syllabus.md). In the notes, when a section connects directly to this syllabus, it will be represented with a superscript, like<sup>this</sup>.

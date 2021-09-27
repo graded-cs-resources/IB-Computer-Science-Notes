@@ -41,6 +41,7 @@ a:visited, a:hover {
 
 h1 {
   color: #d33682;
+  page-break-after:avoid;
 }
 h2,
 h3,
@@ -216,8 +217,10 @@ table {
 }
 
 .markdown-body p {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   margin-top: 0.5em;
+  text-indent: 2em;
+  line-height:2;
 }
 
 .markdown-body .highlight {
