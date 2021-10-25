@@ -1,5 +1,5 @@
 ---
-title: Types of Networks - 3.1.1
+title: Paper 1 lesson 3.1 - Types of Networks
 ---
 
 # Types of Networks

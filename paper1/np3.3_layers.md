@@ -16,9 +16,9 @@ In computer networking, there is a very popular model for the various layers of 
 
 The IB explicitly states that you don't need to know the full details of the OSI model. You can read much more about it using the links below if you feel like you want more context, but here are the crucial pieces of information for the IB exam.
 
-* In theory, each layer of this model is at least mostly *independent* of the other layers. For example, a protocol in the application layer, such as [HTTP](np3.2_protocols.md#HTTP), can run on top of any appropriate transport layer, such as TCP or UDP. This allows a protocol at the application layer to be defined without worrying about the lower layers - abstraction!
+* In theory, each layer of this model is at least mostly *independent* of the other layers. For example, a protocol in the application layer, such as [HTTP](np3.2_protocols.md#http), can run on top of any appropriate transport layer, such as TCP or UDP. This allows a protocol at the application layer to be defined without worrying about the lower layers - abstraction!
   
-* Ethernet is the most common Layer 2 protocol. IP is the most common Layer 3 protocol. TCP and UDP are the most common layer 4 protocols. Pretty much all internet traffic uses these four protocols these days. The web runs using the HTTP protocol, but other internet applications use different Layer 7 protocols.
+* [Ethernet](np3.2_protocols.md#ethernet) is the most common Layer 2 protocol. [IP](np3.2_protocols.md#ip) is the most common Layer 3 protocol. [TCP](np3.2_protocols.md#tcp) and [UDP](np3.2_protocols.md#udp) are the most common layer 4 protocols. Pretty much all internet traffic uses these four protocols these days. The web runs using the HTTP protocol, but other internet applications use different Layer 7 protocols.
   
 * The physical layer, Layer 1, includes different types of wires and connectors (more in a later lesson) as well as using radio waves to send information over wifi or bluetooth.
 
