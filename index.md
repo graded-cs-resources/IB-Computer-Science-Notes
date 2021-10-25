@@ -38,6 +38,14 @@ These notes cover content not included in CS Awesome, because they are not about
 
 * [P1 2.9 - Logic gates and circuits](paper1/np2.9_boolean_logic.md)
 
+### IB Topic 3 - Networking
+
+* [P1 3.1 - Types of networks](paper1/np3.1_network_types.md)
+
+* [P1 3.2 - Protocols and Standards](paper1/np3.2_protocols.md)
+
+* [P1 3.3 - Network Layers](paper1/np3.3_layers.md)
+
 ### IB Topic 4 - Programmatic Thinking and Pseudocode
 
 * [P1 4.3 - IB collections](paper1/np4.3_collections.md)
