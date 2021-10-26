@@ -58,7 +58,11 @@ These notes cover content not included in CS Awesome, because they are not about
 
 ### IB Topic 6 - HL ONLY - Resource management
 
+* [P1 6.1 - Operating Systems](paper1/np6.1_operating_system.md)
+
 * [P1 6.2 - Types of computers and their resources](paper1/np6.2_resources.md)
+
+* [P1 6.3 - Management Techniques](paper1/np6.3_management_techniques.md)
 
 ### IB Topic 7 - HL ONLY - Control
 
