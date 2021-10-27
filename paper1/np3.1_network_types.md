@@ -26,7 +26,9 @@ Assocated technologies: routers, IP (protocol), UDP (protocol), TCP (protocol)
 
 **Virtual Local Area Network**
 
-A VLAN is a *logical* network that takes a large LAN (or computers from multiple LANs) and configures them to work together as IF they were a LAN.
+A VLAN is a *logical* network that takes some computers from a large LAN (or computers from multiple LANs) and configures them to work together as if they were a smaller LAN. It is usually used to separate large networks into smaller "logical" networks.
+
+Example: a large organzation make make a virtual LAN for all of their computer programmers, a different virtual LAN for all of their managers, and a third virtual LAN for all of their marketing department.
 
 ## PAN
 
@@ -59,3 +61,5 @@ A special private network used by organizations to essentially create a "private
 ## P2P (peer-to-peer)
 
 A connection between individual devices that shares information between them where none of the computers have any more 'power' than any of the others - there is no *server* in a P2P network. 
+
+Examples: bittorrent, telegram(?), 

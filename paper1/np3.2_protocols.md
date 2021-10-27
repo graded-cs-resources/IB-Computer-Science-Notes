@@ -72,6 +72,15 @@ Ths results in a system that is more efficient, but it is possible that packets 
 
 When you combine TCP and IP together, you get a combination protocol often simply referred to as "TCP/IP", which is considered the foundational protocol combination of the modern internet. Of course, some of it uses UDP isntead, but you rarely see the phrase "UDP/IP". These protocols work together to label packets with an address and port (IP), a packet count and number (TCP/UDP), and set up a system of rules that govern routing (IP) and packet receipt confirmation (TCP); everything the internet is is built on those ideas.
 
+## Packet Switching
+
+TCP and IP together define the protocols that create *packet switching*. Packet switching works like this:
+
+1. Data from a sending computer is broken into small pieces
+2. Each packet is stamped with the address of the receiving computer and a packet number
+3. Each packet is sent through the internet and might take a different path to get there
+4. The receiving computer reassembles in the order defined by the packet numbers
+
 ## DNS Protocol
 
 The DNS protocol, or **domain name server** protocol, defines the system by which computers can convert human-readable names like "google.com" to actual IP address, like 142.251.128.78 . This is done through a combination of local files and information hosted by special servers on the internet called DNS servers.    
