@@ -22,6 +22,8 @@ These notes cover content not included in CS Awesome, because they are not about
 
 * [P1 2.1 - Abstraction and the Elements of a Computer System](./paper1/np2.1_abstraction.md) (IB Topic 2)
 
+* [P1 2.1a - Transistors](./paper1/np2.1a_transistors.md)
+
 * [P1 2.2 - Memory and Storage](./paper1/np2.2_memory.md) (IB Topic 2)
 
 * [P1 2.3 - Computer Processor Architecture](./paper1/np2.3_architecture.md) (IB topic 2)
