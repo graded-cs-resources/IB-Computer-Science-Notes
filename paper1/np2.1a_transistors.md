@@ -6,7 +6,7 @@ title: Paper 1 Lesson 2.1a - Transistors, Logic Gates, and Registers
 
 A **transistor** is a tiny, *solid-state* electronic component that serves as the basis of modern electronic computing. Essentially, a transistor works as an electronic switch, as animated below:
 
-![switch](medi/../media/switch.gif)
+![switch](media/switch.gif)
 
 In a transistor, however, you don't need to physically press a button to turn the switch off an on; instead, a tiny amount of electric current is applied to a special wired called the *base wire*, and that allows the current to flow across the other two wires.
 

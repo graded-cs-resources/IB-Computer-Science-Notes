@@ -1,5 +1,5 @@
 ---
-title: Paper 1 Lesson 2.3 - Memory and Storage
+title: Paper 1 Lesson 2.5 - Memory and Storage
 ---
 
 # Memory and Storage
