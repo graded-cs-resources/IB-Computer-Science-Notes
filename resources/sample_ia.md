@@ -2,12 +2,23 @@ Here is a sample IA, based on a java flashcard app made in Netbeans with java. T
 
 Anything in <span class="instructions">small italics with a border</span> is NOT part of the IA itself, but is there as a note to you, the student.
 
+# Table of Contents
+
+<div class="instructions" markdown="1">
+You do not need to include a Table of Contents like this in your IA, as it will be broken down into individual documents with a cover file I will help you make later. Some people DO include a table of contents in criterion C, but I think it's unneccesary. This is in this sample IA to help you navigate!
+</div>
+
+* TOC
+{:toc}
+
+**Total Word Count: 1856**
+
 # Criterion A - Planning
 
 ## The Scenario
 
 <div class="instructions" markdown="1">
-This section should be about 175-250 words and should focus on the client, what they want, and why they want it. It should read clearly like you really talked to the client. It MUST include information about how they are currently dealing with this problem and why they find that solution unsatisfactory. It must also directly reference the interview with the client, referring to the appendix (where a transcript will be included).
+This section should be about 150-250 words and should focus on the client, what they want, and why they want it. It should read clearly like you really talked to the client. It MUST include information about how they are currently dealing with this problem and why they find that solution unsatisfactory. It must also directly reference the interview with the client, referring to the appendix (where a transcript will be included).
 </div>
 
 My client is my teacher, Mr. Griswold. Mr. Griswold teaches computer science, and there are a lot of terms in that class. He likes to have students quiz themselves with digital flash cards, but has not found a digital solution that is simple and easy to use and works even when the internet isn't working. He wants to be able to distribute a simple downloadable program that will run on all computers for students to quiz themselves and each other in and out of class. In our interview (see transcript in appendix) he said he is "currently using quizlet.com", but it has several problems:
@@ -16,10 +27,12 @@ My client is my teacher, Mr. Griswold. Mr. Griswold teaches computer science, an
 2. "Students can't comment on each other's decks" making it hard to give peer feedback
 3. Finally, it has too many ads, games, and distractions. "It's too much" he says, and he wants something simpler.
 
+*(158 words)*
+
 ## The Proposed Solution
 
 <div class="instructions" markdown="1">
-This section is another 175-250 words and should briefly describe the program you are planning to make and how it satisfies the needs of the client. Why is a computer application a reasonable solution to your client's problem and in what ways will it improve on their current system?
+This section is another 150-250 words and should briefly describe the program you are planning to make and how it satisfies the needs of the client. Why is a computer application a reasonable solution to your client's problem and in what ways will it improve on their current system?
 
 It must also justify WHY you are using the programming language and tools you are using, and why it makes sense.
 
@@ -31,6 +44,8 @@ After conversations with Mr. G, I decided to make a simple java program with a b
 The reason I chose to use java is that it has easy tools to make simple interfaces that run perfectly on all desktop computers, Windows and Mac, which all of Mr. G's students have. Java also has good tools for opening and reading files, so it should be possible to import flashcard data from files. Java programs also do not need to be online to run. Java is also an object-oriented language and a tool like a flashcard tool has multiple objects that would be well-represented by that. Finally, I will be using the Netbeans IDE to simplify creation of a user interface, so I can concentrate on the code.
 
 If I can get the minimal version of the program working, I can add features like a tool to make new flashcards and to leave comments for other people who open the deck.
+
+*(229 words)*
 
 ## Success Criteria
 
@@ -47,15 +62,11 @@ This section is a bulleted or numbered list of the success criteria. As long as 
 7. It should work well and look similar on Macs and PCs
 8. The term should be in a larger font than the definition for readability
 
-### Optional extension features
-
-1. Cards can be marked "learned" which will make them be skipped in the future
-2. Multiple decks can be loaded at once to make a "super" deck
-3. Flashcards can be added or edited within the program itself
+****
 
 # Criterion B - Design
 
-## Deliverable 4 - Record of Tasks
+## Record of Tasks
 
 <div class="instructions" markdown="1" style="margin-bottom: 1rem">
 This table is provided by the IB directly, and this exact format MUST be used to keep track of the tasks associated with the planning, designing, developing, testing, and implementing your solution. (I know the format is a little clunky, but you CANNOT CHANGE IT). The template will be provided for you on Google Classroom. Note that this doesn't include information about the **writing**, only the actual doing the project. 
@@ -82,7 +93,7 @@ The "Criterion" selection should NOT use the letters A-E and instead should use 
 | 13          | Test product with client                            | Most or all success criteria met and client understands how to use the project                   | 1 hour            | April 16 2020          | Testing                 |
 | 14          | Client tries out product with one class             | Client was able to use the product and see if it worked well for his needs.                      | 1 hour            | April 20, 2020         | Implement                 |
 
-## Deliverable 5 - Design Overview
+## Design Overview
 
 <div class="instructions" markdown="1">
 This section needs to provide a detailed look at your design process, but ideally will not use ANY of your word count to do so. That means it should be limited to headers, short bulleted lists, and lots and lots of diagrams. Some examples of things you can include: wireframe diagrams and screenshots of prototype UIs (for user interface design), flow charts, pseudocode, or other diagrams you used to help you plan out the flow of your code, diagrams such as UML diagrams that help you think about how your code will be organized. Weirdly, you are told you should NOT include screenshots of the final program here, since that is technically not part of design, but screenshots that are later changed are fine!
@@ -110,6 +121,7 @@ This was made using [wireframe.cc](http://www.wireframe.cc), a very simple UI mo
 ### Program Organization
 
 * Follows the model-view-controller design process.
+  * Use the Main class for the model, a FlashcardView class for view, and Deck and Card classes for the Model
 
 #### UML Class Diagrams
 
@@ -167,12 +179,14 @@ The *Test Plan* is considered part of the Design, but is really its own thing. I
 | 7. It should work well and look similar on Macs and PCs | Test on my personal PC and a friend's mac and confirm it looks similar |
 | 8. The term should be in a larger font that the definition for readability | Load any deck and observe | Term in larger font |
 
+***
+
 # Criterion C - Development
 
 <div class="instructions" markdown = "1">
 This part of the IA is worth the most marks. From this section, plus part D, the moderator will first evaluate your projects **complexity** and **ingenuity**. We will discuss this more later. Each is scored on a Low / Medium / High scale, and the combination determines the range of marks you can get: for example, High / High will earn between 10 and 12 marks, while Low / Low will earn between 1 and 4. Other combinations have ranges in the middle, and the writing determines where you fall in the range.
 
-The section is the longest part, between 500-1000 words of extended writing with screenshots. The primary goal is to demonstrate your algorithmic thinking and explain how you developed the product, while pointing out interesting techniques you used (and that you understand them!). You should not include screenshots of all of the code here, only illustrative bits that illustrate the narrative of your development process and show off your ingenuity and the complexity of the product.
+The section is the longest part, between 500-1200 words of extended writing with screenshots. (as long as your total for the entire IA is under 2000!) The primary goal is to demonstrate your algorithmic thinking and explain how you developed the product, while pointing out interesting techniques you used (and that you understand them!). You should not include screenshots of all of the code here, only illustrative bits that illustrate the narrative of your development process and show off your ingenuity and the complexity of the product.
 
 You should organize this section by *technique* or *concept*, when possible.
 
@@ -282,6 +296,8 @@ After some thinking (and designing!) I figured out how I wanted to save my files
 
 ![if statement](media/ifstatement.png){:width="600px"}
 
+*(1002 words)*
+
 ## Works Cited
 
 * Hernandez, Rafael D. “The Model View Controller Pattern – MVC Architecture and Frameworks Explained.” FreeCodeCamp.org, <em>FreeCodeCamp.org</em>, 20 Apr. 2021, <a href="https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/">www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/</a>
@@ -289,6 +305,8 @@ After some thinking (and designing!) I figured out how I wanted to save my files
 * freeCodeCamp.org. “How to Explain Object-Oriented Programming Concepts to a 6-Year-Old.” <em>FreeCodeCamp.org, freeCodeCamp.org,</em> 27 June 2018, <a href="https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/">www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/</a>
 
 * “Java Iterator.” <em>W3 Schools</em>, <a href="http://www.w3schools.com/java/java_iterator.asp">http://www.w3schools.com/java/java_iterator.asp</a>
+
+----
 
 # Criterion D - Functionality
 
@@ -302,6 +320,8 @@ In criterion D, you are also assessed on extensibility. This mostly means things
     <source src="media/vid.mp4" type="video/mp4">
 </video>
 
+***
+
 # Criterion E - Evaluation and Reflection
 
 ## Evaluation of the product
@@ -311,24 +331,19 @@ This section should refer back to the success criteria from criterion A, feedbac
 </div>
 
 My product satisfied most of the success criteria we established in criterion A.
+1. You can load decks from a file saved on the computer
+   ***Satisfied! The "open" button works***
+2. Flashcard deck files should be editable by humans - ***Partially Satisfied*** - Mr. Griswold thinks the flashcard format is pretty good, but he thinks it could be more flexible (see interview 2 in appendix), and is worried that students will forget the blank line between words, for example. 
+3. Once loaded, the first flashcard in the deck should appear. -***Satisfied***
+4. One button can flip the flashcard from front to back - ***Satisfied***
+5. Another button can move forward or backward in the deck -***Satisfied***
+6. The deck can be shuffled to change the order - ***Satisfied***
+7. It should work well and look similar on Macs and PCs - ***Partially Satisfied*** - the Mac version works fine, but the GUI is not well-centered. I don't know how to fix this, unfortunately. It is also possible that file formats could cause a problem though we haven't had that bug yet.
+8. The term should be in a larger font than the definition for readability - ***Not Satisfied** Even though I think I could do this, I ran out of time and decided it wasn't that important. Mr. Griswold agreed.
 
-### Functional Requirements
+Mr. Griswold is happy with my product and is planning to use it in class for reviewing for the IB exam - he has already made some card decks he intends to share with students. You can see his specific comments about the product in the Appendix (interview transcript 2). Overall, even though one success criteria were not satisfied, the product does what it should do.
 
-1. Files that represent flash card decks can be loaded from the interface - ***Satisfied! The "open" button works***
-2. Flash card files are editable by humans.
-   ***Partially Satisfied*** - Mr. Griswold thinks the flashcard format is pretty good, but he thinks it could be more flexible, and is worried that students will forget the blank line between words, for example. 
-3. Flash card definitions and words can be flipped easily - ***Satisfied!***
-4. It is possible to move forward and backward in the deck - ***Satisfied!***
-5. The deck can be shuffled to change the order -  ***Satisfied!***
-6. Flash card files are easily created and shared by students to each other  
-7. It should work well and look similar on Macs and PCs  
-   ***Partially Satisfied*** - the Mac version works fine, but the GUI is not well-centered. I don't know how to fix this, unfortunately.
-8. The term should be in a larger font than the definition  
-   ***Not satisfied*** - Even though I think I could do this, I ran out of time and decided it wasn't that important. Mr. Griswold agreed.
-9. Students can choose to go in a complete random order  
-   ***Satisfied!*** - both the shuffle and random feature allow this.
-
-Mr. Griswold is happy with my product and is planning to use it in class for reviewing for the IB exam - he has already made some card decks he intends to share with students. You can see his specific comments about the product in the Appendix (interview transcript 2). Overall, even though a couple of success criteria were not satisfied, the product does what it should do!
+*(286 words)*
 
 ## Suggestion for future improvements
 
@@ -338,6 +353,8 @@ In this final section, the user should mention 2-3 suggestions for improvement o
 These can and should include feedback from the client as well.
 </div>
 
-1. A user interface for creating decks. Currently to create decks students need to edit a text file, which is possible but also opens up room for error. A good extension would be to allow students to add, edit, and save flashcards using the GUI tool itself. I think this would be manageable, but would requiire significant effort to add the new buttons and figure out how to output a file in the correct format. Mr. Griswold suggested this after seeing the flashcard format and using it with students, as some of them are having trouble making new decks that way.
+1. A user interface for creating decks. Currently to create decks students need to edit a text file, which is possible but also opens up room for error. A good extension would be to allow students to add, edit, and save flashcards using the GUI tool itself. I think this would be manageable, but would requiire significant effort to add the new buttons and figure out how to output a file in the correct format. Mr. Griswold suggested this after seeing the flashcard format and using it with students, as some of them were reluctant to make decks using a text editor.
 
 2. Ability to study multiple decks at once. Currently the user can only load one deck at at time, but it might be nice to be able to load more than one deck at a time and shuffle randomly between them - this could be useful when studying for a test with multiple parts, for example. One of Mr. Griswold's students suggested this, saying that studying with a small deck isn't always useful.
+
+*(175 words)*
