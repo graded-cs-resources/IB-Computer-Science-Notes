@@ -307,23 +307,3 @@ Despite this definition, you will occasionally see manufacturers use the real me
    <details markdown="1"><summary>Click to expand answer</summary>
    $$150 \cdot 2^{30}$$ or $$300 \cdot 2^{29}$$ (or any equivalent answer)
    </details>
-
-```java
-public class Party
-{
-    private int numInvited;
-    private boolean partyCancelled;
-
-    public Party()
-    {
-        numInvited = 1;
-        partyCancelled = false;
-    }
-
-    public Party(int invites)
-    {
-        numInvited = invites;
-        partyCancelled = false;
-    }
-}
-```
