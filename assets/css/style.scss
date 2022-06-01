@@ -9,9 +9,7 @@ html {
   font-size:18px;
 }
 
-.markdown-body {
-  font-size: 1rem;
-}
+
 
 html {
   background-color: #eee8d5;
@@ -23,12 +21,16 @@ body {
 }
 
 .markdown-body {
-  padding: 5rem 2rem;
+  padding: 2rem 2rem;
   background-color: #fdf6e3;
   border: .05rem solid #657b83;
   border-radius:0.5rem;
   box-shadow: .2rem .3rem .8rem #93a1a1;
-}
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+
 code {
   background-color: #eee8d5;
 }
@@ -259,10 +261,38 @@ div.instructions {
 }
 
 @media print {
+  @page {
+    size: auto;
+    margin: .75in .75in;
+  }
+
+  .markdown-body pre > code {
+    border: none;
+    box-shadow:none;
+    padding:0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    page-break-after: avoid;
+  }
+
+  .markdown-body table {
+    overflow:hidden;
+  }
+
+  .markdown-body {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+
   html {
     font-size:12px;
   }
-  .markdown-body
+ 
   header {
     display: none;
   }
@@ -297,12 +327,16 @@ div.instructions {
   details:not([open])>*:not(summary) {
     display: block !important;
   }
+
+  code {
+    page-break-inside:avoid;
+    padding:0;
+    border:none;
+    box-shadow:none;
+  }
 }
 
-@page {
-  size: auto;
-  margin: 0.5in 0.75in;
-}
+
 
 /* Solarized Light 
 For use with Jekyll and Pygments

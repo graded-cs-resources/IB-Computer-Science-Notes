@@ -43,7 +43,8 @@
 </head>
 
 <body onbeforeprint="openDetail()">
-  <div class="container-lg px-5 py-5 my-2 markdown-body">
+  <div id="pageborder"></div>
+  <div class="container-lg markdown-body">
     {% if site.title and site.title != page.title %}
     <header>
       <a href="{{ "/" | absolute_url }}"><i class="fas fa-home"></i> Return to main page</a><br>
@@ -65,5 +66,6 @@
     for (let i = 0; i < cbs.length; i++) cbs[i].disabled = false;
   </script>
 </body>
+
 
 </html>
