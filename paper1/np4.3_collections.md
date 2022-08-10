@@ -63,8 +63,10 @@ Here are some important things to understand about IB collections
    <details markdown="1"><summary>Click to expand answer</summary>
    ```
    flower
-   shrub
+   grass
    ```
+
+   `shrub` is skipped because there is no `output` before the third `COL.getNext()`
    </details>
 
 3. What will be printed (output) by the following code?
@@ -76,9 +78,21 @@ Here are some important things to understand about IB collections
 
    COL.resetNext()
    loop while COL.hasNext()
-      output COL.getNext()
+      NEXT = COL.getNext()
+      output NEXT
    end loop
    ```
+
+   <details markdown="1"><summary>Click to expand answer</summary>
+   ```
+   tree
+   flower
+   shrub
+   grass
+   ```
+
+   This is the standard IB Collections Loop!
+   </details>
   
 4. Write an algorithm that assumes you already have two collections, START and END. If START is empty, output the sentence "Nothing to copy". If END is *not* empty, output the sentence "Destination not empty" Otherwise, it all of the elements from the collection START into the collection END, then output "Collection copied"
 
@@ -91,12 +105,14 @@ Here are some important things to understand about IB collections
    else
       START.resetNext()
       loop while START.hasNext()
-         ITEM = START.getNext()
-         END.addItem(ITEM)
+         NEXT = START.getNext()
+         END.addItem(NEXT)
       end loop
       output "Collection copied"
    end if
    ```
+
+   Alternatively, you could use `END.addItem(START.getNext())` inside the loop
    </details>
 
 For more practice, visit the [IB Pseudocode Practice Site](https://graded-cs-resources.github.io/CodingBatPseudo/) and try the problems under the subheading **Collections**
