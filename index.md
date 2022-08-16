@@ -55,6 +55,8 @@ These notes cover content not included in CS Awesome, because they are not about
 * [P1 4.4 - IB Arrays](paper1/np4.4_arrays.md)
 
 * [P1 4.5 - Search Algorithms](paper1/np4.5_searching_data_structures.md)
+
+* [P1 4.6 - Sorting Algorithms](paper1/np4.6_sorting_arrays.md)
   
 * [P1 4.10 - Common Pseudocode Techniques](paper1/np4.10_common_pseudocode.md)
 
