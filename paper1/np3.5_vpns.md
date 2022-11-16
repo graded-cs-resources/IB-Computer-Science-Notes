@@ -1,5 +1,5 @@
 ---
-title: Paper 1 lesson 3.4 - VPNs
+title: Paper 1 lesson 3.5 - VPNs
 ---
 
 # VPNs
@@ -7,7 +7,7 @@ title: Paper 1 lesson 3.4 - VPNs
 * Something to do with protection and other countries
 
 * Virtual private network
-   * Can let you change virtual network locations
-   * has its own IP address
+  * Can let you change virtual network locations
+  * has its own IP address
 
 * Single server
