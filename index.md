@@ -81,6 +81,7 @@ These notes will be correlated with the programming we are doing in CS Awesome a
 ### Unit 0 (Problem-solving with coding bat)
 
 * [P2 0.1 - Anatomy of a method signature](./paper2/p0.1_anatomy_of_a_method.md)
+* [P2 0.2 - If Statements and method returning](./paper2/p0.2_decisions_and_returning.md)
 
 ### Unit 1
 
