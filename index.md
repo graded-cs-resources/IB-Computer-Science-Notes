@@ -78,6 +78,10 @@ These notes cover content not included in CS Awesome, because they are not about
 
 These notes will be correlated with the programming we are doing in CS Awesome and will occasionally expand upon them to be a better fit for the IB. 
 
+### Unit 0 (Problem-solving with coding bat)
+
+* [P2 0.1 - Anatomy of a method signature](./paper2/p0.1_anatomy_of_a_method.md)
+
 ### Unit 1
 
 * [P2 1.2 - Printing in Java](./paper2/p1.2_printing.md)
