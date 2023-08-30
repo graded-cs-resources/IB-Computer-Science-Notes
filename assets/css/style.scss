@@ -41,11 +41,11 @@ a:visited, a:hover {
   color: #cb4b16;
 }
 
-h1 {
+h1,h2 {
   color: #d33682;
   page-break-after:avoid;
 }
-h2,
+
 h3,
 h4,
 h5,
@@ -143,13 +143,21 @@ ol ol ol {
 
 .markdown-body summary {
   color: #859900;
-  font-weight:bold;
+  font-weight:500;
   outline-color: transparent;
   outline-width:0;
 }
 
+.contents summary {
+  color: black;
+  font-weight: 500;
+}
 .markdown-body summary:focus {
   outline-width:0;
+}
+
+.markdown-body summary h2 {
+  display:inline-block;
 }
 
 .markdown-body details {
@@ -160,8 +168,30 @@ ol ol ol {
   clear: both;
 }
 
+.markdown-body details.contents {
+  margin-left: 0;
+  border: 0;
+}
+
+.markdown-body details {
+  margin-left: 0.5rem;
+  padding: .5rem;
+  border: 1.2px #859900 dashed;
+  border-radius: 8px;
+  clear: both;
+}
+
+// .markdown-body details > h2 {
+//   margin-left:0;
+// }
+
 .markdown-body details[open] summary {
   border-bottom: 1px solid #859900;
+}
+
+.markdown-body details.contents[open] summary {
+  border-color:black;
+  margin-bottom: 0.5rem;
 }
 
 .giantText {

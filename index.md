@@ -8,96 +8,87 @@ title: Graded IB Computer Science Notes
 
 This page will store notes made by Mr. Griswold for students in IB Computer Science. It will be updated and edited over time, but old versions will be archived.
 
-### [See the version of these notes used from 2019-2020](./2019/index.md)
-
-The table of contents below is broken into three sections - general course resources, Programming Notes, and Non-Programming Notes. A significant portion of this class will be devoted to learning to program computers in java, and we will use the website CodeHS.ccom to help us with that. However, in each unit we will also cover at least a little non-programming content, which will be in its own section. 
-
-# Table of Contents
+The material below is broken into three sections - general course resources, Paper 1, and Paper 2. Paper 2 is focused on java programming, but much of the thinking in paper 2 overlaps with topic 4 from Paper 1. 
 
 ## Paper 1 Notes 
 
-These notes cover content not included in CS Awesome, because they are not about programming. They are organized by IB topic, which may not be the order we learn about them. Not every topic we learn has corresponding notes here - for some sections, we will use external resources.
-  
-### IB Topic 2 - Computer Organization
+<details markdown="1" class="contents"><summary>Topic 1 - Systems</summary>
+We will mostly use external resources for this topic
+</details>
+<details markdown="1" class="contents"><summary>Topic 2 - Computer Organization</summary>
 
 * [P1 2.1 - Abstraction and the Elements of a Computer System](./paper1/np2.1_abstraction.md) (IB Topic 2)
-
 * [P1 2.1a - Transistors](./paper1/np2.1a_transistors.md)
-
 * [P1 2.2 - Memory and Storage](./paper1/np2.2_memory.md) (IB Topic 2)
-
 * [P1 2.3 - Computer Processor Architecture](./paper1/np2.3_architecture.md) (IB topic 2)
-
 * [P1 2.4 - Software, the OS, and Programming languages](./paper1/np2.4_software.md) (IB Topic 2)
-
 * [P1 2.5 - Working with Binary and Hexadecimal](paper1/np2.5_representing_integers.md)
-
 * [P1 2.6 - Representing characters on computers](paper1/np2.6_representing_characters.md)
-
 * [P1 2.7 - Representing other numbers](paper1/np2.7_representing_other_numbers.md)
-
 * [P1 2.8 - Representing colors](paper1/np2.8_representing_colors.md)
-
 * [P1 2.9 - Logic gates and circuits](paper1/np2.9_boolean_logic.md)
-
-### IB Topic 3 - Networking
-
+</details>
+<details markdown="1" class="contents"><summary>Topic 3 - Networking</summary>
 * [P1 3.1 - Types of networks](paper1/np3.1_network_types.md)
-
 * [P1 3.2 - Protocols and Standards](paper1/np3.2_protocols.md)
-
 * [P1 3.3 - Network Layers](paper1/np3.3_layers.md)
-
 * [P1 3.4 - Network Hardware](paper1/np3.4_network_hardware.md)
+</details>
 
-### IB Topic 4 - Programmatic Thinking and Pseudocode
+<details markdown="1" class="contents"><summary>Topic 4 - Programmatic Thinking and Pseudocode</summary>
 
 * [P1 4.3 - IB collections](paper1/np4.3_collections.md)
-
 * [P1 4.4 - IB Arrays](paper1/np4.4_arrays.md)
-
 * [P1 4.5 - Search Algorithms](paper1/np4.5_searching_data_structures.md)
-
 * [P1 4.6 - Sorting Algorithms](paper1/np4.6_sorting_arrays.md)
-  
 * [P1 4.10 - Common Pseudocode Techniques](paper1/np4.10_common_pseudocode.md)
 
-### IB Topic 6 - HL ONLY - Resource management
+</details>
+
+<details markdown="1" class="contents"><summary>Topic 5 - HL ONLY - Data Structures</summary>
+
+No notes here yet!
+</details>
+
+<details markdown="1" class="contents"><summary>Topic 6 - HL ONLY - Resource management</summary>
 
 * [P1 6.1 - Operating Systems](paper1/np6.1_operating_system.md)
-
 * [P1 6.2 - Types of computers and their resources](paper1/np6.2_resources.md)
-
 * [P1 6.3 - Management Techniques](paper1/np6.3_management_techniques.md)
 
-### IB Topic 7 - HL ONLY - Control
+</details>
+
+<details markdown="1" class="contents"><summary>Topic 7 - HL ONLY - Control</summary>
 
 * [P1 7.1 - Introducing Control](paper1/np7.1_introducing_control_systems.md)
+</details>
 
-## Paper 2 - Java Programming Notes
+## Paper 2 - Java and Programming Notes
 
-These notes will be correlated with the programming we are doing in CS Awesome and will occasionally expand upon them to be a better fit for the IB. 
+We will learn programming and problem solving in java using several resources - [Coding Bat](https://codingbat.com), [CS Awesome](https://runestone.academy), and [CodeHS](https://codehs.com), and these notes will supplement those ideas.
 
-### Unit 0 (Problem-solving with coding bat)
+<details markdown="1" class="contents"><summary>Unit 0 - Introduction to problem-solving</summary>
 
 * [P2 0.1 - Anatomy of a method signature](./paper2/p0.1_anatomy_of_a_method.md)
-* [P2 0.2 - If Statements and method returning](./paper2/p0.2_decisions_and_returning.md)
+* [P2 0.2 - If statements and method returning](./paper2/p0.2_decisions_and_returning.md)
+* [P2 0.3 - Variables and data types](./paper2/p0.3_variables.md)
+* [P2 0.4 - Strings and reference types](./paper2/p0.4_strings_and_reference.md)
 
-### Unit 1
+</details>
+
+<details markdown="1" class="contents"><summary>Unit 1 - Defining Methods, Printing, and User Input</summary>
 
 * [P2 1.2 - Printing in Java](./paper2/p1.2_printing.md)
 
-* [P2 1.3 - Variables and data types](./paper2/p1.3_variables.md)
+</details>
 
-* [P2 1.4 and 1.5 - Operators and Assignment](./paper2/p1.4_operators.md)
+<details markdown="1" class="contents"><summary>Unit 2 - Loops and Arrays</summary>
+Check back later
+</details>
 
-* P2 1.6 - User Input (coming soon?)
-
-* P2 1.7 - Casting (coming soon?)
-
-### Unit 2
-
-* [P2 2.1 - A complete class, with notes](./paper2/p2_2.1_classes.md)
+<details markdown="1" class="contents"><summary>Unit 3 - Objects and Classes</summary>
+Check back later
+</details>
   
 ## Course Resources
 
@@ -122,5 +113,7 @@ These notes will be correlated with the programming we are doing in CS Awesome a
 * [Paul Baumgarten's IB CS Page](https://pbaumgarten.com/ib-compsci/) - Paul Baumgarten is a long-time IB CS teacher and active contributor to the community. His page includes notes and exercises on nearly all IB topics, as well as links to even more resources. The order is different than our course, but an excellent resource for studying or reading new perspectives.
 
 * [Mr. Wach's IB CS Page](https://mrwachs.wordpress.com/current-classes/computer-science-i-b/) - Mr. Wachs is a teacher of many computer science courses including IB CS. He has many videos, slideshows, and workbooks that we will look at for some units, and makes a good resource for studying many aspects of the course.
+
+### [See the version of these notes used from 2019-2020](./2019/index.md)
 
  
