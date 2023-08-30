@@ -28,8 +28,8 @@ You can represent the behavior of boolean operators with a *truth table* - the o
 
 | A   | NOT A |
 | --- | ----- |
-| T   | F     |
-| F   | T     |
+| 0   | 1     |
+| 1   | 0     |
 {: .text-center}
 
 ### OR
@@ -40,10 +40,10 @@ For operators like OR that combine two statements, we need a larger truth table.
 
 | A   | B   | A OR B |
 | --- | --- | ------ |
-| T   | T   | T      |
-| T   | F   | T      |
-| F   | T   | T      |
-| F   | F   | F      |
+| 0   | 0   | 0      |
+| 0   | 1   | 1      |
+| 1   | 0   | 1      |
+| 1   | 1   | F1      |
 {: .text-center}
 
 ### AND
@@ -52,10 +52,10 @@ The AND operator combines two boolean statements and is only true if BOTH of the
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
-| T   | T   | T       |
-| T   | F   | F       |
-| F   | T   | F       |
-| F   | F   | F       |
+| 0   | 0   | 0       |
+| 0   | 1   | 0       |
+| 1   | 0   | 0       |
+| 1   | 1   | 1       |
 {: .text-center}
 
 ### XOR
@@ -64,10 +64,10 @@ The XOR operator stands for *exclusive or* and it is used in situations we might
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
-| T   | T   | F       |
-| T   | F   | T       |
-| F   | T   | T       |
-| F   | F   | F       |
+| 0   | 0   | 0       |
+| 0   | 1   | 1       |
+| 1   | 0   | 1       |
+| 1   | 1   | 0       |
 {: .text-center}
 
 ### NOR
@@ -77,10 +77,10 @@ The NOR operator means "NOT OR" and returns the exact opposite of the NOR operat
 
 | A   | B   | A NOR B |
 | --- | --- | ------- |
-| T   | T   | F       |
-| T   | F   | F       |
-| F   | T   | F       |
-| F   | F   | T       |
+| 0   | 0   | 1       |
+| 0   | 1   | 0       |
+| 1   | 0   | 0       |
+| 1   | 1   | 0       |
 {: .text-center}
 
 ### NAND
@@ -89,10 +89,10 @@ The NAND operator means "NOT AND" and returns the opposite of the AND operator. 
 
 | A   | B   | A NAND B |
 | --- | --- | -------- |
-| T   | T   | F        |
-| T   | F   | T        |
-| F   | T   | T        |
-| F   | F   | T        |
+| 0   | 0   | 1        |
+| 0   | 1   | 1        |
+| 1   | 0   | 1        |
+| 1   | 1   | 0        |
 {: .text-center}
 
 ## Building Complex Truth Tables
@@ -103,34 +103,34 @@ One required skill for the IB exam is to build truth tables (like the ones above
 
 To build these, we start by figuring out our headings, working from the inside out. This always starts with our individual letters that represent individual statements (in this case A and B) and then we work our way outward to the complete statement, doing little middle statements as need be following the order or operations. (These operators all have the same power, so if parenthese don't make it clear move form left to right).
 
-The first two columns always go "TTFF" and "TFTF" to make all four combinations.
+The first two columns always go "0011" and "0101" to make all four combinations.
 
 | A   | B   | B NAND A | A OR B | (A OR B) OR (B NAND A) |
 | --- | --- | -------- | ------ | ---------------------- |
-| T   | T   |          |        |                        |
-| T   | F   |          |        |                        |
-| F   | T   |          |        |                        |
-| F   | F   |          |        |                        |
+| 0   | 0   |          |        |                        |
+| 0   | 1   |          |        |                        |
+| 1   | 0   |          |        |                        |
+| 1   | 1   |          |        |                        |
 {: .text-center}
 
-We then build from left to right, following the rules for each operator. NAND the opposite of AND so it is F only when both are True. OR is true whenever either is true.
+We then build from left to right, following the rules for each operator. NAND the opposite of AND so it is False only when both are True. OR is true whenever either is true.
 
 | A   | B   | B NAND A | A OR B | (A OR B) OR (B NAND A) |
 | --- | --- | -------- | ------ | ---------------------- |
-| T   | T   | F        | T      |                        |
-| T   | F   | T        | T      |                        |
-| F   | T   | T        | T      |                        |
-| F   | F   | T        | F      |                        |
+| 0   | 0   | 1        | 0      |                        |
+| 0   | 1   | 1        | 1      |                        |
+| 1   | 0   | 1        | 1      |                        |
+| 1   | 1   | 0        | 1      |                        |
 {: .text-center}
 
 Then for the final column, we are applying the OR operator to the two columns I just made! OR is true whenever either of the inputs are true, so the output is...
 
 | A   | B   | B NAND A | A OR B | (A OR B) OR (B NAND A) |
 | --- | --- | -------- | ------ | ---------------------- |
-| T   | T   | F        | F      | T                      |
-| T   | F   | T        | F      | T                      |
-| F   | T   | T        | F      | T                      |
-| F   | F   | T        | T      | T                      |
+| 0   | 0   | 1        | 0      | 1                      |
+| 0   | 1   | 1        | 1      | 1                      |
+| 1   | 0   | 1        | 1      | 1                      |
+| 1   | 1   | 0        | 1      | 1                      |
 {: .text-center}
 
 This statement is always true! Oops, that was a lot of work for a rather simple output!
@@ -153,10 +153,10 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
 
     | A   | B   | A NOR B | (A NOR B) OR A |
     | --- | --- | ------- | -------------- |
-    | T   | T   | F       | T              |
-    | T   | F   | F       | T              |
-    | F   | T   | F       | F              |
-    | F   | F   | T       | T              |
+    | 0   | 0   | 1       | 1              |
+    | 0   | 1   | 0       | 0              |
+    | 1   | 0   | 0       | 1              |
+    | 1   | 1   | 0       | 1              |
 
     </details>
 
@@ -166,10 +166,10 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
 
     | A   | B   | A XOR B | (A XOR B) AND A |
     | --- | --- | ------- | --------------- |
-    | T   | T   | F       | F               |
-    | T   | F   | T       | T               |
-    | F   | T   | T       | F               |
-    | F   | F   | F       | F               |
+    | 0   | 0   | 0       | 0               |
+    | 0   | 1   | 1       | 0               |
+    | 1   | 0   | 1       | 1               |
+    | 1   | 1   | 0       | 0               |
 
     </details>
     
@@ -179,10 +179,10 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
 
     | A   | B   | A XOR B | NOT (A XOR B) |
     | --- | --- | ------- | ------------- |
-    | T   | T   | F       | T             |
-    | T   | F   | T       | F             |
-    | F   | T   | T       | F             |
-    | F   | F   | F       | T             |
+    | 0   | 0   | 0       | 1             |
+    | 0   | 1   | 1       | 0             |
+    | 1   | 0   | 1       | 0             |
+    | 1   | 1   | 0       | 1             |
 
     </details>
 
@@ -192,10 +192,10 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
 
     | A   | B   | A OR B | NOT (A OR B) |
     | --- | --- | ------ | ------------ |
-    | T   | T   | T      | F            |
-    | T   | F   | T      | F            |
-    | F   | T   | T      | F            |
-    | F   | F   | F      | T            |
+    | 0   | 0   | 0      | 1            |
+    | 0   | 1   | 1      | 0            |
+    | 1   | 0   | 1      | 0            |
+    | 1   | 1   | 1      | 0            |
 
     </details>
     
@@ -205,10 +205,10 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
 
     | A   | B   | NOT A | NOT B | NOT A AND NOT B |
     | --- | --- | ----- | ----- | --------------- |
-    | T   | T   | F     | F     | F               |
-    | T   | F   | F     | T     | F               |
-    | F   | T   | T     | F     | F               |
-    | F   | F   | T     | T     | T               |
+    | 0   | 0   | 1     | 1     | 1               |
+    | 0   | 1   | 1     | 0     | 0               |
+    | 1   | 0   | 0     | 1     | 0               |
+    | 1   | 1   | 0     | 0     | 0               |
     
     </details>
 
