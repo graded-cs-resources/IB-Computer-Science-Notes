@@ -98,6 +98,8 @@ Here are some important things to understand about IB collections
 
    <details markdown="1"><summary>Click to expand answer</summary>
    ```python
+   START.resetNext()
+   END.resetNext()
    if START.isEmpty() then
       output "Nothing to copy"
    else if NOT END.isEmpty() then
