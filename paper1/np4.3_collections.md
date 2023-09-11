@@ -94,7 +94,7 @@ Here are some important things to understand about IB collections
    This is the standard IB Collections Loop!
    </details>
   
-4. Write an algorithm that assumes you already have two collections, START and END. If START is empty, output the sentence "Nothing to copy". If END is *not* empty, output the sentence "Destination not empty" Otherwise, it all of the elements from the collection START into the collection END, then output "Collection copied"
+4. Write an algorithm that assumes you already have two collections, START and END. If START is empty, output the sentence "Nothing to copy". If END is *not* empty, output the sentence "Destination not empty" Otherwise, copy all of the elements from the collection START into the collection END, then output "Collection copied"
 
    <details markdown="1"><summary>Click to expand answer</summary>
    ```python
@@ -113,6 +113,22 @@ Here are some important things to understand about IB collections
    ```
 
    Alternatively, you could use `END.addItem(START.getNext())` inside the loop
+   </details>
+
+5. You have two parallel collections named `NAMES` and `AGES`. "Parallel" means the first element of `NAMES` corresponds with the first element of `AGES`. Write code to iterate through both collections and if a persons age is at least 18, print out their name.
+
+   <details markdown="1"><summary>Click to expand answer</summary>
+   ```python
+   NAMES.resetNext()
+   AGES.resetNext()
+   loop while NAMES.hasNext()
+      N = NAMES.getNext()
+      A = AGES.getNext()
+      if A >= 18 then
+         output N
+      end if
+   end loop
+   ```
    </details>
 
 For more practice, visit the [IB Pseudocode Practice Site](https://graded-cs-resources.github.io/CodingBatPseudo/) and try the problems under the subheading **Collections**
