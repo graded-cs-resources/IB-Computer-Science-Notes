@@ -43,7 +43,7 @@ For operators like OR that combine two statements, we need a larger truth table.
 | 0   | 0   | 0      |
 | 0   | 1   | 1      |
 | 1   | 0   | 1      |
-| 1   | 1   | F1      |
+| 1   | 1   | F1     |
 {: .text-center}
 
 ### AND
@@ -212,32 +212,61 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
     
     </details>
 
+6.  Create a truth table for the statement `A AND (B NOR C)` - note, with three inputs the table will need 8 rows!
+
+    <details markdown="1"><summary>Click to expand answer</summary>
+
+  | A   | B   | C   | B NOR C | A AND (B NOR C) |
+  | --- | --- | --- | ------- | --------------- |
+  | 0   | 0   | 0   | 1       | 0               |
+  | 0   | 0   | 1   | 0       | 0               |
+  | 0   | 1   | 0   | 0       | 0               |
+  | 0   | 1   | 1   | 0       | 0               |
+  | 1   | 0   | 0   | 1       | 1               |
+  | 1   | 0   | 1   | 0       | 0               |
+  | 1   | 1   | 0   | 0       | 0               |
+  | 1   | 1   | 1   | 0       | 0               |
+    </details>
+
+7.  Create a truth table for the statement `(A XOR C) OR B` - note, with three inputs the table will need 8 rows!
+
+    <details markdown="1"><summary>Click to expand answer</summary>
+
+  | A   | B   | C   | A XOR C | (A  XOR C) OR B |
+  | --- | --- | --- | ------- | --------------- |
+  | 0   | 0   | 0   | 0       | 0               |
+  | 0   | 0   | 1   | 1       | 1               |
+  | 0   | 1   | 0   | 0       | 1               |
+  | 0   | 1   | 1   | 1       | 1               |
+  | 1   | 0   | 0   | 1       | 1               |
+  | 1   | 0   | 1   | 0       | 0               |
+  | 1   | 1   | 0   | 1       | 1               |
+  | 1   | 1   | 1   | 0       | 1               |
+    </details>
+
+7.  Create a truth table for the statement `(A NAND B) XOR NOT C` - note, with three inputs the table will need 8 rows!
+
+    <details markdown="1"><summary>Click to expand answer</summary>
+
+  | A   | B   | C   | A NAND B | NOT C | (A  NAND B) XOR NOT B |
+  | --- | --- | --- | -------- | ----- | --------------------- |
+  | 0   | 0   | 0   | 1        | 1     | 0                     |
+  | 0   | 0   | 1   | 1        | 0     | 1                     |
+  | 0   | 1   | 0   | 1        | 1     | 0                     |
+  | 0   | 1   | 1   | 1        | 0     | 1                     |
+  | 1   | 0   | 0   | 1        | 1     | 0                     |
+  | 1   | 0   | 1   | 1        | 0     | 1                     |
+  | 1   | 1   | 0   | 0        | 1     | 1                     |
+  | 1   | 1   | 1   | 0        | 0     | 0                     |
+    </details>
 
 ## Logic Gates
 
-These logic operators are the primary source of flow control inside of processors. We can make tiny circuits that behave exactly like these operators - we call them *logic gates*. The image below shows the diagrams for each of the logic gates, as well as their truth tables. IN this format, `0` means `False` while `1` means `True`.
-
-![Logic gates diagram](media/logic-gates.png)
+These logic operators are the primary source of flow control inside of processors. We can make tiny circuits that behave exactly like these operators - we call them *logic gates*. In IB questions, the gates will simply be represented as little circles with words in them.
 
 In these little circuits, the two pins on the left represent electrical connection points. If the electricity is ON that can be thought of as a `1` or a `TRUE` input, while if the electricity is OFF that can be thought of as a `0` or `FALSE` input. The output is either on or off depending on the inputs, following the rules.
 
-For the IB you do NOT need to memorize which gate is which - the IB uses circles with the words written in them instead - so feel free to refer to the above diagram as much as you need.
-
 ### Sample problems using logic gates
 
-1.  Convert the diagram below into a logic statement and calculate the truth table of its output.
 
-    ![logic diagram](media/logic&#32;gate&#32;sample&#32;problem.png)
-
-    <details markdown="1"><summary>Click to expand answer</summary>
-    This is equivalent to `(NOT A AND B) OR (NOT B AND A)` which is itself equivalent to `A XOR B` (either one of these would be accepted as an answer)
-
-    | A   | B   | Final Result |
-    | --- | --- | ------------ |
-    | 1   | 1   | 0            |
-    | 1   | 0   | 1            |
-    | 0   | 1   | 1            |
-    | 0   | 0   | 0            |
-
-    </details>
 
