@@ -49,7 +49,7 @@ end loop
 void bubbleSort(int[] arr) {
     for (int final = arr.length - 1; final >=1; final--) {
         for (int i = 0; i < final; i++) {
-            if (arr[i]>arr[i+1]) {
+            if (arr[i] > arr[i+1]) {
                 int temp = arr[i];
                 arr[i] = arr[i+1];
                 arr[i+1] = temp;

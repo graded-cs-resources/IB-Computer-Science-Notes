@@ -74,16 +74,16 @@ end if
 
 ### Javascript code with arrays
 
-Here is a *function* that is written in javascript - the array is called `haystack` and the search value is called `needle` (get it? needle in a haystack?). It returns the index of the *first* position where the search value is found, or `-1` if the object is not found, which is a pretty common system.
+Here is a method that is written in java - the array is called `haystack` and the search value is called `needle` (get it? needle in a haystack?). It returns the index of the *first* position where the search value is found, or `-1` if the object is not found, which is a pretty common system.
 
-```js
-function sequentialSearch(haystack, needle) {
-    for (var i=0; i < haystack.length; i++) {
-        if (needle == haystack[i]) {
+```java
+public int sequentialSearch(String[] haystack, String needle) {
+    for (int i=0; i < haystack.length; i++) {
+        if (needle.equals(haystack[i])) {
             return i;
         }
     }
-    return -1; //only every get here if nothing was found
+    return -1; //only ever get here if nothing was found
 }
 ```
 
@@ -125,14 +125,14 @@ else
 end if
 ```
 
-### javascript method version
+### java method version
 
-```js
-function binary(haystack, needle) {
-    var max = haystack.length-1;
-    var min = 0;
+```java
+public int binary(double[] haystack, double needle) {
+    int max = haystack.length-1;
+    int min = 0;
     while (min <= max) {
-        var mid = Math.floor((min+max)/2);
+        int mid = (min+max) / 2; //integer division
         if (haystack[mid] == needle) {
             return mid;
         } else if (haystack[mid] > needle) {
@@ -142,7 +142,7 @@ function binary(haystack, needle) {
             min = mid + 1;
         }
     }
-    return (-1);
+    return -1;
 }
 ```
 
