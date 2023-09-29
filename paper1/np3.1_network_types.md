@@ -26,9 +26,15 @@ Assocated technologies: routers, IP (protocol), UDP (protocol), TCP (protocol)
 
 **Virtual Local Area Network**
 
-A VLAN is a *logical* network that takes some computers from a large LAN (or computers from multiple LANs) and configures them to work together as if they were a smaller LAN. It is usually used to separate large networks into smaller "logical" networks.
+A VLAN is a *logical* network that takes some computers from a large LAN  and configures them to work together as if they were a smaller LAN. It is usually used to separate large networks into smaller "logical" networks.
 
 Example: a large organzation make make a virtual LAN for all of their computer programmers, a different virtual LAN for all of their managers, and a third virtual LAN for all of their marketing department.
+
+## VPN
+
+**Virtual Private Network**
+
+A virtual private network or VPN is a way of connecting remote computers that are far apart together *as if* they were a single local network. More information about this will be discussed in a later notes page.
 
 ## PAN
 

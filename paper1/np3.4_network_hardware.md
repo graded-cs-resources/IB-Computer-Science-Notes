@@ -2,6 +2,26 @@
 title: Paper 1 lesson 3.4 - Hardware Used int Networks
 ---
 
+# Measuring Speed
+
+When discussing different types of transmission media, it is common to talk about the "speed". There are two different ways of measuring speed in networks.
+
+## Latency
+
+**Latency**:star: or *ping* is a measure of how long it takes a single piece of data to get from one computer to another. It is measured in milliseconds. High latency is considered "slower". If you have ever encountered voice delay in a phone call or lag in an online game, that is latency! 
+
+Higher latency can come from either physical distance - longer distance will result in more latency, problems with routing, or **interference**:star: that means packets need to get sent multiple times before they actually make it through.
+
+## Bandwidth
+
+**Bandwidth**:star: is a measure of the *rate* of data transfer, usually measured in bits per second (or kilobits or megabits per second). In your daily life, this might be thought of as the download speed - once a download *starts* on your computer, the bandwidth measures how much data you get per second. 
+
+When we say we have "fast internet" this is usually the number we quote.
+
+It is possible to have high latency (slow!) but also have high bandwidth (fast!). Mailing a hard drive through the mail is an extreme example - the latency might be *days*, but the bandwidth would be quite large since the entire terabyte or more of data can be retrieved in just a couple of minutes! 
+
+Similarly, it is possible to have very low latency (fast!) but also have high bandwidth. Back in my childhood, modems could only give 28.8 *kilobits* per second of bandwidth - a song might take 30 minutes to download! - but the latency was no worse than today.
+
 # Networking Hardware
 
 The IB exam expects you to have a general understanding of different types of hardware used in networks. This includes:

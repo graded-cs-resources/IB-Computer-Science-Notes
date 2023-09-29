@@ -33,6 +33,7 @@ We will mostly use external resources for this topic
 * [P1 3.2 - Protocols and Standards](paper1/np3.2_protocols.md)
 * [P1 3.3 - Network Layers](paper1/np3.3_layers.md)
 * [P1 3.4 - Network Hardware](paper1/np3.4_network_hardware.md)
+* [P1 3.5 - VPNs](paper1/np3.5_vpns.md)
 </details>
 
 <details markdown="1" class="contents"><summary>Topic 4 - Programmatic Thinking and Pseudocode</summary>
@@ -67,22 +68,17 @@ No notes here yet!
 
 We will learn programming and problem solving in java using several resources - [Coding Bat](https://codingbat.com), [CS Awesome](https://runestone.academy), and [CodeHS](https://codehs.com), and these notes will supplement those ideas.
 
-<details markdown="1" class="contents"><summary>Unit 0 - Introduction to problem-solving</summary>
+<details markdown="1" class="contents"><summary>Unit 1 - Introduction to problem-solving</summary>
 
-* [P2 0.1 - Anatomy of a method signature](./paper2/p0.1_anatomy_of_a_method.md)
-* [P2 0.2 - Variables and data types](./paper2/p0.2_variables.md)
-* [P2 0.3 - If statements, Return, and Logical Operators](./paper2/p0.3_decisions_and_returning.md)
-* [P2 0.4 - Operators](./paper2/p0.4_operators.md)
-* [P2 0.5 - Strings and reference types](./paper2/p0.5_strings_and_reference.md)
-
-</details>
-
-<details markdown="1" class="contents"><summary>Unit 1 - Defining Methods, Printing, and User Input</summary>
-
-* [P2 1.2 - Printing in Java](./paper2/p1.2_printing.md)
+* [P2 1.1 - Anatomy of a method signature](./paper2/p1.1_anatomy_of_a_method.md)
+* [P2 1.2 - Variables and data types](./paper2/p1.2_variables.md)
+* [P2 1.3 - If statements, Return, and Logical Operators](./paper2/p1.3_decisions_and_returning.md)
+* [P2 1.4 - Operators](./paper2/p1.4_operators.md)
+* [P2 1.5 - Strings and reference types](./paper2/p1.5_strings_and_reference.md)
+* [P2 1.6 - Printing and the Java skeleton](./paper2/p1.6_printing.md)
 
 </details>
-
+ 
 <details markdown="1" class="contents"><summary>Unit 2 - Loops and Arrays</summary>
 Check back later
 </details>
