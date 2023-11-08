@@ -79,11 +79,14 @@ We will learn programming and problem solving in java using several resources - 
 
 </details>
  
-<details markdown="1" class="contents"><summary>Unit 2 - Loops and Arrays</summary>
-Check back later
+<details markdown="1" class="contents"><summary>Unit 2 - Objects and Classes</summary>
+You should also use [CS Awesome](https://runestone.academy) to study this material, specifically chapters 2 and 5.
+
+* [P2 2.1 - Anatomy of a Class](./paper2/p2.1_classes.md)
+
 </details>
 
-<details markdown="1" class="contents"><summary>Unit 3 - Objects and Classes</summary>
+<details markdown="1" class="contents"><summary>Unit 3 - Loops and Arrays</summary>
 Check back later
 </details>
   
