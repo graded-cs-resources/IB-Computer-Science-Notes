@@ -90,7 +90,7 @@ To remove the head...
 
 ## Sorting a linked list
 
-It is possible to implement selection sort OR bubble sort on a linked list, because swapping two elements is possible as long as you have references to the two values before them. I've implemented both of them below in pseudocode. You don't technically NEED to write lists for pseudocode, but for sorting, it's easiest to describe in pseudcoce!
+It is possible to implement selection sort OR bubble sort on a linked list, because swapping two elements is possible as long as you have references to the two values before them. I've implemented both of them below in pseudocode. You don't technically NEED to write lists for pseudocode, but for sorting, it's easiest to describe in pseudocode!
 
 ### Bubble Sort
 

@@ -2,20 +2,29 @@
 title: IB Arrays
 ---
 
-# IB Arrays
+# Arrays
 
-An **array**:star: is like a collection in that it holds a group of connected items using a single variable name. Unlike a collection, *any* element of an array can be accessed at any time - you do not need to access the elements in order, you just need to know *where* in the array you can find the element you want.
+An **array**:star: holds a group of connected items using a single variable name. *Any* element of an array can be accessed at any time - you do not need to access the elements in order, you just need to know *where* in the array you can find the element you want.
 
 Think of an array as being like a row of lockers - the lockers are numbered, and next to each other. You can access any locker you want, but you need to know which locker number to go to.
 
 ![Row of lockers](https://csawesome.runestone.academy/runestone/books/published/csawesome/_images/rowLockers.jpg)
 <small>Image Credit: [CS Awesome](https://csawesome.runestone.academy/runestone/books/published/csawesome/Unit6-Arrays/topic-6-1-array-basics.html#declaring-and-creating-an-array)</small>
 
-The code below shows two ways you might see arrays created in pseudocode
+We will use arrays in both java AND in IB Pseudocode
+
+Here are two ways you might see an array being created in pseudocode:
 
 ```js
    array1 = [1.2, 2.8, 9.9]
    array2 = new Array(5)
+```
+
+and here is how you would create the same arrays in java:
+
+```java
+   int[] array1 = {1.2, 2.8, 9.9};
+   int[] array2 = new int[5];
 ```
 
 After running the code above, you will create the following in memory:
@@ -23,43 +32,43 @@ After running the code above, you will create the following in memory:
 ![Java arrays in memory](https://docs.google.com/drawings/d/e/2PACX-1vRD9Uec6OuweycqHcz6SKt_XnnRjHBFvMlScXoc1fPEkhgONDME61AG0tobw1kALxMyrZ3WNm1Mkm0j/pub?w=618&amp;h=336)
 <small>Image Credit: [Me](https://docs.google.com/drawings/d/1DQpQOspzFO90crV4ujwrri7RNG19NW-2JEPkN6IlXzg/edit)</small>
 
-In lower-level languages like java or C, and also in IB Pseudocode, you can be certain that the elements of the array are actually stored *next to each other in the RAM or cache*, as shown in the image above. This makes it MUCH more efficient to access elements further in the array. But it also means arrays are limited by the following rules:
+In languages that have true arrays, you can be certain that the elements of the array are actually stored *next to each other in the RAM or cache*, as shown in the image above. This makes it MUCH more efficient to access elements further in the array. But it also means arrays are limited by the following rules:
 
 1. Every element in the array must be the same type
 2. The length of the array must be *fixed* and cannot change
-
 
 ## Accessing Elements
 
 The individual *elements* of an array are referred to using an **index**:star:, an integer value that tells you which element you want. This is like the locker number in our metaphor above. In most programming languages the first index in an array (that is, the first locker number) is `0`.
 
-```js
+```java
 array1[0]; // 1.2
 array1[1]; // 2.8
 array1[2] = 11.2; // **change** the value of array element 2
 array1; // [1.2, 2.8, 11.2]
 ```
 
-In most languages like java and javascript, you can use the `length` property of an array to learn how many elements an array has. In IB Pseudocode this is not officially defined, but when it is needed the problem will *tell* you the length or how to access the length.
+In most languages like java and javascript, you can use the `length` property of an array to learn the size of the array. In IB Pseudocode this is not officially defined, but when it is needed the problem will *tell* you the length or how to access the length.
 
 ```js
 array1.length; // 3
 ```
 
-In java, as mentioned earlier, you CANNOT change the length of an array once it is declared, but in typescript you CAN.
+In java, as mentioned earlier, you CANNOT change the length of an array once it is declared.
 
-In javascript, and certain other languages, you CAN change the length of an array after it is created, and some of our code.org work will ask you do to do so. It is important that you know you ***cannot do this in IB pseudocode***. If you need a data structure that gets larger over time in IB Pseudocode, your ONLY option is an IB Collection. 
+In javascript, and certain other languages, you CAN change the length of an array after it is created, because they work differently internally. It is important that you know you ***cannot do this in IB pseudocode***. If you need a data structure that gets larger over time in IB Pseudocode or java, you must use something other than an array.
 
-## Looping through an array - JavaScript
+## Looping through an array - Java
 
 A common thing to do with any collection is to go through each element one at a time, and do something to it. It's so common, in fact, that you can expect to see these structures usually multiple times in any remotely large project. 
 
 The code below shows how you would do this in JAVASCRIPT
 
-```js
-// Assume names[] is an array of strings representing
+```java
+// Assume names is an array of strings representing
 // the names of students
-for (var i = 0; i < names.length; i = i + 1) {
+// whwere numElements is the number of elements we want to iterate
+for (int i = 0; i < numElements; i = i + 1) {
     console.log(names[i]);
 }
 ```
