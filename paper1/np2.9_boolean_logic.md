@@ -43,7 +43,7 @@ For operators like OR that combine two statements, we need a larger truth table.
 | 0   | 0   | 0      |
 | 0   | 1   | 1      |
 | 1   | 0   | 1      |
-| 1   | 1   | F1     |
+| 1   | 1   | 1      |
 {: .text-center}
 
 ### AND
@@ -216,48 +216,48 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
 
     <details markdown="1"><summary>Click to expand answer</summary>
 
-  | A   | B   | C   | B NOR C | A AND (B NOR C) |
-  | --- | --- | --- | ------- | --------------- |
-  | 0   | 0   | 0   | 1       | 0               |
-  | 0   | 0   | 1   | 0       | 0               |
-  | 0   | 1   | 0   | 0       | 0               |
-  | 0   | 1   | 1   | 0       | 0               |
-  | 1   | 0   | 0   | 1       | 1               |
-  | 1   | 0   | 1   | 0       | 0               |
-  | 1   | 1   | 0   | 0       | 0               |
-  | 1   | 1   | 1   | 0       | 0               |
+    | A   | B   | C   | B NOR C | A AND (B NOR C) |
+    | --- | --- | --- | ------- | --------------- |
+    | 0   | 0   | 0   | 1       | 0               |
+    | 0   | 0   | 1   | 0       | 0               |
+    | 0   | 1   | 0   | 0       | 0               |
+    | 0   | 1   | 1   | 0       | 0               |
+    | 1   | 0   | 0   | 1       | 1               |
+    | 1   | 0   | 1   | 0       | 0               |
+    | 1   | 1   | 0   | 0       | 0               |
+    | 1   | 1   | 1   | 0       | 0               |
     </details>
 
 7.  Create a truth table for the statement `(A XOR C) OR B` - note, with three inputs the table will need 8 rows!
 
     <details markdown="1"><summary>Click to expand answer</summary>
 
-  | A   | B   | C   | A XOR C | (A  XOR C) OR B |
-  | --- | --- | --- | ------- | --------------- |
-  | 0   | 0   | 0   | 0       | 0               |
-  | 0   | 0   | 1   | 1       | 1               |
-  | 0   | 1   | 0   | 0       | 1               |
-  | 0   | 1   | 1   | 1       | 1               |
-  | 1   | 0   | 0   | 1       | 1               |
-  | 1   | 0   | 1   | 0       | 0               |
-  | 1   | 1   | 0   | 1       | 1               |
-  | 1   | 1   | 1   | 0       | 1               |
+    | A   | B   | C   | A XOR C | (A  XOR C) OR B |
+    | --- | --- | --- | ------- | --------------- |
+    | 0   | 0   | 0   | 0       | 0               |
+    | 0   | 0   | 1   | 1       | 1               |
+    | 0   | 1   | 0   | 0       | 1               |
+    | 0   | 1   | 1   | 1       | 1               |
+    | 1   | 0   | 0   | 1       | 1               |
+    | 1   | 0   | 1   | 0       | 0               |
+    | 1   | 1   | 0   | 1       | 1               |
+    | 1   | 1   | 1   | 0       | 1               |
     </details>
 
 7.  Create a truth table for the statement `(A NAND B) XOR NOT C` - note, with three inputs the table will need 8 rows!
 
     <details markdown="1"><summary>Click to expand answer</summary>
 
-  | A   | B   | C   | A NAND B | NOT C | (A  NAND B) XOR NOT B |
-  | --- | --- | --- | -------- | ----- | --------------------- |
-  | 0   | 0   | 0   | 1        | 1     | 0                     |
-  | 0   | 0   | 1   | 1        | 0     | 1                     |
-  | 0   | 1   | 0   | 1        | 1     | 0                     |
-  | 0   | 1   | 1   | 1        | 0     | 1                     |
-  | 1   | 0   | 0   | 1        | 1     | 0                     |
-  | 1   | 0   | 1   | 1        | 0     | 1                     |
-  | 1   | 1   | 0   | 0        | 1     | 1                     |
-  | 1   | 1   | 1   | 0        | 0     | 0                     |
+    | A   | B   | C   | A NAND B | NOT C | (A  NAND B) XOR NOT B |
+    | --- | --- | --- | -------- | ----- | --------------------- |
+    | 0   | 0   | 0   | 1        | 1     | 0                     |
+    | 0   | 0   | 1   | 1        | 0     | 1                     |
+    | 0   | 1   | 0   | 1        | 1     | 0                     |
+    | 0   | 1   | 1   | 1        | 0     | 1                     |
+    | 1   | 0   | 0   | 1        | 1     | 0                     |
+    | 1   | 0   | 1   | 1        | 0     | 1                     |
+    | 1   | 1   | 0   | 0        | 1     | 1                     |
+    | 1   | 1   | 1   | 0        | 0     | 0                     |
     </details>
 
 ## Logic Gates
