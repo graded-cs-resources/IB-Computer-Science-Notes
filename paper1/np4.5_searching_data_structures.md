@@ -103,23 +103,23 @@ Just like the earlier sequential example, this code assumes an array called `ARR
 
 ```python
 FOUND = false
-MINPOS = 0
-MAXPOS = LENGTH - 1
-loop while MINPOS <= MAXPOS and not FOUND
-    MIDPOS = (MAXPOS + MINPOS) div 2 # integer division
-    if ARR[MIDPOS] = SEARCHVAL then
-        FOUND = true #the correct spot is in MIDPOS
-    else if ARR[MIDPOS] > SEARCHVAL then
+LEFT = 0
+RIGHT = LENGTH - 1
+loop while LEFT <= RIGHT and not FOUND
+    CENTER = (LEFT + RIGHT) div 2 # integer division
+    if ARR[CENTER] = SEARCHVAL then
+        FOUND = true #the correct spot is in CENTER
+    else if ARR[CENTER] > SEARCHVAL then
         # can ignore the top half now!
-        MAXPOS = MIDPOS - 1
+        RIGHT = CENTER - 1
     else 
         # can ignore the bottom half now!
-        MINPOS = MIDPOS + 1
+        LEFT = CENTER + 1
     end if
 end loop
 
 if FOUND then
-    output MIDPOS
+    output CENTER
 else
     output "Not found"
 end if
@@ -129,17 +129,17 @@ end if
 
 ```java
 public int binary(double[] haystack, double needle) {
-    int max = haystack.length-1;
-    int min = 0;
-    while (min <= max) {
-        int mid = (min+max) / 2; //integer division
-        if (haystack[mid] == needle) {
-            return mid;
-        } else if (haystack[mid] > needle) {
-            max = mid - 1;
+    int right = haystack.length-1;
+    int left = 0;
+    while (left <= right) {
+        int center = (left+right) / 2; //integer division
+        if (haystack[center] == needle) {
+            return center;
+        } else if (haystack[center] > needle) {
+            center = center - 1;
         } else {
-            (haystack[mid] < needle) {
-            min = mid + 1;
+            (haystack[center] < needle) {
+            left = center + 1;
         }
     }
     return -1;
