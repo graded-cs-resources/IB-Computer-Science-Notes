@@ -181,8 +181,8 @@ Note that other data structures, specifically IB collections, can't use binary s
     | 15        |    false   | 13     | 0      | true                            | 6      | 13          |        |
     | 15        |    false   | 13     | 7      | true                            | 10     | 29          |        |
     | 15        |    false   | 9      | 7      | true                            | 8      | 19          |        |
-    | 15        |    false   | 9      | 9      | true                            | 9      | 17          |        |
-    | 15        |    false   | 8      | 9      | false                           |        |             | -1     |
+    | 15        |    false   | 7      | 7      | true                            | 7      | 13          |        |
+    | 15        |    false   | 7      | 8      | false                           |        |             | -1     |
     
     
 
