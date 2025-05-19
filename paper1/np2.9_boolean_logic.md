@@ -226,6 +226,7 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
     | 1   | 0   | 1   | 0       | 0               |
     | 1   | 1   | 0   | 0       | 0               |
     | 1   | 1   | 1   | 0       | 0               |
+    
     </details>
 
 7.  Create a truth table for the statement `(A XOR C) OR B` - note, with three inputs the table will need 8 rows!
@@ -242,6 +243,7 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
     | 1   | 0   | 1   | 0       | 0               |
     | 1   | 1   | 0   | 1       | 1               |
     | 1   | 1   | 1   | 0       | 1               |
+    
     </details>
 
 7.  Create a truth table for the statement `(A NAND B) XOR NOT C` - note, with three inputs the table will need 8 rows!
@@ -258,6 +260,7 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
     | 1   | 0   | 1   | 1        | 0     | 1                     |
     | 1   | 1   | 0   | 0        | 1     | 1                     |
     | 1   | 1   | 1   | 0        | 0     | 0                     |
+    
     </details>
 
 ## Logic Gates
